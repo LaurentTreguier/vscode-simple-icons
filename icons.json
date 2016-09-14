@@ -39,6 +39,9 @@
         "cpp": {
             "iconPath": "./icons/cpp.png"
         },
+        "console": {
+            "iconPath": "./icons/console.png"
+        },
         "csharp": {
             "iconPath": "./icons/csharp.png"
         },
@@ -96,18 +99,6 @@
         "hxml": {
             "iconPath": "./icons/hxml.png"
         },
-        "less": {
-            "iconPath": "./icons/less.png"
-        },
-        "lib": {
-            "iconPath": "./icons/lib.png"
-        },
-        "markdown": {
-            "iconPath": "./icons/markdown.png"
-        },
-        "objective-c": {
-            "iconPath": "./icons/objective-c.png"
-        },
         "java": {
             "iconPath": "./icons/java.png"
         },
@@ -120,6 +111,18 @@
         "julia": {
             "iconPath": "./icons/julia.png"
         },
+        "less": {
+            "iconPath": "./icons/less.png"
+        },
+        "lib": {
+            "iconPath": "./icons/lib.png"
+        },
+        "lisp": {
+            "iconPath": "./icons/lisp.png"
+        },
+        "markdown": {
+            "iconPath": "./icons/markdown.png"
+        },
         "nodejs": {
             "iconPath": "./icons/nodejs.png"
         },
@@ -128,6 +131,9 @@
         },
         "nodejs-folder-expanded": {
             "iconPath": "./icons/nodejs-folder-expanded.png"
+        },
+        "objective-c": {
+            "iconPath": "./icons/objective-c.png"
         },
         "php": {
             "iconPath": "./icons/php.png"
@@ -141,11 +147,17 @@
         "ruby": {
             "iconPath": "./icons/ruby.png"
         },
+        "rust": {
+            "iconPath": "./icons/rust.png"
+        },
         "sass": {
             "iconPath": "./icons/sass.png"
         },
         "scala": {
             "iconPath": "./icons/scala.png"
+        },
+        "scheme": {
+            "iconPath": "./icons/scheme.png"
         },
         "sdl": {
             "iconPath": "./icons/sdl.png"
@@ -167,6 +179,12 @@
         },
         "typescript-folder-expanded": {
             "iconPath": "./icons/typescript-folder-expanded.png"
+        },
+        "vala": {
+            "iconPath": "./icons/gnome.png"
+        },
+        "vibed": {
+            "iconPath": "./icons/vibed.png"
         },
         "vscode": {
             "iconPath": "./icons/vscode.png"
@@ -223,6 +241,7 @@
         "dub.sdl": "dub"
     },
     "languageIds": {
+        "bat": "console",
         "c": "cpp",
         "clojure": "clojure",
         "coffeescript": "coffeescript",
@@ -230,6 +249,7 @@
         "csharp": "csharp",
         "css": "css",
         "d": "d",
+        "diet": "vibed",
         "dart": "dart",
         "erlang": "erlang",
         "go": "go",
@@ -238,6 +258,7 @@
         "html": "html",
         "hxml": "hxml",
         "less": "less",
+        "lisp": "lisp",
         "markdown": "markdown",
         "objective-c": "objective-c",
         "javascript": "javascript",
@@ -248,17 +269,22 @@
         "powershell": "powershell",
         "python": "python",
         "ruby": "ruby",
+        "rust": "rust",
         "sass": "sass",
         "scala": "scala",
         "scss": "sass",
+        "scheme": "scheme",
         "sdl": "sdl",
+        "shellscript": "console",
         "swift": "swift",
         "typescript": "typescript",
+        "vala": "vala",
         "xml": "xml"
     },
     "fileExtensions": {
         "a": "lib",
         "dll": "lib",
+        "exe": "lib",
         "dockerfile": "docker",
         "lib": "lib",
         "so": "lib"

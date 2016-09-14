@@ -11,3 +11,7 @@ As I am still not completely sure about the definitive rules to make this theme'
 ### 0.1.0
 
 Initial release
+
+### 0.1.1
+
+Added some more languages
