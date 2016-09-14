@@ -1,0 +1,266 @@
+{
+    "iconDefinitions": {
+        "folder": {
+            "iconPath": "./icons/folder.png"
+        },
+        "folder-expanded": {
+            "iconPath": "./icons/folder-expanded.png"
+        },
+        "file": {
+            "iconPath": "./icons/file.png"
+        },
+        "bower": {
+            "iconPath": "./icons/bower.png"
+        },
+        "bower-folder": {
+            "iconPath": "./icons/bower-folder.png"
+        },
+        "bower-folder-expanded": {
+            "iconPath": "./icons/bower-folder-expanded.png"
+        },
+        "build": {
+            "iconPath": "./icons/build.png"
+        },
+        "build-folder": {
+            "iconPath": "./icons/build-folder.png"
+        },
+        "build-folder-expanded": {
+            "iconPath": "./icons/build-folder-expanded.png"
+        },
+        "c": {
+            "iconPath": "./icons/c.png"
+        },
+        "clojure": {
+            "iconPath": "./icons/clojure.png"
+        },
+        "coffeescript": {
+            "iconPath": "./icons/coffeescript.png"
+        },
+        "cpp": {
+            "iconPath": "./icons/cpp.png"
+        },
+        "csharp": {
+            "iconPath": "./icons/csharp.png"
+        },
+        "css": {
+            "iconPath": "./icons/css.png"
+        },
+        "d": {
+            "iconPath": "./icons/d.png"
+        },
+        "d-folder": {
+            "iconPath": "./icons/d-folder.png"
+        },
+        "d-folder-expanded": {
+            "iconPath": "./icons/d-folder-expanded.png"
+        },
+        "dart": {
+            "iconPath": "./icons/dart.png"
+        },
+        "docker": {
+            "iconPath": "./icons/docker.png"
+        },
+        "dub": {
+            "iconPath": "./icons/dub.png"
+        },
+        "erlang": {
+            "iconPath": "./icons/erlang.png"
+        },
+        "git": {
+            "iconPath": "./icons/git.png"
+        },
+        "git-folder": {
+            "iconPath": "./icons/git-folder.png"
+        },
+        "git-folder-expanded": {
+            "iconPath": "./icons/git-folder-expanded.png"
+        },
+        "go": {
+            "iconPath": "./icons/go.png"
+        },
+        "grunt": {
+            "iconPath": "./icons/grunt.png"
+        },
+        "gulp": {
+            "iconPath": "./icons/gulp.png"
+        },
+        "haskell": {
+            "iconPath": "./icons/haskell.png"
+        },
+        "haxe": {
+            "iconPath": "./icons/haxe.png"
+        },
+        "html": {
+            "iconPath": "./icons/html.png"
+        },
+        "hxml": {
+            "iconPath": "./icons/hxml.png"
+        },
+        "less": {
+            "iconPath": "./icons/less.png"
+        },
+        "lib": {
+            "iconPath": "./icons/lib.png"
+        },
+        "markdown": {
+            "iconPath": "./icons/markdown.png"
+        },
+        "objective-c": {
+            "iconPath": "./icons/objective-c.png"
+        },
+        "java": {
+            "iconPath": "./icons/java.png"
+        },
+        "javascript": {
+            "iconPath": "./icons/javascript.png"
+        },
+        "json": {
+            "iconPath": "./icons/json.png"
+        },
+        "julia": {
+            "iconPath": "./icons/julia.png"
+        },
+        "nodejs": {
+            "iconPath": "./icons/nodejs.png"
+        },
+        "nodejs-folder": {
+            "iconPath": "./icons/nodejs-folder.png"
+        },
+        "nodejs-folder-expanded": {
+            "iconPath": "./icons/nodejs-folder-expanded.png"
+        },
+        "php": {
+            "iconPath": "./icons/php.png"
+        },
+        "powershell": {
+            "iconPath": "./icons/powershell.png"
+        },
+        "python": {
+            "iconPath": "./icons/python.png"
+        },
+        "ruby": {
+            "iconPath": "./icons/ruby.png"
+        },
+        "sass": {
+            "iconPath": "./icons/sass.png"
+        },
+        "scala": {
+            "iconPath": "./icons/scala.png"
+        },
+        "sdl": {
+            "iconPath": "./icons/sdl.png"
+        },
+        "source-folder": {
+            "iconPath": "./icons/source-folder.png"
+        },
+        "source-folder-expanded": {
+            "iconPath": "./icons/source-folder-expanded.png"
+        },
+        "swift": {
+            "iconPath": "./icons/swift.png"
+        },
+        "typescript": {
+            "iconPath": "./icons/typescript.png"
+        },
+        "typescript-folder": {
+            "iconPath": "./icons/typescript-folder.png"
+        },
+        "typescript-folder-expanded": {
+            "iconPath": "./icons/typescript-folder-expanded.png"
+        },
+        "vscode": {
+            "iconPath": "./icons/vscode.png"
+        },
+        "vscode-folder": {
+            "iconPath": "./icons/vscode-folder.png"
+        },
+        "vscode-folder-expanded": {
+            "iconPath": "./icons/vscode-folder-expanded.png"
+        },
+        "xml": {
+            "iconPath": "./icons/xml.png"
+        }
+    },
+    "folder": "folder",
+    "folderExpanded": "folder-expanded",
+    "file": "file",
+    "folderNames": {
+        ".dub": "d-folder",
+        ".git": "git-folder",
+        ".vscode": "vscode-folder",
+        "bin": "build-folder",
+        "bower_components": "bower-folder",
+        "build": "build-folder",
+        "node_modules": "nodejs-folder",
+        "out": "build-folder",
+        "source": "source-folder",
+        "src": "source-folder",
+        "typings": "typescript-folder"
+    },
+    "folderNamesExpanded": {
+        ".dub": "d-folder-expanded",
+        ".git": "git-folder-expanded",
+        ".vscode": "vscode-folder-expanded",
+        "bin": "build-folder-expanded",
+        "bower_components": "bower-folder-expanded",
+        "build": "build-folder-expanded",
+        "node_modules": "nodejs-folder-expanded",
+        "out": "build-folder-expanded",
+        "source": "source-folder-expanded",
+        "src": "source-folder-expanded",
+        "typings": "typescript-folder-expanded"
+    },
+    "fileNames": {
+        ".bowerrc": "bower",
+        ".gitignore": "git",
+        ".vscodeignore": "vscode",
+        "gruntfile.coffee": "grunt",
+        "gruntfile.js": "grunt",
+        "gulpfile.js": "gulp",
+        "makefile": "build",
+        "package.json": "nodejs",
+        "dub.json": "dub",
+        "dub.sdl": "dub"
+    },
+    "languageIds": {
+        "c": "cpp",
+        "clojure": "clojure",
+        "coffeescript": "coffeescript",
+        "cpp": "cpp",
+        "csharp": "csharp",
+        "css": "css",
+        "d": "d",
+        "dart": "dart",
+        "erlang": "erlang",
+        "go": "go",
+        "haskell": "haskell",
+        "haxe": "haxe",
+        "html": "html",
+        "hxml": "hxml",
+        "less": "less",
+        "markdown": "markdown",
+        "objective-c": "objective-c",
+        "javascript": "javascript",
+        "java": "java",
+        "json": "json",
+        "julia": "julia",
+        "php": "php",
+        "powershell": "powershell",
+        "python": "python",
+        "ruby": "ruby",
+        "sass": "sass",
+        "scala": "scala",
+        "scss": "sass",
+        "sdl": "sdl",
+        "swift": "swift",
+        "typescript": "typescript",
+        "xml": "xml"
+    },
+    "fileExtensions": {
+        "a": "lib",
+        "dll": "lib",
+        "dockerfile": "docker",
+        "lib": "lib",
+        "so": "lib"
+    }
+}

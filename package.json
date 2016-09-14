@@ -1,0 +1,39 @@
+{
+    "name": "vscode-simple-icons",
+    "displayName": "Simple icon theme",
+    "description": "An icon theme that tries to be simple",
+    "version": "0.1.0",
+    "publisher": "LaurentTreguier",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LaurentTreguier/vscode-simple-icons/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LaurentTreguier/vscode-simple-icons.git"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "icon",
+        "theme",
+        "icon-theme",
+        "simple",
+        "icons"
+    ],
+    "icon": "images/logo.png",
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "simple-icons",
+                "label": "Simple icons",
+                "path": "icons.json"
+            }
+        ]
+    }
+}
