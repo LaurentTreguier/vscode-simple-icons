@@ -66,6 +66,9 @@
         "dub": {
             "iconPath": "./icons/dub.png"
         },
+        "elixir": {
+            "iconPath": "./icons/elixir.png"
+        },
         "erlang": {
             "iconPath": "./icons/erlang.png"
         },
@@ -80,6 +83,9 @@
         },
         "go": {
             "iconPath": "./icons/go.png"
+        },
+        "gradle": {
+            "iconPath": "./icons/gradle.png"
         },
         "grunt": {
             "iconPath": "./icons/grunt.png"
@@ -140,6 +146,9 @@
         },
         "powershell": {
             "iconPath": "./icons/powershell.png"
+        },
+        "pug": {
+            "iconPath": "./icons/pug.png"
         },
         "python": {
             "iconPath": "./icons/python.png"
@@ -251,12 +260,14 @@
         "d": "d",
         "diet": "vibed",
         "dart": "dart",
+        "elixir": "elixir",
         "erlang": "erlang",
         "go": "go",
         "haskell": "haskell",
         "haxe": "haxe",
         "html": "html",
         "hxml": "hxml",
+        "jade": "pug",
         "less": "less",
         "lisp": "lisp",
         "markdown": "markdown",
@@ -286,6 +297,7 @@
         "dll": "lib",
         "exe": "lib",
         "dockerfile": "docker",
+        "gradle": "gradle",
         "lib": "lib",
         "so": "lib"
     }
