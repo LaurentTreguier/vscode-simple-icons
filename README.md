@@ -45,8 +45,19 @@ Added icons for the following languages :
 - Typescript
 - XML
 
-Other icons :
+Other added icons :
+- VSCode files and folders
+- Git files and folders
+- Package.json
+- Node modules folders
+- Bower files and folders
+- Gruntfiles
+- Gulpfiles
+- Makefiles
+- Dub files and folders
 - Library files (.a, .dll, .lib, .so)
+- Source and build folders
+- Typings folders
 
 ### 0.1.1
 
@@ -58,7 +69,7 @@ Added icons for the following languages :
 - Shell and bat scripts
 - Vala
 
-Other icons :
+Other added icons :
 - Executable scripts
 
 ## 0.1.2
@@ -70,3 +81,19 @@ Added icons for the following languages :
 
 Other icons :
 - Gradle
+
+## 0.1.3
+
+Added icons for the following languages :
+- Elm
+- Kotlin
+- Ocaml
+- Visual basic
+
+Other added icons :
+- Apache .htaccess
+- The .bin extension is now part of the library and binary files
+
+Updated icons :
+- Build icon color was changed for something more neutral
+- Margins were removed from the powershell icon
