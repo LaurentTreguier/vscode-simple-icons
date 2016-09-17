@@ -97,3 +97,7 @@ Other added icons :
 Updated icons :
 - Build icon color was changed for something more neutral
 - Margins were removed from the powershell icon
+
+## 0.1.4
+
+Fixed expanded build folder
