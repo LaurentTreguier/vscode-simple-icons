@@ -9,6 +9,9 @@
         "file": {
             "iconPath": "./icons/file.png"
         },
+        "apache": {
+            "iconPath": "./icons/apache.png"
+        },
         "bower": {
             "iconPath": "./icons/bower.png"
         },
@@ -69,6 +72,9 @@
         "elixir": {
             "iconPath": "./icons/elixir.png"
         },
+        "elm": {
+            "iconPath": "./icons/elm.png"
+        },
         "erlang": {
             "iconPath": "./icons/erlang.png"
         },
@@ -117,6 +123,9 @@
         "julia": {
             "iconPath": "./icons/julia.png"
         },
+        "kotlin": {
+            "iconPath": "./icons/kotlin.png"
+        },
         "less": {
             "iconPath": "./icons/less.png"
         },
@@ -140,6 +149,9 @@
         },
         "objective-c": {
             "iconPath": "./icons/objective-c.png"
+        },
+        "ocaml": {
+            "iconPath": "./icons/ocaml.png"
         },
         "php": {
             "iconPath": "./icons/php.png"
@@ -192,6 +204,9 @@
         "vala": {
             "iconPath": "./icons/gnome.png"
         },
+        "vb": {
+            "iconPath": "./icons/vb.png"
+        },
         "vibed": {
             "iconPath": "./icons/vibed.png"
         },
@@ -240,6 +255,7 @@
     "fileNames": {
         ".bowerrc": "bower",
         ".gitignore": "git",
+        ".htaccess": "apache",
         ".vscodeignore": "vscode",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
@@ -261,6 +277,7 @@
         "diet": "vibed",
         "dart": "dart",
         "elixir": "elixir",
+        "elm": "elm",
         "erlang": "erlang",
         "go": "go",
         "haskell": "haskell",
@@ -268,10 +285,12 @@
         "html": "html",
         "hxml": "hxml",
         "jade": "pug",
+        "kotlin": "kotlin",
         "less": "less",
         "lisp": "lisp",
         "markdown": "markdown",
         "objective-c": "objective-c",
+        "ocaml": "ocaml",
         "javascript": "javascript",
         "java": "java",
         "json": "json",
@@ -290,10 +309,12 @@
         "swift": "swift",
         "typescript": "typescript",
         "vala": "vala",
+        "vb": "vb",
         "xml": "xml"
     },
     "fileExtensions": {
         "a": "lib",
+        "bin": "lib",
         "dll": "lib",
         "exe": "lib",
         "dockerfile": "docker",
