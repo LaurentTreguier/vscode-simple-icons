@@ -69,6 +69,9 @@
         "dub": {
             "iconPath": "./icons/dub.png"
         },
+        "editorconfig": {
+            "iconPath": "./icons/editorconfig.png"
+        },
         "elixir": {
             "iconPath": "./icons/elixir.png"
         },
@@ -77,6 +80,9 @@
         },
         "erlang": {
             "iconPath": "./icons/erlang.png"
+        },
+        "eslint": {
+            "iconPath": "./icons/eslint.png"
         },
         "git": {
             "iconPath": "./icons/git.png"
@@ -135,8 +141,17 @@
         "lisp": {
             "iconPath": "./icons/lisp.png"
         },
+        "lua": {
+            "iconPath": "./icons/lua.png"
+        },
         "markdown": {
             "iconPath": "./icons/markdown.png"
+        },
+        "meson": {
+            "iconPath": "./icons/meson.png"
+        },
+        "nim": {
+            "iconPath": "./icons/nim.png"
         },
         "nodejs": {
             "iconPath": "./icons/nodejs.png"
@@ -191,6 +206,9 @@
         },
         "swift": {
             "iconPath": "./icons/swift.png"
+        },
+        "twig": {
+            "iconPath": "./icons/twig.png"
         },
         "typescript": {
             "iconPath": "./icons/typescript.png"
@@ -254,13 +272,18 @@
     },
     "fileNames": {
         ".bowerrc": "bower",
+        ".dockerignore": "docker",
+        ".editorconfig": "editorconfig",
+        ".eslintrc": "eslint",
         ".gitignore": "git",
         ".htaccess": "apache",
         ".vscodeignore": "vscode",
+        "dockerfile": "docker",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
         "gulpfile.js": "gulp",
         "makefile": "build",
+        "meson.build": "meson",
         "package.json": "nodejs",
         "dub.json": "dub",
         "dub.sdl": "dub"
@@ -288,7 +311,9 @@
         "kotlin": "kotlin",
         "less": "less",
         "lisp": "lisp",
+        "lua": "lua",
         "markdown": "markdown",
+        "nim": "nim",
         "objective-c": "objective-c",
         "ocaml": "ocaml",
         "javascript": "javascript",
@@ -307,6 +332,7 @@
         "sdl": "sdl",
         "shellscript": "console",
         "swift": "swift",
+        "twig": "twig",
         "typescript": "typescript",
         "vala": "vala",
         "vb": "vb",
@@ -318,6 +344,7 @@
         "dll": "lib",
         "exe": "lib",
         "dockerfile": "docker",
+        "dockerignore": "docker",
         "gradle": "gradle",
         "lib": "lib",
         "so": "lib"
