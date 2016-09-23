@@ -75,6 +75,7 @@ Other added icons :
 ## 0.1.2
 
 Started writing down all new icons at each release in this README
+
 Added icons for the following languages :
 - Elixir
 - Pug templates (jade)
@@ -101,3 +102,15 @@ Updated icons :
 ## 0.1.4
 
 Fixed expanded build folder
+
+## 0.1.5
+
+Added icons for the following languages :
+- Lua
+- Nim
+- Twig
+
+Other added icons :
+- Editorconfig files
+- Eslint files
+- Meson build files
