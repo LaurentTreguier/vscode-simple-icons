@@ -114,3 +114,15 @@ Other added icons :
 - Editorconfig files
 - Eslint files
 - Meson build files
+
+## 0.1.6
+
+Eslint extensions added (thanks to RH Becker)
+
+Added icons :
+- Archives
+- ISO files
+- Image files
+
+Updated icons :
+- Eslint files
