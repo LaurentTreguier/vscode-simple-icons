@@ -21,6 +21,9 @@
         "bower-folder-expanded": {
             "iconPath": "./icons/bower-folder-expanded.png"
         },
+        "box": {
+            "iconPath": "./icons/box.png"
+        },
         "build": {
             "iconPath": "./icons/build.png"
         },
@@ -62,6 +65,9 @@
         },
         "dart": {
             "iconPath": "./icons/dart.png"
+        },
+        "disc": {
+            "iconPath": "./icons/disc.png"
         },
         "docker": {
             "iconPath": "./icons/docker.png"
@@ -346,23 +352,35 @@
         "xml": "xml"
     },
     "fileExtensions": {
+        "7z": "box",
         "a": "lib",
         "bin": "lib",
         "bmp": "image",
+        "deb": "box",
         "dll": "lib",
         "exe": "lib",
         "dockerfile": "docker",
         "dockerignore": "docker",
         "gif": "image",
         "gradle": "gradle",
+        "gz": "box",
+        "iso": "disc",
         "jpeg": "image",
         "jpg": "image",
         "lib": "lib",
+        "lz": "box",
+        "lzma": "box",
+        "lzo": "box",
         "png": "image",
+        "rar": "box",
+        "rpm": "box",
         "so": "lib",
         "svg": "image",
+        "tar": "box",
         "tif": "image",
         "tiff": "image",
-        "webp": "image"
+        "webp": "image",
+        "xz": "box",
+        "zip": "box"
     }
 }
