@@ -117,6 +117,9 @@
         "hxml": {
             "iconPath": "./icons/hxml.png"
         },
+        "image": {
+            "iconPath": "./icons/image.png"
+        },
         "java": {
             "iconPath": "./icons/java.png"
         },
@@ -341,12 +344,21 @@
     "fileExtensions": {
         "a": "lib",
         "bin": "lib",
+        "bmp": "image",
         "dll": "lib",
         "exe": "lib",
         "dockerfile": "docker",
         "dockerignore": "docker",
+        "gif": "image",
         "gradle": "gradle",
+        "jpeg": "image",
+        "jpg": "image",
         "lib": "lib",
-        "so": "lib"
+        "png": "image",
+        "so": "lib",
+        "svg": "image",
+        "tif": "image",
+        "tiff": "image",
+        "webp": "image"
     }
 }
