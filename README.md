@@ -80,7 +80,7 @@ Added icons for the following languages :
 - Elixir
 - Pug templates (jade)
 
-Other icons :
+Other added icons :
 - Gradle
 
 ## 0.1.3
@@ -126,3 +126,14 @@ Added icons :
 
 Updated icons :
 - Eslint files
+
+## 0.1.7
+
+.ico extension added to images
+
+Added icons for the following languages :
+- F#
+
+Other added icons :
+- Travis-ci files
+- Cmake files
