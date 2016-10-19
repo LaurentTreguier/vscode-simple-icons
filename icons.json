@@ -36,6 +36,9 @@
         "c": {
             "iconPath": "./icons/c.png"
         },
+        "cmake": {
+            "iconPath": "./icons/cmake.png"
+        },
         "clojure": {
             "iconPath": "./icons/clojure.png"
         },
@@ -89,6 +92,9 @@
         },
         "eslint": {
             "iconPath": "./icons/eslint.png"
+        },
+        "fsharp": {
+            "iconPath": "./icons/fsharp.png"
         },
         "git": {
             "iconPath": "./icons/git.png"
@@ -216,6 +222,9 @@
         "swift": {
             "iconPath": "./icons/swift.png"
         },
+        "travis": {
+            "iconPath": "./icons/travis.png"
+        },
         "twig": {
             "iconPath": "./icons/twig.png"
         },
@@ -290,7 +299,9 @@
         ".eslintrc.yml": "eslint",
         ".gitignore": "git",
         ".htaccess": "apache",
+        ".travis.yml": "travis",
         ".vscodeignore": "vscode",
+        "cmakecache.txt": "cmake",
         "dockerfile": "docker",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
@@ -301,10 +312,44 @@
         "dub.json": "dub",
         "dub.sdl": "dub"
     },
+    "fileExtensions": {
+        "7z": "box",
+        "a": "lib",
+        "bin": "lib",
+        "bmp": "image",
+        "deb": "box",
+        "dll": "lib",
+        "exe": "lib",
+        "dockerfile": "docker",
+        "dockerignore": "docker",
+        "gif": "image",
+        "gradle": "gradle",
+        "gz": "box",
+        "ico": "image",
+        "iso": "disc",
+        "jpeg": "image",
+        "jpg": "image",
+        "lib": "lib",
+        "lz": "box",
+        "lzma": "box",
+        "lzo": "box",
+        "png": "image",
+        "rar": "box",
+        "rpm": "box",
+        "so": "lib",
+        "svg": "image",
+        "tar": "box",
+        "tif": "image",
+        "tiff": "image",
+        "webp": "image",
+        "xz": "box",
+        "zip": "box"
+    },
     "languageIds": {
         "bat": "console",
         "c": "cpp",
         "clojure": "clojure",
+        "cmake": "cmake",
         "coffeescript": "coffeescript",
         "cpp": "cpp",
         "csharp": "csharp",
@@ -315,6 +360,7 @@
         "elixir": "elixir",
         "elm": "elm",
         "erlang": "erlang",
+        "fsharp": "fsharp",
         "go": "go",
         "haskell": "haskell",
         "haxe": "haxe",
@@ -350,37 +396,5 @@
         "vala": "vala",
         "vb": "vb",
         "xml": "xml"
-    },
-    "fileExtensions": {
-        "7z": "box",
-        "a": "lib",
-        "bin": "lib",
-        "bmp": "image",
-        "deb": "box",
-        "dll": "lib",
-        "exe": "lib",
-        "dockerfile": "docker",
-        "dockerignore": "docker",
-        "gif": "image",
-        "gradle": "gradle",
-        "gz": "box",
-        "iso": "disc",
-        "jpeg": "image",
-        "jpg": "image",
-        "lib": "lib",
-        "lz": "box",
-        "lzma": "box",
-        "lzo": "box",
-        "png": "image",
-        "rar": "box",
-        "rpm": "box",
-        "so": "lib",
-        "svg": "image",
-        "tar": "box",
-        "tif": "image",
-        "tiff": "image",
-        "webp": "image",
-        "xz": "box",
-        "zip": "box"
     }
 }
