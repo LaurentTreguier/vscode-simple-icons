@@ -183,6 +183,9 @@
         "ocaml": {
             "iconPath": "./icons/ocaml.png"
         },
+        "paket": {
+            "iconPath": "./icons/paket.png"
+        },
         "php": {
             "iconPath": "./icons/php.png"
         },
@@ -303,14 +306,15 @@
         ".vscodeignore": "vscode",
         "cmakecache.txt": "cmake",
         "dockerfile": "docker",
+        "dub.json": "dub",
+        "dub.sdl": "dub",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
         "gulpfile.js": "gulp",
         "makefile": "build",
         "meson.build": "meson",
         "package.json": "nodejs",
-        "dub.json": "dub",
-        "dub.sdl": "dub"
+        "paket.references": "paket"
     },
     "fileExtensions": {
         "7z": "box",
@@ -379,6 +383,8 @@
         "java": "java",
         "json": "json",
         "julia": "julia",
+        "paket-dependencies": "paket",
+        "paket-lock": "paket",
         "php": "php",
         "powershell": "powershell",
         "python": "python",
