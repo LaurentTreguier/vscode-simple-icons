@@ -69,6 +69,9 @@
         "dart": {
             "iconPath": "./icons/dart.png"
         },
+        "database": {
+            "iconPath": "./icons/database.png"
+        },
         "disc": {
             "iconPath": "./icons/disc.png"
         },
@@ -322,6 +325,7 @@
     "fileExtensions": {
         "7z": "box",
         "a": "lib",
+        "accdb": "database",
         "as": "flash",
         "bin": "lib",
         "bmp": "image",
@@ -341,6 +345,8 @@
         "lz": "box",
         "lzma": "box",
         "lzo": "box",
+        "mdb": "database",
+        "pdb": "database",
         "png": "image",
         "rar": "box",
         "rpm": "box",
@@ -390,6 +396,7 @@
         "paket-dependencies": "paket",
         "paket-lock": "paket",
         "php": "php",
+        "plqsl": "database",
         "powershell": "powershell",
         "python": "python",
         "ruby": "ruby",
@@ -400,6 +407,7 @@
         "scheme": "scheme",
         "sdl": "sdl",
         "shellscript": "console",
+        "sql": "database",
         "swift": "swift",
         "twig": "twig",
         "typescript": "typescript",
