@@ -231,6 +231,9 @@
         "swift": {
             "iconPath": "./icons/swift.png"
         },
+        "text": {
+            "iconPath": "./icons/text.png"
+        },
         "travis": {
             "iconPath": "./icons/travis.png"
         },
@@ -355,6 +358,7 @@
         "tar": "box",
         "tif": "image",
         "tiff": "image",
+        "txt": "text",
         "webp": "image",
         "xz": "box",
         "zip": "box"
