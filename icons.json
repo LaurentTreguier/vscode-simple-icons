@@ -93,6 +93,9 @@
         "eslint": {
             "iconPath": "./icons/eslint.png"
         },
+        "flash": {
+            "iconPath": "./icons/flash.png"
+        },
         "fsharp": {
             "iconPath": "./icons/fsharp.png"
         },
@@ -319,6 +322,7 @@
     "fileExtensions": {
         "7z": "box",
         "a": "lib",
+        "as": "flash",
         "bin": "lib",
         "bmp": "image",
         "deb": "box",
