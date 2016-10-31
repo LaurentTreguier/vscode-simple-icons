@@ -189,6 +189,24 @@
         "ocaml": {
             "iconPath": "./icons/ocaml.png"
         },
+        "office-access": {
+            "iconPath": "./icons/office-access.png"
+        },
+        "office-excel": {
+            "iconPath": "./icons/office-excel.png"
+        },
+        "office-onenote": {
+            "iconPath": "./icons/office-onenote.png"
+        },
+        "office-outlook": {
+            "iconPath": "./icons/office-outlook.png"
+        },
+        "office-powerpoint": {
+            "iconPath": "./icons/office-powerpoint.png"
+        },
+        "office-word": {
+            "iconPath": "./icons/office-word.png"
+        },
         "paket": {
             "iconPath": "./icons/paket.png"
         },
@@ -337,13 +355,15 @@
     "fileExtensions": {
         "7z": "box",
         "a": "lib",
-        "accdb": "database",
+        "accdb": "office-access",
         "as": "flash",
         "avi": "video",
         "bin": "lib",
         "bmp": "image",
         "deb": "box",
         "dll": "lib",
+        "doc": "office-word",
+        "docx": "office-word",
         "exe": "lib",
         "flv": "video",
         "dockerfile": "docker",
@@ -359,15 +379,18 @@
         "lz": "box",
         "lzma": "box",
         "lzo": "box",
-        "mdb": "database",
+        "mdb": "office-access",
         "mkv": "video",
         "mov": "video",
         "mp3": "sound",
         "mp4": "video",
         "ogg": "video",
+        "one": "office-onenote",
         "pdb": "database",
         "pdf": "pdf",
         "png": "image",
+        "ppt": "office-powerpoint",
+        "pptx": "office-powerpoint",
         "rar": "box",
         "rpm": "box",
         "so": "lib",
@@ -378,6 +401,8 @@
         "txt": "text",
         "webp": "image",
         "wmv": "video",
+        "xls": "office-excel",
+        "xlsx": "office-excel",
         "xz": "box",
         "zip": "box"
     },
