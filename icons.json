@@ -192,6 +192,9 @@
         "paket": {
             "iconPath": "./icons/paket.png"
         },
+        "pdf": {
+            "iconPath": "./icons/pdf.png"
+        },
         "php": {
             "iconPath": "./icons/php.png"
         },
@@ -221,6 +224,9 @@
         },
         "sdl": {
             "iconPath": "./icons/sdl.png"
+        },
+        "sound": {
+            "iconPath": "./icons/sound.png"
         },
         "source-folder": {
             "iconPath": "./icons/source-folder.png"
@@ -257,6 +263,9 @@
         },
         "vibed": {
             "iconPath": "./icons/vibed.png"
+        },
+        "video": {
+            "iconPath": "./icons/video.png"
         },
         "vscode": {
             "iconPath": "./icons/vscode.png"
@@ -330,11 +339,13 @@
         "a": "lib",
         "accdb": "database",
         "as": "flash",
+        "avi": "video",
         "bin": "lib",
         "bmp": "image",
         "deb": "box",
         "dll": "lib",
         "exe": "lib",
+        "flv": "video",
         "dockerfile": "docker",
         "dockerignore": "docker",
         "gif": "image",
@@ -349,7 +360,13 @@
         "lzma": "box",
         "lzo": "box",
         "mdb": "database",
+        "mkv": "video",
+        "mov": "video",
+        "mp3": "sound",
+        "mp4": "video",
+        "ogg": "video",
         "pdb": "database",
+        "pdf": "pdf",
         "png": "image",
         "rar": "box",
         "rpm": "box",
@@ -360,6 +377,7 @@
         "tiff": "image",
         "txt": "text",
         "webp": "image",
+        "wmv": "video",
         "xz": "box",
         "zip": "box"
     },
