@@ -159,6 +159,24 @@
         "lib": {
             "iconPath": "./icons/lib.png"
         },
+        "libreoffice-database": {
+            "iconPath": "./icons/libreoffice-database.png"
+        },
+        "libreoffice-drawing": {
+            "iconPath": "./icons/libreoffice-drawing.png"
+        },
+        "libreoffice-formula": {
+            "iconPath": "./icons/libreoffice-formula.png"
+        },
+        "libreoffice-presentation": {
+            "iconPath": "./icons/libreoffice-presentation.png"
+        },
+        "libreoffice-spreadsheet": {
+            "iconPath": "./icons/libreoffice-spreadsheet.png"
+        },
+        "libreoffice-writer": {
+            "iconPath": "./icons/libreoffice-writer.png"
+        },
         "lisp": {
             "iconPath": "./icons/lisp.png"
         },
@@ -384,6 +402,12 @@
         "mov": "video",
         "mp3": "sound",
         "mp4": "video",
+        "odb": "libreoffice-database",
+        "odf": "libreoffice-formula",
+        "odg": "libreoffice-drawing",
+        "odp": "libreoffice-presentation",
+        "ods": "libreoffice-spreadsheet",
+        "odt": "libreoffice-writer",
         "ogg": "video",
         "one": "office-onenote",
         "pdb": "database",
