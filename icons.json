@@ -249,6 +249,9 @@
         "python-folder-expanded": {
             "iconPath": "./icons/python-folder-expanded.png"
         },
+        "readme": {
+            "iconPath": "./icons/readme.png"
+        },
         "ruby": {
             "iconPath": "./icons/ruby.png"
         },
@@ -384,7 +387,9 @@
         "makefile": "build",
         "meson.build": "meson",
         "package.json": "nodejs",
-        "paket.references": "paket"
+        "paket.references": "paket",
+        "readme": "readme",
+        "readme.md": "readme"
     },
     "fileExtensions": {
         "7z": "box",
