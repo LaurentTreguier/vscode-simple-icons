@@ -243,6 +243,12 @@
         "python": {
             "iconPath": "./icons/python.png"
         },
+        "python-folder": {
+            "iconPath": "./icons/python-folder.png"
+        },
+        "python-folder-expanded": {
+            "iconPath": "./icons/python-folder-expanded.png"
+        },
         "ruby": {
             "iconPath": "./icons/ruby.png"
         },
@@ -329,6 +335,7 @@
         ".dub": "d-folder",
         ".git": "git-folder",
         ".vscode": "vscode-folder",
+        "__pycache__": "python-folder",
         "bin": "build-folder",
         "bower_components": "bower-folder",
         "build": "build-folder",
@@ -343,6 +350,7 @@
         ".dub": "d-folder-expanded",
         ".git": "git-folder-expanded",
         ".vscode": "vscode-folder-expanded",
+        "__pycache__": "python-folder-expanded",
         "bin": "build-folder-expanded",
         "bower_components": "bower-folder-expanded",
         "build": "build-folder-expanded",
