@@ -12,6 +12,9 @@
         "apache": {
             "iconPath": "./icons/apache.png"
         },
+        "binary": {
+            "iconPath": "./icons/binary.png"
+        },
         "bower": {
             "iconPath": "./icons/bower.png"
         },
@@ -309,8 +312,8 @@
         "vala": {
             "iconPath": "./icons/gnome.png"
         },
-        "vb": {
-            "iconPath": "./icons/vb.png"
+        "visual-basic": {
+            "iconPath": "./icons/visual-basic.png"
         },
         "vibed": {
             "iconPath": "./icons/vibed.png"
@@ -413,6 +416,7 @@
         "gz": "box",
         "ico": "image",
         "iso": "disc",
+        "jar": "box",
         "jpeg": "image",
         "jpg": "image",
         "lib": "lib",
@@ -454,6 +458,7 @@
         "zip": "box"
     },
     "languageIds": {
+        "asm": "binary",
         "bat": "console",
         "c": "cpp",
         "clojure": "clojure",
