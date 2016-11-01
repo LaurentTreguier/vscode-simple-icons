@@ -1,5 +1,31 @@
 # Changelog
 
+## 0.4.0
+
+Added icons for the following languages :
+- Assembly
+
+Other added icons :
+- \_\_pycache__ folders
+- README files
+- Appveyor files
+- Gemfile files
+- React files (both javascript and typescript share the same icon for now)
+- Ionic project files
+- Visual Studio solution files
+
+Updated icons :
+- The JSON icon is now based on the basic file icon
+- The docker icon should be easier to recognize
+- The less icon is an actual icon of its own
+- The twig icon is not in a white circle anymore
+- The git icon's commit path is now transparent instead of white
+- The HXML icon now uses the same pattern as the new XML icon
+
+Other changes :
+- `.glade` files now have the XML icon
+- `.ninja` files now have the build icon
+
 ## 0.3.0
 
 Added icons for the following languages :
@@ -25,8 +51,6 @@ Updated icons :
 
 ## 0.2.0
 
-Moved changelog to CHANGELOG.md
-
 Added icons :
 - Paket
 
@@ -41,9 +65,10 @@ Updated icons :
 - The Lua icon was simplified
 - The Nodejs icon was simplified
 
-### 0.1.7
+Other changes :
+- Moved changelog to CHANGELOG.md
 
-.ico extension added to images
+### 0.1.7
 
 Added icons for the following languages :
 - F#
@@ -52,9 +77,10 @@ Other added icons :
 - Travis-ci files
 - Cmake files
 
-### 0.1.6
+Other changes :
+- `.ico` extension added to images
 
-Eslint extensions added (thanks to RH Becker)
+### 0.1.6
 
 Added icons :
 - Archives
@@ -63,6 +89,9 @@ Added icons :
 
 Updated icons :
 - The Eslint icon now actually matches the logo
+
+Other changes :
+Eslint extensions added (thanks to RH Becker)
 
 ### 0.1.5
 
@@ -89,16 +118,16 @@ Added icons for the following languages :
 - Visual basic
 
 Other added icons :
-- Apache .htaccess
-- The .bin extension is now part of the library and binary files
+- Apache `.htaccess`
+
+Other changes :
+- The `.bin` extension is now part of the library and binary files
 
 Updated icons :
 - Build icon color was changed for something more neutral
 - Margins were removed from the powershell icon
 
 ### 0.1.2
-
-Started writing down all new icons at each release in this README
 
 Added icons for the following languages :
 - Elixir
@@ -166,6 +195,6 @@ Other added icons :
 - Gulpfiles
 - Makefiles
 - Dub files and folders
-- Library files (.a, .dll, .lib, .so)
+- Library files (`.a`, `.dll`, `.lib`, `.so`)
 - Source and build folders
 - Typings folders
