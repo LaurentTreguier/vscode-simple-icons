@@ -261,6 +261,9 @@
         "ruby": {
             "iconPath": "./icons/ruby.png"
         },
+        "rubygem": {
+            "iconPath": "./icons/rubygem.png"
+        },
         "rust": {
             "iconPath": "./icons/rust.png"
         },
@@ -388,6 +391,8 @@
         "dockerfile": "docker",
         "dub.json": "dub",
         "dub.sdl": "dub",
+        "gemfile": "rubygem",
+        "gemfile.lock": "rubygem",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
         "gulpfile.js": "gulp",
