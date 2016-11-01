@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.3.0
+
+Added icons for the following languages :
+- Actionscript
+
+Other added icons :
+- Test folders
+- Database files
+- Text files
+- Sound files
+- Video files
+- PDF files
+- Microsoft Office files
+- OpenDocument files
+
+Updated icons :
+- All the folders have been redone entirely
+- The basic file icon is now filled instead of outlined
+- The VSCode icon is now cleaner, without any white part remaining
+- The XML icon is now based on the basic file icon
+- The shell icon is now a bit simpler
+- The archive icon now has a zipper instead of duct tape
+
 ## 0.2.0
 
 Moved changelog to CHANGELOG.md
