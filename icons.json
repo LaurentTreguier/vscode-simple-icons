@@ -12,6 +12,9 @@
         "apache": {
             "iconPath": "./icons/apache.png"
         },
+        "appveyor": {
+            "iconPath": "./icons/appveyor.png"
+        },
         "binary": {
             "iconPath": "./icons/binary.png"
         },
@@ -380,6 +383,7 @@
         ".htaccess": "apache",
         ".travis.yml": "travis",
         ".vscodeignore": "vscode",
+        "appveyor.yml": "appveyor",
         "cmakecache.txt": "cmake",
         "dockerfile": "docker",
         "dub.json": "dub",
