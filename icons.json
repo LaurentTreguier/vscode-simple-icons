@@ -144,6 +144,9 @@
         "image": {
             "iconPath": "./icons/image.png"
         },
+        "ionic": {
+            "iconPath": "./icons/ionic.png"
+        },
         "java": {
             "iconPath": "./icons/java.png"
         },
@@ -330,6 +333,9 @@
         "video": {
             "iconPath": "./icons/video.png"
         },
+        "visual-studio": {
+            "iconPath": "./icons/visual-studio.png"
+        },
         "vscode": {
             "iconPath": "./icons/vscode.png"
         },
@@ -399,10 +405,16 @@
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
         "gulpfile.js": "gulp",
+        "ionic.project": "ionic",
+        "ionic.config.json": "ionic",
         "makefile": "build",
         "meson.build": "meson",
         "package.json": "nodejs",
+        "paket.dependencies": "paket",
+        "paket.local": "paket",
+        "paket.lock": "paket",
         "paket.references": "paket",
+        "paket.template": "paket",
         "readme": "readme",
         "readme.md": "readme"
     },
@@ -456,6 +468,7 @@
         "pptx": "office-powerpoint",
         "rar": "box",
         "rpm": "box",
+        "sln": "visual-studio",
         "so": "lib",
         "svg": "image",
         "tar": "box",
@@ -505,8 +518,6 @@
         "java": "java",
         "json": "json",
         "julia": "julia",
-        "paket-dependencies": "paket",
-        "paket-lock": "paket",
         "php": "php",
         "plqsl": "database",
         "powershell": "powershell",
