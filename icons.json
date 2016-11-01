@@ -273,6 +273,12 @@
         "swift": {
             "iconPath": "./icons/swift.png"
         },
+        "test-folder": {
+            "iconPath": "./icons/test-folder.png"
+        },
+        "test-folder-expanded": {
+            "iconPath": "./icons/test-folder-expanded.png"
+        },
         "text": {
             "iconPath": "./icons/text.png"
         },
@@ -330,6 +336,7 @@
         "out": "build-folder",
         "source": "source-folder",
         "src": "source-folder",
+        "test": "test-folder",
         "typings": "typescript-folder"
     },
     "folderNamesExpanded": {
@@ -343,6 +350,7 @@
         "out": "build-folder-expanded",
         "source": "source-folder-expanded",
         "src": "source-folder-expanded",
+        "test": "test-folder-expanded",
         "typings": "typescript-folder-expanded"
     },
     "fileNames": {
