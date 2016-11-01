@@ -255,6 +255,9 @@
         "python-folder-expanded": {
             "iconPath": "./icons/python-folder-expanded.png"
         },
+        "react": {
+            "iconPath": "./icons/react.png"
+        },
         "readme": {
             "iconPath": "./icons/readme.png"
         },
@@ -498,6 +501,7 @@
         "objective-c": "objective-c",
         "ocaml": "ocaml",
         "javascript": "javascript",
+        "javascriptreact": "react",
         "java": "java",
         "json": "json",
         "julia": "julia",
@@ -519,6 +523,7 @@
         "swift": "swift",
         "twig": "twig",
         "typescript": "typescript",
+        "typescriptreact": "react",
         "vala": "vala",
         "vb": "vb",
         "xml": "xml"
