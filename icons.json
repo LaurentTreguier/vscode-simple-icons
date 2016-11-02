@@ -354,6 +354,9 @@
         "vue": {
             "iconPath": "./icons/vue.png"
         },
+        "webpack": {
+            "iconPath": "./icons/webpack.png"
+        },
         "xml": {
             "iconPath": "./icons/xml.png"
         },
@@ -417,6 +420,7 @@
         "gemfile": "rubygem",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
+        "gulpfile.coffee": "gulp",
         "gulpfile.js": "gulp",
         "ionic.project": "ionic",
         "ionic.config.json": "ionic",
@@ -428,7 +432,8 @@
         "paket.lock": "paket",
         "paket.references": "paket",
         "paket.template": "paket",
-        "readme": "readme"
+        "readme": "readme",
+        "webpack": "webpack"
     },
     "fileExtensions": {
         "7z": "box",
