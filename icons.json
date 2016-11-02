@@ -351,6 +351,9 @@
         "vscode-folder-expanded": {
             "iconPath": "./icons/vscode-folder-expanded.png"
         },
+        "vue": {
+            "iconPath": "./icons/vue.png"
+        },
         "xml": {
             "iconPath": "./icons/xml.png"
         },
@@ -547,6 +550,7 @@
         "typescriptreact": "react",
         "vala": "vala",
         "vb": "vb",
+        "vue": "vue",
         "xml": "xml",
         "yaml": "yaml"
     }
