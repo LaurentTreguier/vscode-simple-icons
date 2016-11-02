@@ -237,6 +237,12 @@
         "paket": {
             "iconPath": "./icons/paket.png"
         },
+        "paket-folder": {
+            "iconPath": "./icons/paket-folder.png"
+        },
+        "paket-folder-expanded": {
+            "iconPath": "./icons/paket-folder-expanded.png"
+        },
         "pdf": {
             "iconPath": "./icons/pdf.png"
         },
@@ -358,6 +364,7 @@
     "folderNames": {
         ".dub": "d-folder",
         ".git": "git-folder",
+        ".paket": "paket-folder",
         ".vscode": "vscode-folder",
         "__pycache__": "python-folder",
         "bin": "build-folder",
@@ -373,6 +380,7 @@
     "folderNamesExpanded": {
         ".dub": "d-folder-expanded",
         ".git": "git-folder-expanded",
+        ".paket": "paket-folder-expanded",
         ".vscode": "vscode-folder-expanded",
         "__pycache__": "python-folder-expanded",
         "bin": "build-folder-expanded",
