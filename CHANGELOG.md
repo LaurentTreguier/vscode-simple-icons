@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.5.0
+
+Added icons for the following languages :
+- YAML
+- VueJS
+
+Other added icons :
+- Paket folders
+
+Updated icons :
+- The text icon color is now the same as the README icon
+- The clojure icon does not have a white border anymore
+- The video icon is now a 'play' button
+- The Visual basic icon was tweaked a bit
+- The Gulp icon is now a simpler, monochrome icon
+- The Lua icon is now brighter to make it easier to see in dark themes
+- The NodeJS icon is now sexier
+
+Other changes :
+- `.mak` files now have the build icon
+
 ## 0.4.0
 
 Added icons for the following languages :
@@ -16,10 +37,10 @@ Other added icons :
 
 Updated icons :
 - The JSON icon is now based on the basic file icon
-- The docker icon should be easier to recognize
-- The less icon is an actual icon of its own
-- The twig icon is not in a white circle anymore
-- The git icon's commit path is now transparent instead of white
+- The Docker icon should be easier to recognize
+- The Less icon is an actual icon of its own
+- The Twig icon is not in a white circle anymore
+- The Git icon's commit path is now transparent instead of white
 - The HXML icon now uses the same pattern as the new XML icon
 
 Other changes :
@@ -63,7 +84,7 @@ Updated icons :
 - The Vala (Gnome) icon is not in a white circle anymore to prevent it from looking smaller in light themes
 - The image icon was simplified
 - The Lua icon was simplified
-- The Nodejs icon was simplified
+- The NodeJS icon was simplified
 
 Other changes :
 - Moved changelog to CHANGELOG.md
