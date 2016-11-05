@@ -9,6 +9,33 @@
         "file": {
             "iconPath": "./icons/file.png"
         },
+        "adobe-after-effects": {
+            "iconPath": "./icons/adobe-after-effects.png"
+        },
+        "adobe-animate": {
+            "iconPath": "./icons/adobe-animate.png"
+        },
+        "adobe-dreamweaver": {
+            "iconPath": "./icons/adobe-dreamweaver.png"
+        },
+        "adobe-illustrator": {
+            "iconPath": "./icons/adobe-illustrator.png"
+        },
+        "adobe-indesign": {
+            "iconPath": "./icons/adobe-indesign.png"
+        },
+        "adobe-lightroom": {
+            "iconPath": "./icons/adobe-lightroom.png"
+        },
+        "adobe-muse": {
+            "iconPath": "./icons/adobe-muse.png"
+        },
+        "adobe-photoshop": {
+            "iconPath": "./icons/adobe-photoshop.png"
+        },
+        "adobe-premiere-pro": {
+            "iconPath": "./icons/adobe-premiere-pro.png"
+        },
         "apache": {
             "iconPath": "./icons/apache.png"
         },
@@ -439,6 +466,8 @@
         "7z": "box",
         "a": "lib",
         "accdb": "office-access",
+        "aepx": "adobe-after-effects",
+        "ai": "adobe-illustrator",
         "as": "flash",
         "avi": "video",
         "bin": "lib",
@@ -447,6 +476,7 @@
         "dll": "lib",
         "doc": "office-word",
         "docx": "office-word",
+        "dwt": "adobe-dreamweaver",
         "exe": "lib",
         "flv": "video",
         "dockerfile": "docker",
@@ -455,12 +485,15 @@
         "glade": "xml",
         "gradle": "gradle",
         "gz": "box",
+        "fla": "adobe-animate",
         "ico": "image",
+        "indd": "adobe-indesign",
         "iso": "disc",
         "jar": "box",
         "jpeg": "image",
         "jpg": "image",
         "lib": "lib",
+        "lrcat": "adobe-lightroom",
         "lz": "box",
         "lzma": "box",
         "lzo": "box",
@@ -470,6 +503,7 @@
         "mov": "video",
         "mp3": "sound",
         "mp4": "video",
+        "muse": "adobe-muse",
         "ninja": "build",
         "odb": "libreoffice-database",
         "odf": "libreoffice-formula",
@@ -484,11 +518,14 @@
         "png": "image",
         "ppt": "office-powerpoint",
         "pptx": "office-powerpoint",
+        "prproj": "adobe-premiere-pro",
+        "psd": "adobe-photoshop",
         "rar": "box",
         "rpm": "box",
         "sln": "visual-studio",
         "so": "lib",
         "svg": "image",
+        "swf": "flash",
         "tar": "box",
         "tif": "image",
         "tiff": "image",
