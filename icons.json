@@ -42,6 +42,9 @@
         "appveyor": {
             "iconPath": "./icons/appveyor.png"
         },
+        "archlinux": {
+            "iconPath": "./icons/archlinux.png"
+        },
         "binary": {
             "iconPath": "./icons/binary.png"
         },
@@ -459,6 +462,7 @@
         "paket.lock": "paket",
         "paket.references": "paket",
         "paket.template": "paket",
+        "pkgbuild": "archlinux",
         "readme": "readme",
         "webpack": "webpack"
     },
