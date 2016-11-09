@@ -443,6 +443,7 @@
         ".travis.yml": "travis",
         ".vscodeignore": "vscode",
         "appveyor.yml": "appveyor",
+        "cakefile": "build",
         "cmakecache.txt": "cmake",
         "dockerfile": "docker",
         "dub.json": "dub",
@@ -463,6 +464,7 @@
         "paket.references": "paket",
         "paket.template": "paket",
         "pkgbuild": "archlinux",
+        "rakefile": "build",
         "readme": "readme",
         "webpack": "webpack"
     },
