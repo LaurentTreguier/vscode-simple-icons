@@ -342,6 +342,9 @@
         "text": {
             "iconPath": "./icons/text.png"
         },
+        "toml": {
+            "iconPath": "./icons/toml.png"
+        },
         "travis": {
             "iconPath": "./icons/travis.png"
         },
@@ -594,6 +597,7 @@
         "sql": "database",
         "swift": "swift",
         "twig": "twig",
+        "toml": "toml",
         "typescript": "typescript",
         "typescriptreact": "react",
         "vala": "vala",
