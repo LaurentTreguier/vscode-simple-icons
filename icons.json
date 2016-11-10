@@ -219,6 +219,9 @@
         "lisp": {
             "iconPath": "./icons/lisp.png"
         },
+        "lock": {
+            "iconPath": "./icons/lock.png"
+        },
         "lua": {
             "iconPath": "./icons/lua.png"
         },
@@ -502,6 +505,7 @@
         "jpeg": "image",
         "jpg": "image",
         "lib": "lib",
+        "lock": "lock",
         "lrcat": "adobe-lightroom",
         "lz": "box",
         "lzma": "box",
