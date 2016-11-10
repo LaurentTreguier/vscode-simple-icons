@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.6.0
+
+Added icons for the following languages :
+- TOML
+
+Other added icons :
+- Webpack files
+- Adobe software files
+- Archlinux PKGBUILD files
+- Lock files
+- Deb, RPM and VSIX variations of the archive icon
+
+Other changes :
+- Cakefiles and rakefiles now use the build icon
+
 ## 0.5.0
 
 Added icons for the following languages :
