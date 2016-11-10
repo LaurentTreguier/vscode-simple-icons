@@ -108,6 +108,9 @@
         "database": {
             "iconPath": "./icons/database.png"
         },
+        "debian-box": {
+            "iconPath": "./icons/debian-box.png"
+        },
         "disc": {
             "iconPath": "./icons/disc.png"
         },
@@ -300,6 +303,9 @@
         "react": {
             "iconPath": "./icons/react.png"
         },
+        "rpm-box": {
+            "iconPath": "./icons/rpm-box.png"
+        },
         "readme": {
             "iconPath": "./icons/readme.png"
         },
@@ -380,6 +386,9 @@
         },
         "vscode": {
             "iconPath": "./icons/vscode.png"
+        },
+        "vscode-box": {
+            "iconPath": "./icons/vscode-box.png"
         },
         "vscode-folder": {
             "iconPath": "./icons/vscode-folder.png"
@@ -484,7 +493,7 @@
         "avi": "video",
         "bin": "lib",
         "bmp": "image",
-        "deb": "box",
+        "deb": "debian-box",
         "dll": "lib",
         "doc": "office-word",
         "docx": "office-word",
@@ -534,7 +543,7 @@
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
         "rar": "box",
-        "rpm": "box",
+        "rpm": "rpm-box",
         "sln": "visual-studio",
         "so": "lib",
         "svg": "image",
@@ -543,6 +552,7 @@
         "tif": "image",
         "tiff": "image",
         "txt": "text",
+        "vsix": "vscode-box",
         "webp": "image",
         "wmv": "video",
         "xls": "office-excel",
