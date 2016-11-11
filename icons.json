@@ -219,6 +219,9 @@
         "libreoffice-writer": {
             "iconPath": "./icons/libreoffice-writer.png"
         },
+        "licence": {
+            "iconPath": "./icons/licence.png"
+        },
         "lisp": {
             "iconPath": "./icons/lisp.png"
         },
@@ -470,6 +473,8 @@
         "gulpfile.js": "gulp",
         "ionic.project": "ionic",
         "ionic.config.json": "ionic",
+        "licence": "licence",
+        "license": "licence",
         "makefile": "build",
         "meson.build": "meson",
         "package.json": "nodejs",
