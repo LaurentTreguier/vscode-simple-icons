@@ -249,6 +249,15 @@
         "nodejs-folder-expanded": {
             "iconPath": "./icons/nodejs-folder-expanded.png"
         },
+        "nuget": {
+            "iconPath": "./icons/nuget.png"
+        },
+        "nuget-folder": {
+            "iconPath": "./icons/nuget-folder.png"
+        },
+        "nuget-folder-expanded": {
+            "iconPath": "./icons/nuget-folder-expanded.png"
+        },
         "objective-c": {
             "iconPath": "./icons/objective-c.png"
         },
@@ -418,6 +427,7 @@
     "folderNames": {
         ".dub": "d-folder",
         ".git": "git-folder",
+        ".nuget": "nuget-folder",
         ".paket": "paket-folder",
         ".vscode": "vscode-folder",
         "__pycache__": "python-folder",
@@ -434,6 +444,7 @@
     "folderNamesExpanded": {
         ".dub": "d-folder-expanded",
         ".git": "git-folder-expanded",
+        ".nuget": "nuget-folder-expanded",
         ".paket": "paket-folder-expanded",
         ".vscode": "vscode-folder-expanded",
         "__pycache__": "python-folder-expanded",
@@ -532,6 +543,8 @@
         "mp4": "video",
         "muse": "adobe-muse",
         "ninja": "build",
+        "nupkg": "nuget",
+        "nuspec": "nuget",
         "odb": "libreoffice-database",
         "odf": "libreoffice-formula",
         "odg": "libreoffice-drawing",
@@ -547,6 +560,7 @@
         "pptx": "office-powerpoint",
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
+        "psmdcp": "nuget",
         "rar": "box",
         "rpm": "rpm-box",
         "sln": "visual-studio",
