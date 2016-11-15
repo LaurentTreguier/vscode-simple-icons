@@ -509,6 +509,8 @@
         "avi": "video",
         "bin": "lib",
         "bmp": "image",
+        "bz2": "box",
+        "bzip2": "box",
         "deb": "debian-box",
         "dll": "lib",
         "dmg": "disc",
