@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.7.0
+
+Added icons :
+- Licence files
+- Nuget files and folders
+
+Updated icons :
+- The Lua icon is a bit lighter (again)
+- The dub icon is now an icon of its own
+
+Other changes :
+- `.pkg` files now have the box icon
+- `.dmg` files now have the disc icon
+- `.bz2` and `.bzip2` files now have the archive icon
+
 ## 0.6.0
 
 Added icons for the following languages :
@@ -26,7 +41,7 @@ Other added icons :
 
 Updated icons :
 - The text icon color is now the same as the README icon
-- The clojure icon does not have a white border anymore
+- The Clojure icon does not have a white border anymore
 - The video icon is now a 'play' button
 - The Visual basic icon was tweaked a bit
 - The Gulp icon is now a simpler, monochrome icon
