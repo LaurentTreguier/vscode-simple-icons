@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.7.1
+
+Converted to SVG :
+- VSCode files and folders
+
+Other changes :
+- Fixed Visual Basic not having any icon
+
+Note :
+Other icons should progressively be converted to SVG
+
 ## 0.7.0
 
 Added icons :
