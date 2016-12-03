@@ -511,6 +511,7 @@
         "bmp": "image",
         "bz2": "box",
         "bzip2": "box",
+        "db": "database",
         "deb": "debian-box",
         "dll": "lib",
         "dmg": "disc",
@@ -638,7 +639,7 @@
         "typescript": "typescript",
         "typescriptreact": "react",
         "vala": "vala",
-        "vb": "vb",
+        "vb": "visual-basic",
         "vue": "vue",
         "xml": "xml",
         "yaml": "yaml"
