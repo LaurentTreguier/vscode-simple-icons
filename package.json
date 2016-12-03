@@ -35,5 +35,11 @@
                 "path": "icons.json"
             }
         ]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/.bin/svgo -f ./source -o ./out"
+    },
+    "devDependencies": {
+        "svgo": "^0.7.1"
     }
 }
