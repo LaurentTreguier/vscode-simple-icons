@@ -1,13 +1,13 @@
 {
     "iconDefinitions": {
         "folder": {
-            "iconPath": "./out/folder.svg"
+            "iconPath": "./icons/folder.svg"
         },
         "folder-expanded": {
-            "iconPath": "./icons/folder-expanded.png"
+            "iconPath": "./icons/folder-expanded.svg"
         },
         "file": {
-            "iconPath": "./out/file.svg"
+            "iconPath": "./icons/file.svg"
         },
         "adobe-after-effects": {
             "iconPath": "./icons/adobe-after-effects.png"
