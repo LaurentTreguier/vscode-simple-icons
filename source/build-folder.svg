@@ -1,0 +1,16 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <rect x="40" y="60" width="280" height="200" fill="#7f9fff"/>
+    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke-width="20" stroke="#7f9fff"/>
+    <g transform="scale(0.5) translate(200 160)">
+        <circle cx="160" cy="160" r="80" fill="none" stroke-width="80" stroke="#fff"/>
+        <g fill="#fff">
+            <rect x="120" y="0" width="80" height="80"/>
+            <rect x="120" y="0" width="80" height="80" transform="rotate(60 160 160)"/>
+            <rect x="120" y="0" width="80" height="80" transform="rotate(-60 160 160)"/>
+            <rect x="120" y="240" width="80" height="80"/>
+            <rect x="120" y="240" width="80" height="80" transform="rotate(60 160 160)"/>
+            <rect x="120" y="240" width="80" height="80" transform="rotate(-60 160 160)"/>
+        </g>
+    </g>
+</svg>

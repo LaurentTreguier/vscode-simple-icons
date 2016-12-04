@@ -61,13 +61,13 @@
             "iconPath": "./icons/box.png"
         },
         "build": {
-            "iconPath": "./icons/build.png"
+            "iconPath": "./icons/build.svg"
         },
         "build-folder": {
-            "iconPath": "./icons/build-folder.png"
+            "iconPath": "./icons/build-folder.svg"
         },
         "build-folder-expanded": {
-            "iconPath": "./icons/build-folder-expanded.png"
+            "iconPath": "./icons/build-folder-expanded.svg"
         },
         "c": {
             "iconPath": "./icons/c.png"
