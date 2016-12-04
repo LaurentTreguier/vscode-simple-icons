@@ -313,7 +313,7 @@
             "iconPath": "./icons/python-folder-expanded.png"
         },
         "react": {
-            "iconPath": "./icons/react.png"
+            "iconPath": "./icons/react.svg"
         },
         "rpm-box": {
             "iconPath": "./icons/rpm-box.png"
