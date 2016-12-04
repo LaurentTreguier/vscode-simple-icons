@@ -397,16 +397,16 @@
             "iconPath": "./icons/visual-studio.png"
         },
         "vscode": {
-            "iconPath": "./icons/vscode.png"
+            "iconPath": "./icons/vscode.svg"
         },
         "vscode-box": {
             "iconPath": "./icons/vscode-box.png"
         },
         "vscode-folder": {
-            "iconPath": "./icons/vscode-folder.png"
+            "iconPath": "./icons/vscode-folder.svg"
         },
         "vscode-folder-expanded": {
-            "iconPath": "./icons/vscode-folder-expanded.png"
+            "iconPath": "./icons/vscode-folder-expanded.svg"
         },
         "vue": {
             "iconPath": "./icons/vue.png"
