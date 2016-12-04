@@ -394,7 +394,7 @@
             "iconPath": "./icons/video.png"
         },
         "visual-studio": {
-            "iconPath": "./icons/visual-studio.png"
+            "iconPath": "./icons/visual-studio.svg"
         },
         "vscode": {
             "iconPath": "./icons/vscode.svg"
