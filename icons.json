@@ -88,7 +88,7 @@
             "iconPath": "./icons/console.png"
         },
         "csharp": {
-            "iconPath": "./icons/csharp.png"
+            "iconPath": "./icons/csharp.svg"
         },
         "css": {
             "iconPath": "./icons/css.png"
@@ -106,7 +106,7 @@
             "iconPath": "./icons/dart.png"
         },
         "database": {
-            "iconPath": "./icons/database.png"
+            "iconPath": "./icons/database.svg"
         },
         "debian-box": {
             "iconPath": "./icons/debian-box.png"
@@ -139,7 +139,7 @@
             "iconPath": "./icons/flash.png"
         },
         "fsharp": {
-            "iconPath": "./icons/fsharp.png"
+            "iconPath": "./icons/fsharp.svg"
         },
         "git": {
             "iconPath": "./icons/git.png"
@@ -166,7 +166,7 @@
             "iconPath": "./icons/haskell.png"
         },
         "haxe": {
-            "iconPath": "./icons/haxe.png"
+            "iconPath": "./icons/haxe.svg"
         },
         "html": {
             "iconPath": "./icons/html.png"
@@ -229,7 +229,7 @@
             "iconPath": "./icons/lock.png"
         },
         "lua": {
-            "iconPath": "./icons/lua.png"
+            "iconPath": "./icons/lua.svg"
         },
         "markdown": {
             "iconPath": "./icons/markdown.png"
