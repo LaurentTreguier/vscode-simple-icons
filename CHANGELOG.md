@@ -1,9 +1,23 @@
 # Changelog
 
+## 0.7.2
+
+Converted to SVG :
+- Build files and folders
+- React files
+- Lua files
+- Haxe files
+- C# files
+- F# files
+- Text files
+- VSCode files and folders
+- Visual Studio solution files
+- Database files
+
 ## 0.7.1
 
 Converted to SVG :
-- VSCode files and folders
+- VSCode standard files and folders
 
 Other changes :
 - Fixed Visual Basic not having any icon
