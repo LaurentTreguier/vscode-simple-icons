@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="Mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g fill="#000">
+                <rect x="80" y="140" width="160" height="20"/>
+                <rect x="80" y="200" width="160" height="20"/>
+                <rect x="80" y="260" width="160" height="20"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#7f9fbf">
+        <polygon points="180,0 280,100 240,100 180,40"/>
+        <rect x="40" y="0" width="140" height="100"/>
+        <rect x="40" y="100" width="240" height="220" mask="url(#Mask)"/>
+    </g>
+</svg>

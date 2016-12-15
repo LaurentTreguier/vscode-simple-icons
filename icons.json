@@ -46,7 +46,7 @@
             "iconPath": "./icons/archlinux.png"
         },
         "binary": {
-            "iconPath": "./icons/binary.png"
+            "iconPath": "./icons/binary.svg"
         },
         "bower": {
             "iconPath": "./icons/bower.png"
@@ -85,7 +85,7 @@
             "iconPath": "./icons/cpp.png"
         },
         "console": {
-            "iconPath": "./icons/console.png"
+            "iconPath": "./icons/console.svg"
         },
         "csharp": {
             "iconPath": "./icons/csharp.svg"
@@ -163,7 +163,7 @@
             "iconPath": "./icons/gulp.png"
         },
         "haskell": {
-            "iconPath": "./icons/haskell.png"
+            "iconPath": "./icons/haskell.svg"
         },
         "haxe": {
             "iconPath": "./icons/haxe.svg"
@@ -249,6 +249,9 @@
         "nodejs-folder-expanded": {
             "iconPath": "./icons/nodejs-folder-expanded.png"
         },
+        "npm": {
+            "iconPath": "./icons/npm.svg"
+        },
         "nuget": {
             "iconPath": "./icons/nuget.png"
         },
@@ -322,10 +325,10 @@
             "iconPath": "./icons/readme.png"
         },
         "ruby": {
-            "iconPath": "./icons/ruby.png"
+            "iconPath": "./icons/ruby.svg"
         },
         "rubygem": {
-            "iconPath": "./icons/rubygem.png"
+            "iconPath": "./icons/rubygem.svg"
         },
         "rust": {
             "iconPath": "./icons/rust.png"
@@ -361,13 +364,13 @@
             "iconPath": "./icons/test-folder-expanded.png"
         },
         "text": {
-            "iconPath": "./icons/text.png"
+            "iconPath": "./icons/text.svg"
         },
         "toml": {
             "iconPath": "./icons/toml.png"
         },
         "travis": {
-            "iconPath": "./icons/travis.png"
+            "iconPath": "./icons/travis.svg"
         },
         "twig": {
             "iconPath": "./icons/twig.png"
@@ -469,6 +472,7 @@
         ".eslintrc.yml": "eslint",
         ".gitignore": "git",
         ".htaccess": "apache",
+        ".npmignore": "npm",
         ".travis.yml": "travis",
         ".vscodeignore": "vscode",
         "appveyor.yml": "appveyor",
