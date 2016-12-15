@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.7.3
+
+Added icons :
+- .npmignore files
+
+Converted to SVG :
+- Ruby files
+- Assembly files
+- Shell files
+- Text files
+- Travis files
+
+Other changes :
+Fix text files not having any icon
+
 ## 0.7.2
 
 Converted to SVG :
@@ -9,7 +24,6 @@ Converted to SVG :
 - Haxe files
 - C# files
 - F# files
-- Text files
 - VSCode files and folders
 - Visual Studio solution files
 - Database files
