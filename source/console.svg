@@ -4,7 +4,7 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <g fill="none" stroke-width="20" stroke="#000">
+            <g fill="none" stroke="#000" stroke-width="20">
                 <polyline points="80,100 140,160 80,220"/>
                 <polyline points="180,210 240,210"/>
             </g>

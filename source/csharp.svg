@@ -2,7 +2,7 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
     <circle cx="160" cy="160" r="160" fill="#7f3f7f"/>
-    <g stroke-width="40" stroke="#fff">
+    <g stroke="#fff" stroke-width="40">
         <line x1="60" y1="120" x2="260" y2="120"/>
         <line x1="60" y1="200" x2="260" y2="200"/>
         <line x1="120" y1="60" x2="120" y2="260"/>
