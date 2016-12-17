@@ -142,13 +142,13 @@
             "iconPath": "./icons/fsharp.svg"
         },
         "git": {
-            "iconPath": "./icons/git.png"
+            "iconPath": "./icons/git.svg"
         },
         "git-folder": {
-            "iconPath": "./icons/git-folder.png"
+            "iconPath": "./icons/git-folder.svg"
         },
         "git-folder-expanded": {
-            "iconPath": "./icons/git-folder-expanded.png"
+            "iconPath": "./icons/git-folder-expanded.svg"
         },
         "go": {
             "iconPath": "./icons/go.png"
@@ -241,13 +241,13 @@
             "iconPath": "./icons/nim.png"
         },
         "nodejs": {
-            "iconPath": "./icons/nodejs.png"
+            "iconPath": "./icons/nodejs.svg"
         },
         "nodejs-folder": {
-            "iconPath": "./icons/nodejs-folder.png"
+            "iconPath": "./icons/nodejs-folder.svg"
         },
         "nodejs-folder-expanded": {
-            "iconPath": "./icons/nodejs-folder-expanded.png"
+            "iconPath": "./icons/nodejs-folder-expanded.svg"
         },
         "npm": {
             "iconPath": "./icons/npm.svg"
@@ -376,13 +376,13 @@
             "iconPath": "./icons/twig.png"
         },
         "typescript": {
-            "iconPath": "./icons/typescript.png"
+            "iconPath": "./icons/typescript.svg"
         },
         "typescript-folder": {
-            "iconPath": "./icons/typescript-folder.png"
+            "iconPath": "./icons/typescript-folder.svg"
         },
         "typescript-folder-expanded": {
-            "iconPath": "./icons/typescript-folder-expanded.png"
+            "iconPath": "./icons/typescript-folder-expanded.svg"
         },
         "vala": {
             "iconPath": "./icons/gnome.png"

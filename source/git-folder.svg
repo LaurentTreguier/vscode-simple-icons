@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <line x1="70" y1="0" x2="230" y2="160" stroke="#000" stroke-width="25"/>
+            <line x1="160" y1="90" x2="160" y2="230" stroke="#000" stroke-width="25"/>
+            <circle cx="160" cy="90" r="30" fill="#000"/>
+            <circle cx="230" cy="160" r="30" fill="#000"/>
+            <circle cx="160" cy="230" r="30" fill="#000"/>
+        </mask>
+    </defs>
+    <rect x="40" y="60" width="280" height="200" fill="#f05133"/>
+    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#f05133" stroke-width="20"/>
+    <g transform="scale(0.5) translate(200 160)">
+        <polygon points="160,20 300,160 160,300 20,160" fill="#fff" stroke="#fff" stroke-width="40" stroke-linejoin="round" mask="url(#mask)"/>
+    </g>
+</svg>
