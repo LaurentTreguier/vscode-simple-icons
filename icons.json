@@ -172,7 +172,7 @@
             "iconPath": "./icons/html.png"
         },
         "hxml": {
-            "iconPath": "./icons/hxml.png"
+            "iconPath": "./icons/hxml.svg"
         },
         "image": {
             "iconPath": "./icons/image.png"
@@ -184,7 +184,7 @@
             "iconPath": "./icons/java.png"
         },
         "javascript": {
-            "iconPath": "./icons/javascript.png"
+            "iconPath": "./icons/javascript.svg"
         },
         "json": {
             "iconPath": "./icons/json.png"
@@ -322,7 +322,7 @@
             "iconPath": "./icons/rpm-box.png"
         },
         "readme": {
-            "iconPath": "./icons/readme.png"
+            "iconPath": "./icons/readme.svg"
         },
         "ruby": {
             "iconPath": "./icons/ruby.svg"

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <rect x="0" y="0" width="320" height="320" fill="#f8dc3d"/>
+    <text x="80" y="280" font-family="Trebuchet MS" font-size="200" font-weight="bold" fill="#000">JS</text>
+</svg>
