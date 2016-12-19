@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.7.4
+
+Updated icons :
+- Objective C files
+
+Converted to SVG :
+- NodeJS files and folders
+- Typescript files and folders
+- Git files and folders
+- Javascript files
+- HXML files
+- C/C++ files
+- Objective C files
+- README files
+- Image files
+- Source folders
+
 ## 0.7.3
 
 Added icons :
@@ -31,7 +48,7 @@ Converted to SVG :
 ## 0.7.1
 
 Converted to SVG :
-- VSCode standard files and folders
+- Standard files and folders
 
 Other changes :
 - Fixed Visual Basic not having any icon
@@ -276,7 +293,7 @@ Added icons for the following languages :
 - XML
 
 Other added icons :
-- VSCode files and folders
+- Standard files and folders
 - Git files and folders
 - Package.json
 - Node modules folders
