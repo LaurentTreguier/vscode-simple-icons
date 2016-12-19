@@ -82,7 +82,7 @@
             "iconPath": "./icons/coffeescript.png"
         },
         "cpp": {
-            "iconPath": "./icons/cpp.png"
+            "iconPath": "./icons/cpp.svg"
         },
         "console": {
             "iconPath": "./icons/console.svg"
@@ -175,7 +175,7 @@
             "iconPath": "./icons/hxml.svg"
         },
         "image": {
-            "iconPath": "./icons/image.png"
+            "iconPath": "./icons/image.svg"
         },
         "ionic": {
             "iconPath": "./icons/ionic.png"
@@ -262,7 +262,7 @@
             "iconPath": "./icons/nuget-folder-expanded.png"
         },
         "objective-c": {
-            "iconPath": "./icons/objective-c.png"
+            "iconPath": "./icons/objective-c.svg"
         },
         "ocaml": {
             "iconPath": "./icons/ocaml.png"
@@ -349,10 +349,10 @@
             "iconPath": "./icons/sound.png"
         },
         "source-folder": {
-            "iconPath": "./icons/source-folder.png"
+            "iconPath": "./icons/source-folder.svg"
         },
         "source-folder-expanded": {
-            "iconPath": "./icons/source-folder-expanded.png"
+            "iconPath": "./icons/source-folder-expanded.svg"
         },
         "swift": {
             "iconPath": "./icons/swift.png"
