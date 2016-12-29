@@ -94,13 +94,16 @@
             "iconPath": "./icons/css.png"
         },
         "d": {
-            "iconPath": "./icons/d.png"
+            "iconPath": "./icons/d.svg"
+        },
+        "d-build": {
+            "iconPath": "./icons/d-build.svg"
         },
         "d-folder": {
-            "iconPath": "./icons/d-folder.png"
+            "iconPath": "./icons/d-folder.svg"
         },
         "d-folder-expanded": {
-            "iconPath": "./icons/d-folder-expanded.png"
+            "iconPath": "./icons/d-folder-expanded.svg"
         },
         "dart": {
             "iconPath": "./icons/dart.png"
@@ -116,9 +119,6 @@
         },
         "docker": {
             "iconPath": "./icons/docker.png"
-        },
-        "dub": {
-            "iconPath": "./icons/dub.png"
         },
         "editorconfig": {
             "iconPath": "./icons/editorconfig.png"
@@ -479,8 +479,8 @@
         "cakefile": "build",
         "cmakecache.txt": "cmake",
         "dockerfile": "docker",
-        "dub.json": "dub",
-        "dub.sdl": "dub",
+        "dub.json": "d-build",
+        "dub.sdl": "d-build",
         "gemfile": "rubygem",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
