@@ -10,31 +10,31 @@
             "iconPath": "./icons/file.svg"
         },
         "adobe-after-effects": {
-            "iconPath": "./icons/adobe-after-effects.png"
+            "iconPath": "./icons/adobe-after-effects.svg"
         },
         "adobe-animate": {
-            "iconPath": "./icons/adobe-animate.png"
+            "iconPath": "./icons/adobe-animate.svg"
         },
         "adobe-dreamweaver": {
-            "iconPath": "./icons/adobe-dreamweaver.png"
+            "iconPath": "./icons/adobe-dreamweaver.svg"
         },
         "adobe-illustrator": {
-            "iconPath": "./icons/adobe-illustrator.png"
+            "iconPath": "./icons/adobe-illustrator.svg"
         },
         "adobe-indesign": {
-            "iconPath": "./icons/adobe-indesign.png"
+            "iconPath": "./icons/adobe-indesign.svg"
         },
         "adobe-lightroom": {
-            "iconPath": "./icons/adobe-lightroom.png"
+            "iconPath": "./icons/adobe-lightroom.svg"
         },
         "adobe-muse": {
-            "iconPath": "./icons/adobe-muse.png"
+            "iconPath": "./icons/adobe-muse.svg"
         },
         "adobe-photoshop": {
-            "iconPath": "./icons/adobe-photoshop.png"
+            "iconPath": "./icons/adobe-photoshop.svg"
         },
         "adobe-premiere-pro": {
-            "iconPath": "./icons/adobe-premiere-pro.png"
+            "iconPath": "./icons/adobe-premiere-pro.svg"
         },
         "apache": {
             "iconPath": "./icons/apache.png"

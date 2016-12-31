@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <rect x="10" y="10" width="300" height="300" fill="#2f004f" stroke="#df9fff" stroke-width="20"/>
+    <text x="50" y="230" font-family="Tahoma" font-size="200" fill="#df9fff">Ae</text>
+</svg>
