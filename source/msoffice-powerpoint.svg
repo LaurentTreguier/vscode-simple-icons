@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <polyline points="210,0 210,130 320,130" fill="none" stroke="#000" stroke-width="20"/>
+        </mask>
+    </defs>
+    <polyline points="160,50 310,50 310,270 160,270" fill="#fff" stroke="#d14424" stroke-width="20"/>
+    <g fill="#d14424">
+        <polygon points="0,40 160,0 160,320 0,280"/>
+        <circle cx="210" cy="130" r="50" mask="url(#mask)"/>
+        <rect x="160" y="200" width="120" height="20"/>
+    </g>
+    <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="Bold" fill="#fff">P</text>
+</svg>

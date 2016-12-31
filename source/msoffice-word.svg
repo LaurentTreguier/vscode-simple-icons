@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <polyline points="160,50 310,50 310,270 160,270" fill="#fff" stroke="#295497" stroke-width="20"/>
+    <g fill="#295497">
+        <polygon points="0,40 160,0 160,320 0,280"/>
+        <rect x="160" y="80" width="120" height="20"/>
+        <rect x="160" y="120" width="120" height="20"/>
+        <rect x="160" y="160" width="120" height="20"/>
+        <rect x="160" y="200" width="120" height="20"/>
+    </g>
+    <text x="10" y="215" font-family="Trebuchet MS" font-size="160" font-weight="Bold" fill="#fff">W</text>
+</svg>

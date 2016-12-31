@@ -237,6 +237,21 @@
         "meson": {
             "iconPath": "./icons/meson.png"
         },
+        "msoffice-access": {
+            "iconPath": "./icons/msoffice-access.svg"
+        },
+        "msoffice-excel": {
+            "iconPath": "./icons/msoffice-excel.svg"
+        },
+        "msoffice-onenote": {
+            "iconPath": "./icons/msoffice-onenote.svg"
+        },
+        "msoffice-powerpoint": {
+            "iconPath": "./icons/msoffice-powerpoint.svg"
+        },
+        "msoffice-word": {
+            "iconPath": "./icons/msoffice-word.svg"
+        },
         "nim": {
             "iconPath": "./icons/nim.png"
         },
@@ -266,24 +281,6 @@
         },
         "ocaml": {
             "iconPath": "./icons/ocaml.png"
-        },
-        "office-access": {
-            "iconPath": "./icons/office-access.png"
-        },
-        "office-excel": {
-            "iconPath": "./icons/office-excel.png"
-        },
-        "office-onenote": {
-            "iconPath": "./icons/office-onenote.png"
-        },
-        "office-outlook": {
-            "iconPath": "./icons/office-outlook.png"
-        },
-        "office-powerpoint": {
-            "iconPath": "./icons/office-powerpoint.png"
-        },
-        "office-word": {
-            "iconPath": "./icons/office-word.png"
         },
         "paket": {
             "iconPath": "./icons/paket.png"
@@ -475,6 +472,7 @@
         ".npmignore": "npm",
         ".travis.yml": "travis",
         ".vscodeignore": "vscode",
+        "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
         "cakefile": "build",
         "cmakecache.txt": "cmake",
@@ -506,7 +504,7 @@
     "fileExtensions": {
         "7z": "box",
         "a": "lib",
-        "accdb": "office-access",
+        "accdb": "msoffice-access",
         "aepx": "adobe-after-effects",
         "ai": "adobe-illustrator",
         "as": "flash",
@@ -519,8 +517,8 @@
         "deb": "debian-box",
         "dll": "lib",
         "dmg": "disc",
-        "doc": "office-word",
-        "docx": "office-word",
+        "doc": "msoffice-word",
+        "docx": "msoffice-word",
         "dwt": "adobe-dreamweaver",
         "exe": "lib",
         "flv": "video",
@@ -544,7 +542,7 @@
         "lzma": "box",
         "lzo": "box",
         "mak": "build",
-        "mdb": "office-access",
+        "mdb": "msoffice-access",
         "mkv": "video",
         "mov": "video",
         "mp3": "sound",
@@ -560,13 +558,13 @@
         "ods": "libreoffice-spreadsheet",
         "odt": "libreoffice-writer",
         "ogg": "video",
-        "one": "office-onenote",
+        "one": "msoffice-onenote",
         "pdb": "database",
         "pdf": "pdf",
         "pkg": "box",
         "png": "image",
-        "ppt": "office-powerpoint",
-        "pptx": "office-powerpoint",
+        "ppt": "msoffice-powerpoint",
+        "pptx": "msoffice-powerpoint",
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
         "psmdcp": "nuget",
@@ -583,8 +581,8 @@
         "vsix": "vscode-box",
         "webp": "image",
         "wmv": "video",
-        "xls": "office-excel",
-        "xlsx": "office-excel",
+        "xls": "msoffice-excel",
+        "xlsx": "msoffice-excel",
         "xz": "box",
         "zip": "box"
     },
