@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.7.5
+
+Updated icons :
+- D files
+- Dub files
+
+Converted to SVG :
+- D files and folders
+- Dub files
+- Dart files
+- Haskell files
+- Appveyor files
+- Adobe suite files
+- Microsoft Office files
+- OpenDocument files
+
 ## 0.7.4
 
 Updated icons :
@@ -78,7 +94,7 @@ Added icons for the following languages :
 
 Other added icons :
 - Webpack files
-- Adobe software files
+- Adobe suite files
 - Archlinux PKGBUILD files
 - Lock files
 - Deb, RPM and VSIX variations of the archive icon
