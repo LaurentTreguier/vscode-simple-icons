@@ -201,23 +201,23 @@
         "lib": {
             "iconPath": "./icons/lib.png"
         },
-        "libreoffice-database": {
-            "iconPath": "./icons/libreoffice-database.png"
+        "libreoffice-base": {
+            "iconPath": "./icons/libreoffice-base.svg"
         },
-        "libreoffice-drawing": {
-            "iconPath": "./icons/libreoffice-drawing.png"
+        "libreoffice-calc": {
+            "iconPath": "./icons/libreoffice-calc.svg"
         },
-        "libreoffice-formula": {
-            "iconPath": "./icons/libreoffice-formula.png"
+        "libreoffice-draw": {
+            "iconPath": "./icons/libreoffice-draw.svg"
         },
-        "libreoffice-presentation": {
-            "iconPath": "./icons/libreoffice-presentation.png"
+        "libreoffice-impress": {
+            "iconPath": "./icons/libreoffice-impress.svg"
         },
-        "libreoffice-spreadsheet": {
-            "iconPath": "./icons/libreoffice-spreadsheet.png"
+        "libreoffice-math": {
+            "iconPath": "./icons/libreoffice-math.svg"
         },
         "libreoffice-writer": {
-            "iconPath": "./icons/libreoffice-writer.png"
+            "iconPath": "./icons/libreoffice-writer.svg"
         },
         "licence": {
             "iconPath": "./icons/licence.png"
@@ -551,11 +551,11 @@
         "ninja": "build",
         "nupkg": "nuget",
         "nuspec": "nuget",
-        "odb": "libreoffice-database",
-        "odf": "libreoffice-formula",
-        "odg": "libreoffice-drawing",
-        "odp": "libreoffice-presentation",
-        "ods": "libreoffice-spreadsheet",
+        "odb": "libreoffice-base",
+        "odf": "libreoffice-math",
+        "odg": "libreoffice-draw",
+        "odp": "libreoffice-impress",
+        "ods": "libreoffice-calc",
         "odt": "libreoffice-writer",
         "ogg": "video",
         "one": "msoffice-onenote",
