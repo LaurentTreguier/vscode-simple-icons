@@ -13,5 +13,5 @@
         <rect x="160" y="160" width="80" height="20"/>
         <rect x="160" y="200" width="80" height="20"/>
     </g>
-    <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="Bold" fill="#fff">N</text>
+    <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="bold" fill="#fff">N</text>
 </svg>

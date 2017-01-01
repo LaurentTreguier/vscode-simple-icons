@@ -7,6 +7,7 @@
         <ellipse cx="160" cy="160" rx="130" ry="70"/>
         <rect x="30" y="80" width="260" height="80" stroke="none"/>
         <ellipse cx="160" cy="80" rx="130" ry="70"/>
-        <path d="M 30,80 V 240 M 290,80 V 240"/>
+        <line x1="30" y1="80" x2="30" y2="240"/>
+        <line x1="290" y1="80" x2="290" y2="240"/>
     </g>
 </svg>
