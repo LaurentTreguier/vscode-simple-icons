@@ -40,7 +40,7 @@
             "iconPath": "./icons/apache.png"
         },
         "appveyor": {
-            "iconPath": "./icons/appveyor.png"
+            "iconPath": "./icons/appveyor.svg"
         },
         "archlinux": {
             "iconPath": "./icons/archlinux.png"
@@ -106,7 +106,7 @@
             "iconPath": "./icons/d-folder-expanded.svg"
         },
         "dart": {
-            "iconPath": "./icons/dart.png"
+            "iconPath": "./icons/dart.svg"
         },
         "database": {
             "iconPath": "./icons/database.svg"
