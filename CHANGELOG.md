@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.7.6
+
+Updated icons :
+- Go files
+
+Converted to SVG :
+- Go files
+- Elm files
+- Erlang files
+- Julia files
+- Visual Basic files
+- Ionic files
+- SDLang files
+- Archives
+
 ## 0.7.5
 
 Updated icons :
@@ -115,7 +130,7 @@ Updated icons :
 - The text icon color is now the same as the README icon
 - The Clojure icon does not have a white border anymore
 - The video icon is now a 'play' button
-- The Visual basic icon was tweaked a bit
+- The Visual Basic icon was tweaked a bit
 - The Gulp icon is now a simpler, monochrome icon
 - The Lua icon is now brighter to make it easier to see in dark themes
 - The NodeJS icon is now sexier
@@ -175,7 +190,7 @@ Updated icons :
 ## 0.2.0
 
 Added icons :
-- Paket
+- Paket files
 
 Updated icons :
 - The folder icons are closer to other icon themes
@@ -238,7 +253,7 @@ Added icons for the following languages :
 - Elm
 - Kotlin
 - Ocaml
-- Visual basic
+- Visual Basic
 
 Other added icons :
 - Apache `.htaccess`
