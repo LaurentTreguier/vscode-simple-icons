@@ -58,7 +58,7 @@
             "iconPath": "./icons/bower-folder-expanded.png"
         },
         "box": {
-            "iconPath": "./icons/box.png"
+            "iconPath": "./icons/box.svg"
         },
         "build": {
             "iconPath": "./icons/build.svg"
@@ -68,9 +68,6 @@
         },
         "build-folder-expanded": {
             "iconPath": "./icons/build-folder-expanded.svg"
-        },
-        "c": {
-            "iconPath": "./icons/c.png"
         },
         "cmake": {
             "iconPath": "./icons/cmake.png"
@@ -127,10 +124,10 @@
             "iconPath": "./icons/elixir.png"
         },
         "elm": {
-            "iconPath": "./icons/elm.png"
+            "iconPath": "./icons/elm.svg"
         },
         "erlang": {
-            "iconPath": "./icons/erlang.png"
+            "iconPath": "./icons/erlang.svg"
         },
         "eslint": {
             "iconPath": "./icons/eslint.png"
@@ -151,7 +148,7 @@
             "iconPath": "./icons/git-folder-expanded.svg"
         },
         "go": {
-            "iconPath": "./icons/go.png"
+            "iconPath": "./icons/go.svg"
         },
         "gradle": {
             "iconPath": "./icons/gradle.png"
@@ -178,7 +175,7 @@
             "iconPath": "./icons/image.svg"
         },
         "ionic": {
-            "iconPath": "./icons/ionic.png"
+            "iconPath": "./icons/ionic.svg"
         },
         "java": {
             "iconPath": "./icons/java.png"
@@ -190,7 +187,7 @@
             "iconPath": "./icons/json.png"
         },
         "julia": {
-            "iconPath": "./icons/julia.png"
+            "iconPath": "./icons/julia.svg"
         },
         "kotlin": {
             "iconPath": "./icons/kotlin.png"
@@ -340,7 +337,7 @@
             "iconPath": "./icons/scheme.png"
         },
         "sdl": {
-            "iconPath": "./icons/sdl.png"
+            "iconPath": "./icons/sdl.svg"
         },
         "sound": {
             "iconPath": "./icons/sound.png"
@@ -385,7 +382,7 @@
             "iconPath": "./icons/gnome.png"
         },
         "visual-basic": {
-            "iconPath": "./icons/visual-basic.png"
+            "iconPath": "./icons/visual-basic.svg"
         },
         "vibed": {
             "iconPath": "./icons/vibed.png"
