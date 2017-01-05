@@ -313,7 +313,7 @@
             "iconPath": "./icons/react.svg"
         },
         "rpm-box": {
-            "iconPath": "./icons/rpm-box.png"
+            "iconPath": "./icons/rpm-box.svg"
         },
         "readme": {
             "iconPath": "./icons/readme.svg"
@@ -397,7 +397,7 @@
             "iconPath": "./icons/vscode.svg"
         },
         "vscode-box": {
-            "iconPath": "./icons/vscode-box.png"
+            "iconPath": "./icons/vscode-box.svg"
         },
         "vscode-folder": {
             "iconPath": "./icons/vscode-folder.svg"
