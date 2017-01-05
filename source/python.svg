@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <circle cx="120" cy="40" r="15" fill="#000"/>
+            <circle cx="200" cy="280" r="15" fill="#000"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask)">
+        <g fill="#3f7fbf">
+            <ellipse cx="30" cy="160" rx="30" ry="80"/>
+            <rect x="30" y="80" width="130" height="160"/>
+        </g>
+        <g fill="#ffdf3f">
+            <ellipse cx="290" cy="160" rx="30" ry="80"/>
+            <rect x="160" y="80" width="130" height="160"/>
+        </g>
+        <g fill="#3f7fbf">
+            <ellipse cx="160" cy="30" rx="80" ry="30"/>
+            <rect x="80" y="30" width="160" height="40"/>
+            <rect x="160" y="30" width="80" height="130" rx="40" ry="40"/>
+            <rect x="160" y="80" width="40" height="80"/>
+        </g>
+        <g fill="#ffdf3f">
+            <ellipse cx="160" cy="290" rx="80" ry="30"/>
+            <rect x="80" y="250" width="160" height="40"/>
+            <rect x="80" y="160" width="80" height="130" rx="40" ry="40"/>
+            <rect x="120" y="160" width="40" height="80"/>
+        </g>
+    </g>
+</svg>

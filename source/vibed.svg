@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask-hole">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <circle cx="160" cy="160" r="30" fill="#000"/>
+        </mask>
+        <mask id="mask-arrow">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <polygon points="0,0 160,0 160,160" fill="#000"/>
+        </mask>
+        <mask id="mask-middle-upper">
+            <rect x="0" y="0" width="320" height="160" fill="#fff"/>
+        </mask>
+        <mask id="mask-middle-lower">
+            <rect x="0" y="160" width="320" height="160" fill="#fff"/>
+        </mask>
+    </defs>
+    <g fill="#000" mask="url(#mask-hole)">
+        <circle cx="160" cy="160" r="160" mask="url(#mask-arrow)"/>
+        <circle cx="160" cy="160" r="90" fill="#ffe4a4" mask="url(#mask-middle-upper)"/>
+        <circle cx="160" cy="160" r="90" fill="#d58f23" mask="url(#mask-middle-lower)"/>
+        <polygon points="20,20 120,20 120,120"/>
+    </g>
+</svg>

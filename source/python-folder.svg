@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask">
+            <rect x="40" y="60" width="280" height="200" fill="#fff"/>
+            <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#fff" stroke-width="20"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask)">
+        <g transform="rotate(30 160 160)">
+            <rect x="-80" y="-80" width="240" height="480" fill="#3f7fbf"/>
+            <rect x="160" y="-80" width="240" height="480" fill="#ffdf3f"/>
+        </g>
+    </g>
+    <g fill="#fff" transform="translate(40 60) scale(0.5) translate(120 40)">
+        <ellipse cx="30" cy="160" rx="30" ry="80"/>
+        <rect x="30" y="80" width="130" height="160"/>
+        <ellipse cx="290" cy="160" rx="30" ry="80"/>
+        <rect x="160" y="80" width="130" height="160"/>
+        <ellipse cx="160" cy="30" rx="80" ry="30"/>
+        <rect x="80" y="30" width="160" height="40"/>
+        <rect x="160" y="30" width="80" height="130" rx="40" ry="40"/>
+        <rect x="160" y="80" width="40" height="80"/>
+        <ellipse cx="160" cy="290" rx="80" ry="30"/>
+        <rect x="80" y="250" width="160" height="40"/>
+        <rect x="80" y="160" width="80" height="130" rx="40" ry="40"/>
+        <rect x="120" y="160" width="40" height="80"/>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g stroke="#000" stroke-width="40">
+                <line x1="80" y1="140" x2="240" y2="140"/>
+                <line x1="160" y1="160" x2="160" y2="300"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#bf9f7f">
+        <polygon points="180,0 280,100 240,100 180,40"/>
+        <rect x="40" y="0" width="140" height="100"/>
+        <rect x="40" y="100" width="240" height="220" mask="url(#mask)"/>
+    </g>
+</svg>

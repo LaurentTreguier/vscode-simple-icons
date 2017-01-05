@@ -112,7 +112,7 @@
             "iconPath": "./icons/debian-box.png"
         },
         "disc": {
-            "iconPath": "./icons/disc.png"
+            "iconPath": "./icons/disc.svg"
         },
         "docker": {
             "iconPath": "./icons/docker.png"
@@ -301,13 +301,13 @@
             "iconPath": "./icons/pug.png"
         },
         "python": {
-            "iconPath": "./icons/python.png"
+            "iconPath": "./icons/python.svg"
         },
         "python-folder": {
-            "iconPath": "./icons/python-folder.png"
+            "iconPath": "./icons/python-folder.svg"
         },
         "python-folder-expanded": {
-            "iconPath": "./icons/python-folder-expanded.png"
+            "iconPath": "./icons/python-folder-expanded.svg"
         },
         "react": {
             "iconPath": "./icons/react.svg"
@@ -361,7 +361,7 @@
             "iconPath": "./icons/text.svg"
         },
         "toml": {
-            "iconPath": "./icons/toml.png"
+            "iconPath": "./icons/toml.svg"
         },
         "travis": {
             "iconPath": "./icons/travis.svg"
@@ -385,10 +385,10 @@
             "iconPath": "./icons/visual-basic.svg"
         },
         "vibed": {
-            "iconPath": "./icons/vibed.png"
+            "iconPath": "./icons/vibed.svg"
         },
         "video": {
-            "iconPath": "./icons/video.png"
+            "iconPath": "./icons/video.svg"
         },
         "visual-studio": {
             "iconPath": "./icons/visual-studio.svg"
@@ -406,16 +406,16 @@
             "iconPath": "./icons/vscode-folder-expanded.svg"
         },
         "vue": {
-            "iconPath": "./icons/vue.png"
+            "iconPath": "./icons/vue.svg"
         },
         "webpack": {
             "iconPath": "./icons/webpack.png"
         },
         "xml": {
-            "iconPath": "./icons/xml.png"
+            "iconPath": "./icons/xml.svg"
         },
         "yaml": {
-            "iconPath": "./icons/yaml.png"
+            "iconPath": "./icons/yaml.svg"
         }
     },
     "folder": "folder",
