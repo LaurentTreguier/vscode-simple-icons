@@ -4,10 +4,10 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <g fill="#000">
-                <rect x="80" y="140" width="160" height="20"/>
-                <rect x="80" y="200" width="160" height="20"/>
-                <rect x="80" y="260" width="160" height="20"/>
+            <g stroke="#000" stroke-width="20">
+                <line x1="80" y1="150" x2="240" y2="150"/>
+                <line x1="80" y1="210" x2="240" y2="210"/>
+                <line x1="80" y1="270" x2="240" y2="270"/>
             </g>
         </mask>
     </defs>
