@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.7.7
+
+Updated icons :
+- C# files
+
+Converted to SVG :
+- Python files and folders
+- VueJS files
+- XML files
+- TOML files
+- YAML files
+- Diet template files
+- ISO files
+- VSIX files
+- RPM files
+- Video files
+
 ## 0.7.6
 
 Updated icons :
