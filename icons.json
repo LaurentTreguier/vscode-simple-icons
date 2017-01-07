@@ -43,19 +43,19 @@
             "iconPath": "./icons/appveyor.svg"
         },
         "archlinux": {
-            "iconPath": "./icons/archlinux.png"
+            "iconPath": "./icons/archlinux.svg"
         },
         "binary": {
             "iconPath": "./icons/binary.svg"
         },
         "bower": {
-            "iconPath": "./icons/bower.png"
+            "iconPath": "./icons/bower.svg"
         },
         "bower-folder": {
-            "iconPath": "./icons/bower-folder.png"
+            "iconPath": "./icons/bower-folder.svg"
         },
         "bower-folder-expanded": {
-            "iconPath": "./icons/bower-folder-expanded.png"
+            "iconPath": "./icons/bower-folder-expanded.svg"
         },
         "box": {
             "iconPath": "./icons/box.svg"
@@ -109,7 +109,7 @@
             "iconPath": "./icons/database.svg"
         },
         "debian-box": {
-            "iconPath": "./icons/debian-box.png"
+            "iconPath": "./icons/debian-box.svg"
         },
         "disc": {
             "iconPath": "./icons/disc.svg"
@@ -130,7 +130,7 @@
             "iconPath": "./icons/erlang.svg"
         },
         "eslint": {
-            "iconPath": "./icons/eslint.png"
+            "iconPath": "./icons/eslint.svg"
         },
         "flash": {
             "iconPath": "./icons/flash.png"
@@ -340,7 +340,7 @@
             "iconPath": "./icons/sdl.svg"
         },
         "sound": {
-            "iconPath": "./icons/sound.png"
+            "iconPath": "./icons/sound.svg"
         },
         "source-folder": {
             "iconPath": "./icons/source-folder.svg"
@@ -349,7 +349,7 @@
             "iconPath": "./icons/source-folder-expanded.svg"
         },
         "swift": {
-            "iconPath": "./icons/swift.png"
+            "iconPath": "./icons/swift.svg"
         },
         "test-folder": {
             "iconPath": "./icons/test-folder.png"
