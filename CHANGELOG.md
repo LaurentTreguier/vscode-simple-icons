@@ -1,5 +1,25 @@
 # Changelog
 
+# 0.7.8
+Updated icons :
+- Swift files
+- Lua files
+- Coffeescript files
+- PHP files
+
+Converted to SVG :
+- Bower files and folders
+- Swift files
+- Coffeescript files
+- PHP files
+- Gulpfiles
+- Eslint files
+- JSON files
+- Gradle files
+- Deb files
+- Sound files
+- PKGBUILD files
+
 ## 0.7.7
 
 Updated icons :
