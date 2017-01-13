@@ -7,7 +7,7 @@
             <circle cx="200" cy="120" r="40" fill="#000"/>
         </mask>
     </defs>
-    <g fill="#00f">
+    <g fill="#005fbf">
         <circle cx="140" cy="180" r="140" mask="url(#mask)"/>
         <circle cx="280" cy="40" r="40"/>
     </g>
