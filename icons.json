@@ -76,7 +76,7 @@
             "iconPath": "./icons/clojure.png"
         },
         "coffeescript": {
-            "iconPath": "./icons/coffeescript.png"
+            "iconPath": "./icons/coffeescript.svg"
         },
         "cpp": {
             "iconPath": "./icons/cpp.svg"
@@ -151,13 +151,13 @@
             "iconPath": "./icons/go.svg"
         },
         "gradle": {
-            "iconPath": "./icons/gradle.png"
+            "iconPath": "./icons/gradle.svg"
         },
         "grunt": {
             "iconPath": "./icons/grunt.png"
         },
         "gulp": {
-            "iconPath": "./icons/gulp.png"
+            "iconPath": "./icons/gulp.svg"
         },
         "haskell": {
             "iconPath": "./icons/haskell.svg"
@@ -184,7 +184,7 @@
             "iconPath": "./icons/javascript.svg"
         },
         "json": {
-            "iconPath": "./icons/json.png"
+            "iconPath": "./icons/json.svg"
         },
         "julia": {
             "iconPath": "./icons/julia.svg"
@@ -292,7 +292,7 @@
             "iconPath": "./icons/pdf.png"
         },
         "php": {
-            "iconPath": "./icons/php.png"
+            "iconPath": "./icons/php.svg"
         },
         "powershell": {
             "iconPath": "./icons/powershell.png"
