@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <rect x="10" y="70" width="300" height="180" rx="20" ry="20" fill="#fff" stroke="#000" stroke-width="20"/>
+    <g fill="#000">
+        <text x="30" y="220" font-family="Verdana" font-size="160" font-weight="bold">M</text>
+        <rect x="220" y="110" width="40" height="60"/>
+        <polygon points="190,170 240,220 290,170"/>
+    </g>
+</svg>

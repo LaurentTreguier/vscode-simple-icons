@@ -70,7 +70,7 @@
             "iconPath": "./icons/build-folder-expanded.svg"
         },
         "cmake": {
-            "iconPath": "./icons/cmake.png"
+            "iconPath": "./icons/cmake.svg"
         },
         "clojure": {
             "iconPath": "./icons/clojure.png"
@@ -217,22 +217,22 @@
             "iconPath": "./icons/libreoffice-writer.svg"
         },
         "licence": {
-            "iconPath": "./icons/licence.png"
+            "iconPath": "./icons/licence.svg"
         },
         "lisp": {
-            "iconPath": "./icons/lisp.png"
+            "iconPath": "./icons/lisp.svg"
         },
         "lock": {
-            "iconPath": "./icons/lock.png"
+            "iconPath": "./icons/lock.svg"
         },
         "lua": {
             "iconPath": "./icons/lua.svg"
         },
         "markdown": {
-            "iconPath": "./icons/markdown.png"
+            "iconPath": "./icons/markdown.svg"
         },
         "meson": {
-            "iconPath": "./icons/meson.png"
+            "iconPath": "./icons/meson.svg"
         },
         "msoffice-access": {
             "iconPath": "./icons/msoffice-access.svg"
@@ -250,7 +250,7 @@
             "iconPath": "./icons/msoffice-word.svg"
         },
         "nim": {
-            "iconPath": "./icons/nim.png"
+            "iconPath": "./icons/nim.svg"
         },
         "nodejs": {
             "iconPath": "./icons/nodejs.svg"
@@ -265,13 +265,13 @@
             "iconPath": "./icons/npm.svg"
         },
         "nuget": {
-            "iconPath": "./icons/nuget.png"
+            "iconPath": "./icons/nuget.svg"
         },
         "nuget-folder": {
-            "iconPath": "./icons/nuget-folder.png"
+            "iconPath": "./icons/nuget-folder.svg"
         },
         "nuget-folder-expanded": {
-            "iconPath": "./icons/nuget-folder-expanded.png"
+            "iconPath": "./icons/nuget-folder-expanded.svg"
         },
         "objective-c": {
             "iconPath": "./icons/objective-c.svg"
