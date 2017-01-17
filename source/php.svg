@@ -4,19 +4,11 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <ellipse cx="60" cy="220" rx="30" ry="60" fill="#000"/>
-            <circle cx="50" cy="110" r="15"/>
+            <!--<g fill="none" stroke="#000" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"><polyline points="50,190 50,130 90,130 90,170 50,170"/><polyline points="130,130 130,190 130,160 190,160 190,130 190,190"/><polyline points="230,190 230,130 270,130 270,170 230,170"/></g>-->
+            <text x="30" y="200" font-family="Trebuchet MS" font-size="160" font-weight="bold" font-style="italic" fill="#000">php</text>
         </mask>
     </defs>
-    <g fill="#6c7eb7">
-        <ellipse cx="190" cy="140" rx="130" ry="80"/>
-        <rect x="80" y="160" width="60" height="100" rx="40" ry="20"/>
-        <rect x="220" y="160" width="60" height="100" rx="40" ry="20"/>
-        <rect x="0" y="60" width="100" height="180" rx="20" ry="20" mask="url(#mask)"/>
-    </g>
-    <g fill="none" stroke="#000" stroke-width="20" stroke-linejoin="round" stroke-linecap="round">
-        <polyline points="90,170 90,110 130,110 130,150 90,150"/>
-        <polyline points="170,110 170,170 170,130 210,130 210,170"/>
-        <polyline points="250,170 250,110 290,110 290,150 250,150"/>
-    </g>
+    <!--<defs><mask id="mask"><rect x="0" y="0" width="320" height="320" fill="#fff"/><ellipse cx="60" cy="220" rx="30" ry="60" fill="#000"/><circle cx="50" cy="110" r="15"/></mask></defs><g fill="#6c7eb7"><ellipse cx="190" cy="140" rx="130" ry="80"/><rect x="80" y="160" width="60" height="100" rx="40" ry="20"/><rect x="220" y="160" width="60" height="100" rx="40" ry="20"/><rect x="0" y="60" width="100" height="180" rx="20" ry="20" mask="url(#mask)"/></g><g fill="none" stroke="#000" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"><polyline points="90,170 90,110 130,110 130,150 90,150"/><polyline points="170,110 170,170 170,130 210,130 210,170"/><polyline points="250,170 250,110 290,110 290,150 250,150"/></g>-->
+    <ellipse cx="160" cy="160" rx="160" ry="160" fill="#6c7eb7" mask="url(#mask)"/>
+    <!--<text x="30" y="200" font-family="Trebuchet MS" font-size="160" font-weight="bold" font-style="italic" fill="#fff">php</text>-->
 </svg>
