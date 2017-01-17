@@ -1,6 +1,25 @@
 # Changelog
 
+# 0.7.9
+
+Updated icons :
+- PHP files
+- Nim files
+- CMake files
+- Licence files
+
+Converted to SVG :
+- Nuget files and folders
+- Nim files
+- Lisp files
+- Markdown files
+- CMake files
+- Meson files
+- Lock files
+- Licence files
+
 # 0.7.8
+
 Updated icons :
 - Swift files
 - Lua files
@@ -250,7 +269,7 @@ Added icons for the following languages :
 
 Other added icons :
 - Travis-ci files
-- Cmake files
+- CMake files
 
 Other changes :
 - `.ico` extension added to images
