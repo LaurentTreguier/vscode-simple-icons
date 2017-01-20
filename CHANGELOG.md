@@ -1,108 +1,126 @@
 # Changelog
 
+# 0.8.0
+
+Added icons :
+- Config files
+- CSV files
+- Rust library files
+
+Updated icons :
+- The library icon is now based on the build icon with a different color
+- The database icon is not weird anymore
+
+Converted to SVG :
+- Actionscript files
+- Elixir files
+- Kotlin files
+- Library files
+- Pug files
+- Rust files
+
 # 0.7.9
 
 Updated icons :
-- PHP files
-- Nim files
-- CMake files
-- Licence files
+- The licence icon was completely redone
+- The Nim icon is now gold and grey to easily see it regardless of VSCode's theme
+- The PHP icon is now simply 'PHP' in a circle
 
 Converted to SVG :
-- Nuget files and folders
-- Nim files
-- Lisp files
-- Markdown files
 - CMake files
-- Meson files
-- Lock files
 - Licence files
+- Lisp files
+- Lock files
+- Markdown files
+- Meson files
+- Nim files
+- Nuget files and folders
 
 # 0.7.8
 
 Updated icons :
-- Swift files
-- Lua files
-- Coffeescript files
-- PHP files
+- The Coffeescript icon is not the official logo anymore for the sake of simplicity
+- The Lua icon color was toned down a bit
+- The PHP icon is now simply 'PHP' in a circle
+- The Swift icon is now the bird alone and not in a rectangle
 
 Converted to SVG :
 - Bower files and folders
-- Swift files
 - Coffeescript files
-- PHP files
-- Gulpfiles
-- Eslint files
-- JSON files
-- Gradle files
 - Deb files
-- Sound files
+- Eslint files
+- Gradle files
+- Gulpfiles
+- JSON files
+- PHP files
 - PKGBUILD files
+- Sound files
+- Swift files
 
 ## 0.7.7
 
 Updated icons :
-- C# files
+- The C# icon is now 'C#' instead of '#' in a circle
 
 Converted to SVG :
-- Python files and folders
-- VueJS files
-- XML files
-- TOML files
-- YAML files
 - Diet template files
 - ISO files
-- VSIX files
+- Python files and folders
 - RPM files
+- TOML files
 - Video files
+- VSIX files
+- VueJS files
+- XML files
+- YAML files
 
 ## 0.7.6
 
 Updated icons :
-- Go files
+- The Go icon now features a blue gopher
 
 Converted to SVG :
-- Go files
+- Archives
 - Elm files
 - Erlang files
-- Julia files
-- Visual Basic files
+- Go files
 - Ionic files
+- Julia files
 - SDLang files
-- Archives
+- Visual Basic files
 
 ## 0.7.5
 
 Updated icons :
-- D files
-- Dub files
+- The D icon is now closer to the original D logo
+- The dub icon is now using the latest build icon design
 
 Converted to SVG :
+- Adobe suite files
+- Appveyor files
 - D files and folders
 - Dub files
 - Dart files
 - Haskell files
-- Appveyor files
-- Adobe suite files
 - Microsoft Office files
 - OpenDocument files
 
 ## 0.7.4
 
 Updated icons :
-- Objective C files
+- The Objective-c icon is now looking like '[C]'
 
 Converted to SVG :
-- NodeJS files and folders
-- Typescript files and folders
-- Git files and folders
-- Javascript files
-- HXML files
 - C/C++ files
-- Objective C files
-- README files
+- Git files and folders
+- HXML files
 - Image files
+- Javascript files
+- NodeJS files and folders
+- Objective-c files
+- README files
 - Source folders
+- Typescript files and folders
 
 ## 0.7.3
 
@@ -110,8 +128,8 @@ Added icons :
 - .npmignore files
 
 Converted to SVG :
-- Ruby files
 - Assembly files
+- Ruby files
 - Shell files
 - Text files
 - Travis files
@@ -123,14 +141,14 @@ Fix text files not having any icon
 
 Converted to SVG :
 - Build files and folders
-- React files
-- Lua files
-- Haxe files
 - C# files
-- F# files
-- VSCode files and folders
-- Visual Studio solution files
 - Database files
+- F# files
+- Haxe files
+- Lua files
+- React files
+- Visual Studio solution files
+- VSCode files and folders
 
 ## 0.7.1
 
@@ -164,11 +182,11 @@ Added icons for the following languages :
 - TOML
 
 Other added icons :
-- Webpack files
 - Adobe suite files
+- Archive icon variations : Deb, RPM and VSIX
 - Archlinux PKGBUILD files
 - Lock files
-- Deb, RPM and VSIX variations of the archive icon
+- Webpack files
 
 Other changes :
 - Cakefiles and rakefiles now use the build icon
@@ -176,8 +194,8 @@ Other changes :
 ## 0.5.0
 
 Added icons for the following languages :
-- YAML
 - VueJS
+- YAML
 
 Other added icons :
 - Paket folders
@@ -201,11 +219,11 @@ Added icons for the following languages :
 
 Other added icons :
 - \_\_pycache__ folders
-- README files
 - Appveyor files
 - Gemfile files
-- React files (both javascript and typescript share the same icon for now)
 - Ionic project files
+- React files (both javascript and typescript share the same icon for now)
+- README files
 - Visual Studio solution files
 
 Updated icons :
@@ -226,14 +244,14 @@ Added icons for the following languages :
 - Actionscript
 
 Other added icons :
-- Test folders
 - Database files
-- Text files
-- Sound files
-- Video files
-- PDF files
 - Microsoft Office files
 - OpenDocument files
+- PDF files
+- Sound files
+- Test folders
+- Text files
+- Video files
 
 Updated icons :
 - All the folders have been redone entirely
@@ -268,8 +286,8 @@ Added icons for the following languages :
 - F#
 
 Other added icons :
-- Travis-ci files
 - CMake files
+- Travis files
 
 Other changes :
 - `.ico` extension added to images
@@ -278,8 +296,8 @@ Other changes :
 
 Added icons :
 - Archives
-- ISO files
 - Image files
+- ISO files
 
 Updated icons :
 - The Eslint icon now actually matches the logo
