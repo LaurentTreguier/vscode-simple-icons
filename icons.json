@@ -78,17 +78,23 @@
         "coffeescript": {
             "iconPath": "./icons/coffeescript.svg"
         },
-        "cpp": {
-            "iconPath": "./icons/cpp.svg"
+        "config": {
+            "iconPath": "./icons/config.svg"
         },
         "console": {
             "iconPath": "./icons/console.svg"
+        },
+        "cpp": {
+            "iconPath": "./icons/cpp.svg"
         },
         "csharp": {
             "iconPath": "./icons/csharp.svg"
         },
         "css": {
             "iconPath": "./icons/css.png"
+        },
+        "csv": {
+            "iconPath": "./icons/csv.svg"
         },
         "d": {
             "iconPath": "./icons/d.svg"
@@ -121,7 +127,7 @@
             "iconPath": "./icons/editorconfig.png"
         },
         "elixir": {
-            "iconPath": "./icons/elixir.png"
+            "iconPath": "./icons/elixir.svg"
         },
         "elm": {
             "iconPath": "./icons/elm.svg"
@@ -133,7 +139,7 @@
             "iconPath": "./icons/eslint.svg"
         },
         "flash": {
-            "iconPath": "./icons/flash.png"
+            "iconPath": "./icons/flash.svg"
         },
         "fsharp": {
             "iconPath": "./icons/fsharp.svg"
@@ -190,13 +196,13 @@
             "iconPath": "./icons/julia.svg"
         },
         "kotlin": {
-            "iconPath": "./icons/kotlin.png"
+            "iconPath": "./icons/kotlin.svg"
         },
         "less": {
             "iconPath": "./icons/less.png"
         },
         "lib": {
-            "iconPath": "./icons/lib.png"
+            "iconPath": "./icons/lib.svg"
         },
         "libreoffice-base": {
             "iconPath": "./icons/libreoffice-base.svg"
@@ -298,7 +304,7 @@
             "iconPath": "./icons/powershell.png"
         },
         "pug": {
-            "iconPath": "./icons/pug.png"
+            "iconPath": "./icons/pug.svg"
         },
         "python": {
             "iconPath": "./icons/python.svg"
@@ -325,7 +331,10 @@
             "iconPath": "./icons/rubygem.svg"
         },
         "rust": {
-            "iconPath": "./icons/rust.png"
+            "iconPath": "./icons/rust.svg"
+        },
+        "rust-lib": {
+            "iconPath": "./icons/rust-lib.svg"
         },
         "sass": {
             "iconPath": "./icons/sass.png"
@@ -510,6 +519,10 @@
         "bmp": "image",
         "bz2": "box",
         "bzip2": "box",
+        "cfg": "config",
+        "conf": "config",
+        "config": "config",
+        "csv": "csv",
         "db": "database",
         "deb": "debian-box",
         "dll": "lib",
@@ -528,6 +541,7 @@
         "fla": "adobe-animate",
         "ico": "image",
         "indd": "adobe-indesign",
+        "ini": "config",
         "iso": "disc",
         "jar": "box",
         "jpeg": "image",
@@ -566,6 +580,7 @@
         "psd": "adobe-photoshop",
         "psmdcp": "nuget",
         "rar": "box",
+        "rlib": "rust-lib",
         "rpm": "rpm-box",
         "sln": "visual-studio",
         "so": "lib",
