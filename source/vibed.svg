@@ -10,17 +10,17 @@
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
             <polygon points="0,0 160,0 160,160" fill="#000"/>
         </mask>
-        <mask id="mask-middle-upper">
+        <mask id="mask-middle-top">
             <rect x="0" y="0" width="320" height="160" fill="#fff"/>
         </mask>
-        <mask id="mask-middle-lower">
+        <mask id="mask-middle-bottom">
             <rect x="0" y="160" width="320" height="160" fill="#fff"/>
         </mask>
     </defs>
     <g fill="#000" mask="url(#mask-hole)">
         <circle cx="160" cy="160" r="160" mask="url(#mask-arrow)"/>
-        <circle cx="160" cy="160" r="90" fill="#ffe4a4" mask="url(#mask-middle-upper)"/>
-        <circle cx="160" cy="160" r="90" fill="#d58f23" mask="url(#mask-middle-lower)"/>
+        <circle cx="160" cy="160" r="90" fill="#ffe4a4" mask="url(#mask-middle-top)"/>
+        <circle cx="160" cy="160" r="90" fill="#d58f23" mask="url(#mask-middle-bottom)"/>
         <polygon points="20,20 120,20 120,120"/>
     </g>
 </svg>

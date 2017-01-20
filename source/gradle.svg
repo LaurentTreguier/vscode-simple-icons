@@ -7,16 +7,16 @@
             <polygon points="100,60 220,60 280,160 220,260 100,260 40,160" fill="#000"/>
             <polyline points="70,0 160,160 320,160" fill="none" stroke="#000" stroke-width="50"/>
         </mask>
-        <mask id="mask-lower">
+        <mask id="mask-bottom">
             <polygon points="0,0 70,0 160,160 320,160 320,320 0,320" fill="#fff"/>
         </mask>
-        <mask id="mask-upper">
+        <mask id="mask-top">
             <polygon points="320,0 70,0 160,160 320,160" fill="#fff"/>
         </mask>
     </defs>
     <g mask="url(#mask-hexagon)">
-        <circle cx="160" cy="160" r="160" fill="#83b716" mask="url(#mask-lower)"/>
-        <circle cx="160" cy="160" r="160" fill="#006633" mask="url(#mask-upper)"/>
+        <circle cx="160" cy="160" r="160" fill="#83b716" mask="url(#mask-bottom)"/>
+        <circle cx="160" cy="160" r="160" fill="#006633" mask="url(#mask-top)"/>
     </g>
     <circle cx="160" cy="160" r="60" fill="#006633"/>
 </svg>
