@@ -5,10 +5,10 @@
         <circle cx="160" cy="160" r="120"/>
         <rect x="120" y="0" width="80" height="80"/>
         <rect x="120" y="0" width="80" height="80" transform="rotate(60 160 160)"/>
-        <rect x="120" y="0" width="80" height="80" transform="rotate(-60 160 160)"/>
-        <rect x="120" y="240" width="80" height="80"/>
-        <rect x="120" y="240" width="80" height="80" transform="rotate(60 160 160)"/>
-        <rect x="120" y="240" width="80" height="80" transform="rotate(-60 160 160)"/>
+        <rect x="120" y="0" width="80" height="80" transform="rotate(120 160 160)"/>
+        <rect x="120" y="0" width="80" height="80" transform="rotate(180 160 160)"/>
+        <rect x="120" y="0" width="80" height="80" transform="rotate(240 160 160)"/>
+        <rect x="120" y="0" width="80" height="80" transform="rotate(300 160 160)"/>
     </g>
     <g fill="#fff" transform="translate(40 40) scale(0.75)">
         <text x="10" y="245" font-family="Tahoma" font-size="220" font-weight="bold" transform="scale(1.35, 1)">D</text>
