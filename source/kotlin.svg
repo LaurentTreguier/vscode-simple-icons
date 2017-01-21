@@ -2,15 +2,15 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
     <defs>
-        <linearGradient id="gradient-bottom" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(45 -0.1 0)">
+        <linearGradient id="gradient-bottom" x1="0" y1="0" x2="0" y2="1" gradientTransform="rotate(45 -0.1 0)">
             <stop offset="0%" stop-color="#7f6fdf"/>
             <stop offset="100%" stop-color="#009fdf"/>
         </linearGradient>
-        <linearGradient id="gradient-middle" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(45 0.5 0)">
+        <linearGradient id="gradient-middle" x1="0" y1="0" x2="0" y2="1" gradientTransform="rotate(45 0.5 0)">
             <stop offset="0%" stop-color="#ff8f1f"/>
             <stop offset="100%" stop-color="#bf5fbf"/>
         </linearGradient>
-        <linearGradient id="gradient-top" x1="0" x2="0" y1="0" y2="1" gradientTransform="rotate(45 0.65 0)">
+        <linearGradient id="gradient-top" x1="0" y1="0" x2="0" y2="1" gradientTransform="rotate(45 0.65 0)">
             <stop offset="0%" stop-color="#7f6fdf"/>
             <stop offset="100%" stop-color="#009fdf"/>
         </linearGradient>

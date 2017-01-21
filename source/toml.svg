@@ -4,9 +4,9 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <g stroke="#000" stroke-width="40">
-                <line x1="80" y1="140" x2="240" y2="140"/>
-                <line x1="160" y1="160" x2="160" y2="300"/>
+            <g fill="none" stroke="#000" stroke-width="20" stroke-linecap="square">
+                <polyline points="130,150 90,150 90,270 130,270"/>
+                <polyline points="190,150 230,150 230,270 190,270"/>
             </g>
         </mask>
     </defs>

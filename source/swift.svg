@@ -13,7 +13,7 @@
                 <path d="M 180,220 Q 100,160 30,60 L 155,155 Q 120,120 70,50 Q 150,120 230,170"/>
             </g>
         </mask>
-        <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+        <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="#ff9f1f"/>
             <stop offset="100%" stop-color="#ff3f1f"/>
         </linearGradient>
