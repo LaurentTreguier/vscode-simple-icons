@@ -12,10 +12,8 @@
     </defs>
     <rect x="40" y="60" width="280" height="200" fill="#1188d6"/>
     <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#1188d6" stroke-width="20"/>
-    <g transform="translate(40 60) scale(0.5) translate(120 40)">
-        <g fill="#fff">
-            <circle cx="30" cy="30" r="30"/>
-            <rect x="60" y="60" width="260" height="260" rx="80" ry="80" mask="url(#mask)"/>
-        </g>
+    <g fill="#fff" transform="translate(40 60) scale(0.5) translate(120 40)">
+        <circle cx="30" cy="30" r="30"/>
+        <rect x="60" y="60" width="260" height="260" rx="80" ry="80" mask="url(#mask)"/>
     </g>
 </svg>

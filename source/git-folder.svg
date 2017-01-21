@@ -13,7 +13,5 @@
     </defs>
     <rect x="40" y="60" width="280" height="200" fill="#f05133"/>
     <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#f05133" stroke-width="20"/>
-    <g transform="translate(40 60) scale(0.5) translate(120 40)">
-        <polygon points="160,20 300,160 160,300 20,160" fill="#fff" stroke="#fff" stroke-width="40" stroke-linejoin="round" mask="url(#mask)"/>
-    </g>
+    <polygon points="160,20 300,160 160,300 20,160" fill="#fff" stroke="#fff" stroke-width="40" stroke-linejoin="round" transform="translate(40 60) scale(0.5) translate(120 40)" mask="url(#mask)"/>
 </svg>
