@@ -91,7 +91,7 @@
             "iconPath": "./icons/csharp.svg"
         },
         "css": {
-            "iconPath": "./icons/css.png"
+            "iconPath": "./icons/css.svg"
         },
         "csv": {
             "iconPath": "./icons/csv.svg"
@@ -121,7 +121,7 @@
             "iconPath": "./icons/disc.svg"
         },
         "docker": {
-            "iconPath": "./icons/docker.png"
+            "iconPath": "./icons/docker.svg"
         },
         "editorconfig": {
             "iconPath": "./icons/editorconfig.png"
@@ -172,7 +172,7 @@
             "iconPath": "./icons/haxe.svg"
         },
         "html": {
-            "iconPath": "./icons/html.png"
+            "iconPath": "./icons/html.svg"
         },
         "hxml": {
             "iconPath": "./icons/hxml.svg"
@@ -286,13 +286,13 @@
             "iconPath": "./icons/ocaml.png"
         },
         "paket": {
-            "iconPath": "./icons/paket.png"
+            "iconPath": "./icons/paket.svg"
         },
         "paket-folder": {
-            "iconPath": "./icons/paket-folder.png"
+            "iconPath": "./icons/paket-folder.svg"
         },
         "paket-folder-expanded": {
-            "iconPath": "./icons/paket-folder-expanded.png"
+            "iconPath": "./icons/paket-folder-expanded.svg"
         },
         "pdf": {
             "iconPath": "./icons/pdf.png"
@@ -301,7 +301,7 @@
             "iconPath": "./icons/php.svg"
         },
         "powershell": {
-            "iconPath": "./icons/powershell.png"
+            "iconPath": "./icons/powershell.svg"
         },
         "pug": {
             "iconPath": "./icons/pug.svg"
@@ -340,7 +340,7 @@
             "iconPath": "./icons/sass.png"
         },
         "scala": {
-            "iconPath": "./icons/scala.png"
+            "iconPath": "./icons/scala.svg"
         },
         "scheme": {
             "iconPath": "./icons/scheme.png"
@@ -361,10 +361,10 @@
             "iconPath": "./icons/swift.svg"
         },
         "test-folder": {
-            "iconPath": "./icons/test-folder.png"
+            "iconPath": "./icons/test-folder.svg"
         },
         "test-folder-expanded": {
-            "iconPath": "./icons/test-folder-expanded.png"
+            "iconPath": "./icons/test-folder-expanded.svg"
         },
         "text": {
             "iconPath": "./icons/text.svg"
