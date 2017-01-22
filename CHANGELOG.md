@@ -1,5 +1,22 @@
 # Changelog
 
+# 0.8.1
+
+Updated icons :
+- The TOML icon now shows brackets instead of a 'T'
+
+Converted to SVG :
+- CSS files
+- Clojure files
+- Dockerfiles
+- HTML files
+- Paket files and folders
+- PDF files
+- Powershell files
+- Scala files
+- Test folders
+- Webpack files
+
 # 0.8.0
 
 Added icons :
