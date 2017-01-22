@@ -73,7 +73,7 @@
             "iconPath": "./icons/cmake.svg"
         },
         "clojure": {
-            "iconPath": "./icons/clojure.png"
+            "iconPath": "./icons/clojure.svg"
         },
         "coffeescript": {
             "iconPath": "./icons/coffeescript.svg"
@@ -295,7 +295,7 @@
             "iconPath": "./icons/paket-folder-expanded.svg"
         },
         "pdf": {
-            "iconPath": "./icons/pdf.png"
+            "iconPath": "./icons/pdf.svg"
         },
         "php": {
             "iconPath": "./icons/php.svg"
@@ -418,7 +418,7 @@
             "iconPath": "./icons/vue.svg"
         },
         "webpack": {
-            "iconPath": "./icons/webpack.png"
+            "iconPath": "./icons/webpack.svg"
         },
         "xml": {
             "iconPath": "./icons/xml.svg"

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <circle id="circle" cx="160" cy="160" r="90"/>
+        <path id="path" d="M 0,100 Q 80,0 160,160 240,320 320,220 L 480,220 480,-480 -480,-480 -480,100"/>
+        <clipPath id="clip-blue">
+            <use xlink:href="#path"/>
+        </clipPath>
+        <mask id="mask-main">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g fill="none" stroke="#000" stroke-width="20">
+                <use xlink:href="#circle"/>
+                <use xlink:href="#path"/>
+                <path d="M 160,150 Q 120,220 120,240"/>
+            </g>
+        </mask>
+        <mask id="mask-green">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#path" fill="#000"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask-main)">
+        <g mask="url(#mask-green)">
+            <circle cx="160" cy="160" r="160" fill="#63b132"/>
+            <use xlink:href="#circle" fill="#91dc47"/>
+        </g>
+        <g clip-path="url(#clip-blue)">
+            <circle cx="160" cy="160" r="160" fill="#5881d8"/>
+            <use xlink:href="#circle" fill="#90b4fe"/>
+        </g>
+    </g>
+</svg>
