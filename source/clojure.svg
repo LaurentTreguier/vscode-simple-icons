@@ -4,7 +4,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
     <defs>
         <circle id="circle" cx="160" cy="160" r="90"/>
-        <path id="path" d="M 0,100 Q 80,0 160,160 240,320 320,220 L 480,220 480,-480 -480,-480 -480,100"/>
+        <path id="path" d="M 0,100 Q 80,0 160,160 Q 240,320 320,220 L 480,220 L 480,-480 L -480,-480 L -480,100"/>
         <clipPath id="clip-blue">
             <use xlink:href="#path"/>
         </clipPath>

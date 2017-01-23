@@ -6,5 +6,5 @@
     <polygon points="140,0 180,0 200,60 120,60" fill="#7f7f7f"/>
     <polygon points="150,0 170,0 180,60 140,60" fill="#3f3f3f"/>
     <polygon points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60" fill="#bfbfbf"/>
-    <path d="M 160,300 Q 80,280 80,180 80,100 160,100 240,100 240,160 240,220 180,220 140,220 140,180 140,140 170,140" fill="none" stroke="#d70751" stroke-width="15" stroke-linecap="round"/>
+    <path d="M 160,300 Q 80,280 80,180 Q 80,100 160,100 Q 240,100 240,160 Q 240,220 180,220 Q 140,220 140,180 Q 140,140 170,140" fill="none" stroke="#d70751" stroke-width="15" stroke-linecap="round"/>
 </svg>
