@@ -159,6 +159,9 @@
         "gradle": {
             "iconPath": "./icons/gradle.svg"
         },
+        "groovy": {
+            "iconPath": "./icons/groovy.svg"
+        },
         "grunt": {
             "iconPath": "./icons/grunt.png"
         },
@@ -315,6 +318,9 @@
         "python-folder-expanded": {
             "iconPath": "./icons/python-folder-expanded.svg"
         },
+        "r": {
+            "iconPath": "./icons/r.svg"
+        },
         "react": {
             "iconPath": "./icons/react.svg"
         },
@@ -326,6 +332,9 @@
         },
         "ruby": {
             "iconPath": "./icons/ruby.svg"
+        },
+        "ruby-build": {
+            "iconPath": "./icons/ruby-build.svg"
         },
         "rubygem": {
             "iconPath": "./icons/rubygem.svg"
@@ -503,7 +512,7 @@
         "paket.references": "paket",
         "paket.template": "paket",
         "pkgbuild": "archlinux",
-        "rakefile": "build",
+        "rakefile": "ruby-build",
         "readme": "readme",
         "webpack": "webpack"
     },
@@ -616,6 +625,7 @@
         "erlang": "erlang",
         "fsharp": "fsharp",
         "go": "go",
+        "groovy": "groovy",
         "haskell": "haskell",
         "haxe": "haxe",
         "html": "html",
@@ -638,6 +648,7 @@
         "plqsl": "database",
         "powershell": "powershell",
         "python": "python",
+        "r": "r",
         "ruby": "ruby",
         "rust": "rust",
         "sass": "sass",
