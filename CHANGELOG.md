@@ -1,5 +1,28 @@
 # Changelog
 
+# 0.9.0
+
+Added icons for the following languages :
+- Apex
+- Groovy
+- R
+
+Other added icons :
+- Angular files
+- Karma config files
+- Protractor config files
+- Rakefiles
+
+Updated icons :
+- The powershell icon has white strokes again instead of transparent ones
+- The HXML icon's strokes were reduced in size a bit
+- The XML icon's strokes were reduced in size a bit
+- The test folder icon's color is now a bit lighter
+
+Converted to SVG :
+- Scheme files
+- Sass files
+
 # 0.8.1
 
 Updated icons :
