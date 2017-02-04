@@ -36,8 +36,29 @@
         "adobe-premiere-pro": {
             "iconPath": "./icons/adobe-premiere-pro.svg"
         },
+        "angular": {
+            "iconPath": "./icons/angular.svg"
+        },
+        "angular-css": {
+            "iconPath": "./icons/angular-css.svg"
+        },
+        "angular-html": {
+            "iconPath": "./icons/angular-html.svg"
+        },
+        "angular-module": {
+            "iconPath": "./icons/angular-module.svg"
+        },
+        "angular-spec": {
+            "iconPath": "./icons/angular-spec.svg"
+        },
+        "angular-typescript": {
+            "iconPath": "./icons/angular-typescript.svg"
+        },
         "apache": {
             "iconPath": "./icons/apache.png"
+        },
+        "apex": {
+            "iconPath": "./icons/apex.svg"
         },
         "appveyor": {
             "iconPath": "./icons/appveyor.svg"
@@ -198,6 +219,9 @@
         "julia": {
             "iconPath": "./icons/julia.svg"
         },
+        "karma": {
+            "iconPath": "./icons/karma.svg"
+        },
         "kotlin": {
             "iconPath": "./icons/kotlin.svg"
         },
@@ -305,6 +329,9 @@
         },
         "powershell": {
             "iconPath": "./icons/powershell.svg"
+        },
+        "protractor": {
+            "iconPath": "./icons/protractor.svg"
         },
         "pug": {
             "iconPath": "./icons/pug.svg"
@@ -487,6 +514,7 @@
         ".npmignore": "npm",
         ".travis.yml": "travis",
         ".vscodeignore": "vscode",
+        "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
         "cakefile": "build",
@@ -501,6 +529,7 @@
         "gulpfile.js": "gulp",
         "ionic.project": "ionic",
         "ionic.config.json": "ionic",
+        "karma.conf.js": "karma",
         "licence": "licence",
         "license": "licence",
         "makefile": "build",
@@ -512,6 +541,7 @@
         "paket.references": "paket",
         "paket.template": "paket",
         "pkgbuild": "archlinux",
+        "protractor.conf.js": "protractor",
         "rakefile": "ruby-build",
         "readme": "readme",
         "webpack": "webpack"
@@ -529,6 +559,11 @@
         "bz2": "box",
         "bzip2": "box",
         "cfg": "config",
+        "component.css": "angular-css",
+        "component.html": "angular-html",
+        "component.spec.ts": "angular-spec",
+        "component.ts": "angular-typescript",
+        "module.ts": "angular-module",
         "conf": "config",
         "config": "config",
         "csv": "csv",
@@ -608,6 +643,7 @@
         "zip": "box"
     },
     "languageIds": {
+        "apex": "apex",
         "asm": "binary",
         "bat": "console",
         "c": "cpp",
@@ -644,6 +680,8 @@
         "java": "java",
         "json": "json",
         "julia": "julia",
+        "perl": "perl6",
+        "perl6": "perl6",
         "php": "php",
         "plqsl": "database",
         "powershell": "powershell",
