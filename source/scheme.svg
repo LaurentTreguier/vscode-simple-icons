@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <clipPath id="clip">
+            <circle cx="160" cy="160" r="160"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip)">
+        <rect x="0" y="0" width="320" height="320" fill="#0000df"/>
+        <g stroke="#fff" stroke-width="40">
+            <path id="path" d="M -20,-320 L 380,640 L -480,480 V -480" fill="#df0000"/>
+            <line x1="60" y1="320" x2="160" y2="120"/>
+        </g>
+    </g>
+</svg>

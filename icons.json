@@ -373,13 +373,13 @@
             "iconPath": "./icons/rust-lib.svg"
         },
         "sass": {
-            "iconPath": "./icons/sass.png"
+            "iconPath": "./icons/sass.svg"
         },
         "scala": {
             "iconPath": "./icons/scala.svg"
         },
         "scheme": {
-            "iconPath": "./icons/scheme.png"
+            "iconPath": "./icons/scheme.svg"
         },
         "sdl": {
             "iconPath": "./icons/sdl.svg"
