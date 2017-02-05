@@ -417,11 +417,17 @@
         "typescript": {
             "iconPath": "./icons/typescript.svg"
         },
+        "typescript-config": {
+            "iconPath": "./icons/typescript-config.svg"
+        },
         "typescript-folder": {
             "iconPath": "./icons/typescript-folder.svg"
         },
         "typescript-folder-expanded": {
             "iconPath": "./icons/typescript-folder-expanded.svg"
+        },
+        "typescript-lint": {
+            "iconPath": "./icons/typescript-lint.svg"
         },
         "vala": {
             "iconPath": "./icons/gnome.png"
@@ -502,7 +508,6 @@
     },
     "fileNames": {
         ".bowerrc": "bower",
-        ".dockerignore": "docker",
         ".editorconfig": "editorconfig",
         ".eslintrc": "eslint",
         ".eslintrc.js": "eslint",
@@ -519,14 +524,15 @@
         "appveyor.yml": "appveyor",
         "cakefile": "build",
         "cmakecache.txt": "cmake",
-        "dockerfile": "docker",
         "dub.json": "d-build",
         "dub.sdl": "d-build",
         "gemfile": "rubygem",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
+        "gruntfile.ts": "grunt",
         "gulpfile.coffee": "gulp",
         "gulpfile.js": "gulp",
+        "gulpfile.ts": "gulp",
         "ionic.project": "ionic",
         "ionic.config.json": "ionic",
         "karma.conf.js": "karma",
@@ -550,6 +556,8 @@
         "readme": "readme",
         "readme.md": "readme",
         "readme.txt": "readme",
+        "tsconfig.json": "typescript-config",
+        "tslint.json": "typescript-lint",
         "webpack.config.babel.js": "webpack",
         "webpack.config.base.babel.js": "webpack",
         "webpack.config.coffee": "webpack",
@@ -647,6 +655,8 @@
         "rar": "box",
         "rlib": "rust-lib",
         "rpm": "rpm-box",
+        "service.spec.ts": "angular-spec",
+        "service.ts": "angular-typescript",
         "sln": "visual-studio",
         "so": "lib",
         "svg": "image",
@@ -675,8 +685,9 @@
         "csharp": "csharp",
         "css": "css",
         "d": "d",
-        "diet": "vibed",
         "dart": "dart",
+        "diet": "vibed",
+        "dockerfile": "docker",
         "elixir": "elixir",
         "elm": "elm",
         "erlang": "erlang",
