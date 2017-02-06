@@ -509,6 +509,7 @@
         ".eslintrc.json": "eslint",
         ".eslintrc.yaml": "eslint",
         ".eslintrc.yml": "eslint",
+        ".eslintignore": "eslint",
         ".gitignore": "git",
         ".htaccess": "apache",
         ".npmignore": "npm",
