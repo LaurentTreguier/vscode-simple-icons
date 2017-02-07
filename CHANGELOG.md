@@ -1,5 +1,23 @@
 # Changelog
 
+# 0.10.0
+
+Added icons for the following languages :
+- Perl
+
+Other added icons :
+- Archlinux packages
+- Nuget packages
+- Typescript config files
+- Typescript lint files
+
+Updated icons :
+- Config files
+
+Other changes :
+- `.nimble` files now have the Nim icon
+- `.eslintignore` files new have the Eslint icon thanks to [sjml](https://github.com/sjml) ([#6](https://github.com/LaurentTreguier/vscode-simple-icons/pull/6))
+
 # 0.9.0
 
 Added icons for the following languages :
@@ -64,7 +82,7 @@ Converted to SVG :
 Updated icons :
 - The licence icon was completely redone
 - The Nim icon is now gold and grey to easily see it regardless of VSCode's theme
-- The PHP icon is now simply 'PHP' in a circle
+- The PHP icon is now simply 'PHP' in a circle (issue [#5](https://github.com/LaurentTreguier/vscode-simple-icons/issues/5) raised by [Sokol-ua](https://github.com/Sokol-ua))
 
 Converted to SVG :
 - CMake files
@@ -80,8 +98,7 @@ Converted to SVG :
 
 Updated icons :
 - The Coffeescript icon is not the official logo anymore for the sake of simplicity
-- The Lua icon color was toned down a bit
-- The PHP icon is now simply 'PHP' in a circle
+- The Lua icon color was toned down a bit (issue [#4](https://github.com/LaurentTreguier/vscode-simple-icons/issues/4) raised by [sjml]https://github.com/sjml)
 - The Swift icon is now the bird alone and not in a rectangle
 
 Converted to SVG :
@@ -294,7 +311,7 @@ Other added icons :
 - Video files
 
 Updated icons :
-- All the folders have been redone entirely
+- All the folders have been redone entirely (issue [#2](https://github.com/LaurentTreguier/vscode-simple-icons/issues/2) raised by [jakinov](https://github.com/jakinov))
 - The basic file icon is now filled instead of outlined
 - The VSCode icon is now cleaner, without any white part remaining
 - The XML icon is now based on the basic file icon
@@ -343,7 +360,7 @@ Updated icons :
 - The Eslint icon now actually matches the logo
 
 Other changes :
-Eslint extensions added (thanks to RH Becker)
+Eslint extensions added thanks to [rhbecker](https://github.com/rhbecker) ([#1](https://github.com/LaurentTreguier/vscode-simple-icons/pull/1))
 
 ### 0.1.5
 
