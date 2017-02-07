@@ -90,11 +90,11 @@
         "build-folder-expanded": {
             "iconPath": "./icons/build-folder-expanded.svg"
         },
-        "cmake": {
-            "iconPath": "./icons/cmake.svg"
-        },
         "clojure": {
             "iconPath": "./icons/clojure.svg"
+        },
+        "cmake": {
+            "iconPath": "./icons/cmake.svg"
         },
         "coffeescript": {
             "iconPath": "./icons/coffeescript.svg"
@@ -351,11 +351,11 @@
         "react": {
             "iconPath": "./icons/react.svg"
         },
-        "rpm-box": {
-            "iconPath": "./icons/rpm-box.svg"
-        },
         "readme": {
             "iconPath": "./icons/readme.svg"
+        },
+        "rpm-box": {
+            "iconPath": "./icons/rpm-box.svg"
         },
         "ruby": {
             "iconPath": "./icons/ruby.svg"
@@ -432,14 +432,14 @@
         "vala": {
             "iconPath": "./icons/gnome.png"
         },
-        "visual-basic": {
-            "iconPath": "./icons/visual-basic.svg"
-        },
         "vibed": {
             "iconPath": "./icons/vibed.svg"
         },
         "video": {
             "iconPath": "./icons/video.svg"
+        },
+        "visual-basic": {
+            "iconPath": "./icons/visual-basic.svg"
         },
         "visual-studio": {
             "iconPath": "./icons/visual-studio.svg"
@@ -534,8 +534,8 @@
         "gulpfile.coffee": "gulp",
         "gulpfile.js": "gulp",
         "gulpfile.ts": "gulp",
-        "ionic.project": "ionic",
         "ionic.config.json": "ionic",
+        "ionic.project": "ionic",
         "karma.conf.js": "karma",
         "licence": "licence",
         "licence.md": "licence",
@@ -593,7 +593,6 @@
         "component.html": "angular-html",
         "component.spec.ts": "angular-spec",
         "component.ts": "angular-typescript",
-        "module.ts": "angular-module",
         "conf": "config",
         "config": "config",
         "csv": "csv",
@@ -603,16 +602,16 @@
         "dmg": "disc",
         "doc": "msoffice-word",
         "docx": "msoffice-word",
-        "dwt": "adobe-dreamweaver",
-        "exe": "lib",
-        "flv": "video",
         "dockerfile": "docker",
         "dockerignore": "docker",
+        "dwt": "adobe-dreamweaver",
+        "exe": "lib",
+        "fla": "adobe-animate",
+        "flv": "video",
         "gif": "image",
         "glade": "xml",
         "gradle": "gradle",
         "gz": "box",
-        "fla": "adobe-animate",
         "ico": "image",
         "indd": "adobe-indesign",
         "ini": "config",
@@ -629,6 +628,7 @@
         "mak": "build",
         "mdb": "msoffice-access",
         "mkv": "video",
+        "module.ts": "angular-module",
         "mov": "video",
         "mp3": "sound",
         "mp4": "video",
@@ -700,21 +700,22 @@
         "html": "html",
         "hxml": "hxml",
         "jade": "pug",
+        "java": "java",
+        "javascript": "javascript",
+        "javascriptreact": "react",
+        "json": "json",
+        "julia": "julia",
         "kotlin": "kotlin",
         "less": "less",
         "lisp": "lisp",
         "lua": "lua",
         "markdown": "markdown",
         "nim": "nim",
+        "nimble": "nim",
         "objective-c": "objective-c",
         "ocaml": "ocaml",
-        "javascript": "javascript",
-        "javascriptreact": "react",
-        "java": "java",
-        "json": "json",
-        "julia": "julia",
-        "perl": "perl6",
-        "perl6": "perl6",
+        "perl": "camelia",
+        "perl6": "camelia",
         "php": "php",
         "plqsl": "database",
         "powershell": "powershell",
@@ -730,8 +731,8 @@
         "shellscript": "console",
         "sql": "database",
         "swift": "swift",
-        "twig": "twig",
         "toml": "toml",
+        "twig": "twig",
         "typescript": "typescript",
         "typescriptreact": "react",
         "vala": "vala",
