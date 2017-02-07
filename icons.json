@@ -66,6 +66,9 @@
         "archlinux": {
             "iconPath": "./icons/archlinux.svg"
         },
+        "archlinux-box": {
+            "iconPath": "./icons/archlinux-box.svg"
+        },
         "binary": {
             "iconPath": "./icons/binary.svg"
         },
@@ -89,6 +92,9 @@
         },
         "build-folder-expanded": {
             "iconPath": "./icons/build-folder-expanded.svg"
+        },
+        "camelia": {
+            "iconPath": "./icons/camelia.svg"
         },
         "clojure": {
             "iconPath": "./icons/clojure.svg"
@@ -299,6 +305,9 @@
         },
         "nuget": {
             "iconPath": "./icons/nuget.svg"
+        },
+        "nuget-box": {
+            "iconPath": "./icons/nuget-box.svg"
         },
         "nuget-folder": {
             "iconPath": "./icons/nuget-folder.svg"
@@ -634,7 +643,7 @@
         "mp4": "video",
         "muse": "adobe-muse",
         "ninja": "build",
-        "nupkg": "nuget",
+        "nupkg": "nuget-box",
         "nuspec": "nuget",
         "odb": "libreoffice-base",
         "odf": "libreoffice-math",
@@ -647,6 +656,7 @@
         "pdb": "database",
         "pdf": "pdf",
         "pkg": "box",
+        "pkg.tar.xz": "archlinux-box",
         "png": "image",
         "ppt": "msoffice-powerpoint",
         "pptx": "msoffice-powerpoint",
