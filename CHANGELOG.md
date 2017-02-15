@@ -1,5 +1,17 @@
 # Changelog
 
+# 0.10.1
+
+Added icons for the following languages :
+- Stylus (issue [#7](https://github.com/LaurentTreguier/vscode-simple-icons/issues/7) raised by [yaphtes](https://github.com/yaphtes)
+
+Other added icons :
+- Yarn
+
+Converted to SVG :
+- Apache files
+- Less files
+
 # 0.10.0
 
 Added icons for the following languages :
