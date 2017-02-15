@@ -40,6 +40,6 @@
         "vscode:prepublish": "node ./node_modules/.bin/svgo -f ./source -o ./icons"
     },
     "devDependencies": {
-        "svgo": "^0.7.1"
+        "svgo": "^0.7.2"
     }
 }

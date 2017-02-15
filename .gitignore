@@ -1,4 +1,5 @@
 .vscode/.browse.*
 node_modules
+yarn.lock
 icons/*.svg
 *.xcf
