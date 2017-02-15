@@ -402,6 +402,9 @@
         "source-folder-expanded": {
             "iconPath": "./icons/source-folder-expanded.svg"
         },
+        "stylus": {
+            "iconPath": "./icons/stylus.svg"
+        },
         "swift": {
             "iconPath": "./icons/swift.svg"
         },
@@ -740,6 +743,7 @@
         "sdl": "sdl",
         "shellscript": "console",
         "sql": "database",
+        "stylus": "stylus",
         "swift": "swift",
         "toml": "toml",
         "twig": "twig",
