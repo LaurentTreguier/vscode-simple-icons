@@ -55,7 +55,7 @@
             "iconPath": "./icons/angular-typescript.svg"
         },
         "apache": {
-            "iconPath": "./icons/apache.png"
+            "iconPath": "./icons/apache.svg"
         },
         "apex": {
             "iconPath": "./icons/apex.svg"
@@ -232,7 +232,7 @@
             "iconPath": "./icons/kotlin.svg"
         },
         "less": {
-            "iconPath": "./icons/less.png"
+            "iconPath": "./icons/less.svg"
         },
         "lib": {
             "iconPath": "./icons/lib.svg"
@@ -479,6 +479,9 @@
         },
         "yaml": {
             "iconPath": "./icons/yaml.svg"
+        },
+        "yarn": {
+            "iconPath": "./icons/yarn.svg"
         }
     },
     "folder": "folder",
@@ -586,7 +589,8 @@
         "webpack.config.staging.babel.js": "webpack",
         "webpack.config.staging.js": "webpack",
         "webpack.config.test.js": "webpack",
-        "webpack.config.ts": "webpack"
+        "webpack.config.ts": "webpack",
+        "yarn.lock": "yarn"
     },
     "fileExtensions": {
         "7z": "box",
