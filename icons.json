@@ -207,8 +207,8 @@
         "html": {
             "iconPath": "./icons/html.svg"
         },
-        "hxml": {
-            "iconPath": "./icons/hxml.svg"
+        "haxe-hxml": {
+            "iconPath": "./icons/haxe-hxml.svg"
         },
         "image": {
             "iconPath": "./icons/image.svg"
@@ -721,7 +721,7 @@
         "haskell": "haskell",
         "haxe": "haxe",
         "html": "html",
-        "hxml": "hxml",
+        "hxml": "haxe-hxml",
         "jade": "pug",
         "java": "java",
         "javascript": "javascript",
