@@ -180,6 +180,9 @@
         "git-folder-expanded": {
             "iconPath": "./icons/git-folder-expanded.svg"
         },
+        "gnome": {
+            "iconPath": "./icons/gnome.png"
+        },
         "go": {
             "iconPath": "./icons/go.svg"
         },
@@ -372,6 +375,9 @@
         "ruby-build": {
             "iconPath": "./icons/ruby-build.svg"
         },
+        "ruby-embedded": {
+            "iconPath": "./icons/ruby-embedded.svg"
+        },
         "rubygem": {
             "iconPath": "./icons/rubygem.svg"
         },
@@ -441,8 +447,8 @@
         "typescript-lint": {
             "iconPath": "./icons/typescript-lint.svg"
         },
-        "vala": {
-            "iconPath": "./icons/gnome.png"
+        "unity": {
+            "iconPath": "./icons/unity.svg"
         },
         "vibed": {
             "iconPath": "./icons/vibed.svg"
@@ -558,7 +564,6 @@
         "license": "licence",
         "license.md": "licence",
         "license.txt": "licence",
-        "makefile": "build",
         "meson.build": "meson",
         "package.json": "nodejs",
         "paket.dependencies": "paket",
@@ -708,6 +713,7 @@
         "dockerfile": "docker",
         "elixir": "elixir",
         "elm": "elm",
+        "erb": "ruby-embedded",
         "erlang": "erlang",
         "fsharp": "fsharp",
         "go": "go",
@@ -726,6 +732,7 @@
         "less": "less",
         "lisp": "lisp",
         "lua": "lua",
+        "makefile": "build",
         "markdown": "markdown",
         "nim": "nim",
         "nimble": "nim",
@@ -745,6 +752,7 @@
         "scss": "sass",
         "scheme": "scheme",
         "sdl": "sdl",
+        "shaderlab": "unity",
         "shellscript": "console",
         "sql": "database",
         "stylus": "stylus",
@@ -753,7 +761,7 @@
         "twig": "twig",
         "typescript": "typescript",
         "typescriptreact": "react",
-        "vala": "vala",
+        "vala": "gnome",
         "vb": "visual-basic",
         "vue": "vue",
         "xml": "xml",
