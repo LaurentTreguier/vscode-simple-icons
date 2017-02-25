@@ -14,9 +14,11 @@
             <polygon points="320,0 70,0 160,160 320,160" fill="#fff"/>
         </mask>
     </defs>
-    <g mask="url(#mask-hexagon)">
-        <circle cx="160" cy="160" r="160" fill="#83b716" mask="url(#mask-bottom)"/>
-        <circle cx="160" cy="160" r="160" fill="#006633" mask="url(#mask-top)"/>
+    <g fill="#063">
+        <g mask="url(#mask-hexagon)">
+            <circle cx="160" cy="160" r="160" fill="#83b716" mask="url(#mask-bottom)"/>
+            <circle cx="160" cy="160" r="160" mask="url(#mask-top)"/>
+        </g>
+        <circle cx="160" cy="160" r="60"/>
     </g>
-    <circle cx="160" cy="160" r="60" fill="#006633"/>
 </svg>

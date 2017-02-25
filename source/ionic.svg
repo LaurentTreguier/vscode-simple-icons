@@ -7,5 +7,5 @@
             <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 160 160" to="360 160 160" dur="180s" repeatCount="indefinite"/>
         </circle>
     </g>
-    <circle cx="160" cy="160" r="140" fill="none" stroke="#4e8ef7" stroke-width="10" id="animation-path"/>
+    <circle cx="160" cy="160" r="140" fill="none" stroke="#4e8ef7" stroke-width="10"/>
 </svg>

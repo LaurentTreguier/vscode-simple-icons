@@ -6,7 +6,7 @@
         <polygon id="part" points="190,160 282,0 310,120 287,160 310,200 282,320" mask="url(#mask)"/>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <polygon points="210,160 260,70 280,160 260,250" fill="#000"/>
+            <polygon points="210,160 260,73 280,160 260,247" fill="#000"/>
         </mask>
     </defs>
     <use xlink:href="#part" fill="#6f7f8f"/>

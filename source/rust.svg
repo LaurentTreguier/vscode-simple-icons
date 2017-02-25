@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
-    <text x="60" y="230" font-family="Courier New" font-size="220" font-weight="bold"  fill="#6f4f4f" transform="scale(1.25 1)">R</text>
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <polygon id="triangle" points="160,0 190,50 130,50"/>
+    </defs>
+    <text x="60" y="230" font-family="Courier New" font-size="220" font-weight="bold" fill="#6f4f4f" transform="scale(1.25 1)">R</text>
     <circle cx="160" cy="160" r="110" fill="none" stroke="#7f4f3f" stroke-width="30"/>
     <g fill="#7f4f3f">
-        <polygon points="160,0 190,50 130,50"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(30 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(60 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(90 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(120 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(150 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(180 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(210 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(240 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(270 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(300 160 160)"/>
-        <polygon points="160,0 190,50 130,50" transform="rotate(330 160 160)"/>
+        <use xlink:href="#triangle"/>
+        <use xlink:href="#triangle" transform="rotate(30 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(60 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(90 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(120 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(150 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(180 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(210 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(240 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(270 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(300 160 160)"/>
+        <use xlink:href="#triangle" transform="rotate(330 160 160)"/>
     </g>
 </svg>

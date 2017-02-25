@@ -3,15 +3,15 @@
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
     <defs>
-        <polygon id="triangle" points="0,300 320,300 80,208"/>
+        <polygon id="triangle" points="0,300 320,300 80,207.5"/>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
             <use fill="#000" xlink:href="#triangle"/>
         </mask>
     </defs>
     <use xlink:href="#triangle" fill="#1fdf1f"/>
-    <use xlink:href="#triangle" fill="#1f1fdf" transform="rotate(120 160 208)"/>
+    <use xlink:href="#triangle" fill="#1f1fdf" transform="rotate(120 160 207.5)"/>
     <g mask="url(#mask)">
-        <use xlink:href="#triangle" fill="#df1f1f" transform="rotate(-120 160 208)"/>
+        <use xlink:href="#triangle" fill="#df1f1f" transform="rotate(-120 160 207.5)"/>
     </g>
 </svg>

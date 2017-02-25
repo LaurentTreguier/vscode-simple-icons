@@ -16,7 +16,5 @@
     <polygon points="140,0 180,0 200,60 120,60" fill="#7f7f7f"/>
     <polygon points="150,0 170,0 180,60 140,60" fill="#3f3f3f"/>
     <polygon points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60" fill="#bfbfbf"/>
-    <g transform="translate(64 94) scale(0.6)">
-        <path d="M 160,0 Q 100,160 0,320 Q 160,200 320,320 Q 220,160 160,0" fill="#1793d1" mask="url(#mask)"/>
-    </g>
+    <path d="M 160,0 Q 100,160 0,320 Q 160,200 320,320 Q 220,160 160,0" fill="#1793d1" mask="url(#mask)" transform="translate(64 94) scale(0.6)"/>
 </svg>

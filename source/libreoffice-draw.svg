@@ -3,9 +3,9 @@
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
     <polygon points="50,10 150,10 270,130 270,310 50,310" fill="#fff" stroke="#c29600" stroke-width="20"/>
     <g fill="#c29600" stroke="#fff" stroke-width="20">
-        <polygon points="200,0 280,0 280,80" stroke="none"/>
         <circle cx="130" cy="150" r="60"/>
         <polyline points="240,130 150,130 150,230 240,230"/>
         <polygon points="150,170 220,270 80,270"/>
+        <polygon points="200,0 280,0 280,80" stroke="none"/>
     </g>
 </svg>

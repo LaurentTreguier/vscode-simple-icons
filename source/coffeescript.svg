@@ -11,8 +11,6 @@
         <rect x="60" y="40" width="260" height="160"/>
         <rect x="60" y="120" width="260" height="160" rx="80" ry="80"/>
     </g>
-    <g stroke="#3f4f7f">
-        <polyline points="60,75 15,75 15,185 60,185" fill="none" stroke-width="30" stroke-linejoin="round"/>
-    </g>
+    <polyline points="60,75 15,75 15,185 60,185" fill="none" stroke="#3f4f7f" stroke-width="30" stroke-linejoin="round"/>
     <ellipse cx="190" cy="160" rx="60" ry="80" fill="#fff" mask="url(#mask)"/>
 </svg>

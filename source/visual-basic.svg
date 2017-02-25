@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
-    <polygon points="60,80 100,80 260,200 260,240 220,240 60,120" fill="#ff0"/>
-    <polygon points="260,80 260,120 100,240 60,240 60,200 220,80" fill="#ff3f3f"/>
-    <g fill="#7fff00">
-        <polygon points="0,140 60,80 60,120 0,180"/>
-        <polygon points="320,180 260,240 260,200 320,140"/>
-    </g>
     <g fill="#007fff">
-        <polygon points="0,180 20,160 60,200 60,240"/>
-        <polygon points="320,140 300,160 260,120 260,80"/>
+        <polygon points="0,180 0,140 100,240 60,240"/>
+        <polygon points="320,140 320,180 220,80 260,80"/>
     </g>
+    <g fill="#7fff00">
+        <polygon points="0,140 60,80 100,80 0,180"/>
+        <polygon points="320,180 260,240 220,240 320,140"/>
+    </g>
+    <polygon points="260,80 260,120 100,240 60,240 60,200 220,80" fill="#ff3f3f"/>
+    <polygon points="60,80 100,80 260,200 260,240 220,240 60,120" fill="#ff0"/>
 </svg>

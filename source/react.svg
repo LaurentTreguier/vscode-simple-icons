@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <ellipse id="ellipse" cx="160" cy="160" rx="150" ry="60"/>
+    </defs>
     <circle fill="#00d8ff" cx="160" cy="160" r="25"/>
     <g fill="none" stroke="#00d8ff" stroke-width="15">
-        <ellipse cx="160" cy="160" rx="150" ry="60"/>
-        <ellipse cx="160" cy="160" rx="150" ry="60" transform="rotate(60 160 160)"/>
-        <ellipse cx="160" cy="160" rx="150" ry="60" transform="rotate(-60 160 160)"/>
+        <use xlink:href="#ellipse"/>
+        <use xlink:href="#ellipse" transform="rotate(60 160 160)"/>
+        <use xlink:href="#ellipse" transform="rotate(-60 160 160)"/>
     </g>
 </svg>

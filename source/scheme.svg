@@ -8,9 +8,9 @@
         </clipPath>
     </defs>
     <g clip-path="url(#clip)">
-        <rect x="0" y="0" width="320" height="320" fill="#0000df"/>
+        <rect x="0" y="0" width="320" height="320" fill="#0000bf"/>
         <g stroke="#fff" stroke-width="40">
-            <path id="path" d="M -20,-320 L 380,640 L -480,480 V -480" fill="#df0000"/>
+            <path id="path" d="M -20,-320 L 380,640 L -480,480 V -480" fill="#bf0000"/>
             <line x1="60" y1="320" x2="160" y2="120"/>
         </g>
     </g>
