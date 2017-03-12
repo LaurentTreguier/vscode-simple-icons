@@ -360,6 +360,9 @@
         "r": {
             "iconPath": "./icons/r.svg"
         },
+        "razor": {
+            "iconPath": "./icons/razor.svg"
+        },
         "react": {
             "iconPath": "./icons/react.svg"
         },
@@ -616,6 +619,7 @@
         "component.ts": "angular-typescript",
         "conf": "config",
         "config": "config",
+        "cshtml": "razor",
         "csv": "csv",
         "db": "database",
         "deb": "debian-box",
