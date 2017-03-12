@@ -1,12 +1,28 @@
 # Changelog
 
+# 0.11.0
+
+Added icons for the following languages :
+- Erb templates
+- Razor (issue [#9](https://github.com/LaurentTreguier/vscode-simple-icons/issues/9) raised by [JaimeStill](https://github.com/JaimeStill))
+- Sharderlab
+
+Updated icons :
+- The HXML icon's chevrons are now a bit closer
+- The Java icon is now more easily visible
+- The travis icon was simplified
+
+Converted to SVG :
+- Java files
+- Vala files
+
 # 0.10.1
 
 Added icons for the following languages :
-- Stylus (issue [#7](https://github.com/LaurentTreguier/vscode-simple-icons/issues/7) raised by [yaphtes](https://github.com/yaphtes)
+- Stylus (issue [#7](https://github.com/LaurentTreguier/vscode-simple-icons/issues/7) raised by [yaphtes](https://github.com/yaphtes))
 
 Other added icons :
-- Yarn
+- Yarn lock files
 
 Converted to SVG :
 - Apache files
@@ -24,7 +40,7 @@ Other added icons :
 - Typescript lint files
 
 Updated icons :
-- Config files
+- The config icon now use only one color
 
 Other changes :
 - `.nimble` files now have the Nim icon
