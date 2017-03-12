@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <g fill="#046cb7">
+        <rect x="0" y="120" width="240" height="120"/>
+        <rect x="0" y="160" width="240" height="160" rx="80" ry="80"/>
+    </g>
+    <polyline points="240,135 305,135 305,245 220,245" fill="none" stroke="#046cb7" stroke-width="30" stroke-linejoin="round"/>
+    <g stroke="#e41621" stroke-width="20">
+        <line x1="30" y1="0" x2="30" y2="100"/>
+        <line x1="90" y1="0" x2="90" y2="100"/>
+        <line x1="150" y1="0" x2="150" y2="100"/>
+        <line x1="210" y1="0" x2="210" y2="100"/>
+    </g>
+</svg>

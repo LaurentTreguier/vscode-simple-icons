@@ -181,7 +181,7 @@
             "iconPath": "./icons/git-folder-expanded.svg"
         },
         "gnome": {
-            "iconPath": "./icons/gnome.png"
+            "iconPath": "./icons/gnome.svg"
         },
         "go": {
             "iconPath": "./icons/go.svg"
@@ -217,7 +217,7 @@
             "iconPath": "./icons/ionic.svg"
         },
         "java": {
-            "iconPath": "./icons/java.png"
+            "iconPath": "./icons/java.svg"
         },
         "javascript": {
             "iconPath": "./icons/javascript.svg"
