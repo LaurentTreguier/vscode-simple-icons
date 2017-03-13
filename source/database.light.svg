@@ -15,7 +15,7 @@
             <use xlink:href="#ellipse-top" fill="none" stroke="#000" stroke-width="30"/>
         </mask>
     </defs>
-    <g fill="#bfbfbf">
+    <g fill="#3f3f3f">
         <use xlink:href="#ellipse-bottom" mask="url(#mask-middle)"/>
         <use xlink:href="#ellipse-middle" mask="url(#mask-top)"/>
         <use xlink:href="#ellipse-top"/>

@@ -108,6 +108,9 @@
         "config": {
             "iconPath": "./icons/config.svg"
         },
+        "config.light": {
+            "iconPath": "./icons/config.light.svg"
+        },
         "console": {
             "iconPath": "./icons/console.svg"
         },
@@ -143,6 +146,9 @@
         },
         "database": {
             "iconPath": "./icons/database.svg"
+        },
+        "database.light": {
+            "iconPath": "./icons/database.light.svg"
         },
         "debian-box": {
             "iconPath": "./icons/debian-box.svg"
@@ -296,6 +302,9 @@
         },
         "nim": {
             "iconPath": "./icons/nim.svg"
+        },
+        "nim.light": {
+            "iconPath": "./icons/nim.light.svg"
         },
         "nodejs": {
             "iconPath": "./icons/nodejs.svg"
@@ -461,6 +470,9 @@
         },
         "unity": {
             "iconPath": "./icons/unity.svg"
+        },
+        "unity.light": {
+            "iconPath": "./icons/unity.light.svg"
         },
         "vibed": {
             "iconPath": "./icons/vibed.svg"
@@ -781,8 +793,21 @@
         "yaml": "yaml"
     },
     "light": {
+        "fileExtensions": {
+            "cfg": "config.light",
+            "conf": "config.light",
+            "config": "config.light",
+            "db": "database.light",
+            "ini": "config.light",
+            "pdb": "database.light"
+        },
         "languageIds": {
             "bat": "console.light",
+            "nim": "nim.light",
+            "nimble": "nim.light",
+            "plsql": "database.light",
+            "sql": "database.light",
+            "shaderlab": "unity.light",
             "shellscript": "terminal.light"
         }
     }
