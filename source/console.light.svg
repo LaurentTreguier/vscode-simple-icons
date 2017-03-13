@@ -14,5 +14,5 @@
             </g>
         </mask>
     </defs>
-    <rect x="0" y="40" width="320" height="240" fill="#bfbfbf" mask="url(#mask)"/>
+    <rect x="0" y="40" width="320" height="240" fill="#3f3f3f" mask="url(#mask)"/>
 </svg>

@@ -111,6 +111,9 @@
         "console": {
             "iconPath": "./icons/console.svg"
         },
+        "console.light": {
+            "iconPath": "./icons/console.light.svg"
+        },
         "cpp": {
             "iconPath": "./icons/cpp.svg"
         },
@@ -416,6 +419,12 @@
         },
         "swift": {
             "iconPath": "./icons/swift.svg"
+        },
+        "terminal": {
+            "iconPath": "./icons/terminal.svg"
+        },
+        "terminal.light": {
+            "iconPath": "./icons/terminal.light.svg"
         },
         "test-folder": {
             "iconPath": "./icons/test-folder.svg"
@@ -757,7 +766,7 @@
         "scheme": "scheme",
         "sdl": "sdl",
         "shaderlab": "unity",
-        "shellscript": "console",
+        "shellscript": "terminal",
         "sql": "database",
         "stylus": "stylus",
         "swift": "swift",
@@ -770,5 +779,11 @@
         "vue": "vue",
         "xml": "xml",
         "yaml": "yaml"
+    },
+    "light": {
+        "languageIds": {
+            "bat": "console.light",
+            "shellscript": "terminal.light"
+        }
     }
 }
