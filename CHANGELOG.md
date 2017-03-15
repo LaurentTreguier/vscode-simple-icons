@@ -1,5 +1,19 @@
 # Changelog
 
+# 0.11.1
+
+Updated icons :
+- Bat scripts now have their own icon
+- Shell scripts and bat scripts both have a new design to make them more easily distinguishable (issue [#10](https://github.com/LaurentTreguier/vscode-simple-icons/issues/10) raised by [Kaedin](https://github.com/Kaedin))
+
+Updated icons (light theme override) :
+- Bat scripts
+- Config files
+- Database files
+- Nim files
+- Shell scripts
+- Shaderlab files
+
 # 0.11.0
 
 Added icons for the following languages :
