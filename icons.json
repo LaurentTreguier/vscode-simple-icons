@@ -205,7 +205,7 @@
             "iconPath": "./icons/groovy.svg"
         },
         "grunt": {
-            "iconPath": "./icons/grunt.png"
+            "iconPath": "./icons/grunt.svg"
         },
         "gulp": {
             "iconPath": "./icons/gulp.svg"
@@ -457,7 +457,7 @@
             "iconPath": "./icons/travis.svg"
         },
         "twig": {
-            "iconPath": "./icons/twig.png"
+            "iconPath": "./icons/twig.svg"
         },
         "typescript": {
             "iconPath": "./icons/typescript.svg"
