@@ -4,7 +4,9 @@
     <rect x="40" y="60" width="280" height="200" fill="#0271bc"/>
     <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#0271bc" stroke-width="20"/>
     <g transform="translate(40 60) scale(0.5) translate(120 40)" fill="#fff">
+        <polygon points="30,65 0,80 0,240 30,255"/>
+        <polygon points="30,65 320,280 240,320 0,80"/>
+        <polygon points="30,255 320,40 240,0 0,240"/>
         <polygon points="240,0 320,40 320,280 240,320"/>
-        <polygon points="0,80 30,65 240,220 240,320 30,120 30,200 240,0 240,100 30,255 0,240"/>
     </g>
 </svg>
