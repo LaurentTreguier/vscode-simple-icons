@@ -48,6 +48,9 @@
         "angular-module": {
             "iconPath": "./icons/angular-module.svg"
         },
+        "angular-sass": {
+            "iconPath": "./icons/angular-sass.svg"
+        },
         "angular-spec": {
             "iconPath": "./icons/angular-spec.svg"
         },
@@ -639,6 +642,8 @@
         "cfg": "config",
         "component.css": "angular-css",
         "component.html": "angular-html",
+        "component.sass": "angular-sass",
+        "component.scss": "angular-sass",
         "component.spec.ts": "angular-spec",
         "component.ts": "angular-typescript",
         "conf": "config",
