@@ -1,5 +1,16 @@
 # Changelog
 
+# 0.11.2
+
+Added icons :
+- Angular SASS files
+- Javascript spec files
+- Typescript spec files
+
+Converted to SVG :
+- Gruntfiles
+- Twig templates
+
 # 0.11.1
 
 Updated icons :
