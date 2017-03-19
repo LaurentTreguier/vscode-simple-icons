@@ -474,6 +474,9 @@
         "typescript-lint": {
             "iconPath": "./icons/typescript-lint.svg"
         },
+        "typescript-test": {
+            "iconPath": "./icons/typescript-test.svg"
+        },
         "unity": {
             "iconPath": "./icons/unity.svg"
         },
@@ -715,6 +718,7 @@
         "sln": "visual-studio",
         "so": "lib",
         "spec.js": "javascript-test",
+        "spec.ts": "typescript-test",
         "svg": "image",
         "swf": "flash",
         "tar": "box",
