@@ -231,6 +231,9 @@
         "javascript": {
             "iconPath": "./icons/javascript.svg"
         },
+        "javascript-test": {
+            "iconPath": "./icons/javascript-test.svg"
+        },
         "json": {
             "iconPath": "./icons/json.svg"
         },
@@ -706,6 +709,7 @@
         "service.ts": "angular-typescript",
         "sln": "visual-studio",
         "so": "lib",
+        "spec.js": "javascript-test",
         "svg": "image",
         "swf": "flash",
         "tar": "box",
