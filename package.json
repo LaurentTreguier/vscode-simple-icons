@@ -37,7 +37,7 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "node ./node_modules/.bin/svgo -f ./source -o ./icons"
+        "vscode:prepublish": "node ./duplicator.js && node ./node_modules/.bin/svgo -f ./source -o ./icons"
     },
     "devDependencies": {
         "svgo": "^0.7.2"
