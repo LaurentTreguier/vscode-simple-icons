@@ -1,5 +1,17 @@
 # Changelog
 
+# 1.0.0
+
+## All icons are now SVG ! Not a single PNG left 🎉
+
+Added icons :
+- Diff files
+- Nim config files
+
+Converted to SVG :
+- Editorconfig files
+- Ocaml files
+
 # 0.11.2
 
 Added icons :
