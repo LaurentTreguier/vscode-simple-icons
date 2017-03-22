@@ -163,7 +163,7 @@
             "iconPath": "./icons/docker.svg"
         },
         "editorconfig": {
-            "iconPath": "./icons/editorconfig.png"
+            "iconPath": "./icons/editorconfig.svg"
         },
         "elixir": {
             "iconPath": "./icons/elixir.svg"
@@ -340,7 +340,7 @@
             "iconPath": "./icons/objective-c.svg"
         },
         "ocaml": {
-            "iconPath": "./icons/ocaml.png"
+            "iconPath": "./icons/ocaml.svg"
         },
         "paket": {
             "iconPath": "./icons/paket.svg"

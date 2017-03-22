@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="20" width="320" height="280" fill="#fff"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask)">
+        <rect x="0" y="20" width="320" height="300" rx="20" ry="20" fill="#ff7f00"/>
+        <polyline points="60,320 120,180 180,320" fill="none" stroke="#fff" stroke-width="20"/>
+    </g>
+    <path d="M 0,150 L 20,120 Q 40,80 60,120 Q 70,140 80,120 Q 100,80 120,120 Q 140,160 180,160 Q 190,160 200,140 Q 200,120 220,120 Q 280,130 270,150 Q 230,150 230,160 Q 230,200 180,200 H 140 Q 80,230 20,200 L 0,240" fill="#fff"/>
+</svg>
