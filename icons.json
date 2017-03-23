@@ -3,8 +3,8 @@
         "folder": {
             "iconPath": "./icons/folder.svg"
         },
-        "folder-expanded": {
-            "iconPath": "./icons/folder-expanded.svg"
+        "folder.expanded": {
+            "iconPath": "./icons/folder.expanded.svg"
         },
         "file": {
             "iconPath": "./icons/file.svg"
@@ -78,11 +78,11 @@
         "bower": {
             "iconPath": "./icons/bower.svg"
         },
-        "bower-folder": {
-            "iconPath": "./icons/bower-folder.svg"
+        "bower.folder": {
+            "iconPath": "./icons/bower.folder.svg"
         },
-        "bower-folder-expanded": {
-            "iconPath": "./icons/bower-folder-expanded.svg"
+        "bower.folder.expanded": {
+            "iconPath": "./icons/bower.folder.expanded.svg"
         },
         "box": {
             "iconPath": "./icons/box.svg"
@@ -90,11 +90,11 @@
         "build": {
             "iconPath": "./icons/build.svg"
         },
-        "build-folder": {
-            "iconPath": "./icons/build-folder.svg"
+        "build.folder": {
+            "iconPath": "./icons/build.folder.svg"
         },
-        "build-folder-expanded": {
-            "iconPath": "./icons/build-folder-expanded.svg"
+        "build.folder.expanded": {
+            "iconPath": "./icons/build.folder.expanded.svg"
         },
         "camelia": {
             "iconPath": "./icons/camelia.svg"
@@ -135,14 +135,14 @@
         "d": {
             "iconPath": "./icons/d.svg"
         },
+        "d.folder": {
+            "iconPath": "./icons/d.folder.svg"
+        },
+        "d.folder.expanded": {
+            "iconPath": "./icons/d.folder.expanded.svg"
+        },
         "d-build": {
             "iconPath": "./icons/d-build.svg"
-        },
-        "d-folder": {
-            "iconPath": "./icons/d-folder.svg"
-        },
-        "d-folder-expanded": {
-            "iconPath": "./icons/d-folder-expanded.svg"
         },
         "dart": {
             "iconPath": "./icons/dart.svg"
@@ -189,11 +189,11 @@
         "git": {
             "iconPath": "./icons/git.svg"
         },
-        "git-folder": {
-            "iconPath": "./icons/git-folder.svg"
+        "git.folder": {
+            "iconPath": "./icons/git.folder.svg"
         },
-        "git-folder-expanded": {
-            "iconPath": "./icons/git-folder-expanded.svg"
+        "git.folder.expanded": {
+            "iconPath": "./icons/git.folder.expanded.svg"
         },
         "gnome": {
             "iconPath": "./icons/gnome.svg"
@@ -321,11 +321,11 @@
         "nodejs": {
             "iconPath": "./icons/nodejs.svg"
         },
-        "nodejs-folder": {
-            "iconPath": "./icons/nodejs-folder.svg"
+        "nodejs.folder": {
+            "iconPath": "./icons/nodejs.folder.svg"
         },
-        "nodejs-folder-expanded": {
-            "iconPath": "./icons/nodejs-folder-expanded.svg"
+        "nodejs.folder.expanded": {
+            "iconPath": "./icons/nodejs.folder.expanded.svg"
         },
         "npm": {
             "iconPath": "./icons/npm.svg"
@@ -333,14 +333,14 @@
         "nuget": {
             "iconPath": "./icons/nuget.svg"
         },
+        "nuget.folder": {
+            "iconPath": "./icons/nuget.folder.svg"
+        },
+        "nuget.folder.expanded": {
+            "iconPath": "./icons/nuget.folder.expanded.svg"
+        },
         "nuget-box": {
             "iconPath": "./icons/nuget-box.svg"
-        },
-        "nuget-folder": {
-            "iconPath": "./icons/nuget-folder.svg"
-        },
-        "nuget-folder-expanded": {
-            "iconPath": "./icons/nuget-folder-expanded.svg"
         },
         "objective-c": {
             "iconPath": "./icons/objective-c.svg"
@@ -351,11 +351,11 @@
         "paket": {
             "iconPath": "./icons/paket.svg"
         },
-        "paket-folder": {
-            "iconPath": "./icons/paket-folder.svg"
+        "paket.folder": {
+            "iconPath": "./icons/paket.folder.svg"
         },
-        "paket-folder-expanded": {
-            "iconPath": "./icons/paket-folder-expanded.svg"
+        "paket.folder.expanded": {
+            "iconPath": "./icons/paket.folder.expanded.svg"
         },
         "pdf": {
             "iconPath": "./icons/pdf.svg"
@@ -375,11 +375,11 @@
         "python": {
             "iconPath": "./icons/python.svg"
         },
-        "python-folder": {
-            "iconPath": "./icons/python-folder.svg"
+        "python.folder": {
+            "iconPath": "./icons/python.folder.svg"
         },
-        "python-folder-expanded": {
-            "iconPath": "./icons/python-folder-expanded.svg"
+        "python.folder.expanded": {
+            "iconPath": "./icons/python.folder.expanded.svg"
         },
         "r": {
             "iconPath": "./icons/r.svg"
@@ -432,11 +432,11 @@
         "sound": {
             "iconPath": "./icons/sound.svg"
         },
-        "source-folder": {
-            "iconPath": "./icons/source-folder.svg"
+        "source.folder": {
+            "iconPath": "./icons/source.folder.svg"
         },
-        "source-folder-expanded": {
-            "iconPath": "./icons/source-folder-expanded.svg"
+        "source.folder.expanded": {
+            "iconPath": "./icons/source.folder.expanded.svg"
         },
         "stylus": {
             "iconPath": "./icons/stylus.svg"
@@ -450,11 +450,11 @@
         "terminal.light": {
             "iconPath": "./icons/terminal.light.svg"
         },
-        "test-folder": {
-            "iconPath": "./icons/test-folder.svg"
+        "test.folder": {
+            "iconPath": "./icons/test.folder.svg"
         },
-        "test-folder-expanded": {
-            "iconPath": "./icons/test-folder-expanded.svg"
+        "test.folder.expanded": {
+            "iconPath": "./icons/test.folder.expanded.svg"
         },
         "text": {
             "iconPath": "./icons/text.svg"
@@ -471,14 +471,14 @@
         "typescript": {
             "iconPath": "./icons/typescript.svg"
         },
+        "typescript.folder": {
+            "iconPath": "./icons/typescript.folder.svg"
+        },
+        "typescript.folder.expanded": {
+            "iconPath": "./icons/typescript.folder.expanded.svg"
+        },
         "typescript-config": {
             "iconPath": "./icons/typescript-config.svg"
-        },
-        "typescript-folder": {
-            "iconPath": "./icons/typescript-folder.svg"
-        },
-        "typescript-folder-expanded": {
-            "iconPath": "./icons/typescript-folder-expanded.svg"
         },
         "typescript-lint": {
             "iconPath": "./icons/typescript-lint.svg"
@@ -507,14 +507,14 @@
         "vscode": {
             "iconPath": "./icons/vscode.svg"
         },
+        "vscode.folder": {
+            "iconPath": "./icons/vscode.folder.svg"
+        },
+        "vscode.folder.expanded": {
+            "iconPath": "./icons/vscode.folder.expanded.svg"
+        },
         "vscode-box": {
             "iconPath": "./icons/vscode-box.svg"
-        },
-        "vscode-folder": {
-            "iconPath": "./icons/vscode-folder.svg"
-        },
-        "vscode-folder-expanded": {
-            "iconPath": "./icons/vscode-folder-expanded.svg"
         },
         "vue": {
             "iconPath": "./icons/vue.svg"
@@ -533,41 +533,41 @@
         }
     },
     "folder": "folder",
-    "folderExpanded": "folder-expanded",
+    "folderExpanded": "folder.expanded",
     "file": "file",
     "folderNames": {
-        ".dub": "d-folder",
-        ".git": "git-folder",
-        ".nuget": "nuget-folder",
-        ".paket": "paket-folder",
-        ".vscode": "vscode-folder",
-        "__pycache__": "python-folder",
-        "bin": "build-folder",
-        "bower_components": "bower-folder",
-        "build": "build-folder",
-        "node_modules": "nodejs-folder",
-        "out": "build-folder",
-        "source": "source-folder",
-        "src": "source-folder",
-        "test": "test-folder",
-        "typings": "typescript-folder"
+        ".dub": "d.folder",
+        ".git": "git.folder",
+        ".nuget": "nuget.folder",
+        ".paket": "paket.folder",
+        ".vscode": "vscode.folder",
+        "__pycache__": "python.folder",
+        "bin": "build.folder",
+        "bower_components": "bower.folder",
+        "build": "build.folder",
+        "node_modules": "nodejs.folder",
+        "out": "build.folder",
+        "source": "source.folder",
+        "src": "source.folder",
+        "test": "test.folder",
+        "typings": "typescript.folder"
     },
     "folderNamesExpanded": {
-        ".dub": "d-folder-expanded",
-        ".git": "git-folder-expanded",
-        ".nuget": "nuget-folder-expanded",
-        ".paket": "paket-folder-expanded",
-        ".vscode": "vscode-folder-expanded",
-        "__pycache__": "python-folder-expanded",
-        "bin": "build-folder-expanded",
-        "bower_components": "bower-folder-expanded",
-        "build": "build-folder-expanded",
-        "node_modules": "nodejs-folder-expanded",
-        "out": "build-folder-expanded",
-        "source": "source-folder-expanded",
-        "src": "source-folder-expanded",
-        "test": "test-folder-expanded",
-        "typings": "typescript-folder-expanded"
+        ".dub": "d.folder.expanded",
+        ".git": "git.folder.expanded",
+        ".nuget": "nuget.folder.expanded",
+        ".paket": "paket.folder.expanded",
+        ".vscode": "vscode.folder.expanded",
+        "__pycache__": "python.folder.expanded",
+        "bin": "build.folder.expanded",
+        "bower_components": "bower.folder.expanded",
+        "build": "build.folder.expanded",
+        "node_modules": "nodejs.folder.expanded",
+        "out": "build.folder.expanded",
+        "source": "source.folder.expanded",
+        "src": "source.folder.expanded",
+        "test": "test.folder.expanded",
+        "typings": "typescript.folder.expanded"
     },
     "fileNames": {
         ".bowerrc": "bower",
@@ -1001,38 +1001,38 @@
             "plsql": "database.light"
         },
         "folderNames": {
-            ".dub": "d-folder",
-            ".git": "git-folder",
-            ".nuget": "nuget-folder",
-            ".paket": "paket-folder",
-            ".vscode": "vscode-folder",
-            "__pycache__": "python-folder",
-            "bin": "build-folder",
-            "bower_components": "bower-folder",
-            "build": "build-folder",
-            "node_modules": "nodejs-folder",
-            "out": "build-folder",
-            "source": "source-folder",
-            "src": "source-folder",
-            "test": "test-folder",
-            "typings": "typescript-folder"
+            ".dub": "d.folder",
+            ".git": "git.folder",
+            ".nuget": "nuget.folder",
+            ".paket": "paket.folder",
+            ".vscode": "vscode.folder",
+            "__pycache__": "python.folder",
+            "bin": "build.folder",
+            "bower_components": "bower.folder",
+            "build": "build.folder",
+            "node_modules": "nodejs.folder",
+            "out": "build.folder",
+            "source": "source.folder",
+            "src": "source.folder",
+            "test": "test.folder",
+            "typings": "typescript.folder"
         },
         "folderNamesExpanded": {
-            ".dub": "d-folder-expanded",
-            ".git": "git-folder-expanded",
-            ".nuget": "nuget-folder-expanded",
-            ".paket": "paket-folder-expanded",
-            ".vscode": "vscode-folder-expanded",
-            "__pycache__": "python-folder-expanded",
-            "bin": "build-folder-expanded",
-            "bower_components": "bower-folder-expanded",
-            "build": "build-folder-expanded",
-            "node_modules": "nodejs-folder-expanded",
-            "out": "build-folder-expanded",
-            "source": "source-folder-expanded",
-            "src": "source-folder-expanded",
-            "test": "test-folder-expanded",
-            "typings": "typescript-folder-expanded"
+            ".dub": "d.folder.expanded",
+            ".git": "git.folder.expanded",
+            ".nuget": "nuget.folder.expanded",
+            ".paket": "paket.folder.expanded",
+            ".vscode": "vscode.folder.expanded",
+            "__pycache__": "python.folder.expanded",
+            "bin": "build.folder.expanded",
+            "bower_components": "bower.folder.expanded",
+            "build": "build.folder.expanded",
+            "node_modules": "nodejs.folder.expanded",
+            "out": "build.folder.expanded",
+            "source": "source.folder.expanded",
+            "src": "source.folder.expanded",
+            "test": "test.folder.expanded",
+            "typings": "typescript.folder.expanded"
         },
         "fileNames": {
             ".bowerrc": "bower",
