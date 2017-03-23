@@ -1,5 +1,10 @@
 # Changelog
 
+# 1.0.1
+
+Added icons :
+- Windows registry files (issue [#12](https://github.com/LaurentTreguier/vscode-simple-icons/issues/12) raised by [Kaedin](https://github.com/Kaedin))
+
 # 1.0.0
 
 ## All icons are now SVG ! Not a single PNG left 🎉
