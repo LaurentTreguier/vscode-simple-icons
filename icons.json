@@ -393,6 +393,9 @@
         "readme": {
             "iconPath": "./icons/readme.svg"
         },
+        "registry": {
+            "iconPath": "./icons/registry.svg"
+        },
         "rpm-box": {
             "iconPath": "./icons/rpm-box.svg"
         },
@@ -709,6 +712,7 @@
         "odt": "libreoffice-writer",
         "ogg": "video",
         "one": "msoffice-onenote",
+        "patch": "diff",
         "pdb": "database",
         "pdf": "pdf",
         "pkg": "box",
@@ -720,6 +724,7 @@
         "psd": "adobe-photoshop",
         "psmdcp": "nuget",
         "rar": "box",
+        "reg": "registry",
         "rlib": "rust-lib",
         "rpm": "rpm-box",
         "service.spec.ts": "angular-spec",
@@ -887,6 +892,7 @@
             "odt": "libreoffice-writer",
             "ogg": "video",
             "one": "msoffice-onenote",
+            "patch": "diff",
             "pdb": "database.light",
             "pdf": "pdf",
             "pkg": "box",
@@ -898,6 +904,7 @@
             "psd": "adobe-photoshop",
             "psmdcp": "nuget",
             "rar": "box",
+            "reg": "registry",
             "rlib": "rust-lib",
             "rpm": "rpm-box",
             "service.spec.ts": "angular-spec",
