@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
+const iconsFile = path.join(process.cwd(), 'icons.json');
 const sections = [
     'folderNames',
     'folderNamesExpanded',
@@ -10,8 +11,6 @@ const sections = [
     'fileExtensions',
     'languageIds'
 ];
-
-const iconsFile = path.join(process.cwd(), 'icons.json');
 
 fs.readFile(iconsFile, (err, data) => {
     if (err) {

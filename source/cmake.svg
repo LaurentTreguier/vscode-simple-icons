@@ -6,7 +6,7 @@
         <polygon id="triangle" points="0,300 320,300 80,207.5"/>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <use fill="#000" xlink:href="#triangle"/>
+            <use xlink:href="#triangle" fill="#000"/>
         </mask>
     </defs>
     <use xlink:href="#triangle" fill="#1fdf1f"/>
