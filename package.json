@@ -32,12 +32,17 @@
             {
                 "id": "simple-icons",
                 "label": "Simple icons",
-                "path": "icons.json"
+                "path": "./simple-icons.json"
+            },
+            {
+                "id": "minimalistic-icons",
+                "label": "Minimalistic icons",
+                "path": "./minimalistic-icons.json"
             }
         ]
     },
     "scripts": {
-        "vscode:prepublish": "node ./duplicator.js && node ./node_modules/.bin/svgo -f ./source -o ./icons"
+        "vscode:prepublish": "node ./duplicator.js && node ./node_modules/.bin/svgo -f ./source/simple-icons -o ./icons/simple-icons && node ./node_modules/.bin/svgo -f ./source/minimalistic-icons -o ./icons/minimalistic-icons"
     },
     "devDependencies": {
         "svgo": "^0.7.2"

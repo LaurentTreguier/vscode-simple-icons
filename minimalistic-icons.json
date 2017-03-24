@@ -1,0 +1,36 @@
+{
+    "iconDefinitions": {
+        "folder": {
+            "iconPath": "./icons/minimalistic-icons/folder.svg"
+        },
+        "folder.light": {
+            "iconPath": "./icons/minimalistic-icons/folder.light.svg"
+        },
+        "folder.expanded": {
+            "iconPath": "./icons/minimalistic-icons/folder.expanded.svg"
+        },
+        "folder.expanded.light": {
+            "iconPath": "./icons/minimalistic-icons/folder.expanded.light.svg"
+        },
+        "file": {
+            "iconPath": "./icons/minimalistic-icons/file.svg"
+        },
+        "file.light": {
+            "iconPath": "./icons/minimalistic-icons/file.light.svg"
+        }
+    },
+    "folder": "folder",
+    "folderExpanded": "folder.expanded",
+    "file": "file",
+    "folderNames": {},
+    "folderNamesExpanded": {},
+    "fileNames": {},
+    "light": {
+        "folder": "folder.light",
+        "folderExpanded": "folder.expanded.light",
+        "file": "file.light",
+        "folderNames": {},
+        "folderNamesExpanded": {},
+        "fileNames": {}
+    }
+}

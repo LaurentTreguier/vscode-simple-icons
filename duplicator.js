@@ -3,7 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const iconsFile = path.join(process.cwd(), 'icons.json');
+const iconsFiles = ['simple-icons', 'minimalistic-icons']
+    .map((name) => path.join(process.cwd(), name + '.json'));
+const minimalisticIconsPath = path.join(process.cwd(), 'source/minimalistic-icons');
 const sections = [
     'folderNames',
     'folderNamesExpanded',
@@ -12,7 +14,22 @@ const sections = [
     'languageIds'
 ];
 
-fs.readFile(iconsFile, (err, data) => {
+fs.readdir(minimalisticIconsPath, (err, files) => {
+    if (err) {
+        console.error(err);
+        process.exit(1);
+    }
+
+    files.filter((file) => !file.endsWith('.light.svg'))
+        .forEach((file) => {
+            fs.readFile(path.join(minimalisticIconsPath, file), (err, data) => {
+                fs.writeFile(path.join(minimalisticIconsPath, file).replace('.svg', '.light.svg'),
+                    data.toString().replace('#bfbfbf', '#3f3f3f'));
+            });
+        })
+});
+
+iconsFiles.forEach((iconsFile) => fs.readFile(iconsFile, (err, data) => {
     if (err) {
         console.error(err);
         process.exit(1);
@@ -20,9 +37,35 @@ fs.readFile(iconsFile, (err, data) => {
 
     let json = JSON.parse(data.toString());
 
+    if (iconsFile === iconsFiles[1]) {
+        let newDefs = {};
+
+        for (let def in json.iconDefinitions) {
+            if (!def.endsWith('.light')) {
+                newDefs[def] = Object.assign({}, json.iconDefinitions[def]);
+                newDefs[def + '.light'] = json.iconDefinitions[def];
+                newDefs[def + '.light'].iconPath = newDefs[def + '.light'].iconPath.replace('.svg', '.light.svg');
+            }
+        }
+
+        json.iconDefinitions = newDefs;
+    }
+
     for (let section of sections) {
-        json.light[section] = Object.assign({}, json[section], json.light[section]);
+        let lightSection = json.light[section];
+
+        if (iconsFile === iconsFiles[0]) {
+            lightSection = Object.assign({}, json[section], lightSection);
+        } else {
+            lightSection = Object.assign({}, json[section]);
+
+            for (let prop in lightSection) {
+                lightSection[prop] = json[section][prop] + '.light';
+            }
+        }
+
+        json.light[section] = lightSection;
     }
 
     fs.writeFile(iconsFile, JSON.stringify(json, null, 4));
-});
+}));

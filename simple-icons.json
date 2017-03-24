@@ -1,535 +1,535 @@
 {
     "iconDefinitions": {
         "folder": {
-            "iconPath": "./icons/folder.svg"
+            "iconPath": "./icons/simple-icons/folder.svg"
         },
         "folder.expanded": {
-            "iconPath": "./icons/folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/folder.expanded.svg"
         },
         "file": {
-            "iconPath": "./icons/file.svg"
+            "iconPath": "./icons/simple-icons/file.svg"
         },
         "adobe-after-effects": {
-            "iconPath": "./icons/adobe-after-effects.svg"
+            "iconPath": "./icons/simple-icons/adobe-after-effects.svg"
         },
         "adobe-animate": {
-            "iconPath": "./icons/adobe-animate.svg"
+            "iconPath": "./icons/simple-icons/adobe-animate.svg"
         },
         "adobe-dreamweaver": {
-            "iconPath": "./icons/adobe-dreamweaver.svg"
+            "iconPath": "./icons/simple-icons/adobe-dreamweaver.svg"
         },
         "adobe-illustrator": {
-            "iconPath": "./icons/adobe-illustrator.svg"
+            "iconPath": "./icons/simple-icons/adobe-illustrator.svg"
         },
         "adobe-indesign": {
-            "iconPath": "./icons/adobe-indesign.svg"
+            "iconPath": "./icons/simple-icons/adobe-indesign.svg"
         },
         "adobe-lightroom": {
-            "iconPath": "./icons/adobe-lightroom.svg"
+            "iconPath": "./icons/simple-icons/adobe-lightroom.svg"
         },
         "adobe-muse": {
-            "iconPath": "./icons/adobe-muse.svg"
+            "iconPath": "./icons/simple-icons/adobe-muse.svg"
         },
         "adobe-photoshop": {
-            "iconPath": "./icons/adobe-photoshop.svg"
+            "iconPath": "./icons/simple-icons/adobe-photoshop.svg"
         },
         "adobe-premiere-pro": {
-            "iconPath": "./icons/adobe-premiere-pro.svg"
+            "iconPath": "./icons/simple-icons/adobe-premiere-pro.svg"
         },
         "angular": {
-            "iconPath": "./icons/angular.svg"
+            "iconPath": "./icons/simple-icons/angular.svg"
         },
         "angular-css": {
-            "iconPath": "./icons/angular-css.svg"
+            "iconPath": "./icons/simple-icons/angular-css.svg"
         },
         "angular-html": {
-            "iconPath": "./icons/angular-html.svg"
+            "iconPath": "./icons/simple-icons/angular-html.svg"
         },
         "angular-module": {
-            "iconPath": "./icons/angular-module.svg"
+            "iconPath": "./icons/simple-icons/angular-module.svg"
         },
         "angular-sass": {
-            "iconPath": "./icons/angular-sass.svg"
+            "iconPath": "./icons/simple-icons/angular-sass.svg"
         },
         "angular-spec": {
-            "iconPath": "./icons/angular-spec.svg"
+            "iconPath": "./icons/simple-icons/angular-spec.svg"
         },
         "angular-typescript": {
-            "iconPath": "./icons/angular-typescript.svg"
+            "iconPath": "./icons/simple-icons/angular-typescript.svg"
         },
         "apache": {
-            "iconPath": "./icons/apache.svg"
+            "iconPath": "./icons/simple-icons/apache.svg"
         },
         "apex": {
-            "iconPath": "./icons/apex.svg"
+            "iconPath": "./icons/simple-icons/apex.svg"
         },
         "appveyor": {
-            "iconPath": "./icons/appveyor.svg"
+            "iconPath": "./icons/simple-icons/appveyor.svg"
         },
         "archlinux": {
-            "iconPath": "./icons/archlinux.svg"
+            "iconPath": "./icons/simple-icons/archlinux.svg"
         },
         "archlinux-box": {
-            "iconPath": "./icons/archlinux-box.svg"
+            "iconPath": "./icons/simple-icons/archlinux-box.svg"
         },
         "binary": {
-            "iconPath": "./icons/binary.svg"
+            "iconPath": "./icons/simple-icons/binary.svg"
         },
         "bower": {
-            "iconPath": "./icons/bower.svg"
+            "iconPath": "./icons/simple-icons/bower.svg"
         },
         "bower.folder": {
-            "iconPath": "./icons/bower.folder.svg"
+            "iconPath": "./icons/simple-icons/bower.folder.svg"
         },
         "bower.folder.expanded": {
-            "iconPath": "./icons/bower.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/bower.folder.expanded.svg"
         },
         "box": {
-            "iconPath": "./icons/box.svg"
+            "iconPath": "./icons/simple-icons/box.svg"
         },
         "build": {
-            "iconPath": "./icons/build.svg"
+            "iconPath": "./icons/simple-icons/build.svg"
         },
         "build.folder": {
-            "iconPath": "./icons/build.folder.svg"
+            "iconPath": "./icons/simple-icons/build.folder.svg"
         },
         "build.folder.expanded": {
-            "iconPath": "./icons/build.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/build.folder.expanded.svg"
         },
         "camelia": {
-            "iconPath": "./icons/camelia.svg"
+            "iconPath": "./icons/simple-icons/camelia.svg"
         },
         "clojure": {
-            "iconPath": "./icons/clojure.svg"
+            "iconPath": "./icons/simple-icons/clojure.svg"
         },
         "cmake": {
-            "iconPath": "./icons/cmake.svg"
+            "iconPath": "./icons/simple-icons/cmake.svg"
         },
         "coffeescript": {
-            "iconPath": "./icons/coffeescript.svg"
+            "iconPath": "./icons/simple-icons/coffeescript.svg"
         },
         "config": {
-            "iconPath": "./icons/config.svg"
+            "iconPath": "./icons/simple-icons/config.svg"
         },
         "config.light": {
-            "iconPath": "./icons/config.light.svg"
+            "iconPath": "./icons/simple-icons/config.light.svg"
         },
         "console": {
-            "iconPath": "./icons/console.svg"
+            "iconPath": "./icons/simple-icons/console.svg"
         },
         "console.light": {
-            "iconPath": "./icons/console.light.svg"
+            "iconPath": "./icons/simple-icons/console.light.svg"
         },
         "cpp": {
-            "iconPath": "./icons/cpp.svg"
+            "iconPath": "./icons/simple-icons/cpp.svg"
         },
         "csharp": {
-            "iconPath": "./icons/csharp.svg"
+            "iconPath": "./icons/simple-icons/csharp.svg"
         },
         "css": {
-            "iconPath": "./icons/css.svg"
+            "iconPath": "./icons/simple-icons/css.svg"
         },
         "csv": {
-            "iconPath": "./icons/csv.svg"
+            "iconPath": "./icons/simple-icons/csv.svg"
         },
         "d": {
-            "iconPath": "./icons/d.svg"
+            "iconPath": "./icons/simple-icons/d.svg"
         },
         "d.folder": {
-            "iconPath": "./icons/d.folder.svg"
+            "iconPath": "./icons/simple-icons/d.folder.svg"
         },
         "d.folder.expanded": {
-            "iconPath": "./icons/d.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/d.folder.expanded.svg"
         },
         "d-build": {
-            "iconPath": "./icons/d-build.svg"
+            "iconPath": "./icons/simple-icons/d-build.svg"
         },
         "dart": {
-            "iconPath": "./icons/dart.svg"
+            "iconPath": "./icons/simple-icons/dart.svg"
         },
         "database": {
-            "iconPath": "./icons/database.svg"
+            "iconPath": "./icons/simple-icons/database.svg"
         },
         "database.light": {
-            "iconPath": "./icons/database.light.svg"
+            "iconPath": "./icons/simple-icons/database.light.svg"
         },
         "debian-box": {
-            "iconPath": "./icons/debian-box.svg"
+            "iconPath": "./icons/simple-icons/debian-box.svg"
         },
         "diff": {
-            "iconPath": "./icons/diff.svg"
+            "iconPath": "./icons/simple-icons/diff.svg"
         },
         "disc": {
-            "iconPath": "./icons/disc.svg"
+            "iconPath": "./icons/simple-icons/disc.svg"
         },
         "docker": {
-            "iconPath": "./icons/docker.svg"
+            "iconPath": "./icons/simple-icons/docker.svg"
         },
         "editorconfig": {
-            "iconPath": "./icons/editorconfig.svg"
+            "iconPath": "./icons/simple-icons/editorconfig.svg"
         },
         "elixir": {
-            "iconPath": "./icons/elixir.svg"
+            "iconPath": "./icons/simple-icons/elixir.svg"
         },
         "elm": {
-            "iconPath": "./icons/elm.svg"
+            "iconPath": "./icons/simple-icons/elm.svg"
         },
         "erlang": {
-            "iconPath": "./icons/erlang.svg"
+            "iconPath": "./icons/simple-icons/erlang.svg"
         },
         "eslint": {
-            "iconPath": "./icons/eslint.svg"
+            "iconPath": "./icons/simple-icons/eslint.svg"
         },
         "flash": {
-            "iconPath": "./icons/flash.svg"
+            "iconPath": "./icons/simple-icons/flash.svg"
         },
         "fsharp": {
-            "iconPath": "./icons/fsharp.svg"
+            "iconPath": "./icons/simple-icons/fsharp.svg"
         },
         "git": {
-            "iconPath": "./icons/git.svg"
+            "iconPath": "./icons/simple-icons/git.svg"
         },
         "git.folder": {
-            "iconPath": "./icons/git.folder.svg"
+            "iconPath": "./icons/simple-icons/git.folder.svg"
         },
         "git.folder.expanded": {
-            "iconPath": "./icons/git.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/git.folder.expanded.svg"
         },
         "gnome": {
-            "iconPath": "./icons/gnome.svg"
+            "iconPath": "./icons/simple-icons/gnome.svg"
         },
         "go": {
-            "iconPath": "./icons/go.svg"
+            "iconPath": "./icons/simple-icons/go.svg"
         },
         "gradle": {
-            "iconPath": "./icons/gradle.svg"
+            "iconPath": "./icons/simple-icons/gradle.svg"
         },
         "groovy": {
-            "iconPath": "./icons/groovy.svg"
+            "iconPath": "./icons/simple-icons/groovy.svg"
         },
         "grunt": {
-            "iconPath": "./icons/grunt.svg"
+            "iconPath": "./icons/simple-icons/grunt.svg"
         },
         "gulp": {
-            "iconPath": "./icons/gulp.svg"
+            "iconPath": "./icons/simple-icons/gulp.svg"
         },
         "haskell": {
-            "iconPath": "./icons/haskell.svg"
+            "iconPath": "./icons/simple-icons/haskell.svg"
         },
         "haxe": {
-            "iconPath": "./icons/haxe.svg"
+            "iconPath": "./icons/simple-icons/haxe.svg"
         },
         "html": {
-            "iconPath": "./icons/html.svg"
+            "iconPath": "./icons/simple-icons/html.svg"
         },
         "haxe-hxml": {
-            "iconPath": "./icons/haxe-hxml.svg"
+            "iconPath": "./icons/simple-icons/haxe-hxml.svg"
         },
         "image": {
-            "iconPath": "./icons/image.svg"
+            "iconPath": "./icons/simple-icons/image.svg"
         },
         "ionic": {
-            "iconPath": "./icons/ionic.svg"
+            "iconPath": "./icons/simple-icons/ionic.svg"
         },
         "java": {
-            "iconPath": "./icons/java.svg"
+            "iconPath": "./icons/simple-icons/java.svg"
         },
         "javascript": {
-            "iconPath": "./icons/javascript.svg"
+            "iconPath": "./icons/simple-icons/javascript.svg"
         },
         "javascript-test": {
-            "iconPath": "./icons/javascript-test.svg"
+            "iconPath": "./icons/simple-icons/javascript-test.svg"
         },
         "json": {
-            "iconPath": "./icons/json.svg"
+            "iconPath": "./icons/simple-icons/json.svg"
         },
         "julia": {
-            "iconPath": "./icons/julia.svg"
+            "iconPath": "./icons/simple-icons/julia.svg"
         },
         "karma": {
-            "iconPath": "./icons/karma.svg"
+            "iconPath": "./icons/simple-icons/karma.svg"
         },
         "kotlin": {
-            "iconPath": "./icons/kotlin.svg"
+            "iconPath": "./icons/simple-icons/kotlin.svg"
         },
         "less": {
-            "iconPath": "./icons/less.svg"
+            "iconPath": "./icons/simple-icons/less.svg"
         },
         "lib": {
-            "iconPath": "./icons/lib.svg"
+            "iconPath": "./icons/simple-icons/lib.svg"
         },
         "libreoffice-base": {
-            "iconPath": "./icons/libreoffice-base.svg"
+            "iconPath": "./icons/simple-icons/libreoffice-base.svg"
         },
         "libreoffice-calc": {
-            "iconPath": "./icons/libreoffice-calc.svg"
+            "iconPath": "./icons/simple-icons/libreoffice-calc.svg"
         },
         "libreoffice-draw": {
-            "iconPath": "./icons/libreoffice-draw.svg"
+            "iconPath": "./icons/simple-icons/libreoffice-draw.svg"
         },
         "libreoffice-impress": {
-            "iconPath": "./icons/libreoffice-impress.svg"
+            "iconPath": "./icons/simple-icons/libreoffice-impress.svg"
         },
         "libreoffice-math": {
-            "iconPath": "./icons/libreoffice-math.svg"
+            "iconPath": "./icons/simple-icons/libreoffice-math.svg"
         },
         "libreoffice-writer": {
-            "iconPath": "./icons/libreoffice-writer.svg"
+            "iconPath": "./icons/simple-icons/libreoffice-writer.svg"
         },
         "licence": {
-            "iconPath": "./icons/licence.svg"
+            "iconPath": "./icons/simple-icons/licence.svg"
         },
         "lisp": {
-            "iconPath": "./icons/lisp.svg"
+            "iconPath": "./icons/simple-icons/lisp.svg"
         },
         "lock": {
-            "iconPath": "./icons/lock.svg"
+            "iconPath": "./icons/simple-icons/lock.svg"
         },
         "lua": {
-            "iconPath": "./icons/lua.svg"
+            "iconPath": "./icons/simple-icons/lua.svg"
         },
         "markdown": {
-            "iconPath": "./icons/markdown.svg"
+            "iconPath": "./icons/simple-icons/markdown.svg"
         },
         "meson": {
-            "iconPath": "./icons/meson.svg"
+            "iconPath": "./icons/simple-icons/meson.svg"
         },
         "msoffice-access": {
-            "iconPath": "./icons/msoffice-access.svg"
+            "iconPath": "./icons/simple-icons/msoffice-access.svg"
         },
         "msoffice-excel": {
-            "iconPath": "./icons/msoffice-excel.svg"
+            "iconPath": "./icons/simple-icons/msoffice-excel.svg"
         },
         "msoffice-onenote": {
-            "iconPath": "./icons/msoffice-onenote.svg"
+            "iconPath": "./icons/simple-icons/msoffice-onenote.svg"
         },
         "msoffice-powerpoint": {
-            "iconPath": "./icons/msoffice-powerpoint.svg"
+            "iconPath": "./icons/simple-icons/msoffice-powerpoint.svg"
         },
         "msoffice-word": {
-            "iconPath": "./icons/msoffice-word.svg"
+            "iconPath": "./icons/simple-icons/msoffice-word.svg"
         },
         "nim": {
-            "iconPath": "./icons/nim.svg"
+            "iconPath": "./icons/simple-icons/nim.svg"
         },
         "nim.light": {
-            "iconPath": "./icons/nim.light.svg"
+            "iconPath": "./icons/simple-icons/nim.light.svg"
         },
         "nim-config": {
-            "iconPath": "./icons/nim-config.svg"
+            "iconPath": "./icons/simple-icons/nim-config.svg"
         },
         "nodejs": {
-            "iconPath": "./icons/nodejs.svg"
+            "iconPath": "./icons/simple-icons/nodejs.svg"
         },
         "nodejs.folder": {
-            "iconPath": "./icons/nodejs.folder.svg"
+            "iconPath": "./icons/simple-icons/nodejs.folder.svg"
         },
         "nodejs.folder.expanded": {
-            "iconPath": "./icons/nodejs.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/nodejs.folder.expanded.svg"
         },
         "npm": {
-            "iconPath": "./icons/npm.svg"
+            "iconPath": "./icons/simple-icons/npm.svg"
         },
         "nuget": {
-            "iconPath": "./icons/nuget.svg"
+            "iconPath": "./icons/simple-icons/nuget.svg"
         },
         "nuget.folder": {
-            "iconPath": "./icons/nuget.folder.svg"
+            "iconPath": "./icons/simple-icons/nuget.folder.svg"
         },
         "nuget.folder.expanded": {
-            "iconPath": "./icons/nuget.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/nuget.folder.expanded.svg"
         },
         "nuget-box": {
-            "iconPath": "./icons/nuget-box.svg"
+            "iconPath": "./icons/simple-icons/nuget-box.svg"
         },
         "objective-c": {
-            "iconPath": "./icons/objective-c.svg"
+            "iconPath": "./icons/simple-icons/objective-c.svg"
         },
         "ocaml": {
-            "iconPath": "./icons/ocaml.svg"
+            "iconPath": "./icons/simple-icons/ocaml.svg"
         },
         "paket": {
-            "iconPath": "./icons/paket.svg"
+            "iconPath": "./icons/simple-icons/paket.svg"
         },
         "paket.folder": {
-            "iconPath": "./icons/paket.folder.svg"
+            "iconPath": "./icons/simple-icons/paket.folder.svg"
         },
         "paket.folder.expanded": {
-            "iconPath": "./icons/paket.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/paket.folder.expanded.svg"
         },
         "pdf": {
-            "iconPath": "./icons/pdf.svg"
+            "iconPath": "./icons/simple-icons/pdf.svg"
         },
         "php": {
-            "iconPath": "./icons/php.svg"
+            "iconPath": "./icons/simple-icons/php.svg"
         },
         "powershell": {
-            "iconPath": "./icons/powershell.svg"
+            "iconPath": "./icons/simple-icons/powershell.svg"
         },
         "protractor": {
-            "iconPath": "./icons/protractor.svg"
+            "iconPath": "./icons/simple-icons/protractor.svg"
         },
         "pug": {
-            "iconPath": "./icons/pug.svg"
+            "iconPath": "./icons/simple-icons/pug.svg"
         },
         "python": {
-            "iconPath": "./icons/python.svg"
+            "iconPath": "./icons/simple-icons/python.svg"
         },
         "python.folder": {
-            "iconPath": "./icons/python.folder.svg"
+            "iconPath": "./icons/simple-icons/python.folder.svg"
         },
         "python.folder.expanded": {
-            "iconPath": "./icons/python.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/python.folder.expanded.svg"
         },
         "r": {
-            "iconPath": "./icons/r.svg"
+            "iconPath": "./icons/simple-icons/r.svg"
         },
         "razor": {
-            "iconPath": "./icons/razor.svg"
+            "iconPath": "./icons/simple-icons/razor.svg"
         },
         "react": {
-            "iconPath": "./icons/react.svg"
+            "iconPath": "./icons/simple-icons/react.svg"
         },
         "readme": {
-            "iconPath": "./icons/readme.svg"
+            "iconPath": "./icons/simple-icons/readme.svg"
         },
         "registry": {
-            "iconPath": "./icons/registry.svg"
+            "iconPath": "./icons/simple-icons/registry.svg"
         },
         "rpm-box": {
-            "iconPath": "./icons/rpm-box.svg"
+            "iconPath": "./icons/simple-icons/rpm-box.svg"
         },
         "ruby": {
-            "iconPath": "./icons/ruby.svg"
+            "iconPath": "./icons/simple-icons/ruby.svg"
         },
         "ruby-build": {
-            "iconPath": "./icons/ruby-build.svg"
+            "iconPath": "./icons/simple-icons/ruby-build.svg"
         },
         "ruby-embedded": {
-            "iconPath": "./icons/ruby-embedded.svg"
+            "iconPath": "./icons/simple-icons/ruby-embedded.svg"
         },
         "rubygem": {
-            "iconPath": "./icons/rubygem.svg"
+            "iconPath": "./icons/simple-icons/rubygem.svg"
         },
         "rust": {
-            "iconPath": "./icons/rust.svg"
+            "iconPath": "./icons/simple-icons/rust.svg"
         },
         "rust-lib": {
-            "iconPath": "./icons/rust-lib.svg"
+            "iconPath": "./icons/simple-icons/rust-lib.svg"
         },
         "sass": {
-            "iconPath": "./icons/sass.svg"
+            "iconPath": "./icons/simple-icons/sass.svg"
         },
         "scala": {
-            "iconPath": "./icons/scala.svg"
+            "iconPath": "./icons/simple-icons/scala.svg"
         },
         "scheme": {
-            "iconPath": "./icons/scheme.svg"
+            "iconPath": "./icons/simple-icons/scheme.svg"
         },
         "sdl": {
-            "iconPath": "./icons/sdl.svg"
+            "iconPath": "./icons/simple-icons/sdl.svg"
         },
         "sound": {
-            "iconPath": "./icons/sound.svg"
+            "iconPath": "./icons/simple-icons/sound.svg"
         },
         "source.folder": {
-            "iconPath": "./icons/source.folder.svg"
+            "iconPath": "./icons/simple-icons/source.folder.svg"
         },
         "source.folder.expanded": {
-            "iconPath": "./icons/source.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/source.folder.expanded.svg"
         },
         "stylus": {
-            "iconPath": "./icons/stylus.svg"
+            "iconPath": "./icons/simple-icons/stylus.svg"
         },
         "swift": {
-            "iconPath": "./icons/swift.svg"
+            "iconPath": "./icons/simple-icons/swift.svg"
         },
         "terminal": {
-            "iconPath": "./icons/terminal.svg"
+            "iconPath": "./icons/simple-icons/terminal.svg"
         },
         "terminal.light": {
-            "iconPath": "./icons/terminal.light.svg"
+            "iconPath": "./icons/simple-icons/terminal.light.svg"
         },
         "test.folder": {
-            "iconPath": "./icons/test.folder.svg"
+            "iconPath": "./icons/simple-icons/test.folder.svg"
         },
         "test.folder.expanded": {
-            "iconPath": "./icons/test.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/test.folder.expanded.svg"
         },
         "text": {
-            "iconPath": "./icons/text.svg"
+            "iconPath": "./icons/simple-icons/text.svg"
         },
         "toml": {
-            "iconPath": "./icons/toml.svg"
+            "iconPath": "./icons/simple-icons/toml.svg"
         },
         "travis": {
-            "iconPath": "./icons/travis.svg"
+            "iconPath": "./icons/simple-icons/travis.svg"
         },
         "twig": {
-            "iconPath": "./icons/twig.svg"
+            "iconPath": "./icons/simple-icons/twig.svg"
         },
         "typescript": {
-            "iconPath": "./icons/typescript.svg"
+            "iconPath": "./icons/simple-icons/typescript.svg"
         },
         "typescript.folder": {
-            "iconPath": "./icons/typescript.folder.svg"
+            "iconPath": "./icons/simple-icons/typescript.folder.svg"
         },
         "typescript.folder.expanded": {
-            "iconPath": "./icons/typescript.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/typescript.folder.expanded.svg"
         },
         "typescript-config": {
-            "iconPath": "./icons/typescript-config.svg"
+            "iconPath": "./icons/simple-icons/typescript-config.svg"
         },
         "typescript-lint": {
-            "iconPath": "./icons/typescript-lint.svg"
+            "iconPath": "./icons/simple-icons/typescript-lint.svg"
         },
         "typescript-test": {
-            "iconPath": "./icons/typescript-test.svg"
+            "iconPath": "./icons/simple-icons/typescript-test.svg"
         },
         "unity": {
-            "iconPath": "./icons/unity.svg"
+            "iconPath": "./icons/simple-icons/unity.svg"
         },
         "unity.light": {
-            "iconPath": "./icons/unity.light.svg"
+            "iconPath": "./icons/simple-icons/unity.light.svg"
         },
         "vibed": {
-            "iconPath": "./icons/vibed.svg"
+            "iconPath": "./icons/simple-icons/vibed.svg"
         },
         "video": {
-            "iconPath": "./icons/video.svg"
+            "iconPath": "./icons/simple-icons/video.svg"
         },
         "visual-basic": {
-            "iconPath": "./icons/visual-basic.svg"
+            "iconPath": "./icons/simple-icons/visual-basic.svg"
         },
         "visual-studio": {
-            "iconPath": "./icons/visual-studio.svg"
+            "iconPath": "./icons/simple-icons/visual-studio.svg"
         },
         "vscode": {
-            "iconPath": "./icons/vscode.svg"
+            "iconPath": "./icons/simple-icons/vscode.svg"
         },
         "vscode.folder": {
-            "iconPath": "./icons/vscode.folder.svg"
+            "iconPath": "./icons/simple-icons/vscode.folder.svg"
         },
         "vscode.folder.expanded": {
-            "iconPath": "./icons/vscode.folder.expanded.svg"
+            "iconPath": "./icons/simple-icons/vscode.folder.expanded.svg"
         },
         "vscode-box": {
-            "iconPath": "./icons/vscode-box.svg"
+            "iconPath": "./icons/simple-icons/vscode-box.svg"
         },
         "vue": {
-            "iconPath": "./icons/vue.svg"
+            "iconPath": "./icons/simple-icons/vue.svg"
         },
         "webpack": {
-            "iconPath": "./icons/webpack.svg"
+            "iconPath": "./icons/simple-icons/webpack.svg"
         },
         "xml": {
-            "iconPath": "./icons/xml.svg"
+            "iconPath": "./icons/simple-icons/xml.svg"
         },
         "yaml": {
-            "iconPath": "./icons/yaml.svg"
+            "iconPath": "./icons/simple-icons/yaml.svg"
         },
         "yarn": {
-            "iconPath": "./icons/yarn.svg"
+            "iconPath": "./icons/simple-icons/yarn.svg"
         }
     },
     "folder": "folder",
