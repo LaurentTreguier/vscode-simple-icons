@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <polygon id="triangle-green" points="0,300 320,300 80,207.5" fill="#bfbfbf"/>
+        <use id="triangle-blue" xlink:href="#triangle-green" transform="rotate(120 160 207.5)"/>
+        <use id="triangle-red" xlink:href="#triangle-green" transform="rotate(-120 160 207.5)"/>
+        <mask id="mask-green">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#triangle-green" fill="#000" stroke="#000" stroke-width="30"/>
+        </mask>
+        <mask id="mask-blue">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#triangle-blue" fill="#000" stroke="#000" stroke-width="30"/>
+        </mask>
+        <mask id="mask-red">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#triangle-red" fill="#000" stroke="#000" stroke-width="30"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask-blue)">
+        <use xlink:href="#triangle-green"/>
+    </g>
+    <g mask="url(#mask-red)">
+        <use xlink:href="#triangle-blue"/>
+    </g>
+    <g mask="url(#mask-green)">
+        <use xlink:href="#triangle-red"/>
+    </g>
+</svg>

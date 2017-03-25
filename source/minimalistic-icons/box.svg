@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <pattern id="pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+            <g fill="#bfbfbf">
+                <rect x="20" y="0" width="20" height="20"/>
+                <rect x="0" y="20" width="20" height="20"/>
+            </g>
+        </pattern>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <polygon points="140,0 180,0 200,60 200,320 120,320 120,60" fill="#000"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask)">
+        <rect x="0" y="60" width="320" height="260" fill="#bfbfbf"/>
+        <polygon points="60,0 260,0 320,60 0,60" fill="#bfbfbf"/>
+    </g>
+    <polygon points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60" fill="#bfbfbf"/>
+    <rect x="140" y="60" width="40" height="260" fill="url(#pattern)"/>
+</svg>

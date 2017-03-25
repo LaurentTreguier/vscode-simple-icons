@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <polygon id="polygon" points="30,10 290,10 260,280 160,310 60,280"/>
+        <clipPath id="clip">
+            <rect x="0" y="62.5" width="320" height="35"/>
+            <rect x="0" y="132.5" width="320" height="320"/>
+        </clipPath>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g stroke="#000" stroke-width="35">
+                <polyline points="237.5,0 229.5,80 90.5,80 97.5,150 222.5,150 215,225 160,240 105,225 101.5,190" fill="none" clip-path="url(#clip)"/>
+                <line x1="238" y1="80" x2="86" y2="150"/>
+            </g>
+        </mask>
+    </defs>
+    <polygon points="30,10 290,10 260,280 160,310 60,280" fill="#bfbfbf" stroke="#bfbfbf" stroke-width="20" mask="url(#mask)"/>
+</svg>

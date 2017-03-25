@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <mask id="mask-top-left">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <text x="35" y="155" font-family="Tahoma" font-size="120" fill="#000">6</text>
+        </mask>
+        <mask id="mask-top-right">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <text x="215" y="155" font-family="Tahoma" font-size="120" fill="#000">6</text>
+        </mask>
+        <mask id="mask-bottom-left">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <ellipse cx="90" cy="220" rx="25" ry="30" fill="#000"/>
+        </mask>
+        <mask id="mask-bottom-right">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <ellipse cx="230" cy="220" rx="25" ry="30" fill="#000"/>
+        </mask>
+        <mask id="mask-eyes">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g fill="none" stroke="#000" stroke-width="10">
+                <circle cx="130" cy="160" r="15"/>
+                <circle cx="190" cy="160" r="15"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf" mask="url(#mask-eyes)">
+        <ellipse cx="70" cy="110" rx="60" ry="70" transform="rotate(135 70 110)" mask="url(#mask-top-left)"/>
+        <ellipse cx="250" cy="110" rx="60" ry="70" transform="rotate(45 250 110)" mask="url(#mask-top-right)"/>
+        <ellipse cx="90" cy="220" rx="50" ry="60" transform="rotate(45 90 220)" mask="url(#mask-bottom-left)"/>
+        <ellipse cx="230" cy="220" rx="50" ry="60" transform="rotate(-45 230 220)" mask="url(#mask-bottom-right)"/>
+        <ellipse cx="160" cy="180" rx="50" ry="40"/>
+    </g>
+</svg>

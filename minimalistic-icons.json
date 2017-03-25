@@ -17,20 +17,280 @@
         },
         "file.light": {
             "iconPath": "./icons/minimalistic-icons/file.light.svg"
+        },
+        "angular": {
+            "iconPath": "./icons/minimalistic-icons/angular.svg"
+        },
+        "angular.light": {
+            "iconPath": "./icons/minimalistic-icons/angular.light.svg"
+        },
+        "apex": {
+            "iconPath": "./icons/minimalistic-icons/apex.svg"
+        },
+        "apex.light": {
+            "iconPath": "./icons/minimalistic-icons/apex.light.svg"
+        },
+        "appveyor": {
+            "iconPath": "./icons/minimalistic-icons/appveyor.svg"
+        },
+        "appveyor.light": {
+            "iconPath": "./icons/minimalistic-icons/appveyor.light.svg"
+        },
+        "archlinux": {
+            "iconPath": "./icons/minimalistic-icons/archlinux.svg"
+        },
+        "archlinux.light": {
+            "iconPath": "./icons/minimalistic-icons/archlinux.light.svg"
+        },
+        "archlinux-box": {
+            "iconPath": "./icons/minimalistic-icons/archlinux-box.svg"
+        },
+        "archlinux-box.light": {
+            "iconPath": "./icons/minimalistic-icons/archlinux-box.light.svg"
+        },
+        "binary": {
+            "iconPath": "./icons/minimalistic-icons/binary.svg"
+        },
+        "binary.light": {
+            "iconPath": "./icons/minimalistic-icons/binary.light.svg"
+        },
+        "bower": {
+            "iconPath": "./icons/minimalistic-icons/bower.svg"
+        },
+        "bower.light": {
+            "iconPath": "./icons/minimalistic-icons/bower.light.svg"
+        },
+        "bower.folder": {
+            "iconPath": "./icons/minimalistic-icons/bower.folder.svg"
+        },
+        "bower.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/bower.folder.light.svg"
+        },
+        "box": {
+            "iconPath": "./icons/minimalistic-icons/box.svg"
+        },
+        "box.light": {
+            "iconPath": "./icons/minimalistic-icons/box.light.svg"
+        },
+        "build": {
+            "iconPath": "./icons/minimalistic-icons/build.svg"
+        },
+        "build.light": {
+            "iconPath": "./icons/minimalistic-icons/build.light.svg"
+        },
+        "camelia": {
+            "iconPath": "./icons/minimalistic-icons/camelia.svg"
+        },
+        "camelia.light": {
+            "iconPath": "./icons/minimalistic-icons/camelia.light.svg"
+        },
+        "clojure": {
+            "iconPath": "./icons/minimalistic-icons/clojure.svg"
+        },
+        "clojure.light": {
+            "iconPath": "./icons/minimalistic-icons/clojure.light.svg"
+        },
+        "cmake": {
+            "iconPath": "./icons/minimalistic-icons/cmake.svg"
+        },
+        "cmake.light": {
+            "iconPath": "./icons/minimalistic-icons/cmake.light.svg"
+        },
+        "coffeescript": {
+            "iconPath": "./icons/minimalistic-icons/coffeescript.svg"
+        },
+        "coffeescript.light": {
+            "iconPath": "./icons/minimalistic-icons/coffeescript.light.svg"
+        },
+        "config": {
+            "iconPath": "./icons/minimalistic-icons/config.svg"
+        },
+        "config.light": {
+            "iconPath": "./icons/minimalistic-icons/config.light.svg"
+        },
+        "console": {
+            "iconPath": "./icons/minimalistic-icons/console.svg"
+        },
+        "console.light": {
+            "iconPath": "./icons/minimalistic-icons/console.light.svg"
+        },
+        "cpp": {
+            "iconPath": "./icons/minimalistic-icons/cpp.svg"
+        },
+        "cpp.light": {
+            "iconPath": "./icons/minimalistic-icons/cpp.light.svg"
+        },
+        "csharp": {
+            "iconPath": "./icons/minimalistic-icons/csharp.svg"
+        },
+        "csharp.light": {
+            "iconPath": "./icons/minimalistic-icons/csharp.light.svg"
+        },
+        "css": {
+            "iconPath": "./icons/minimalistic-icons/css.svg"
+        },
+        "css.light": {
+            "iconPath": "./icons/minimalistic-icons/css.light.svg"
+        },
+        "csv": {
+            "iconPath": "./icons/minimalistic-icons/csv.svg"
+        },
+        "csv.light": {
+            "iconPath": "./icons/minimalistic-icons/csv.light.svg"
+        },
+        "d": {
+            "iconPath": "./icons/minimalistic-icons/d.svg"
+        },
+        "d.light": {
+            "iconPath": "./icons/minimalistic-icons/d.light.svg"
+        },
+        "d.folder": {
+            "iconPath": "./icons/minimalistic-icons/d.folder.svg"
+        },
+        "d.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/d.folder.light.svg"
+        },
+        "dart": {
+            "iconPath": "./icons/minimalistic-icons/dart.svg"
+        },
+        "dart.light": {
+            "iconPath": "./icons/minimalistic-icons/dart.light.svg"
         }
     },
     "folder": "folder",
     "folderExpanded": "folder.expanded",
     "file": "file",
-    "folderNames": {},
+    "folderNames": {
+        ".dub": "d.folder",
+        "bower_components": "bower.folder"
+    },
     "folderNamesExpanded": {},
-    "fileNames": {},
+    "fileNames": {
+        ".bowerrc": "bower",
+        "angular-cli.json": "angular",
+        "appveyor.yaml": "appveyor",
+        "appveyor.yml": "appveyor",
+        "cakefile": "build",
+        "cmakecache.txt": "cmake",
+        "cmakelists.txt": "cmake",
+        "pkgbuild": "archlinux"
+    },
+    "fileExtensions": {
+        "7z": "box",
+        "bz2": "box",
+        "bzip2": "box",
+        "cfg": "config",
+        "component.css": "angular",
+        "component.html": "angular",
+        "component.sass": "angular",
+        "component.scss": "angular",
+        "component.spec.ts": "angular",
+        "component.ts": "angular",
+        "conf": "config",
+        "config": "config",
+        "csv": "csv",
+        "gz": "box",
+        "ini": "config",
+        "jar": "box",
+        "lz": "box",
+        "lzma": "box",
+        "lzo": "box",
+        "mak": "build",
+        "module.ts": "angular",
+        "ninja": "build",
+        "pkg": "box",
+        "pkg.tar.xz": "archlinux-box",
+        "rar": "box",
+        "service.spec.ts": "angular",
+        "service.ts": "angular",
+        "tar": "box",
+        "xz": "box",
+        "zip": "box"
+    },
+    "languageIds": {
+        "apex": "apex",
+        "asm": "binary",
+        "bat": "console",
+        "c": "cpp",
+        "clojure": "clojure",
+        "cmake": "cmake",
+        "coffeescript": "coffeescript",
+        "cpp": "cpp",
+        "csharp": "csharp",
+        "css": "css",
+        "d": "d",
+        "dart": "dart",
+        "makefile": "build",
+        "perl": "camelia",
+        "perl6": "camelia"
+    },
     "light": {
         "folder": "folder.light",
         "folderExpanded": "folder.expanded.light",
         "file": "file.light",
-        "folderNames": {},
+        "folderNames": {
+            ".dub": "d.folder.light",
+            "bower_components": "bower.folder.light"
+        },
         "folderNamesExpanded": {},
-        "fileNames": {}
+        "fileNames": {
+            ".bowerrc": "bower.light",
+            "angular-cli.json": "angular.light",
+            "appveyor.yaml": "appveyor.light",
+            "appveyor.yml": "appveyor.light",
+            "cakefile": "build.light",
+            "cmakecache.txt": "cmake.light",
+            "cmakelists.txt": "cmake.light",
+            "pkgbuild": "archlinux.light"
+        },
+        "fileExtensions": {
+            "7z": "box.light",
+            "bz2": "box.light",
+            "bzip2": "box.light",
+            "cfg": "config.light",
+            "component.css": "angular.light",
+            "component.html": "angular.light",
+            "component.sass": "angular.light",
+            "component.scss": "angular.light",
+            "component.spec.ts": "angular.light",
+            "component.ts": "angular.light",
+            "conf": "config.light",
+            "config": "config.light",
+            "csv": "csv.light",
+            "gz": "box.light",
+            "ini": "config.light",
+            "jar": "box.light",
+            "lz": "box.light",
+            "lzma": "box.light",
+            "lzo": "box.light",
+            "mak": "build.light",
+            "module.ts": "angular.light",
+            "ninja": "build.light",
+            "pkg": "box.light",
+            "pkg.tar.xz": "archlinux-box.light",
+            "rar": "box.light",
+            "service.spec.ts": "angular.light",
+            "service.ts": "angular.light",
+            "tar": "box.light",
+            "xz": "box.light",
+            "zip": "box.light"
+        },
+        "languageIds": {
+            "apex": "apex.light",
+            "asm": "binary.light",
+            "bat": "console.light",
+            "c": "cpp.light",
+            "clojure": "clojure.light",
+            "cmake": "cmake.light",
+            "coffeescript": "coffeescript.light",
+            "cpp": "cpp.light",
+            "csharp": "csharp.light",
+            "css": "css.light",
+            "d": "d.light",
+            "dart": "dart.light",
+            "makefile": "build.light",
+            "perl": "camelia.light",
+            "perl6": "camelia.light"
+        }
     }
 }
