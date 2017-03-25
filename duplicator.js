@@ -20,13 +20,15 @@ fs.readdir(minimalisticIconsPath, (err, files) => {
         process.exit(1);
     }
 
-    files.filter((file) => !file.endsWith('.light.svg'))
-        .forEach((file) => {
-            fs.readFile(path.join(minimalisticIconsPath, file), (err, data) => {
-                fs.writeFile(path.join(minimalisticIconsPath, file).replace('.svg', '.light.svg'),
-                    data.toString().replace('#bfbfbf', '#3f3f3f'));
-            });
-        })
+    files.filter((file) => !file.endsWith('.light.svg')).forEach((file) =>
+        fs.readFile(path.join(minimalisticIconsPath, file), (err, data) =>
+            fs.writeFile(path.join(minimalisticIconsPath, file).replace('.svg', '.light.svg'),
+                data.toString().replace(/#[0-9a-fA-F]{6}/g, (color) => {
+                    let n = parseInt(color.slice(1), 16);
+                    let result = 0xffffff - n - (n === 0 ? 0 : 0x010101);
+                    let nString = (result > 0 ? result : 0).toString(16);
+                    return '#' + Array(7 - nString.length).join('0') + nString;
+                }))));
 });
 
 iconsFiles.forEach((iconsFile) => fs.readFile(iconsFile, (err, data) => {
