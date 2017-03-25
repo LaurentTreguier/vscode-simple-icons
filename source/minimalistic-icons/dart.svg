@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
-    <g fill="#bfbfbf">
-        <polygon points="230,70 320,140 320,260 275,275" opacity="0.5"/>
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    <defs>
+        <polygon id="polygon-left" points="70,70 70,230 230,290 275,275"/>
+        <polygon id="polygon-right" points="70,70 230,70 290,230 275,275"/>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g fill="none" stroke="#000" stroke-width="20">
+                <use xlink:href="#polygon-left"/>
+                <use xlink:href="#polygon-right"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf" mask="url(#mask)">
         <polygon points="70,230 140,320 260,320 275,275"/>
+        <polygon points="230,70 320,140 320,260 275,275"/>
         <polygon points="70,70 70,230 50,220 0,170"/>
-        <polygon points="70,70 230,70 290,230 275,275"/>
-        <polygon points="70,70 230,70 220,50 170,0" opacity="0.5"/>
-        <polygon points="70,70 70,230 230,290 275,275" opacity="0.5"/>
+        <polygon points="70,70 230,70 220,50 170,0"/>
+        <use xlink:href="#polygon-left"/>
+        <use xlink:href="#polygon-right"/>
     </g>
 </svg>
