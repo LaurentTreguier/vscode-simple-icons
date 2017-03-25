@@ -18,11 +18,71 @@
         "file.light": {
             "iconPath": "./icons/minimalistic-icons/file.light.svg"
         },
+        "adobe-after-effects": {
+            "iconPath": "./icons/minimalistic-icons/adobe-after-effects.svg"
+        },
+        "adobe-after-effects.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-after-effects.light.svg"
+        },
+        "adobe-animate": {
+            "iconPath": "./icons/minimalistic-icons/adobe-animate.svg"
+        },
+        "adobe-animate.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-animate.light.svg"
+        },
+        "adobe-dreamweaver": {
+            "iconPath": "./icons/minimalistic-icons/adobe-dreamweaver.svg"
+        },
+        "adobe-dreamweaver.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-dreamweaver.light.svg"
+        },
+        "adobe-illustrator": {
+            "iconPath": "./icons/minimalistic-icons/adobe-illustrator.svg"
+        },
+        "adobe-illustrator.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-illustrator.light.svg"
+        },
+        "adobe-indesign": {
+            "iconPath": "./icons/minimalistic-icons/adobe-indesign.svg"
+        },
+        "adobe-indesign.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-indesign.light.svg"
+        },
+        "adobe-lightroom": {
+            "iconPath": "./icons/minimalistic-icons/adobe-lightroom.svg"
+        },
+        "adobe-lightroom.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-lightroom.light.svg"
+        },
+        "adobe-muse": {
+            "iconPath": "./icons/minimalistic-icons/adobe-muse.svg"
+        },
+        "adobe-muse.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-muse.light.svg"
+        },
+        "adobe-photoshop": {
+            "iconPath": "./icons/minimalistic-icons/adobe-photoshop.svg"
+        },
+        "adobe-photoshop.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-photoshop.light.svg"
+        },
+        "adobe-premiere-pro": {
+            "iconPath": "./icons/minimalistic-icons/adobe-premiere-pro.svg"
+        },
+        "adobe-premiere-pro.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-premiere-pro.light.svg"
+        },
         "angular": {
             "iconPath": "./icons/minimalistic-icons/angular.svg"
         },
         "angular.light": {
             "iconPath": "./icons/minimalistic-icons/angular.light.svg"
+        },
+        "apache": {
+            "iconPath": "./icons/minimalistic-icons/apache.svg"
+        },
+        "apache.light": {
+            "iconPath": "./icons/minimalistic-icons/apache.light.svg"
         },
         "apex": {
             "iconPath": "./icons/minimalistic-icons/apex.svg"
@@ -167,6 +227,7 @@
     "folderNamesExpanded": {},
     "fileNames": {
         ".bowerrc": "bower",
+        ".htaccess": "apache",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
@@ -177,6 +238,8 @@
     },
     "fileExtensions": {
         "7z": "box",
+        "aepx": "adobe-after-effects",
+        "ai": "adobe-illustrator",
         "bz2": "box",
         "bzip2": "box",
         "cfg": "config",
@@ -189,17 +252,24 @@
         "conf": "config",
         "config": "config",
         "csv": "csv",
+        "dwt": "adobe-dreamweaver",
+        "fla": "adobe-animate",
         "gz": "box",
+        "indd": "adobe-indesign",
         "ini": "config",
         "jar": "box",
+        "lrcat": "adobe-lightroom",
         "lz": "box",
         "lzma": "box",
         "lzo": "box",
         "mak": "build",
         "module.ts": "angular",
+        "muse": "adobe-muse",
         "ninja": "build",
         "pkg": "box",
         "pkg.tar.xz": "archlinux-box",
+        "prproj": "adobe-premiere-pro",
+        "psd": "adobe-photoshop",
         "rar": "box",
         "service.spec.ts": "angular",
         "service.ts": "angular",
@@ -235,6 +305,7 @@
         "folderNamesExpanded": {},
         "fileNames": {
             ".bowerrc": "bower.light",
+            ".htaccess": "apache.light",
             "angular-cli.json": "angular.light",
             "appveyor.yaml": "appveyor.light",
             "appveyor.yml": "appveyor.light",
@@ -245,6 +316,8 @@
         },
         "fileExtensions": {
             "7z": "box.light",
+            "aepx": "adobe-after-effects.light",
+            "ai": "adobe-illustrator.light",
             "bz2": "box.light",
             "bzip2": "box.light",
             "cfg": "config.light",
@@ -257,17 +330,24 @@
             "conf": "config.light",
             "config": "config.light",
             "csv": "csv.light",
+            "dwt": "adobe-dreamweaver.light",
+            "fla": "adobe-animate.light",
             "gz": "box.light",
+            "indd": "adobe-indesign.light",
             "ini": "config.light",
             "jar": "box.light",
+            "lrcat": "adobe-lightroom.light",
             "lz": "box.light",
             "lzma": "box.light",
             "lzo": "box.light",
             "mak": "build.light",
             "module.ts": "angular.light",
+            "muse": "adobe-muse.light",
             "ninja": "build.light",
             "pkg": "box.light",
             "pkg.tar.xz": "archlinux-box.light",
+            "prproj": "adobe-premiere-pro.light",
+            "psd": "adobe-photoshop.light",
             "rar": "box.light",
             "service.spec.ts": "angular.light",
             "service.ts": "angular.light",
