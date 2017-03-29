@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <g stroke="#bfbfbf" stroke-width="40">
         <line x1="80" y1="40" x2="80" y2="200"/>
         <line x1="0" y1="120" x2="160" y2="120"/>

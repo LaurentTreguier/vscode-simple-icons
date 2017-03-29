@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
     xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <defs>
         <polygon id="part" points="190,160 282,0 310,120 287,160 310,200 282,320" mask="url(#mask)"/>
         <mask id="mask">

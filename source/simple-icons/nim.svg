@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
     xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <defs>
         <ellipse id="ellipse-top" cx="160" cy="140" rx="150" ry="80"/>
         <ellipse id="ellipse-bottom" cx="160" cy="190" rx="130" ry="90"/>

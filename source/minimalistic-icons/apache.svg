@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
     xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <defs>
         <path id="path-outer" d="M 320,0 Q 100,80 40,180 C -20,280 40,320 120,240 Q 140,220 320,0"/>
         <path id="path-inner" d="M 0,320 Q 80,140 320,0 Q 120,140 0,320"/>

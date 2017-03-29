@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
     xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <defs>
         <polygon id="polygon-left" points="70,70 70,230 230,290 275,275"/>
         <polygon id="polygon-right" points="70,70 230,70 290,230 275,275"/>

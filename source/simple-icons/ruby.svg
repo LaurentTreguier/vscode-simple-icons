@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <polygon points="0,120 80,40 240,40 320,120 160,300" fill="#df1f1f"/>
     <polygon points="80,120 160,40 240,120" fill="#ff4f4f"/>
     <polygon points="0,120 160,300 320,120 240,120 160,300 80,120" fill="#df3f3f"/>

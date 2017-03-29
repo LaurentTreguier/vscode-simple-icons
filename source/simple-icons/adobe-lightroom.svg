@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <rect x="10" y="10" width="300" height="300" fill="#1f2f3f" stroke="#bfdfdf" stroke-width="20"/>
     <text x="70" y="230" font-family="Tahoma" font-size="200" fill="#bfdfdf">Lr</text>
 </svg>

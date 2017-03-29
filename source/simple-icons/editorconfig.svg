@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <g fill="#fff" stroke="#000" stroke-width="10">
         <ellipse cx="120" cy="60" rx="60" ry="40" transform="rotate(-50 120 60)"/>
         <ellipse cx="260" cy="160" rx="60" ry="40" transform="rotate(-40 260 160)"/>

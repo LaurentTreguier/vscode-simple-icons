@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320" viewbox="0 0 320 320">
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <path d="M 130,40 Q 130,20 140,10 Q 140,20 150,30 Q 150,10 170,0 Q 165,10 175,25 Q 180,15 190,15 Q 185,30 190,40" fill="#462f13"/>
     <g fill="#fba919" stroke="#462f13" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
         <path d="M 120,40 Q 80,0 50,30 Q 70,40 70,60 V 80"/>
