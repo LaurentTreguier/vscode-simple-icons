@@ -7,17 +7,17 @@
             <polygon points="100,60 220,60 280,160 220,260 100,260 40,160" fill="#000"/>
             <polyline points="70,0 160,160 320,160" fill="none" stroke="#000" stroke-width="50"/>
         </mask>
-        <mask id="mask-bottom">
-            <polygon points="0,0 70,0 160,160 320,160 320,320 0,320" fill="#fff"/>
-        </mask>
-        <mask id="mask-top">
-            <polygon points="320,0 70,0 160,160 320,160" fill="#fff"/>
-        </mask>
+        <clipPath id="clip-bottom">
+            <polygon points="0,0 70,0 160,160 320,160 320,320 0,320"/>
+        </clipPath>
+        <clipPath id="clip-top">
+            <polygon points="320,0 70,0 160,160 320,160"/>
+        </clipPath>
     </defs>
     <g fill="#063">
         <g mask="url(#mask-hexagon)">
-            <circle cx="160" cy="160" r="160" fill="#83b716" mask="url(#mask-bottom)"/>
-            <circle cx="160" cy="160" r="160" mask="url(#mask-top)"/>
+            <circle cx="160" cy="160" r="160" fill="#83b716" clip-path="url(#clip-bottom)"/>
+            <circle cx="160" cy="160" r="160" clip-path="url(#clip-top)"/>
         </g>
         <circle cx="160" cy="160" r="60"/>
     </g>
