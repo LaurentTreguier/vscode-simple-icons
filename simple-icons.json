@@ -538,6 +538,7 @@
     "folderNames": {
         ".dub": "d.folder",
         ".git": "git.folder",
+        ".github": "git.folder",
         ".nuget": "nuget.folder",
         ".paket": "paket.folder",
         ".vscode": "vscode.folder",
@@ -827,6 +828,7 @@
         "folderNames": {
             ".dub": "d.folder",
             ".git": "git.folder",
+            ".github": "git.folder",
             ".nuget": "nuget.folder",
             ".paket": "paket.folder",
             ".vscode": "vscode.folder",
