@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <polygon id="polygon" points="160,40 280,160 160,280 40,160"/>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#polygon" fill="none" stroke="#000" stroke-width="20"/>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf" mask="url(#mask)">
+        <!--center-->
+        <use xlink:href="#polygon"/>
+        <!--top left-->
+        <polygon points="0,0 40,160 160,40"/>
+        <polygon points="0,0 0,80 40,160"/>
+        <polygon points="0,0 80,0 160,40"/>
+        <!--top right-->
+        <polygon points="320,0 160,40 280,160"/>
+        <polygon points="320,0 240,0 160,40"/>
+        <polygon points="320,0 320,80 280,160"/>
+        <!--bottom left-->
+        <polygon points="0,320 160,280 40,160"/>
+        <polygon points="0,320 80,320 160,280"/>
+        <polygon points="0,320 0,240 40,160"/>
+        <!--bottom right-->
+        <polygon points="320,320 280,160 160,280"/>
+        <polygon points="320,320 320,240 280,160"/>
+        <polygon points="320,320 240,320 160,280"/>
+    </g>
+</svg>
