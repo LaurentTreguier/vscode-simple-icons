@@ -215,6 +215,162 @@
         },
         "dart.light": {
             "iconPath": "./icons/minimalistic-icons/dart.light.svg"
+        },
+        "database": {
+            "iconPath": "./icons/minimalistic-icons/database.svg"
+        },
+        "database.light": {
+            "iconPath": "./icons/minimalistic-icons/database.light.svg"
+        },
+        "debian-box": {
+            "iconPath": "./icons/minimalistic-icons/debian-box.svg"
+        },
+        "debian-box.light": {
+            "iconPath": "./icons/minimalistic-icons/debian-box.light.svg"
+        },
+        "diff": {
+            "iconPath": "./icons/minimalistic-icons/diff.svg"
+        },
+        "diff.light": {
+            "iconPath": "./icons/minimalistic-icons/diff.light.svg"
+        },
+        "disc": {
+            "iconPath": "./icons/minimalistic-icons/disc.svg"
+        },
+        "disc.light": {
+            "iconPath": "./icons/minimalistic-icons/disc.light.svg"
+        },
+        "docker": {
+            "iconPath": "./icons/minimalistic-icons/docker.svg"
+        },
+        "docker.light": {
+            "iconPath": "./icons/minimalistic-icons/docker.light.svg"
+        },
+        "editorconfig": {
+            "iconPath": "./icons/minimalistic-icons/editorconfig.svg"
+        },
+        "editorconfig.light": {
+            "iconPath": "./icons/minimalistic-icons/editorconfig.light.svg"
+        },
+        "elixir": {
+            "iconPath": "./icons/minimalistic-icons/elixir.svg"
+        },
+        "elixir.light": {
+            "iconPath": "./icons/minimalistic-icons/elixir.light.svg"
+        },
+        "elm": {
+            "iconPath": "./icons/minimalistic-icons/elm.svg"
+        },
+        "elm.light": {
+            "iconPath": "./icons/minimalistic-icons/elm.light.svg"
+        },
+        "erlang": {
+            "iconPath": "./icons/minimalistic-icons/erlang.svg"
+        },
+        "erlang.light": {
+            "iconPath": "./icons/minimalistic-icons/erlang.light.svg"
+        },
+        "eslint": {
+            "iconPath": "./icons/minimalistic-icons/eslint.svg"
+        },
+        "eslint.light": {
+            "iconPath": "./icons/minimalistic-icons/eslint.light.svg"
+        },
+        "flash": {
+            "iconPath": "./icons/minimalistic-icons/flash.svg"
+        },
+        "flash.light": {
+            "iconPath": "./icons/minimalistic-icons/flash.light.svg"
+        },
+        "fsharp": {
+            "iconPath": "./icons/minimalistic-icons/fsharp.svg"
+        },
+        "fsharp.light": {
+            "iconPath": "./icons/minimalistic-icons/fsharp.light.svg"
+        },
+        "git": {
+            "iconPath": "./icons/minimalistic-icons/git.svg"
+        },
+        "git.light": {
+            "iconPath": "./icons/minimalistic-icons/git.light.svg"
+        },
+        "git.folder": {
+            "iconPath": "./icons/minimalistic-icons/git.folder.svg"
+        },
+        "git.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/git.folder.light.svg"
+        },
+        "git.folder.expanded": {
+            "iconPath": "./icons/minimalistic-icons/git.folder.expanded.svg"
+        },
+        "git.folder.expanded.light": {
+            "iconPath": "./icons/minimalistic-icons/git.folder.expanded.light.svg"
+        },
+        "gnome": {
+            "iconPath": "./icons/minimalistic-icons/gnome.svg"
+        },
+        "gnome.light": {
+            "iconPath": "./icons/minimalistic-icons/gnome.light.svg"
+        },
+        "go": {
+            "iconPath": "./icons/minimalistic-icons/go.svg"
+        },
+        "go.light": {
+            "iconPath": "./icons/minimalistic-icons/go.light.svg"
+        },
+        "gradle": {
+            "iconPath": "./icons/minimalistic-icons/gradle.svg"
+        },
+        "gradle.light": {
+            "iconPath": "./icons/minimalistic-icons/gradle.light.svg"
+        },
+        "groovy": {
+            "iconPath": "./icons/minimalistic-icons/groovy.svg"
+        },
+        "groovy.light": {
+            "iconPath": "./icons/minimalistic-icons/groovy.light.svg"
+        },
+        "grunt": {
+            "iconPath": "./icons/minimalistic-icons/grunt.svg"
+        },
+        "grunt.light": {
+            "iconPath": "./icons/minimalistic-icons/grunt.light.svg"
+        },
+        "gulp": {
+            "iconPath": "./icons/minimalistic-icons/gulp.svg"
+        },
+        "gulp.light": {
+            "iconPath": "./icons/minimalistic-icons/gulp.light.svg"
+        },
+        "haskell": {
+            "iconPath": "./icons/minimalistic-icons/haskell.svg"
+        },
+        "haskell.light": {
+            "iconPath": "./icons/minimalistic-icons/haskell.light.svg"
+        },
+        "haxe": {
+            "iconPath": "./icons/minimalistic-icons/haxe.svg"
+        },
+        "haxe.light": {
+            "iconPath": "./icons/minimalistic-icons/haxe.light.svg"
+        },
+        "haxe-hxml": {
+            "iconPath": "./icons/minimalistic-icons/haxe-hxml.svg"
+        },
+        "haxe-hxml.light": {
+            "iconPath": "./icons/minimalistic-icons/haxe-hxml.light.svg"
+        },
+        "html": {
+            "iconPath": "./icons/minimalistic-icons/html.svg"
+        },
+        "html.light": {
+            "iconPath": "./icons/minimalistic-icons/html.light.svg"
+        },
+        "image": {
+            "iconPath": "./icons/minimalistic-icons/image.svg"
+        },
+        "image.light": {
+            "iconPath": "./icons/minimalistic-icons/image.light.svg"
         }
     },
     "folder": "folder",
@@ -222,11 +378,21 @@
     "file": "file",
     "folderNames": {
         ".dub": "d.folder",
+        ".git": "git.folder",
+        ".github": "git.folder",
         "bower_components": "bower.folder"
     },
     "folderNamesExpanded": {},
     "fileNames": {
         ".bowerrc": "bower",
+        ".editorconfig": "editorconfig",
+        ".eslintrc": "eslint",
+        ".eslintrc.js": "eslint",
+        ".eslintrc.json": "eslint",
+        ".eslintrc.yaml": "eslint",
+        ".eslintrc.yml": "eslint",
+        ".eslintignore": "eslint",
+        ".gitignore": "git",
         ".htaccess": "apache",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
@@ -234,12 +400,20 @@
         "cakefile": "build",
         "cmakecache.txt": "cmake",
         "cmakelists.txt": "cmake",
+        "gruntfile.coffee": "grunt",
+        "gruntfile.js": "grunt",
+        "gruntfile.ts": "grunt",
+        "gulpfile.coffee": "gulp",
+        "gulpfile.js": "gulp",
+        "gulpfile.ts": "gulp",
         "pkgbuild": "archlinux"
     },
     "fileExtensions": {
         "7z": "box",
         "aepx": "adobe-after-effects",
         "ai": "adobe-illustrator",
+        "as": "flash",
+        "bmp": "image",
         "bz2": "box",
         "bzip2": "box",
         "cfg": "config",
@@ -252,12 +426,24 @@
         "conf": "config",
         "config": "config",
         "csv": "csv",
+        "db": "database",
+        "deb": "debian-box",
+        "diff": "diff",
+        "dmg": "disc",
+        "dockerfile": "docker",
+        "dockerignore": "docker",
         "dwt": "adobe-dreamweaver",
         "fla": "adobe-animate",
+        "gif": "image",
+        "gradle": "gradle",
         "gz": "box",
+        "ico": "image",
         "indd": "adobe-indesign",
         "ini": "config",
+        "iso": "disc",
         "jar": "box",
+        "jpeg": "image",
+        "jpg": "image",
         "lrcat": "adobe-lightroom",
         "lz": "box",
         "lzma": "box",
@@ -266,14 +452,22 @@
         "module.ts": "angular",
         "muse": "adobe-muse",
         "ninja": "build",
+        "patch": "diff",
+        "pdb": "database",
         "pkg": "box",
         "pkg.tar.xz": "archlinux-box",
+        "png": "image",
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
         "rar": "box",
         "service.spec.ts": "angular",
         "service.ts": "angular",
+        "svg": "image",
+        "swf": "flash",
         "tar": "box",
+        "tif": "image",
+        "tiff": "image",
+        "webp": "image",
         "xz": "box",
         "zip": "box"
     },
@@ -290,9 +484,23 @@
         "css": "css",
         "d": "d",
         "dart": "dart",
+        "dockerfile": "docker",
+        "elixir": "elixir",
+        "elm": "elm",
+        "erlang": "erlang",
+        "fsharp": "fsharp",
+        "go": "go",
+        "groovy": "groovy",
+        "haskell": "haskell",
+        "haxe": "haxe",
+        "html": "html",
+        "hxml": "haxe-hxml",
         "makefile": "build",
         "perl": "camelia",
-        "perl6": "camelia"
+        "perl6": "camelia",
+        "plqsl": "database",
+        "sql": "database",
+        "vala": "gnome"
     },
     "light": {
         "folder": "folder.light",
@@ -300,11 +508,21 @@
         "file": "file.light",
         "folderNames": {
             ".dub": "d.folder.light",
+            ".git": "git.folder.light",
+            ".github": "git.folder.light",
             "bower_components": "bower.folder.light"
         },
         "folderNamesExpanded": {},
         "fileNames": {
             ".bowerrc": "bower.light",
+            ".editorconfig": "editorconfig.light",
+            ".eslintrc": "eslint.light",
+            ".eslintrc.js": "eslint.light",
+            ".eslintrc.json": "eslint.light",
+            ".eslintrc.yaml": "eslint.light",
+            ".eslintrc.yml": "eslint.light",
+            ".eslintignore": "eslint.light",
+            ".gitignore": "git.light",
             ".htaccess": "apache.light",
             "angular-cli.json": "angular.light",
             "appveyor.yaml": "appveyor.light",
@@ -312,12 +530,20 @@
             "cakefile": "build.light",
             "cmakecache.txt": "cmake.light",
             "cmakelists.txt": "cmake.light",
+            "gruntfile.coffee": "grunt.light",
+            "gruntfile.js": "grunt.light",
+            "gruntfile.ts": "grunt.light",
+            "gulpfile.coffee": "gulp.light",
+            "gulpfile.js": "gulp.light",
+            "gulpfile.ts": "gulp.light",
             "pkgbuild": "archlinux.light"
         },
         "fileExtensions": {
             "7z": "box.light",
             "aepx": "adobe-after-effects.light",
             "ai": "adobe-illustrator.light",
+            "as": "flash.light",
+            "bmp": "image.light",
             "bz2": "box.light",
             "bzip2": "box.light",
             "cfg": "config.light",
@@ -330,12 +556,24 @@
             "conf": "config.light",
             "config": "config.light",
             "csv": "csv.light",
+            "db": "database.light",
+            "deb": "debian-box.light",
+            "diff": "diff.light",
+            "dmg": "disc.light",
+            "dockerfile": "docker.light",
+            "dockerignore": "docker.light",
             "dwt": "adobe-dreamweaver.light",
             "fla": "adobe-animate.light",
+            "gif": "image.light",
+            "gradle": "gradle.light",
             "gz": "box.light",
+            "ico": "image.light",
             "indd": "adobe-indesign.light",
             "ini": "config.light",
+            "iso": "disc.light",
             "jar": "box.light",
+            "jpeg": "image.light",
+            "jpg": "image.light",
             "lrcat": "adobe-lightroom.light",
             "lz": "box.light",
             "lzma": "box.light",
@@ -344,14 +582,22 @@
             "module.ts": "angular.light",
             "muse": "adobe-muse.light",
             "ninja": "build.light",
+            "patch": "diff.light",
+            "pdb": "database.light",
             "pkg": "box.light",
             "pkg.tar.xz": "archlinux-box.light",
+            "png": "image.light",
             "prproj": "adobe-premiere-pro.light",
             "psd": "adobe-photoshop.light",
             "rar": "box.light",
             "service.spec.ts": "angular.light",
             "service.ts": "angular.light",
+            "svg": "image.light",
+            "swf": "flash.light",
             "tar": "box.light",
+            "tif": "image.light",
+            "tiff": "image.light",
+            "webp": "image.light",
             "xz": "box.light",
             "zip": "box.light"
         },
@@ -368,9 +614,23 @@
             "css": "css.light",
             "d": "d.light",
             "dart": "dart.light",
+            "dockerfile": "docker.light",
+            "elixir": "elixir.light",
+            "elm": "elm.light",
+            "erlang": "erlang.light",
+            "fsharp": "fsharp.light",
+            "go": "go.light",
+            "groovy": "groovy.light",
+            "haskell": "haskell.light",
+            "haxe": "haxe.light",
+            "html": "html.light",
+            "hxml": "haxe-hxml.light",
             "makefile": "build.light",
             "perl": "camelia.light",
-            "perl6": "camelia.light"
+            "perl6": "camelia.light",
+            "plqsl": "database.light",
+            "sql": "database.light",
+            "vala": "gnome.light"
         }
     }
 }

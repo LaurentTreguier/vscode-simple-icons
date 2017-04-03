@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g stroke="#000" stroke-width="40" stroke-linecap="square">
+                <path d="M 100,230 Q 140,230 160,160 Q 180,90 220,90" fill="none"/>
+                <line x1="180" y1="160" x2="200" y2="160"/>
+            </g>
+        </mask>
+    </defs>
+    <circle cx="160" cy="160" r="160" fill="#bfbfbf" mask="url(#mask)"/>
+</svg>

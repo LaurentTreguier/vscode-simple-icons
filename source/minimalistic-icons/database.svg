@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <ellipse id="ellipse-bottom" cx="160" cy="240" rx="130" ry="70"/>
+        <ellipse id="ellipse-middle" cx="160" cy="160" rx="130" ry="70"/>
+        <ellipse id="ellipse-top" cx="160" cy="80" rx="130" ry="70"/>
+        <mask id="mask-middle">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#ellipse-middle" fill="none" stroke="#000" stroke-width="30"/>
+        </mask>
+        <mask id="mask-top">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#ellipse-top" fill="none" stroke="#000" stroke-width="30"/>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf">
+        <use xlink:href="#ellipse-bottom" mask="url(#mask-middle)"/>
+        <use xlink:href="#ellipse-middle" mask="url(#mask-top)"/>
+        <use xlink:href="#ellipse-top"/>
+    </g>
+</svg>

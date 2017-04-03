@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g stroke="#000" stroke-width="10">
+                <g fill="none">
+                    <ellipse cx="50" cy="170" rx="40" ry="20" transform="rotate(15 50 170)"/>
+                    <ellipse cx="160" cy="200" rx="40" ry="20" transform="rotate(10 160 200)"/>
+                </g>
+                <path d="M 90,180 L 120,190"/>
+            </g>
+            <g fill="#000">
+                <ellipse cx="70" cy="180" rx="10" ry="15" transform="rotate(10 70 180)"/>
+                <ellipse cx="150" cy="195" rx="10" ry="15" transform="rotate(15 150 195)"/>
+                <ellipse cx="24" cy="290" rx="20" ry="15" transform="rotate(30 24 290)"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf" mask="url(#mask)">
+        <ellipse cx="120" cy="60" rx="60" ry="40" transform="rotate(-50 120 60)"/>
+        <ellipse cx="260" cy="160" rx="60" ry="40" transform="rotate(-40 260 160)"/>
+        <path d="M 10 280 Q 10,140 80,80 Q 240,60 220,200 Q 180,300 40,300 Z"/>
+    </g>
+</svg>
