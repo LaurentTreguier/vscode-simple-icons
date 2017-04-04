@@ -4,7 +4,7 @@
     <g fill="#fff" stroke="#88029c" stroke-width="20">
         <polygon points="50,10 150,10 270,130 270,310 50,310"/>
         <ellipse cx="160" cy="210" rx="50" ry="20"/>
-        <rect x="120" y="150" width="80" height="60" stroke="none"/>
+        <rect x="120" y="180" width="80" height="30" stroke="none"/>
         <ellipse cx="160" cy="150" rx="50" ry="20"/>
         <line x1="110" y1="150" x2="110" y2="210"/>
         <line x1="210" y1="150" x2="210" y2="210"/>
