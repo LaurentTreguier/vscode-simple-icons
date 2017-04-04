@@ -371,6 +371,150 @@
         },
         "image.light": {
             "iconPath": "./icons/minimalistic-icons/image.light.svg"
+        },
+        "ionic": {
+            "iconPath": "./icons/minimalistic-icons/ionic.svg"
+        },
+        "ionic.light": {
+            "iconPath": "./icons/minimalistic-icons/ionic.light.svg"
+        },
+        "java": {
+            "iconPath": "./icons/minimalistic-icons/java.svg"
+        },
+        "java.light": {
+            "iconPath": "./icons/minimalistic-icons/java.light.svg"
+        },
+        "javascript": {
+            "iconPath": "./icons/minimalistic-icons/javascript.svg"
+        },
+        "javascript.light": {
+            "iconPath": "./icons/minimalistic-icons/javascript.light.svg"
+        },
+        "javascript-test": {
+            "iconPath": "./icons/minimalistic-icons/javascript-test.svg"
+        },
+        "javascript-test.light": {
+            "iconPath": "./icons/minimalistic-icons/javascript-test.light.svg"
+        },
+        "json": {
+            "iconPath": "./icons/minimalistic-icons/json.svg"
+        },
+        "json.light": {
+            "iconPath": "./icons/minimalistic-icons/json.light.svg"
+        },
+        "julia": {
+            "iconPath": "./icons/minimalistic-icons/julia.svg"
+        },
+        "julia.light": {
+            "iconPath": "./icons/minimalistic-icons/julia.light.svg"
+        },
+        "karma": {
+            "iconPath": "./icons/minimalistic-icons/karma.svg"
+        },
+        "karma.light": {
+            "iconPath": "./icons/minimalistic-icons/karma.light.svg"
+        },
+        "kotlin": {
+            "iconPath": "./icons/minimalistic-icons/kotlin.svg"
+        },
+        "kotlin.light": {
+            "iconPath": "./icons/minimalistic-icons/kotlin.light.svg"
+        },
+        "less": {
+            "iconPath": "./icons/minimalistic-icons/less.svg"
+        },
+        "less.light": {
+            "iconPath": "./icons/minimalistic-icons/less.light.svg"
+        },
+        "lib": {
+            "iconPath": "./icons/minimalistic-icons/lib.svg"
+        },
+        "lib.light": {
+            "iconPath": "./icons/minimalistic-icons/lib.light.svg"
+        },
+        "libreoffice-base": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-base.svg"
+        },
+        "libreoffice-base.light": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-base.light.svg"
+        },
+        "libreoffice-calc": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-calc.svg"
+        },
+        "libreoffice-calc.light": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-calc.light.svg"
+        },
+        "libreoffice-draw": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-draw.svg"
+        },
+        "libreoffice-draw.light": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-draw.light.svg"
+        },
+        "libreoffice-impress": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-impress.svg"
+        },
+        "libreoffice-impress.light": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-impress.light.svg"
+        },
+        "libreoffice-math": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-math.svg"
+        },
+        "libreoffice-math.light": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-math.light.svg"
+        },
+        "libreoffice-writer": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-writer.svg"
+        },
+        "libreoffice-writer.light": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-writer.light.svg"
+        },
+        "licence": {
+            "iconPath": "./icons/minimalistic-icons/licence.svg"
+        },
+        "licence.light": {
+            "iconPath": "./icons/minimalistic-icons/licence.light.svg"
+        },
+        "lisp": {
+            "iconPath": "./icons/minimalistic-icons/lisp.svg"
+        },
+        "lisp.light": {
+            "iconPath": "./icons/minimalistic-icons/lisp.light.svg"
+        },
+        "lock": {
+            "iconPath": "./icons/minimalistic-icons/lock.svg"
+        },
+        "lock.light": {
+            "iconPath": "./icons/minimalistic-icons/lock.light.svg"
+        },
+        "lua": {
+            "iconPath": "./icons/minimalistic-icons/lua.svg"
+        },
+        "lua.light": {
+            "iconPath": "./icons/minimalistic-icons/lua.light.svg"
+        },
+        "markdown": {
+            "iconPath": "./icons/minimalistic-icons/markdown.svg"
+        },
+        "markdown.light": {
+            "iconPath": "./icons/minimalistic-icons/markdown.light.svg"
+        },
+        "meson": {
+            "iconPath": "./icons/minimalistic-icons/meson.svg"
+        },
+        "meson.light": {
+            "iconPath": "./icons/minimalistic-icons/meson.light.svg"
+        },
+        "nim": {
+            "iconPath": "./icons/minimalistic-icons/nim.svg"
+        },
+        "nim.light": {
+            "iconPath": "./icons/minimalistic-icons/nim.light.svg"
+        },
+        "npm": {
+            "iconPath": "./icons/minimalistic-icons/npm.svg"
+        },
+        "npm.light": {
+            "iconPath": "./icons/minimalistic-icons/npm.light.svg"
         }
     },
     "folder": "folder",
@@ -394,6 +538,7 @@
         ".eslintignore": "eslint",
         ".gitignore": "git",
         ".htaccess": "apache",
+        ".npmignore": "npm",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
@@ -406,13 +551,25 @@
         "gulpfile.coffee": "gulp",
         "gulpfile.js": "gulp",
         "gulpfile.ts": "gulp",
+        "ionic.config.json": "ionic",
+        "ionic.project": "ionic",
+        "karma.conf.js": "karma",
+        "licence": "licence",
+        "licence.md": "licence",
+        "licence.txt": "licence",
+        "license": "licence",
+        "license.md": "licence",
+        "license.txt": "licence",
+        "meson.build": "meson",
         "pkgbuild": "archlinux"
     },
     "fileExtensions": {
         "7z": "box",
+        "a": "lib",
         "aepx": "adobe-after-effects",
         "ai": "adobe-illustrator",
         "as": "flash",
+        "bin": "lib",
         "bmp": "image",
         "bz2": "box",
         "bzip2": "box",
@@ -429,10 +586,12 @@
         "db": "database",
         "deb": "debian-box",
         "diff": "diff",
+        "dll": "lib",
         "dmg": "disc",
         "dockerfile": "docker",
         "dockerignore": "docker",
         "dwt": "adobe-dreamweaver",
+        "exe": "lib",
         "fla": "adobe-animate",
         "gif": "image",
         "gradle": "gradle",
@@ -444,7 +603,9 @@
         "jar": "box",
         "jpeg": "image",
         "jpg": "image",
+        "lib": "lib",
         "lrcat": "adobe-lightroom",
+        "lock": "lock",
         "lz": "box",
         "lzma": "box",
         "lzo": "box",
@@ -452,6 +613,12 @@
         "module.ts": "angular",
         "muse": "adobe-muse",
         "ninja": "build",
+        "odb": "libreoffice-base",
+        "odf": "libreoffice-math",
+        "odg": "libreoffice-draw",
+        "odp": "libreoffice-impress",
+        "ods": "libreoffice-calc",
+        "odt": "libreoffice-writer",
         "patch": "diff",
         "pdb": "database",
         "pkg": "box",
@@ -462,6 +629,8 @@
         "rar": "box",
         "service.spec.ts": "angular",
         "service.ts": "angular",
+        "so": "lib",
+        "spec.js": "javascript-test",
         "svg": "image",
         "swf": "flash",
         "tar": "box",
@@ -495,7 +664,18 @@
         "haxe": "haxe",
         "html": "html",
         "hxml": "haxe-hxml",
+        "java": "java",
+        "javascript": "javascript",
+        "json": "json",
+        "julia": "julia",
+        "kotlin": "kotlin",
+        "less": "less",
+        "lisp": "lisp",
+        "lua": "lua",
         "makefile": "build",
+        "markdown": "markdown",
+        "nim": "nim",
+        "nimble": "nim",
         "perl": "camelia",
         "perl6": "camelia",
         "plqsl": "database",
@@ -524,6 +704,7 @@
             ".eslintignore": "eslint.light",
             ".gitignore": "git.light",
             ".htaccess": "apache.light",
+            ".npmignore": "npm.light",
             "angular-cli.json": "angular.light",
             "appveyor.yaml": "appveyor.light",
             "appveyor.yml": "appveyor.light",
@@ -536,13 +717,25 @@
             "gulpfile.coffee": "gulp.light",
             "gulpfile.js": "gulp.light",
             "gulpfile.ts": "gulp.light",
+            "ionic.config.json": "ionic.light",
+            "ionic.project": "ionic.light",
+            "karma.conf.js": "karma.light",
+            "licence": "licence.light",
+            "licence.md": "licence.light",
+            "licence.txt": "licence.light",
+            "license": "licence.light",
+            "license.md": "licence.light",
+            "license.txt": "licence.light",
+            "meson.build": "meson.light",
             "pkgbuild": "archlinux.light"
         },
         "fileExtensions": {
             "7z": "box.light",
+            "a": "lib.light",
             "aepx": "adobe-after-effects.light",
             "ai": "adobe-illustrator.light",
             "as": "flash.light",
+            "bin": "lib.light",
             "bmp": "image.light",
             "bz2": "box.light",
             "bzip2": "box.light",
@@ -559,10 +752,12 @@
             "db": "database.light",
             "deb": "debian-box.light",
             "diff": "diff.light",
+            "dll": "lib.light",
             "dmg": "disc.light",
             "dockerfile": "docker.light",
             "dockerignore": "docker.light",
             "dwt": "adobe-dreamweaver.light",
+            "exe": "lib.light",
             "fla": "adobe-animate.light",
             "gif": "image.light",
             "gradle": "gradle.light",
@@ -574,7 +769,9 @@
             "jar": "box.light",
             "jpeg": "image.light",
             "jpg": "image.light",
+            "lib": "lib.light",
             "lrcat": "adobe-lightroom.light",
+            "lock": "lock.light",
             "lz": "box.light",
             "lzma": "box.light",
             "lzo": "box.light",
@@ -582,6 +779,12 @@
             "module.ts": "angular.light",
             "muse": "adobe-muse.light",
             "ninja": "build.light",
+            "odb": "libreoffice-base.light",
+            "odf": "libreoffice-math.light",
+            "odg": "libreoffice-draw.light",
+            "odp": "libreoffice-impress.light",
+            "ods": "libreoffice-calc.light",
+            "odt": "libreoffice-writer.light",
             "patch": "diff.light",
             "pdb": "database.light",
             "pkg": "box.light",
@@ -592,6 +795,8 @@
             "rar": "box.light",
             "service.spec.ts": "angular.light",
             "service.ts": "angular.light",
+            "so": "lib.light",
+            "spec.js": "javascript-test.light",
             "svg": "image.light",
             "swf": "flash.light",
             "tar": "box.light",
@@ -625,7 +830,18 @@
             "haxe": "haxe.light",
             "html": "html.light",
             "hxml": "haxe-hxml.light",
+            "java": "java.light",
+            "javascript": "javascript.light",
+            "json": "json.light",
+            "julia": "julia.light",
+            "kotlin": "kotlin.light",
+            "less": "less.light",
+            "lisp": "lisp.light",
+            "lua": "lua.light",
             "makefile": "build.light",
+            "markdown": "markdown.light",
+            "nim": "nim.light",
+            "nimble": "nim.light",
             "perl": "camelia.light",
             "perl6": "camelia.light",
             "plqsl": "database.light",

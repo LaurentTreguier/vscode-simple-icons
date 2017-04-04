@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <g id="ribbon">
+            <polygon points="200,200 180,320 240,280 300,320 280,200"/>
+            <circle cx="240" cy="200" r="60"/>
+        </g>
+        <clipPath id="clip">
+            <rect x="0" y="280" width="320" height="40"/>
+        </clipPath>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#ribbon"/>
+            <g stroke="#000" stroke-width="20">
+                <line x1="80" y1="90" x2="240" y2="90"/>
+                <line x1="40" y1="150" x2="140" y2="150"/>
+                <line x1="40" y1="190" x2="140" y2="190"/>
+                <line x1="40" y1="190" x2="140" y2="190"/>
+                <line x1="40" y1="230" x2="140" y2="230"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf">
+        <rect x="0" y="40" width="320" height="240" mask="url(#mask)"/>
+        <use xlink:href="#ribbon" clip-path="url(#clip)"/>
+    </g>
+</svg>

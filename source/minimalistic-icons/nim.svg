@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <ellipse id="ellipse-top" cx="160" cy="140" rx="150" ry="80"/>
+        <ellipse id="ellipse-bottom" cx="160" cy="190" rx="130" ry="90"/>
+        <mask id="mask-top">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#ellipse-bottom" fill="#000"/>
+        </mask>
+        <mask id="mask-bottom">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#ellipse-top" fill="#000"/>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf">
+        <use xlink:href="#ellipse-top" mask="url(#mask-top)"/>
+        <polygon points="120,80 160,40 200,80"/>
+        <polygon points="40,100 60,50 100,80"/>
+        <polygon points="280,100 260,50 220,80"/>
+        <polygon points="10,140 0,90 60,120"/>
+        <polygon points="310,140 320,90 260,120"/>
+        <use xlink:href="#ellipse-bottom" mask="url(#mask-bottom)"/>
+        <polygon points="20,165 40,160 80,220 30,190"/>
+        <polygon points="300,165 280,160 240,220 290,190"/>
+        <polygon points="80,230 160,180 240,230"/>
+    </g>
+</svg>
