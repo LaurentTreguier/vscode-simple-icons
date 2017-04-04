@@ -243,6 +243,9 @@
         "javascript": {
             "iconPath": "./icons/simple-icons/javascript.svg"
         },
+        "javascript-embedded": {
+            "iconPath": "./icons/simple-icons/javascript-embedded.svg"
+        },
         "javascript-test": {
             "iconPath": "./icons/simple-icons/javascript-test.svg"
         },
@@ -772,6 +775,7 @@
         "dart": "dart",
         "diet": "vibed",
         "dockerfile": "docker",
+        "ejs": "javascript-embedded",
         "elixir": "elixir",
         "elm": "elm",
         "erb": "ruby-embedded",
@@ -1064,6 +1068,7 @@
             "dart": "dart",
             "diet": "vibed",
             "dockerfile": "docker",
+            "ejs": "javascript-embedded",
             "elixir": "elixir",
             "elm": "elm",
             "erb": "ruby-embedded",
