@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <g fill="#9f5f3f">
+        <polygon points="220,0 260,40 40,260 0,220"/>
+        <polygon points="60,240 120,300 100,320 40,260"/>
+        <polygon points="100,200 160,260 140,280 80,220"/>
+        <polygon points="140,160 200,220 180,240 120,180"/>
+        <polygon points="180,120 240,180 220,200 160,140"/>
+        <polygon points="220,80 280,140 260,160 200,100"/>
+        <polygon points="260,40 320,100 300,120 240,60"/>
+    </g>
+</svg>

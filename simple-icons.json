@@ -72,6 +72,9 @@
         "archlinux-box": {
             "iconPath": "./icons/simple-icons/archlinux-box.svg"
         },
+        "babel": {
+            "iconPath": "./icons/simple-icons/babel.svg"
+        },
         "binary": {
             "iconPath": "./icons/simple-icons/binary.svg"
         },
@@ -128,6 +131,9 @@
         },
         "css": {
             "iconPath": "./icons/simple-icons/css.svg"
+        },
+        "csscomb": {
+            "iconPath": "./icons/simple-icons/csscomb.svg"
         },
         "csv": {
             "iconPath": "./icons/simple-icons/csv.svg"
@@ -571,7 +577,9 @@
         "typings": "typescript.folder.expanded"
     },
     "fileNames": {
+        ".babelrc": "babel",
         ".bowerrc": "bower",
+        ".csscomb.json": "csscomb",
         ".editorconfig": "editorconfig",
         ".eslintrc": "eslint",
         ".eslintrc.js": "eslint",
@@ -861,7 +869,9 @@
             "typings": "typescript.folder.expanded"
         },
         "fileNames": {
+            ".babelrc": "babel",
             ".bowerrc": "bower",
+            ".csscomb.json": "csscomb",
             ".editorconfig": "editorconfig",
             ".eslintrc": "eslint",
             ".eslintrc.js": "eslint",
