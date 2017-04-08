@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <defs>
-        <clipPath id="clip">
-            <rect x="0" y="0" width="200" height="320"/>
-            <rect x="220" y="0" width="100" height="320"/>
-        </clipPath>
-    </defs>
     <g stroke="#1f7244" stroke-width="20">
         <polyline points="160,50 310,50 310,270 160,270" fill="#fff"/>
-        <g clip-path="url(#clip)">
-            <line x1="160" y1="90" x2="280" y2="90"/>
-            <line x1="160" y1="130" x2="280" y2="130"/>
-            <line x1="160" y1="170" x2="280" y2="170"/>
-            <line x1="160" y1="210" x2="280" y2="210"/>
-        </g>
+        <line x1="160" y1="90" x2="280" y2="90"/>
+        <line x1="160" y1="130" x2="280" y2="130"/>
+        <line x1="160" y1="170" x2="280" y2="170"/>
+        <line x1="160" y1="210" x2="280" y2="210"/>
+        <line x1="210" y1="80" x2="210" y2="220" stroke="#fff"/>
     </g>
     <polygon points="0,40 160,0 160,320 0,280" fill="#1f7244"/>
     <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="bold" fill="#fff">X</text>

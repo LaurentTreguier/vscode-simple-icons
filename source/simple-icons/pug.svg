@@ -4,13 +4,13 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <defs>
         <ellipse id="ellipse" cx="160" cy="160" rx="120" ry="100"/>
-        <mask id="mask">
-            <use xlink:href="#ellipse" fill="#fff"/>
-        </mask>
+        <clipPath id="clip">
+            <use xlink:href="#ellipse"/>
+        </clipPath>
     </defs>
     <use xlink:href="#ellipse" fill="#efcca3"/>
     <g fill="#56332b">
-        <rect x="90" y="155" width="140" height="120" rx="70" ry="50" mask="url(#mask)"/>
+        <rect x="90" y="155" width="140" height="120" rx="70" ry="50" clip-path="url(#clip)"/>
         <ellipse cx="160" cy="160" rx="20" ry="15"/>
         <polygon points="90,78 0,130 50,190"/>
         <polygon points="230,78 320,130 270,190"/>
@@ -23,7 +23,7 @@
         <circle cx="105" cy="140" r="5"/>
         <circle cx="215" cy="140" r="5"/>
     </g>
-    <g stroke="#000" stroke-width="5">
+    <g stroke="#000" stroke-width="10">
         <path d="M 130,220 Q 160,160 190,220" fill="none"/>
         <line x1="160" y1="160" x2="160" y2="190"/>
     </g>

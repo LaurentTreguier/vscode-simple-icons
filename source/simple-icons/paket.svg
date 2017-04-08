@@ -4,7 +4,6 @@
     <polygon points="160,0 320,80 320,240 160,320 0,240 0,80" fill="#efc75e"/>
     <polygon points="320,240 160,320 160,160 320,80" fill="#e7bf55"/>
     <polygon points="0,240 0,80 160,160 160,320" fill="#dbb551"/>
-    <polygon points="60,50 100,30 260,110 220,130" fill="#f7e3af"/>
-    <polygon points="260,110 260,170 220,190 220,130" fill="#f7e3af"/>
+    <polygon points="60,50 100,30 260,110 260,170 220,190 220,130" fill="#f7e3af"/>
     <polygon points="70,200 130,230 130,270 70,240" fill="#fff"/>
 </svg>

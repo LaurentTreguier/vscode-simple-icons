@@ -19,11 +19,11 @@
         <ellipse cx="290" cy="160" rx="30" ry="80"/>
         <rect x="160" y="80" width="130" height="160"/>
         <ellipse cx="160" cy="30" rx="80" ry="30"/>
-        <rect x="80" y="30" width="160" height="40"/>
+        <rect x="80" y="30" width="160" height="30"/>
         <rect x="160" y="30" width="80" height="130" rx="40" ry="40"/>
         <rect x="160" y="80" width="40" height="80"/>
         <ellipse cx="160" cy="290" rx="80" ry="30"/>
-        <rect x="80" y="250" width="160" height="40"/>
+        <rect x="80" y="260" width="160" height="30"/>
         <rect x="80" y="160" width="80" height="130" rx="40" ry="40"/>
         <rect x="120" y="160" width="40" height="80"/>
     </g>
