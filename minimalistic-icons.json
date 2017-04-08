@@ -210,6 +210,9 @@
         "d.folder.light": {
             "iconPath": "./icons/minimalistic-icons/d.folder.light.svg"
         },
+        "d-build": {
+            "iconPath": "./icons/minimalistic-icons/d-build.svg"
+        },
         "dart": {
             "iconPath": "./icons/minimalistic-icons/dart.svg"
         },
@@ -701,6 +704,8 @@
         "cakefile": "build",
         "cmakecache.txt": "cmake",
         "cmakelists.txt": "cmake",
+        "dub.json": "d-build",
+        "dub.sdl": "d-build",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
         "gruntfile.ts": "grunt",
