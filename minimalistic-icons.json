@@ -504,17 +504,167 @@
         "meson.light": {
             "iconPath": "./icons/minimalistic-icons/meson.light.svg"
         },
+        "msoffice-access": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-access.svg"
+        },
+        "msoffice-access.light": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-access.light.svg"
+        },
+        "msoffice-excel": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-excel.svg"
+        },
+        "msoffice-excel.light": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-excel.light.svg"
+        },
+        "msoffice-onenote": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-onenote.svg"
+        },
+        "msoffice-onenote.light": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-onenote.light.svg"
+        },
+        "msoffice-powerpoint": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-powerpoint.svg"
+        },
+        "msoffice-powerpoint.light": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-powerpoint.light.svg"
+        },
+        "msoffice-word": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-word.svg"
+        },
+        "msoffice-word.light": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-word.light.svg"
+        },
         "nim": {
             "iconPath": "./icons/minimalistic-icons/nim.svg"
         },
         "nim.light": {
             "iconPath": "./icons/minimalistic-icons/nim.light.svg"
         },
+        "nodejs": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.svg"
+        },
+        "nodejs.light": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.light.svg"
+        },
+        "nodejs.folder": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.folder.svg"
+        },
+        "nodejs.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.folder.light.svg"
+        },
         "npm": {
             "iconPath": "./icons/minimalistic-icons/npm.svg"
         },
         "npm.light": {
             "iconPath": "./icons/minimalistic-icons/npm.light.svg"
+        },
+        "nuget": {
+            "iconPath": "./icons/minimalistic-icons/nuget.svg"
+        },
+        "nuget.light": {
+            "iconPath": "./icons/minimalistic-icons/nuget.light.svg"
+        },
+        "nuget.folder": {
+            "iconPath": "./icons/minimalistic-icons/nuget.folder.svg"
+        },
+        "nuget.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/nuget.folder.light.svg"
+        },
+        "nuget-box": {
+            "iconPath": "./icons/minimalistic-icons/nuget-box.svg"
+        },
+        "nuget-box.light": {
+            "iconPath": "./icons/minimalistic-icons/nuget-box.light.svg"
+        },
+        "objective-c": {
+            "iconPath": "./icons/minimalistic-icons/objective-c.svg"
+        },
+        "objective-c.light": {
+            "iconPath": "./icons/minimalistic-icons/objective-c.light.svg"
+        },
+        "ocaml": {
+            "iconPath": "./icons/minimalistic-icons/ocaml.svg"
+        },
+        "ocaml.light": {
+            "iconPath": "./icons/minimalistic-icons/ocaml.light.svg"
+        },
+        "paket": {
+            "iconPath": "./icons/minimalistic-icons/paket.svg"
+        },
+        "paket.light": {
+            "iconPath": "./icons/minimalistic-icons/paket.light.svg"
+        },
+        "paket.folder": {
+            "iconPath": "./icons/minimalistic-icons/paket.folder.svg"
+        },
+        "paket.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/paket.folder.light.svg"
+        },
+        "pdf": {
+            "iconPath": "./icons/minimalistic-icons/pdf.svg"
+        },
+        "pdf.light": {
+            "iconPath": "./icons/minimalistic-icons/pdf.light.svg"
+        },
+        "php": {
+            "iconPath": "./icons/minimalistic-icons/php.svg"
+        },
+        "php.light": {
+            "iconPath": "./icons/minimalistic-icons/php.light.svg"
+        },
+        "powershell": {
+            "iconPath": "./icons/minimalistic-icons/powershell.svg"
+        },
+        "powershell.light": {
+            "iconPath": "./icons/minimalistic-icons/powershell.light.svg"
+        },
+        "protractor": {
+            "iconPath": "./icons/minimalistic-icons/protractor.svg"
+        },
+        "protractor.light": {
+            "iconPath": "./icons/minimalistic-icons/protractor.light.svg"
+        },
+        "pug": {
+            "iconPath": "./icons/minimalistic-icons/pug.svg"
+        },
+        "pug.light": {
+            "iconPath": "./icons/minimalistic-icons/pug.light.svg"
+        },
+        "python": {
+            "iconPath": "./icons/minimalistic-icons/python.svg"
+        },
+        "python.light": {
+            "iconPath": "./icons/minimalistic-icons/python.light.svg"
+        },
+        "python.folder": {
+            "iconPath": "./icons/minimalistic-icons/python.folder.svg"
+        },
+        "python.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/python.folder.light.svg"
+        },
+        "r": {
+            "iconPath": "./icons/minimalistic-icons/r.svg"
+        },
+        "r.light": {
+            "iconPath": "./icons/minimalistic-icons/r.light.svg"
+        },
+        "razor": {
+            "iconPath": "./icons/minimalistic-icons/razor.svg"
+        },
+        "razor.light": {
+            "iconPath": "./icons/minimalistic-icons/razor.light.svg"
+        },
+        "react": {
+            "iconPath": "./icons/minimalistic-icons/react.svg"
+        },
+        "react.light": {
+            "iconPath": "./icons/minimalistic-icons/react.light.svg"
+        },
+        "readme": {
+            "iconPath": "./icons/minimalistic-icons/readme.svg"
+        },
+        "readme.light": {
+            "iconPath": "./icons/minimalistic-icons/readme.light.svg"
         }
     },
     "folder": "folder",
@@ -524,7 +674,13 @@
         ".dub": "d.folder",
         ".git": "git.folder",
         ".github": "git.folder",
-        "bower_components": "bower.folder"
+        ".nuget": "nuget.folder",
+        ".paket": "paket.folder",
+        "__pycache__": "python.folder",
+        "bin": "build.folder",
+        "bower_components": "bower.folder",
+        "build": "build.folder",
+        "node_modules": "nodejs.folder"
     },
     "folderNamesExpanded": {},
     "fileNames": {
@@ -561,11 +717,22 @@
         "license.md": "licence",
         "license.txt": "licence",
         "meson.build": "meson",
-        "pkgbuild": "archlinux"
+        "package.json": "nodejs",
+        "paket.dependencies": "paket",
+        "paket.local": "paket",
+        "paket.lock": "paket",
+        "paket.references": "paket",
+        "paket.template": "paket",
+        "pkgbuild": "archlinux",
+        "protractor.conf.js": "protractor",
+        "readme": "readme",
+        "readme.md": "readme",
+        "readme.txt": "readme"
     },
     "fileExtensions": {
         "7z": "box",
         "a": "lib",
+        "accdb": "msoffice-access",
         "aepx": "adobe-after-effects",
         "ai": "adobe-illustrator",
         "as": "flash",
@@ -588,8 +755,10 @@
         "diff": "diff",
         "dll": "lib",
         "dmg": "disc",
+        "doc": "msoffice-word",
         "dockerfile": "docker",
         "dockerignore": "docker",
+        "docx": "msoffice-word",
         "dwt": "adobe-dreamweaver",
         "exe": "lib",
         "fla": "adobe-animate",
@@ -610,22 +779,30 @@
         "lzma": "box",
         "lzo": "box",
         "mak": "build",
+        "mdb": "msoffice-access",
         "module.ts": "angular",
         "muse": "adobe-muse",
         "ninja": "build",
+        "nupkg": "nuget-box",
+        "nuspec": "nuget",
         "odb": "libreoffice-base",
         "odf": "libreoffice-math",
         "odg": "libreoffice-draw",
         "odp": "libreoffice-impress",
         "ods": "libreoffice-calc",
         "odt": "libreoffice-writer",
+        "one": "msoffice-onenote",
         "patch": "diff",
         "pdb": "database",
+        "pdf": "pdf",
         "pkg": "box",
         "pkg.tar.xz": "archlinux-box",
         "png": "image",
+        "ppt": "msoffice-powerpoint",
+        "pptx": "msoffice-powerpoint",
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
+        "psmdcp": "nuget",
         "rar": "box",
         "service.spec.ts": "angular",
         "service.ts": "angular",
@@ -637,6 +814,8 @@
         "tif": "image",
         "tiff": "image",
         "webp": "image",
+        "xls": "msoffice-excel",
+        "xlsx": "msoffice-excel",
         "xz": "box",
         "zip": "box"
     },
@@ -664,8 +843,10 @@
         "haxe": "haxe",
         "html": "html",
         "hxml": "haxe-hxml",
+        "jade": "pug",
         "java": "java",
         "javascript": "javascript",
+        "javascriptreact": "react",
         "json": "json",
         "julia": "julia",
         "kotlin": "kotlin",
@@ -676,10 +857,18 @@
         "markdown": "markdown",
         "nim": "nim",
         "nimble": "nim",
+        "objective-c": "objective-c",
+        "ocaml": "ocaml",
         "perl": "camelia",
         "perl6": "camelia",
+        "php": "php",
         "plqsl": "database",
+        "powershell": "powershell",
+        "python": "python",
+        "r": "r",
+        "razor": "razor",
         "sql": "database",
+        "typescriptreact": "react",
         "vala": "gnome"
     },
     "light": {
@@ -690,7 +879,13 @@
             ".dub": "d.folder.light",
             ".git": "git.folder.light",
             ".github": "git.folder.light",
-            "bower_components": "bower.folder.light"
+            ".nuget": "nuget.folder.light",
+            ".paket": "paket.folder.light",
+            "__pycache__": "python.folder.light",
+            "bin": "build.folder.light",
+            "bower_components": "bower.folder.light",
+            "build": "build.folder.light",
+            "node_modules": "nodejs.folder.light"
         },
         "folderNamesExpanded": {},
         "fileNames": {
@@ -727,11 +922,22 @@
             "license.md": "licence.light",
             "license.txt": "licence.light",
             "meson.build": "meson.light",
-            "pkgbuild": "archlinux.light"
+            "package.json": "nodejs.light",
+            "paket.dependencies": "paket.light",
+            "paket.local": "paket.light",
+            "paket.lock": "paket.light",
+            "paket.references": "paket.light",
+            "paket.template": "paket.light",
+            "pkgbuild": "archlinux.light",
+            "protractor.conf.js": "protractor.light",
+            "readme": "readme.light",
+            "readme.md": "readme.light",
+            "readme.txt": "readme.light"
         },
         "fileExtensions": {
             "7z": "box.light",
             "a": "lib.light",
+            "accdb": "msoffice-access.light",
             "aepx": "adobe-after-effects.light",
             "ai": "adobe-illustrator.light",
             "as": "flash.light",
@@ -754,8 +960,10 @@
             "diff": "diff.light",
             "dll": "lib.light",
             "dmg": "disc.light",
+            "doc": "msoffice-word.light",
             "dockerfile": "docker.light",
             "dockerignore": "docker.light",
+            "docx": "msoffice-word.light",
             "dwt": "adobe-dreamweaver.light",
             "exe": "lib.light",
             "fla": "adobe-animate.light",
@@ -776,22 +984,30 @@
             "lzma": "box.light",
             "lzo": "box.light",
             "mak": "build.light",
+            "mdb": "msoffice-access.light",
             "module.ts": "angular.light",
             "muse": "adobe-muse.light",
             "ninja": "build.light",
+            "nupkg": "nuget-box.light",
+            "nuspec": "nuget.light",
             "odb": "libreoffice-base.light",
             "odf": "libreoffice-math.light",
             "odg": "libreoffice-draw.light",
             "odp": "libreoffice-impress.light",
             "ods": "libreoffice-calc.light",
             "odt": "libreoffice-writer.light",
+            "one": "msoffice-onenote.light",
             "patch": "diff.light",
             "pdb": "database.light",
+            "pdf": "pdf.light",
             "pkg": "box.light",
             "pkg.tar.xz": "archlinux-box.light",
             "png": "image.light",
+            "ppt": "msoffice-powerpoint.light",
+            "pptx": "msoffice-powerpoint.light",
             "prproj": "adobe-premiere-pro.light",
             "psd": "adobe-photoshop.light",
+            "psmdcp": "nuget.light",
             "rar": "box.light",
             "service.spec.ts": "angular.light",
             "service.ts": "angular.light",
@@ -803,6 +1019,8 @@
             "tif": "image.light",
             "tiff": "image.light",
             "webp": "image.light",
+            "xls": "msoffice-excel.light",
+            "xlsx": "msoffice-excel.light",
             "xz": "box.light",
             "zip": "box.light"
         },
@@ -830,8 +1048,10 @@
             "haxe": "haxe.light",
             "html": "html.light",
             "hxml": "haxe-hxml.light",
+            "jade": "pug.light",
             "java": "java.light",
             "javascript": "javascript.light",
+            "javascriptreact": "react.light",
             "json": "json.light",
             "julia": "julia.light",
             "kotlin": "kotlin.light",
@@ -842,10 +1062,18 @@
             "markdown": "markdown.light",
             "nim": "nim.light",
             "nimble": "nim.light",
+            "objective-c": "objective-c.light",
+            "ocaml": "ocaml.light",
             "perl": "camelia.light",
             "perl6": "camelia.light",
+            "php": "php.light",
             "plqsl": "database.light",
+            "powershell": "powershell.light",
+            "python": "python.light",
+            "r": "r.light",
+            "razor": "razor.light",
             "sql": "database.light",
+            "typescriptreact": "react.light",
             "vala": "gnome.light"
         }
     }

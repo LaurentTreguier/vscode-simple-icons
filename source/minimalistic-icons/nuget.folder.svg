@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <defs>
+        <mask id="mask">
+            <g fill="#fff">
+                <rect x="0" y="0" width="320" height="320"/>
+                <g transform="translate(40 60) scale(0.5) translate(120 40)">
+                    <g fill="#000">
+                        <circle cx="30" cy="30" r="30"/>
+                        <rect x="60" y="60" width="260" height="260" rx="80" ry="80"/>
+                    </g>
+                    <circle cx="130" cy="130" r="30"/>
+                    <circle cx="230" cy="230" r="50"/>
+                </g>
+            </g>
+        </mask>
+    </defs>
+    <rect x="40" y="60" width="280" height="200" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+</svg>

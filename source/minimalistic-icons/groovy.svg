@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <g fill="#bfbfbf">
-        <polygon points="160,20 220,180 100,180"/>
-        <polygon points="160,20 220,180 100,180" transform="rotate(72 160 180)"/>
-        <polygon points="160,20 220,180 100,180" transform="rotate(144 160 180)"/>
-        <polygon points="160,20 220,180 100,180" transform="rotate(216 160 180)"/>
-        <polygon points="160,20 220,180 100,180" transform="rotate(288 160 180)"/>
+        <polygon id="polygon" points="160,10 220,175 100,175"/>
+        <use xlink:href="#polygon" transform="rotate(72 160 175)"/>
+        <use xlink:href="#polygon" transform="rotate(144 160 175)"/>
+        <use xlink:href="#polygon" transform="rotate(216 160 175)"/>
+        <use xlink:href="#polygon" transform="rotate(288 160 175)"/>
     </g>
 </svg>
