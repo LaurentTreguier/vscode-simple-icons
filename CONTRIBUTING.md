@@ -36,9 +36,11 @@ git clone https://github.com/LaurentTreguier/vscode-simple-icons
 npm install
 ```
 
-This repository already has a `.vscode` direcory that contains the assets to optimize the SVG icons and start a debug session of VSCode. Simply create a new SVG icon in the `source` direcory and add a file association in `icons.json`, and then start a debugging session.
+This repository already has a `.vscode` direcory that contains the assets to optimize the SVG icons and start a debug session of VSCode. Simply create a new SVG icon in the `source/*` direcories and add a file association in `icons.json`, and then start a debugging session.
 
 _Note : Prefer language ID's to file extensions when possible, as it can sometimes cover a lot of extensions. Powershell, for example, has 5 different file extensions that are all covered when simply using the `powershell` language ID._
+
+The `generator.sh` script will automatically generate the `*-icons.json` files as well as minimalistic light icons from the normal versions. As this is a bash script, behavior on Windows with either git bash or Windows Subsystem for Linux is untested and unknown.
 
 ## Icon design guidelines
 

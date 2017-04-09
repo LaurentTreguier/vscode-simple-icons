@@ -1,6 +1,20 @@
 # Changelog
 
-# 1.0.1
+## 1.1.0
+
+- Introducing minimalistic icons : monochrome version of simple icons
+
+- Added icons :
+- Babel files (issue [#15](https://github.com/LaurentTreguier/vscode-simple-icons/issues/15) raised by [osawasatoru](https://github.com/osawasatoru))
+- Csscomb files (issue [#15](https://github.com/LaurentTreguier/vscode-simple-icons/issues/15) raised by [osawasatoru](https://github.com/osawasatoru))
+- Ejs files (issue [#16](https://github.com/LaurentTreguier/vscode-simple-icons/issues/16) raised by [mikevaleriano](https://github.com/mikevaleriano))
+- Favicon files (issue [#17](https://github.com/LaurentTreguier/vscode-simple-icons/issues/17) raised by [yaphtes](https://github.com/yaphtes))
+
+Other changes :
+- Cmakelists.txt files now use the cmake icon
+- .github folders now use the git folder icon
+
+### 1.0.1
 
 Added icons :
 - Windows registry files (issue [#12](https://github.com/LaurentTreguier/vscode-simple-icons/issues/12) raised by [Kaedin](https://github.com/Kaedin))
@@ -17,7 +31,7 @@ Converted to SVG :
 - Editorconfig files
 - Ocaml files
 
-# 0.11.2
+### 0.11.2
 
 Added icons :
 - Angular SASS files
@@ -28,7 +42,7 @@ Converted to SVG :
 - Gruntfiles
 - Twig templates
 
-# 0.11.1
+### 0.11.1
 
 Updated icons :
 - Bat scripts now have their own icon
@@ -42,7 +56,7 @@ Updated icons (light theme override) :
 - Shell scripts
 - Shaderlab files
 
-# 0.11.0
+## 0.11.0
 
 Added icons for the following languages :
 - Erb templates
@@ -58,7 +72,7 @@ Converted to SVG :
 - Java files
 - Vala files
 
-# 0.10.1
+### 0.10.1
 
 Added icons for the following languages :
 - Stylus (issue [#7](https://github.com/LaurentTreguier/vscode-simple-icons/issues/7) raised by [yaphtes](https://github.com/yaphtes))
@@ -70,7 +84,7 @@ Converted to SVG :
 - Apache files
 - Less files
 
-# 0.10.0
+## 0.10.0
 
 Added icons for the following languages :
 - Perl
@@ -82,13 +96,13 @@ Other added icons :
 - Typescript lint files
 
 Updated icons :
-- The config icon now use only one color
+- The config icon now uses only one color
 
 Other changes :
 - `.nimble` files now have the Nim icon
 - `.eslintignore` files new have the Eslint icon thanks to [sjml](https://github.com/sjml) ([#6](https://github.com/LaurentTreguier/vscode-simple-icons/pull/6))
 
-# 0.9.0
+## 0.9.0
 
 Added icons for the following languages :
 - Apex
@@ -111,7 +125,7 @@ Converted to SVG :
 - Scheme files
 - Sass files
 
-# 0.8.1
+### 0.8.1
 
 Updated icons :
 - The TOML icon now shows brackets instead of a 'T'
@@ -128,7 +142,7 @@ Converted to SVG :
 - Test folders
 - Webpack files
 
-# 0.8.0
+## 0.8.0
 
 Added icons :
 - Config files
@@ -147,7 +161,7 @@ Converted to SVG :
 - Pug files
 - Rust files
 
-# 0.7.9
+### 0.7.9
 
 Updated icons :
 - The licence icon was completely redone
@@ -164,7 +178,7 @@ Converted to SVG :
 - Nim files
 - Nuget files and folders
 
-# 0.7.8
+### 0.7.8
 
 Updated icons :
 - The Coffeescript icon is not the official logo anymore for the sake of simplicity
@@ -184,7 +198,7 @@ Converted to SVG :
 - Sound files
 - Swift files
 
-## 0.7.7
+### 0.7.7
 
 Updated icons :
 - The C# icon is now 'C#' instead of '#' in a circle
@@ -201,7 +215,7 @@ Converted to SVG :
 - XML files
 - YAML files
 
-## 0.7.6
+### 0.7.6
 
 Updated icons :
 - The Go icon now features a blue gopher
@@ -216,7 +230,7 @@ Converted to SVG :
 - SDLang files
 - Visual Basic files
 
-## 0.7.5
+### 0.7.5
 
 Updated icons :
 - The D icon is now closer to the original D logo
@@ -232,7 +246,7 @@ Converted to SVG :
 - Microsoft Office files
 - OpenDocument files
 
-## 0.7.4
+### 0.7.4
 
 Updated icons :
 - The Objective-c icon is now looking like '[C]'
@@ -249,7 +263,7 @@ Converted to SVG :
 - Source folders
 - Typescript files and folders
 
-## 0.7.3
+### 0.7.3
 
 Added icons :
 - .npmignore files
@@ -264,7 +278,7 @@ Converted to SVG :
 Other changes :
 Fix text files not having any icon
 
-## 0.7.2
+### 0.7.2
 
 Converted to SVG :
 - Build files and folders
@@ -277,7 +291,7 @@ Converted to SVG :
 - Visual Studio solution files
 - VSCode files and folders
 
-## 0.7.1
+### 0.7.1
 
 Converted to SVG :
 - Standard files and folders
