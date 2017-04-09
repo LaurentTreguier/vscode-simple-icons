@@ -18,6 +18,6 @@ done
 
 for theme in $mini_icons_dir $simple_icons_dir
 do
-    node generator.js json $(echo $theme | sed 's/source/icons/') $(ls $theme) < icons.json > $(basename $theme).json
+    node generator.js json $(echo $theme | sed 's/source/icons/') $(LC_ALL=C ls $theme) < icons.json > $(basename $theme).json
     echo "Generating $theme.json"
 done
