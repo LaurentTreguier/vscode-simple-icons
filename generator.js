@@ -1,18 +1,7 @@
 #!/usr/bin/node
 
 const svgExtRegexp = /\.svg$/;
-
-function traverseSections(json, callback) {
-    ['folderNames', 'fileNames', 'fileExtensions', 'languageIds'].forEach((sectionName) => {
-        let section = json[sectionName];
-
-        for (let key in section) {
-            callback(sectionName, section, key);
-        }
-    });
-}
-
-operations = {
+const operations = {
     conv: content => content.replace(/#[0-9a-fA-F]{6}/g, (color) => {
         let n = parseInt(color.slice(1), 16);
         let result = 0xffffff - n - (n === 0 ? 0 : 0x010101);
@@ -27,7 +16,10 @@ operations = {
             result.iconDefinitions[name.replace(svgExtRegexp, '')] = { iconPath: `./${process.argv[3]}/${name}` });
 
         traverseSections(result, (sectionName, section, key) => {
-            if (fileNames.indexOf(section[key] + '.svg') === -1) {
+            let options = section[key].split(/\s*\|\s*/);
+            section[key] = options.find((opt) => fileNames.indexOf(opt + '.svg') !== -1);
+
+            if (!section[key]) {
                 delete section[key];
             }
         });
@@ -62,6 +54,16 @@ operations = {
         return JSON.stringify(result, null, 4);
     }
 };
+
+function traverseSections(json, callback) {
+    ['folderNames', 'fileNames', 'fileExtensions', 'languageIds'].forEach((sectionName) => {
+        let section = json[sectionName];
+
+        for (let key in section) {
+            callback(sectionName, section, key);
+        }
+    });
+}
 
 let content = '';
 process.stdin.on('data', (data) => content += data.toString());
