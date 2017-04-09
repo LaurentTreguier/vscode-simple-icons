@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <g stroke="#000" stroke-width="40">
+                <line x1="-20" y1="-320" x2="380" y2="640"/>
+                <line x1="60" y1="320" x2="160" y2="120"/>
+            </g>
+        </mask>
+    </defs>
+    <circle cx="160" cy="160" r="160" fill="#bfbfbf" mask="url(#mask)"/>
+</svg>

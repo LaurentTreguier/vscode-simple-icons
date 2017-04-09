@@ -54,47 +54,11 @@
         "adobe-premiere-pro": {
             "iconPath": "./icons/minimalistic-icons/adobe-premiere-pro.svg"
         },
-        "angular-css.light": {
-            "iconPath": "./icons/minimalistic-icons/angular-css.light.svg"
-        },
-        "angular-css": {
-            "iconPath": "./icons/minimalistic-icons/angular-css.svg"
-        },
-        "angular-html.light": {
-            "iconPath": "./icons/minimalistic-icons/angular-html.light.svg"
-        },
-        "angular-html": {
-            "iconPath": "./icons/minimalistic-icons/angular-html.svg"
-        },
         "angular.light": {
             "iconPath": "./icons/minimalistic-icons/angular.light.svg"
         },
-        "angular-module.light": {
-            "iconPath": "./icons/minimalistic-icons/angular-module.light.svg"
-        },
-        "angular-module": {
-            "iconPath": "./icons/minimalistic-icons/angular-module.svg"
-        },
-        "angular-sass.light": {
-            "iconPath": "./icons/minimalistic-icons/angular-sass.light.svg"
-        },
-        "angular-sass": {
-            "iconPath": "./icons/minimalistic-icons/angular-sass.svg"
-        },
-        "angular-spec.light": {
-            "iconPath": "./icons/minimalistic-icons/angular-spec.light.svg"
-        },
-        "angular-spec": {
-            "iconPath": "./icons/minimalistic-icons/angular-spec.svg"
-        },
         "angular": {
             "iconPath": "./icons/minimalistic-icons/angular.svg"
-        },
-        "angular-typescript.light": {
-            "iconPath": "./icons/minimalistic-icons/angular-typescript.light.svg"
-        },
-        "angular-typescript": {
-            "iconPath": "./icons/minimalistic-icons/angular-typescript.svg"
         },
         "apache.light": {
             "iconPath": "./icons/minimalistic-icons/apache.light.svg"
@@ -222,6 +186,24 @@
         "csv": {
             "iconPath": "./icons/minimalistic-icons/csv.svg"
         },
+        "d-build.light": {
+            "iconPath": "./icons/minimalistic-icons/d-build.light.svg"
+        },
+        "d-build": {
+            "iconPath": "./icons/minimalistic-icons/d-build.svg"
+        },
+        "d.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/d.folder.light.svg"
+        },
+        "d.folder": {
+            "iconPath": "./icons/minimalistic-icons/d.folder.svg"
+        },
+        "d.light": {
+            "iconPath": "./icons/minimalistic-icons/d.light.svg"
+        },
+        "d": {
+            "iconPath": "./icons/minimalistic-icons/d.svg"
+        },
         "dart.light": {
             "iconPath": "./icons/minimalistic-icons/dart.light.svg"
         },
@@ -234,23 +216,11 @@
         "database": {
             "iconPath": "./icons/minimalistic-icons/database.svg"
         },
-        "d-build.light": {
-            "iconPath": "./icons/minimalistic-icons/d-build.light.svg"
-        },
-        "d-build": {
-            "iconPath": "./icons/minimalistic-icons/d-build.svg"
-        },
         "debian-box.light": {
             "iconPath": "./icons/minimalistic-icons/debian-box.light.svg"
         },
         "debian-box": {
             "iconPath": "./icons/minimalistic-icons/debian-box.svg"
-        },
-        "d.folder.light": {
-            "iconPath": "./icons/minimalistic-icons/d.folder.light.svg"
-        },
-        "d.folder": {
-            "iconPath": "./icons/minimalistic-icons/d.folder.svg"
         },
         "diff.light": {
             "iconPath": "./icons/minimalistic-icons/diff.light.svg"
@@ -264,17 +234,11 @@
         "disc": {
             "iconPath": "./icons/minimalistic-icons/disc.svg"
         },
-        "d.light": {
-            "iconPath": "./icons/minimalistic-icons/d.light.svg"
-        },
         "docker.light": {
             "iconPath": "./icons/minimalistic-icons/docker.light.svg"
         },
         "docker": {
             "iconPath": "./icons/minimalistic-icons/docker.svg"
-        },
-        "d": {
-            "iconPath": "./icons/minimalistic-icons/d.svg"
         },
         "editorconfig.light": {
             "iconPath": "./icons/minimalistic-icons/editorconfig.light.svg"
@@ -305,6 +269,12 @@
         },
         "eslint": {
             "iconPath": "./icons/minimalistic-icons/eslint.svg"
+        },
+        "favicon.light": {
+            "iconPath": "./icons/minimalistic-icons/favicon.light.svg"
+        },
+        "favicon": {
+            "iconPath": "./icons/minimalistic-icons/favicon.svg"
         },
         "file.light": {
             "iconPath": "./icons/minimalistic-icons/file.light.svg"
@@ -423,17 +393,14 @@
         "java.light": {
             "iconPath": "./icons/minimalistic-icons/java.light.svg"
         },
+        "java": {
+            "iconPath": "./icons/minimalistic-icons/java.svg"
+        },
         "javascript-embedded.light": {
             "iconPath": "./icons/minimalistic-icons/javascript-embedded.light.svg"
         },
         "javascript-embedded": {
             "iconPath": "./icons/minimalistic-icons/javascript-embedded.svg"
-        },
-        "javascript.light": {
-            "iconPath": "./icons/minimalistic-icons/javascript.light.svg"
-        },
-        "javascript": {
-            "iconPath": "./icons/minimalistic-icons/javascript.svg"
         },
         "javascript-test.light": {
             "iconPath": "./icons/minimalistic-icons/javascript-test.light.svg"
@@ -441,8 +408,11 @@
         "javascript-test": {
             "iconPath": "./icons/minimalistic-icons/javascript-test.svg"
         },
-        "java": {
-            "iconPath": "./icons/minimalistic-icons/java.svg"
+        "javascript.light": {
+            "iconPath": "./icons/minimalistic-icons/javascript.light.svg"
+        },
+        "javascript": {
+            "iconPath": "./icons/minimalistic-icons/javascript.svg"
         },
         "json.light": {
             "iconPath": "./icons/minimalistic-icons/json.light.svg"
@@ -476,6 +446,9 @@
         },
         "lib.light": {
             "iconPath": "./icons/minimalistic-icons/lib.light.svg"
+        },
+        "lib": {
+            "iconPath": "./icons/minimalistic-icons/lib.svg"
         },
         "libreoffice-base.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-base.light.svg"
@@ -512,9 +485,6 @@
         },
         "libreoffice-writer": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-writer.svg"
-        },
-        "lib": {
-            "iconPath": "./icons/minimalistic-icons/lib.svg"
         },
         "licence.light": {
             "iconPath": "./icons/minimalistic-icons/licence.light.svg"
@@ -690,6 +660,12 @@
         "python": {
             "iconPath": "./icons/minimalistic-icons/python.svg"
         },
+        "r.light": {
+            "iconPath": "./icons/minimalistic-icons/r.light.svg"
+        },
+        "r": {
+            "iconPath": "./icons/minimalistic-icons/r.svg"
+        },
         "razor.light": {
             "iconPath": "./icons/minimalistic-icons/razor.light.svg"
         },
@@ -708,11 +684,149 @@
         "readme": {
             "iconPath": "./icons/minimalistic-icons/readme.svg"
         },
-        "r.light": {
-            "iconPath": "./icons/minimalistic-icons/r.light.svg"
+        "registry.light": {
+            "iconPath": "./icons/minimalistic-icons/registry.light.svg"
         },
-        "r": {
-            "iconPath": "./icons/minimalistic-icons/r.svg"
+        "registry": {
+            "iconPath": "./icons/minimalistic-icons/registry.svg"
+        },
+        "rpm-box.light": {
+            "iconPath": "./icons/minimalistic-icons/rpm-box.light.svg"
+        },
+        "rpm-box": {
+            "iconPath": "./icons/minimalistic-icons/rpm-box.svg"
+        },
+        "ruby-build.light": {
+            "iconPath": "./icons/minimalistic-icons/ruby-build.light.svg"
+        },
+        "ruby-build": {
+            "iconPath": "./icons/minimalistic-icons/ruby-build.svg"
+        },
+        "ruby-embedded.light": {
+            "iconPath": "./icons/minimalistic-icons/ruby-embedded.light.svg"
+        },
+        "ruby-embedded": {
+            "iconPath": "./icons/minimalistic-icons/ruby-embedded.svg"
+        },
+        "ruby.light": {
+            "iconPath": "./icons/minimalistic-icons/ruby.light.svg"
+        },
+        "ruby": {
+            "iconPath": "./icons/minimalistic-icons/ruby.svg"
+        },
+        "rubygem.light": {
+            "iconPath": "./icons/minimalistic-icons/rubygem.light.svg"
+        },
+        "rubygem": {
+            "iconPath": "./icons/minimalistic-icons/rubygem.svg"
+        },
+        "rust-lib.light": {
+            "iconPath": "./icons/minimalistic-icons/rust-lib.light.svg"
+        },
+        "rust-lib": {
+            "iconPath": "./icons/minimalistic-icons/rust-lib.svg"
+        },
+        "rust.light": {
+            "iconPath": "./icons/minimalistic-icons/rust.light.svg"
+        },
+        "rust": {
+            "iconPath": "./icons/minimalistic-icons/rust.svg"
+        },
+        "sass.light": {
+            "iconPath": "./icons/minimalistic-icons/sass.light.svg"
+        },
+        "sass": {
+            "iconPath": "./icons/minimalistic-icons/sass.svg"
+        },
+        "scala.light": {
+            "iconPath": "./icons/minimalistic-icons/scala.light.svg"
+        },
+        "scala": {
+            "iconPath": "./icons/minimalistic-icons/scala.svg"
+        },
+        "scheme.light": {
+            "iconPath": "./icons/minimalistic-icons/scheme.light.svg"
+        },
+        "scheme": {
+            "iconPath": "./icons/minimalistic-icons/scheme.svg"
+        },
+        "sdl.light": {
+            "iconPath": "./icons/minimalistic-icons/sdl.light.svg"
+        },
+        "sdl": {
+            "iconPath": "./icons/minimalistic-icons/sdl.svg"
+        },
+        "sound.light": {
+            "iconPath": "./icons/minimalistic-icons/sound.light.svg"
+        },
+        "sound": {
+            "iconPath": "./icons/minimalistic-icons/sound.svg"
+        },
+        "source.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/source.folder.light.svg"
+        },
+        "source.folder": {
+            "iconPath": "./icons/minimalistic-icons/source.folder.svg"
+        },
+        "stylus.light": {
+            "iconPath": "./icons/minimalistic-icons/stylus.light.svg"
+        },
+        "stylus": {
+            "iconPath": "./icons/minimalistic-icons/stylus.svg"
+        },
+        "swift.light": {
+            "iconPath": "./icons/minimalistic-icons/swift.light.svg"
+        },
+        "swift": {
+            "iconPath": "./icons/minimalistic-icons/swift.svg"
+        },
+        "terminal.light": {
+            "iconPath": "./icons/minimalistic-icons/terminal.light.svg"
+        },
+        "terminal": {
+            "iconPath": "./icons/minimalistic-icons/terminal.svg"
+        },
+        "test.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/test.folder.light.svg"
+        },
+        "test.folder": {
+            "iconPath": "./icons/minimalistic-icons/test.folder.svg"
+        },
+        "text.light": {
+            "iconPath": "./icons/minimalistic-icons/text.light.svg"
+        },
+        "text": {
+            "iconPath": "./icons/minimalistic-icons/text.svg"
+        },
+        "toml.light": {
+            "iconPath": "./icons/minimalistic-icons/toml.light.svg"
+        },
+        "toml": {
+            "iconPath": "./icons/minimalistic-icons/toml.svg"
+        },
+        "travis.light": {
+            "iconPath": "./icons/minimalistic-icons/travis.light.svg"
+        },
+        "travis": {
+            "iconPath": "./icons/minimalistic-icons/travis.svg"
+        },
+        "twig.light": {
+            "iconPath": "./icons/minimalistic-icons/twig.light.svg"
+        },
+        "twig": {
+            "iconPath": "./icons/minimalistic-icons/twig.svg"
+        },
+        "typescript-lint.light": {
+            "iconPath": "./icons/minimalistic-icons/typescript-lint.light.svg"
+        },
+        "typescript-lint": {
+            "iconPath": "./icons/minimalistic-icons/typescript-lint.svg"
+        },
+        "typescript-test.light": {
+            "iconPath": "./icons/minimalistic-icons/typescript-test.light.svg"
+        },
+        "typescript-test": {
+            "iconPath": "./icons/minimalistic-icons/typescript-test.svg"
         }
     },
     "folder": "folder",
@@ -729,7 +843,10 @@
         "bower_components": "bower.folder",
         "build": "build.folder",
         "node_modules": "nodejs.folder",
-        "out": "build.folder"
+        "out": "build.folder",
+        "source": "source.folder",
+        "src": "source.folder",
+        "test": "test.folder"
     },
     "folderNamesExpanded": {},
     "fileNames": {
@@ -744,6 +861,7 @@
         ".gitignore": "git",
         ".htaccess": "apache",
         ".npmignore": "npm",
+        ".travis.yml": "travis",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
@@ -752,6 +870,17 @@
         "cmakelists.txt": "cmake",
         "dub.json": "d-build",
         "dub.sdl": "d-build",
+        "favicon.bmp": "favicon",
+        "favicon.gif": "favicon",
+        "favicon.ico": "favicon",
+        "favicon.jpg": "favicon",
+        "favicon.jpeg": "favicon",
+        "favicon.png": "favicon",
+        "favicon.svg": "favicon",
+        "favicon.tif": "favicon",
+        "favicon.tiff": "favicon",
+        "favicon.webp": "favicon",
+        "gemfile": "rubygem",
         "gruntfile.coffee": "grunt",
         "gruntfile.js": "grunt",
         "gruntfile.ts": "grunt",
@@ -776,9 +905,12 @@
         "paket.template": "paket",
         "pkgbuild": "archlinux",
         "protractor.conf.js": "protractor",
+        "rakefile": "ruby-build",
         "readme": "readme",
         "readme.md": "readme",
-        "readme.txt": "readme"
+        "readme.txt": "readme",
+        "tsconfig.json": "config",
+        "tslint.json": "typescript-lint"
     },
     "fileExtensions": {
         "7z": "box",
@@ -792,12 +924,12 @@
         "bz2": "box",
         "bzip2": "box",
         "cfg": "config",
-        "component.css": "angular-css",
-        "component.html": "angular-html",
-        "component.sass": "angular-sass",
-        "component.scss": "angular-sass",
-        "component.spec.ts": "angular-spec",
-        "component.ts": "angular-typescript",
+        "component.css": "angular",
+        "component.html": "angular",
+        "component.sass": "angular",
+        "component.scss": "angular",
+        "component.spec.ts": "angular",
+        "component.ts": "angular",
         "conf": "config",
         "config": "config",
         "csv": "csv",
@@ -831,8 +963,11 @@
         "lzo": "box",
         "mak": "build",
         "mdb": "msoffice-access",
-        "module.ts": "angular-module",
+        "mid": "sound",
+        "module.ts": "angular",
+        "mp3": "sound",
         "muse": "adobe-muse",
+        "nim.cfg": "config",
         "ninja": "build",
         "nupkg": "nuget-box",
         "nuspec": "nuget",
@@ -854,17 +989,25 @@
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
         "psmdcp": "nuget",
+        "ra": "sound",
+        "ram": "sound",
         "rar": "box",
-        "service.spec.ts": "angular-spec",
-        "service.ts": "angular-typescript",
+        "reg": "registry",
+        "rlib": "rust-lib",
+        "rm": "sound",
+        "rpm": "rpm-box",
         "so": "lib",
         "spec.js": "javascript-test",
+        "spec.ts": "typescript-test",
         "svg": "image",
         "swf": "flash",
         "tar": "box",
         "tif": "image",
         "tiff": "image",
+        "txt": "text",
+        "wav": "sound",
         "webp": "image",
+        "wma": "sound",
         "xls": "msoffice-excel",
         "xlsx": "msoffice-excel",
         "xz": "box",
@@ -887,6 +1030,7 @@
         "ejs": "javascript-embedded",
         "elixir": "elixir",
         "elm": "elm",
+        "erb": "ruby-embedded",
         "erlang": "erlang",
         "fsharp": "fsharp",
         "go": "go",
@@ -919,7 +1063,19 @@
         "python": "python",
         "r": "r",
         "razor": "razor",
+        "ruby": "ruby",
+        "rust": "rust",
+        "sass": "sass",
+        "scala": "scala",
+        "scss": "sass",
+        "scheme": "scheme",
+        "sdl": "sdl",
+        "shellscript": "terminal",
         "sql": "database",
+        "stylus": "stylus",
+        "swift": "swift",
+        "toml": "toml",
+        "twig": "twig",
         "typescriptreact": "react",
         "vala": "gnome"
     },
@@ -938,7 +1094,10 @@
             "bower_components": "bower.folder.light",
             "build": "build.folder.light",
             "node_modules": "nodejs.folder.light",
-            "out": "build.folder.light"
+            "out": "build.folder.light",
+            "source": "source.folder.light",
+            "src": "source.folder.light",
+            "test": "test.folder.light"
         },
         "folderNamesExpanded": {},
         "fileNames": {
@@ -953,6 +1112,7 @@
             ".gitignore": "git.light",
             ".htaccess": "apache.light",
             ".npmignore": "npm.light",
+            ".travis.yml": "travis.light",
             "angular-cli.json": "angular.light",
             "appveyor.yaml": "appveyor.light",
             "appveyor.yml": "appveyor.light",
@@ -961,6 +1121,17 @@
             "cmakelists.txt": "cmake.light",
             "dub.json": "d-build.light",
             "dub.sdl": "d-build.light",
+            "favicon.bmp": "favicon.light",
+            "favicon.gif": "favicon.light",
+            "favicon.ico": "favicon.light",
+            "favicon.jpg": "favicon.light",
+            "favicon.jpeg": "favicon.light",
+            "favicon.png": "favicon.light",
+            "favicon.svg": "favicon.light",
+            "favicon.tif": "favicon.light",
+            "favicon.tiff": "favicon.light",
+            "favicon.webp": "favicon.light",
+            "gemfile": "rubygem.light",
             "gruntfile.coffee": "grunt.light",
             "gruntfile.js": "grunt.light",
             "gruntfile.ts": "grunt.light",
@@ -985,9 +1156,12 @@
             "paket.template": "paket.light",
             "pkgbuild": "archlinux.light",
             "protractor.conf.js": "protractor.light",
+            "rakefile": "ruby-build.light",
             "readme": "readme.light",
             "readme.md": "readme.light",
-            "readme.txt": "readme.light"
+            "readme.txt": "readme.light",
+            "tsconfig.json": "config.light",
+            "tslint.json": "typescript-lint.light"
         },
         "fileExtensions": {
             "7z": "box.light",
@@ -1001,12 +1175,12 @@
             "bz2": "box.light",
             "bzip2": "box.light",
             "cfg": "config.light",
-            "component.css": "angular-css.light",
-            "component.html": "angular-html.light",
-            "component.sass": "angular-sass.light",
-            "component.scss": "angular-sass.light",
-            "component.spec.ts": "angular-spec.light",
-            "component.ts": "angular-typescript.light",
+            "component.css": "angular.light",
+            "component.html": "angular.light",
+            "component.sass": "angular.light",
+            "component.scss": "angular.light",
+            "component.spec.ts": "angular.light",
+            "component.ts": "angular.light",
             "conf": "config.light",
             "config": "config.light",
             "csv": "csv.light",
@@ -1040,8 +1214,11 @@
             "lzo": "box.light",
             "mak": "build.light",
             "mdb": "msoffice-access.light",
-            "module.ts": "angular-module.light",
+            "mid": "sound.light",
+            "module.ts": "angular.light",
+            "mp3": "sound.light",
             "muse": "adobe-muse.light",
+            "nim.cfg": "config.light",
             "ninja": "build.light",
             "nupkg": "nuget-box.light",
             "nuspec": "nuget.light",
@@ -1063,17 +1240,25 @@
             "prproj": "adobe-premiere-pro.light",
             "psd": "adobe-photoshop.light",
             "psmdcp": "nuget.light",
+            "ra": "sound.light",
+            "ram": "sound.light",
             "rar": "box.light",
-            "service.spec.ts": "angular-spec.light",
-            "service.ts": "angular-typescript.light",
+            "reg": "registry.light",
+            "rlib": "rust-lib.light",
+            "rm": "sound.light",
+            "rpm": "rpm-box.light",
             "so": "lib.light",
             "spec.js": "javascript-test.light",
+            "spec.ts": "typescript-test.light",
             "svg": "image.light",
             "swf": "flash.light",
             "tar": "box.light",
             "tif": "image.light",
             "tiff": "image.light",
+            "txt": "text.light",
+            "wav": "sound.light",
             "webp": "image.light",
+            "wma": "sound.light",
             "xls": "msoffice-excel.light",
             "xlsx": "msoffice-excel.light",
             "xz": "box.light",
@@ -1096,6 +1281,7 @@
             "ejs": "javascript-embedded.light",
             "elixir": "elixir.light",
             "elm": "elm.light",
+            "erb": "ruby-embedded.light",
             "erlang": "erlang.light",
             "fsharp": "fsharp.light",
             "go": "go.light",
@@ -1128,7 +1314,19 @@
             "python": "python.light",
             "r": "r.light",
             "razor": "razor.light",
+            "ruby": "ruby.light",
+            "rust": "rust.light",
+            "sass": "sass.light",
+            "scala": "scala.light",
+            "scss": "sass.light",
+            "scheme": "scheme.light",
+            "sdl": "sdl.light",
+            "shellscript": "terminal.light",
             "sql": "database.light",
+            "stylus": "stylus.light",
+            "swift": "swift.light",
+            "toml": "toml.light",
+            "twig": "twig.light",
             "typescriptreact": "react.light",
             "vala": "gnome.light"
         }

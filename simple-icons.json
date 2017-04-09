@@ -42,11 +42,11 @@
         "angular-spec": {
             "iconPath": "./icons/simple-icons/angular-spec.svg"
         },
-        "angular": {
-            "iconPath": "./icons/simple-icons/angular.svg"
-        },
         "angular-typescript": {
             "iconPath": "./icons/simple-icons/angular-typescript.svg"
+        },
+        "angular": {
+            "iconPath": "./icons/simple-icons/angular.svg"
         },
         "apache": {
             "iconPath": "./icons/simple-icons/apache.svg"
@@ -120,14 +120,26 @@
         "csharp": {
             "iconPath": "./icons/simple-icons/csharp.svg"
         },
-        "csscomb": {
-            "iconPath": "./icons/simple-icons/csscomb.svg"
-        },
         "css": {
             "iconPath": "./icons/simple-icons/css.svg"
         },
+        "csscomb": {
+            "iconPath": "./icons/simple-icons/csscomb.svg"
+        },
         "csv": {
             "iconPath": "./icons/simple-icons/csv.svg"
+        },
+        "d-build": {
+            "iconPath": "./icons/simple-icons/d-build.svg"
+        },
+        "d.folder.expanded": {
+            "iconPath": "./icons/simple-icons/d.folder.expanded.svg"
+        },
+        "d.folder": {
+            "iconPath": "./icons/simple-icons/d.folder.svg"
+        },
+        "d": {
+            "iconPath": "./icons/simple-icons/d.svg"
         },
         "dart": {
             "iconPath": "./icons/simple-icons/dart.svg"
@@ -138,17 +150,8 @@
         "database": {
             "iconPath": "./icons/simple-icons/database.svg"
         },
-        "d-build": {
-            "iconPath": "./icons/simple-icons/d-build.svg"
-        },
         "debian-box": {
             "iconPath": "./icons/simple-icons/debian-box.svg"
-        },
-        "d.folder.expanded": {
-            "iconPath": "./icons/simple-icons/d.folder.expanded.svg"
-        },
-        "d.folder": {
-            "iconPath": "./icons/simple-icons/d.folder.svg"
         },
         "diff": {
             "iconPath": "./icons/simple-icons/diff.svg"
@@ -158,9 +161,6 @@
         },
         "docker": {
             "iconPath": "./icons/simple-icons/docker.svg"
-        },
-        "d": {
-            "iconPath": "./icons/simple-icons/d.svg"
         },
         "editorconfig": {
             "iconPath": "./icons/simple-icons/editorconfig.svg"
@@ -240,17 +240,17 @@
         "ionic": {
             "iconPath": "./icons/simple-icons/ionic.svg"
         },
+        "java": {
+            "iconPath": "./icons/simple-icons/java.svg"
+        },
         "javascript-embedded": {
             "iconPath": "./icons/simple-icons/javascript-embedded.svg"
-        },
-        "javascript": {
-            "iconPath": "./icons/simple-icons/javascript.svg"
         },
         "javascript-test": {
             "iconPath": "./icons/simple-icons/javascript-test.svg"
         },
-        "java": {
-            "iconPath": "./icons/simple-icons/java.svg"
+        "javascript": {
+            "iconPath": "./icons/simple-icons/javascript.svg"
         },
         "json": {
             "iconPath": "./icons/simple-icons/json.svg"
@@ -266,6 +266,9 @@
         },
         "less": {
             "iconPath": "./icons/simple-icons/less.svg"
+        },
+        "lib": {
+            "iconPath": "./icons/simple-icons/lib.svg"
         },
         "libreoffice-base": {
             "iconPath": "./icons/simple-icons/libreoffice-base.svg"
@@ -284,9 +287,6 @@
         },
         "libreoffice-writer": {
             "iconPath": "./icons/simple-icons/libreoffice-writer.svg"
-        },
-        "lib": {
-            "iconPath": "./icons/simple-icons/lib.svg"
         },
         "licence": {
             "iconPath": "./icons/simple-icons/licence.svg"
@@ -393,6 +393,9 @@
         "python": {
             "iconPath": "./icons/simple-icons/python.svg"
         },
+        "r": {
+            "iconPath": "./icons/simple-icons/r.svg"
+        },
         "razor": {
             "iconPath": "./icons/simple-icons/razor.svg"
         },
@@ -408,20 +411,17 @@
         "rpm-box": {
             "iconPath": "./icons/simple-icons/rpm-box.svg"
         },
-        "r": {
-            "iconPath": "./icons/simple-icons/r.svg"
-        },
         "ruby-build": {
             "iconPath": "./icons/simple-icons/ruby-build.svg"
         },
         "ruby-embedded": {
             "iconPath": "./icons/simple-icons/ruby-embedded.svg"
         },
-        "rubygem": {
-            "iconPath": "./icons/simple-icons/rubygem.svg"
-        },
         "ruby": {
             "iconPath": "./icons/simple-icons/ruby.svg"
+        },
+        "rubygem": {
+            "iconPath": "./icons/simple-icons/rubygem.svg"
         },
         "rust-lib": {
             "iconPath": "./icons/simple-icons/rust-lib.svg"
@@ -483,20 +483,20 @@
         "typescript-config": {
             "iconPath": "./icons/simple-icons/typescript-config.svg"
         },
+        "typescript-lint": {
+            "iconPath": "./icons/simple-icons/typescript-lint.svg"
+        },
+        "typescript-test": {
+            "iconPath": "./icons/simple-icons/typescript-test.svg"
+        },
         "typescript.folder.expanded": {
             "iconPath": "./icons/simple-icons/typescript.folder.expanded.svg"
         },
         "typescript.folder": {
             "iconPath": "./icons/simple-icons/typescript.folder.svg"
         },
-        "typescript-lint": {
-            "iconPath": "./icons/simple-icons/typescript-lint.svg"
-        },
         "typescript": {
             "iconPath": "./icons/simple-icons/typescript.svg"
-        },
-        "typescript-test": {
-            "iconPath": "./icons/simple-icons/typescript-test.svg"
         },
         "unity.light": {
             "iconPath": "./icons/simple-icons/unity.light.svg"
@@ -721,6 +721,7 @@
         "lzo": "box",
         "mak": "build",
         "mdb": "msoffice-access",
+        "mid": "sound",
         "mkv": "video",
         "module.ts": "angular-module",
         "mov": "video",
@@ -750,9 +751,12 @@
         "prproj": "adobe-premiere-pro",
         "psd": "adobe-photoshop",
         "psmdcp": "nuget",
+        "ra": "sound",
+        "ram": "sound",
         "rar": "box",
         "reg": "registry",
         "rlib": "rust-lib",
+        "rm": "sound",
         "rpm": "rpm-box",
         "service.spec.ts": "angular-spec",
         "service.ts": "angular-typescript",
@@ -767,7 +771,9 @@
         "tiff": "image",
         "txt": "text",
         "vsix": "vscode-box",
+        "wav": "sound",
         "webp": "image",
+        "wma": "sound",
         "wmv": "video",
         "xls": "msoffice-excel",
         "xlsx": "msoffice-excel",
@@ -1025,6 +1031,7 @@
             "lzo": "box",
             "mak": "build",
             "mdb": "msoffice-access",
+            "mid": "sound",
             "mkv": "video",
             "module.ts": "angular-module",
             "mov": "video",
@@ -1054,9 +1061,12 @@
             "prproj": "adobe-premiere-pro",
             "psd": "adobe-photoshop",
             "psmdcp": "nuget",
+            "ra": "sound",
+            "ram": "sound",
             "rar": "box",
             "reg": "registry",
             "rlib": "rust-lib",
+            "rm": "sound",
             "rpm": "rpm-box",
             "service.spec.ts": "angular-spec",
             "service.ts": "angular-typescript",
@@ -1071,7 +1081,9 @@
             "tiff": "image",
             "txt": "text",
             "vsix": "vscode-box",
+            "wav": "sound",
             "webp": "image",
+            "wma": "sound",
             "wmv": "video",
             "xls": "msoffice-excel",
             "xlsx": "msoffice-excel",
