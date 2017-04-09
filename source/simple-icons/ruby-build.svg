@@ -11,9 +11,5 @@
         <use xlink:href="#rect" transform="rotate(240 160 160)"/>
         <use xlink:href="#rect" transform="rotate(300 160 160)"/>
     </g>
-    <g fill="#fff" transform="translate(64 64) scale(0.6)">
-        <polygon points="0,120 80,40 240,40 320,120 160,300"/>
-        <polygon points="80,120 160,40 240,120"/>
-        <polygon points="0,120 160,300 320,120 240,120 160,300 80,120"/>
-    </g>
+    <polygon points="0,120 80,40 240,40 320,120 160,300" fill="#fff" transform="translate(64 64) scale(0.6)"/>
 </svg>
