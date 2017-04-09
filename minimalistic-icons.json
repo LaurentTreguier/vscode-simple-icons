@@ -1,673 +1,718 @@
 {
     "iconDefinitions": {
-        "folder": {
-            "iconPath": "./icons/minimalistic-icons/folder.svg"
-        },
-        "folder.light": {
-            "iconPath": "./icons/minimalistic-icons/folder.light.svg"
-        },
-        "folder.expanded": {
-            "iconPath": "./icons/minimalistic-icons/folder.expanded.svg"
-        },
-        "folder.expanded.light": {
-            "iconPath": "./icons/minimalistic-icons/folder.expanded.light.svg"
-        },
-        "file": {
-            "iconPath": "./icons/minimalistic-icons/file.svg"
-        },
-        "file.light": {
-            "iconPath": "./icons/minimalistic-icons/file.light.svg"
+        "adobe-after-effects.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-after-effects.light.svg"
         },
         "adobe-after-effects": {
             "iconPath": "./icons/minimalistic-icons/adobe-after-effects.svg"
         },
-        "adobe-after-effects.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-after-effects.light.svg"
+        "adobe-animate.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-animate.light.svg"
         },
         "adobe-animate": {
             "iconPath": "./icons/minimalistic-icons/adobe-animate.svg"
         },
-        "adobe-animate.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-animate.light.svg"
+        "adobe-dreamweaver.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-dreamweaver.light.svg"
         },
         "adobe-dreamweaver": {
             "iconPath": "./icons/minimalistic-icons/adobe-dreamweaver.svg"
         },
-        "adobe-dreamweaver.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-dreamweaver.light.svg"
+        "adobe-illustrator.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-illustrator.light.svg"
         },
         "adobe-illustrator": {
             "iconPath": "./icons/minimalistic-icons/adobe-illustrator.svg"
         },
-        "adobe-illustrator.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-illustrator.light.svg"
+        "adobe-indesign.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-indesign.light.svg"
         },
         "adobe-indesign": {
             "iconPath": "./icons/minimalistic-icons/adobe-indesign.svg"
         },
-        "adobe-indesign.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-indesign.light.svg"
+        "adobe-lightroom.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-lightroom.light.svg"
         },
         "adobe-lightroom": {
             "iconPath": "./icons/minimalistic-icons/adobe-lightroom.svg"
         },
-        "adobe-lightroom.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-lightroom.light.svg"
+        "adobe-muse.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-muse.light.svg"
         },
         "adobe-muse": {
             "iconPath": "./icons/minimalistic-icons/adobe-muse.svg"
         },
-        "adobe-muse.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-muse.light.svg"
+        "adobe-photoshop.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-photoshop.light.svg"
         },
         "adobe-photoshop": {
             "iconPath": "./icons/minimalistic-icons/adobe-photoshop.svg"
         },
-        "adobe-photoshop.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-photoshop.light.svg"
+        "adobe-premiere-pro.light": {
+            "iconPath": "./icons/minimalistic-icons/adobe-premiere-pro.light.svg"
         },
         "adobe-premiere-pro": {
             "iconPath": "./icons/minimalistic-icons/adobe-premiere-pro.svg"
         },
-        "adobe-premiere-pro.light": {
-            "iconPath": "./icons/minimalistic-icons/adobe-premiere-pro.light.svg"
+        "angular-css.light": {
+            "iconPath": "./icons/minimalistic-icons/angular-css.light.svg"
         },
-        "angular": {
-            "iconPath": "./icons/minimalistic-icons/angular.svg"
+        "angular-css": {
+            "iconPath": "./icons/minimalistic-icons/angular-css.svg"
+        },
+        "angular-html.light": {
+            "iconPath": "./icons/minimalistic-icons/angular-html.light.svg"
+        },
+        "angular-html": {
+            "iconPath": "./icons/minimalistic-icons/angular-html.svg"
         },
         "angular.light": {
             "iconPath": "./icons/minimalistic-icons/angular.light.svg"
         },
-        "apache": {
-            "iconPath": "./icons/minimalistic-icons/apache.svg"
+        "angular-module.light": {
+            "iconPath": "./icons/minimalistic-icons/angular-module.light.svg"
+        },
+        "angular-module": {
+            "iconPath": "./icons/minimalistic-icons/angular-module.svg"
+        },
+        "angular-sass.light": {
+            "iconPath": "./icons/minimalistic-icons/angular-sass.light.svg"
+        },
+        "angular-sass": {
+            "iconPath": "./icons/minimalistic-icons/angular-sass.svg"
+        },
+        "angular-spec.light": {
+            "iconPath": "./icons/minimalistic-icons/angular-spec.light.svg"
+        },
+        "angular-spec": {
+            "iconPath": "./icons/minimalistic-icons/angular-spec.svg"
+        },
+        "angular": {
+            "iconPath": "./icons/minimalistic-icons/angular.svg"
+        },
+        "angular-typescript.light": {
+            "iconPath": "./icons/minimalistic-icons/angular-typescript.light.svg"
+        },
+        "angular-typescript": {
+            "iconPath": "./icons/minimalistic-icons/angular-typescript.svg"
         },
         "apache.light": {
             "iconPath": "./icons/minimalistic-icons/apache.light.svg"
         },
-        "apex": {
-            "iconPath": "./icons/minimalistic-icons/apex.svg"
+        "apache": {
+            "iconPath": "./icons/minimalistic-icons/apache.svg"
         },
         "apex.light": {
             "iconPath": "./icons/minimalistic-icons/apex.light.svg"
         },
-        "appveyor": {
-            "iconPath": "./icons/minimalistic-icons/appveyor.svg"
+        "apex": {
+            "iconPath": "./icons/minimalistic-icons/apex.svg"
         },
         "appveyor.light": {
             "iconPath": "./icons/minimalistic-icons/appveyor.light.svg"
         },
-        "archlinux": {
-            "iconPath": "./icons/minimalistic-icons/archlinux.svg"
-        },
-        "archlinux.light": {
-            "iconPath": "./icons/minimalistic-icons/archlinux.light.svg"
-        },
-        "archlinux-box": {
-            "iconPath": "./icons/minimalistic-icons/archlinux-box.svg"
+        "appveyor": {
+            "iconPath": "./icons/minimalistic-icons/appveyor.svg"
         },
         "archlinux-box.light": {
             "iconPath": "./icons/minimalistic-icons/archlinux-box.light.svg"
         },
-        "binary": {
-            "iconPath": "./icons/minimalistic-icons/binary.svg"
+        "archlinux-box": {
+            "iconPath": "./icons/minimalistic-icons/archlinux-box.svg"
+        },
+        "archlinux.light": {
+            "iconPath": "./icons/minimalistic-icons/archlinux.light.svg"
+        },
+        "archlinux": {
+            "iconPath": "./icons/minimalistic-icons/archlinux.svg"
         },
         "binary.light": {
             "iconPath": "./icons/minimalistic-icons/binary.light.svg"
         },
-        "bower": {
-            "iconPath": "./icons/minimalistic-icons/bower.svg"
-        },
-        "bower.light": {
-            "iconPath": "./icons/minimalistic-icons/bower.light.svg"
-        },
-        "bower.folder": {
-            "iconPath": "./icons/minimalistic-icons/bower.folder.svg"
+        "binary": {
+            "iconPath": "./icons/minimalistic-icons/binary.svg"
         },
         "bower.folder.light": {
             "iconPath": "./icons/minimalistic-icons/bower.folder.light.svg"
         },
-        "box": {
-            "iconPath": "./icons/minimalistic-icons/box.svg"
+        "bower.folder": {
+            "iconPath": "./icons/minimalistic-icons/bower.folder.svg"
+        },
+        "bower.light": {
+            "iconPath": "./icons/minimalistic-icons/bower.light.svg"
+        },
+        "bower": {
+            "iconPath": "./icons/minimalistic-icons/bower.svg"
         },
         "box.light": {
             "iconPath": "./icons/minimalistic-icons/box.light.svg"
         },
-        "build": {
-            "iconPath": "./icons/minimalistic-icons/build.svg"
+        "box": {
+            "iconPath": "./icons/minimalistic-icons/box.svg"
+        },
+        "build.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/build.folder.light.svg"
+        },
+        "build.folder": {
+            "iconPath": "./icons/minimalistic-icons/build.folder.svg"
         },
         "build.light": {
             "iconPath": "./icons/minimalistic-icons/build.light.svg"
         },
-        "camelia": {
-            "iconPath": "./icons/minimalistic-icons/camelia.svg"
+        "build": {
+            "iconPath": "./icons/minimalistic-icons/build.svg"
         },
         "camelia.light": {
             "iconPath": "./icons/minimalistic-icons/camelia.light.svg"
         },
-        "clojure": {
-            "iconPath": "./icons/minimalistic-icons/clojure.svg"
+        "camelia": {
+            "iconPath": "./icons/minimalistic-icons/camelia.svg"
         },
         "clojure.light": {
             "iconPath": "./icons/minimalistic-icons/clojure.light.svg"
         },
-        "cmake": {
-            "iconPath": "./icons/minimalistic-icons/cmake.svg"
+        "clojure": {
+            "iconPath": "./icons/minimalistic-icons/clojure.svg"
         },
         "cmake.light": {
             "iconPath": "./icons/minimalistic-icons/cmake.light.svg"
         },
-        "coffeescript": {
-            "iconPath": "./icons/minimalistic-icons/coffeescript.svg"
+        "cmake": {
+            "iconPath": "./icons/minimalistic-icons/cmake.svg"
         },
         "coffeescript.light": {
             "iconPath": "./icons/minimalistic-icons/coffeescript.light.svg"
         },
-        "config": {
-            "iconPath": "./icons/minimalistic-icons/config.svg"
+        "coffeescript": {
+            "iconPath": "./icons/minimalistic-icons/coffeescript.svg"
         },
         "config.light": {
             "iconPath": "./icons/minimalistic-icons/config.light.svg"
         },
-        "console": {
-            "iconPath": "./icons/minimalistic-icons/console.svg"
+        "config": {
+            "iconPath": "./icons/minimalistic-icons/config.svg"
         },
         "console.light": {
             "iconPath": "./icons/minimalistic-icons/console.light.svg"
         },
-        "cpp": {
-            "iconPath": "./icons/minimalistic-icons/cpp.svg"
+        "console": {
+            "iconPath": "./icons/minimalistic-icons/console.svg"
         },
         "cpp.light": {
             "iconPath": "./icons/minimalistic-icons/cpp.light.svg"
         },
-        "csharp": {
-            "iconPath": "./icons/minimalistic-icons/csharp.svg"
+        "cpp": {
+            "iconPath": "./icons/minimalistic-icons/cpp.svg"
         },
         "csharp.light": {
             "iconPath": "./icons/minimalistic-icons/csharp.light.svg"
         },
-        "css": {
-            "iconPath": "./icons/minimalistic-icons/css.svg"
+        "csharp": {
+            "iconPath": "./icons/minimalistic-icons/csharp.svg"
         },
         "css.light": {
             "iconPath": "./icons/minimalistic-icons/css.light.svg"
         },
-        "csv": {
-            "iconPath": "./icons/minimalistic-icons/csv.svg"
+        "css": {
+            "iconPath": "./icons/minimalistic-icons/css.svg"
         },
         "csv.light": {
             "iconPath": "./icons/minimalistic-icons/csv.light.svg"
         },
-        "d": {
-            "iconPath": "./icons/minimalistic-icons/d.svg"
-        },
-        "d.light": {
-            "iconPath": "./icons/minimalistic-icons/d.light.svg"
-        },
-        "d.folder": {
-            "iconPath": "./icons/minimalistic-icons/d.folder.svg"
-        },
-        "d.folder.light": {
-            "iconPath": "./icons/minimalistic-icons/d.folder.light.svg"
-        },
-        "d-build": {
-            "iconPath": "./icons/minimalistic-icons/d-build.svg"
-        },
-        "dart": {
-            "iconPath": "./icons/minimalistic-icons/dart.svg"
+        "csv": {
+            "iconPath": "./icons/minimalistic-icons/csv.svg"
         },
         "dart.light": {
             "iconPath": "./icons/minimalistic-icons/dart.light.svg"
         },
-        "database": {
-            "iconPath": "./icons/minimalistic-icons/database.svg"
+        "dart": {
+            "iconPath": "./icons/minimalistic-icons/dart.svg"
         },
         "database.light": {
             "iconPath": "./icons/minimalistic-icons/database.light.svg"
         },
-        "debian-box": {
-            "iconPath": "./icons/minimalistic-icons/debian-box.svg"
+        "database": {
+            "iconPath": "./icons/minimalistic-icons/database.svg"
+        },
+        "d-build.light": {
+            "iconPath": "./icons/minimalistic-icons/d-build.light.svg"
+        },
+        "d-build": {
+            "iconPath": "./icons/minimalistic-icons/d-build.svg"
         },
         "debian-box.light": {
             "iconPath": "./icons/minimalistic-icons/debian-box.light.svg"
         },
-        "diff": {
-            "iconPath": "./icons/minimalistic-icons/diff.svg"
+        "debian-box": {
+            "iconPath": "./icons/minimalistic-icons/debian-box.svg"
+        },
+        "d.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/d.folder.light.svg"
+        },
+        "d.folder": {
+            "iconPath": "./icons/minimalistic-icons/d.folder.svg"
         },
         "diff.light": {
             "iconPath": "./icons/minimalistic-icons/diff.light.svg"
         },
-        "disc": {
-            "iconPath": "./icons/minimalistic-icons/disc.svg"
+        "diff": {
+            "iconPath": "./icons/minimalistic-icons/diff.svg"
         },
         "disc.light": {
             "iconPath": "./icons/minimalistic-icons/disc.light.svg"
         },
-        "docker": {
-            "iconPath": "./icons/minimalistic-icons/docker.svg"
+        "disc": {
+            "iconPath": "./icons/minimalistic-icons/disc.svg"
+        },
+        "d.light": {
+            "iconPath": "./icons/minimalistic-icons/d.light.svg"
         },
         "docker.light": {
             "iconPath": "./icons/minimalistic-icons/docker.light.svg"
         },
-        "editorconfig": {
-            "iconPath": "./icons/minimalistic-icons/editorconfig.svg"
+        "docker": {
+            "iconPath": "./icons/minimalistic-icons/docker.svg"
+        },
+        "d": {
+            "iconPath": "./icons/minimalistic-icons/d.svg"
         },
         "editorconfig.light": {
             "iconPath": "./icons/minimalistic-icons/editorconfig.light.svg"
         },
-        "elixir": {
-            "iconPath": "./icons/minimalistic-icons/elixir.svg"
+        "editorconfig": {
+            "iconPath": "./icons/minimalistic-icons/editorconfig.svg"
         },
         "elixir.light": {
             "iconPath": "./icons/minimalistic-icons/elixir.light.svg"
         },
-        "elm": {
-            "iconPath": "./icons/minimalistic-icons/elm.svg"
+        "elixir": {
+            "iconPath": "./icons/minimalistic-icons/elixir.svg"
         },
         "elm.light": {
             "iconPath": "./icons/minimalistic-icons/elm.light.svg"
         },
-        "erlang": {
-            "iconPath": "./icons/minimalistic-icons/erlang.svg"
+        "elm": {
+            "iconPath": "./icons/minimalistic-icons/elm.svg"
         },
         "erlang.light": {
             "iconPath": "./icons/minimalistic-icons/erlang.light.svg"
         },
-        "eslint": {
-            "iconPath": "./icons/minimalistic-icons/eslint.svg"
+        "erlang": {
+            "iconPath": "./icons/minimalistic-icons/erlang.svg"
         },
         "eslint.light": {
             "iconPath": "./icons/minimalistic-icons/eslint.light.svg"
         },
-        "flash": {
-            "iconPath": "./icons/minimalistic-icons/flash.svg"
+        "eslint": {
+            "iconPath": "./icons/minimalistic-icons/eslint.svg"
+        },
+        "file.light": {
+            "iconPath": "./icons/minimalistic-icons/file.light.svg"
+        },
+        "file": {
+            "iconPath": "./icons/minimalistic-icons/file.svg"
         },
         "flash.light": {
             "iconPath": "./icons/minimalistic-icons/flash.light.svg"
         },
-        "fsharp": {
-            "iconPath": "./icons/minimalistic-icons/fsharp.svg"
+        "flash": {
+            "iconPath": "./icons/minimalistic-icons/flash.svg"
+        },
+        "folder.expanded.light": {
+            "iconPath": "./icons/minimalistic-icons/folder.expanded.light.svg"
+        },
+        "folder.expanded": {
+            "iconPath": "./icons/minimalistic-icons/folder.expanded.svg"
+        },
+        "folder.light": {
+            "iconPath": "./icons/minimalistic-icons/folder.light.svg"
+        },
+        "folder": {
+            "iconPath": "./icons/minimalistic-icons/folder.svg"
         },
         "fsharp.light": {
             "iconPath": "./icons/minimalistic-icons/fsharp.light.svg"
         },
-        "git": {
-            "iconPath": "./icons/minimalistic-icons/git.svg"
-        },
-        "git.light": {
-            "iconPath": "./icons/minimalistic-icons/git.light.svg"
-        },
-        "git.folder": {
-            "iconPath": "./icons/minimalistic-icons/git.folder.svg"
+        "fsharp": {
+            "iconPath": "./icons/minimalistic-icons/fsharp.svg"
         },
         "git.folder.light": {
             "iconPath": "./icons/minimalistic-icons/git.folder.light.svg"
         },
-        "git.folder.expanded": {
-            "iconPath": "./icons/minimalistic-icons/git.folder.expanded.svg"
+        "git.folder": {
+            "iconPath": "./icons/minimalistic-icons/git.folder.svg"
         },
-        "git.folder.expanded.light": {
-            "iconPath": "./icons/minimalistic-icons/git.folder.expanded.light.svg"
+        "git.light": {
+            "iconPath": "./icons/minimalistic-icons/git.light.svg"
         },
-        "gnome": {
-            "iconPath": "./icons/minimalistic-icons/gnome.svg"
+        "git": {
+            "iconPath": "./icons/minimalistic-icons/git.svg"
         },
         "gnome.light": {
             "iconPath": "./icons/minimalistic-icons/gnome.light.svg"
         },
-        "go": {
-            "iconPath": "./icons/minimalistic-icons/go.svg"
+        "gnome": {
+            "iconPath": "./icons/minimalistic-icons/gnome.svg"
         },
         "go.light": {
             "iconPath": "./icons/minimalistic-icons/go.light.svg"
         },
-        "gradle": {
-            "iconPath": "./icons/minimalistic-icons/gradle.svg"
+        "go": {
+            "iconPath": "./icons/minimalistic-icons/go.svg"
         },
         "gradle.light": {
             "iconPath": "./icons/minimalistic-icons/gradle.light.svg"
         },
-        "groovy": {
-            "iconPath": "./icons/minimalistic-icons/groovy.svg"
+        "gradle": {
+            "iconPath": "./icons/minimalistic-icons/gradle.svg"
         },
         "groovy.light": {
             "iconPath": "./icons/minimalistic-icons/groovy.light.svg"
         },
-        "grunt": {
-            "iconPath": "./icons/minimalistic-icons/grunt.svg"
+        "groovy": {
+            "iconPath": "./icons/minimalistic-icons/groovy.svg"
         },
         "grunt.light": {
             "iconPath": "./icons/minimalistic-icons/grunt.light.svg"
         },
-        "gulp": {
-            "iconPath": "./icons/minimalistic-icons/gulp.svg"
+        "grunt": {
+            "iconPath": "./icons/minimalistic-icons/grunt.svg"
         },
         "gulp.light": {
             "iconPath": "./icons/minimalistic-icons/gulp.light.svg"
         },
-        "haskell": {
-            "iconPath": "./icons/minimalistic-icons/haskell.svg"
+        "gulp": {
+            "iconPath": "./icons/minimalistic-icons/gulp.svg"
         },
         "haskell.light": {
             "iconPath": "./icons/minimalistic-icons/haskell.light.svg"
         },
-        "haxe": {
-            "iconPath": "./icons/minimalistic-icons/haxe.svg"
-        },
-        "haxe.light": {
-            "iconPath": "./icons/minimalistic-icons/haxe.light.svg"
-        },
-        "haxe-hxml": {
-            "iconPath": "./icons/minimalistic-icons/haxe-hxml.svg"
+        "haskell": {
+            "iconPath": "./icons/minimalistic-icons/haskell.svg"
         },
         "haxe-hxml.light": {
             "iconPath": "./icons/minimalistic-icons/haxe-hxml.light.svg"
         },
-        "html": {
-            "iconPath": "./icons/minimalistic-icons/html.svg"
+        "haxe-hxml": {
+            "iconPath": "./icons/minimalistic-icons/haxe-hxml.svg"
+        },
+        "haxe.light": {
+            "iconPath": "./icons/minimalistic-icons/haxe.light.svg"
+        },
+        "haxe": {
+            "iconPath": "./icons/minimalistic-icons/haxe.svg"
         },
         "html.light": {
             "iconPath": "./icons/minimalistic-icons/html.light.svg"
         },
-        "image": {
-            "iconPath": "./icons/minimalistic-icons/image.svg"
+        "html": {
+            "iconPath": "./icons/minimalistic-icons/html.svg"
         },
         "image.light": {
             "iconPath": "./icons/minimalistic-icons/image.light.svg"
         },
-        "ionic": {
-            "iconPath": "./icons/minimalistic-icons/ionic.svg"
+        "image": {
+            "iconPath": "./icons/minimalistic-icons/image.svg"
         },
         "ionic.light": {
             "iconPath": "./icons/minimalistic-icons/ionic.light.svg"
         },
-        "java": {
-            "iconPath": "./icons/minimalistic-icons/java.svg"
+        "ionic": {
+            "iconPath": "./icons/minimalistic-icons/ionic.svg"
         },
         "java.light": {
             "iconPath": "./icons/minimalistic-icons/java.light.svg"
         },
-        "javascript": {
-            "iconPath": "./icons/minimalistic-icons/javascript.svg"
+        "javascript-embedded.light": {
+            "iconPath": "./icons/minimalistic-icons/javascript-embedded.light.svg"
+        },
+        "javascript-embedded": {
+            "iconPath": "./icons/minimalistic-icons/javascript-embedded.svg"
         },
         "javascript.light": {
             "iconPath": "./icons/minimalistic-icons/javascript.light.svg"
         },
-        "javascript-test": {
-            "iconPath": "./icons/minimalistic-icons/javascript-test.svg"
+        "javascript": {
+            "iconPath": "./icons/minimalistic-icons/javascript.svg"
         },
         "javascript-test.light": {
             "iconPath": "./icons/minimalistic-icons/javascript-test.light.svg"
         },
-        "json": {
-            "iconPath": "./icons/minimalistic-icons/json.svg"
+        "javascript-test": {
+            "iconPath": "./icons/minimalistic-icons/javascript-test.svg"
+        },
+        "java": {
+            "iconPath": "./icons/minimalistic-icons/java.svg"
         },
         "json.light": {
             "iconPath": "./icons/minimalistic-icons/json.light.svg"
         },
-        "julia": {
-            "iconPath": "./icons/minimalistic-icons/julia.svg"
+        "json": {
+            "iconPath": "./icons/minimalistic-icons/json.svg"
         },
         "julia.light": {
             "iconPath": "./icons/minimalistic-icons/julia.light.svg"
         },
-        "karma": {
-            "iconPath": "./icons/minimalistic-icons/karma.svg"
+        "julia": {
+            "iconPath": "./icons/minimalistic-icons/julia.svg"
         },
         "karma.light": {
             "iconPath": "./icons/minimalistic-icons/karma.light.svg"
         },
-        "kotlin": {
-            "iconPath": "./icons/minimalistic-icons/kotlin.svg"
+        "karma": {
+            "iconPath": "./icons/minimalistic-icons/karma.svg"
         },
         "kotlin.light": {
             "iconPath": "./icons/minimalistic-icons/kotlin.light.svg"
         },
-        "less": {
-            "iconPath": "./icons/minimalistic-icons/less.svg"
+        "kotlin": {
+            "iconPath": "./icons/minimalistic-icons/kotlin.svg"
         },
         "less.light": {
             "iconPath": "./icons/minimalistic-icons/less.light.svg"
         },
-        "lib": {
-            "iconPath": "./icons/minimalistic-icons/lib.svg"
+        "less": {
+            "iconPath": "./icons/minimalistic-icons/less.svg"
         },
         "lib.light": {
             "iconPath": "./icons/minimalistic-icons/lib.light.svg"
         },
-        "libreoffice-base": {
-            "iconPath": "./icons/minimalistic-icons/libreoffice-base.svg"
-        },
         "libreoffice-base.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-base.light.svg"
         },
-        "libreoffice-calc": {
-            "iconPath": "./icons/minimalistic-icons/libreoffice-calc.svg"
+        "libreoffice-base": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-base.svg"
         },
         "libreoffice-calc.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-calc.light.svg"
         },
-        "libreoffice-draw": {
-            "iconPath": "./icons/minimalistic-icons/libreoffice-draw.svg"
+        "libreoffice-calc": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-calc.svg"
         },
         "libreoffice-draw.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-draw.light.svg"
         },
-        "libreoffice-impress": {
-            "iconPath": "./icons/minimalistic-icons/libreoffice-impress.svg"
+        "libreoffice-draw": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-draw.svg"
         },
         "libreoffice-impress.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-impress.light.svg"
         },
-        "libreoffice-math": {
-            "iconPath": "./icons/minimalistic-icons/libreoffice-math.svg"
+        "libreoffice-impress": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-impress.svg"
         },
         "libreoffice-math.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-math.light.svg"
         },
-        "libreoffice-writer": {
-            "iconPath": "./icons/minimalistic-icons/libreoffice-writer.svg"
+        "libreoffice-math": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-math.svg"
         },
         "libreoffice-writer.light": {
             "iconPath": "./icons/minimalistic-icons/libreoffice-writer.light.svg"
         },
-        "licence": {
-            "iconPath": "./icons/minimalistic-icons/licence.svg"
+        "libreoffice-writer": {
+            "iconPath": "./icons/minimalistic-icons/libreoffice-writer.svg"
+        },
+        "lib": {
+            "iconPath": "./icons/minimalistic-icons/lib.svg"
         },
         "licence.light": {
             "iconPath": "./icons/minimalistic-icons/licence.light.svg"
         },
-        "lisp": {
-            "iconPath": "./icons/minimalistic-icons/lisp.svg"
+        "licence": {
+            "iconPath": "./icons/minimalistic-icons/licence.svg"
         },
         "lisp.light": {
             "iconPath": "./icons/minimalistic-icons/lisp.light.svg"
         },
-        "lock": {
-            "iconPath": "./icons/minimalistic-icons/lock.svg"
+        "lisp": {
+            "iconPath": "./icons/minimalistic-icons/lisp.svg"
         },
         "lock.light": {
             "iconPath": "./icons/minimalistic-icons/lock.light.svg"
         },
-        "lua": {
-            "iconPath": "./icons/minimalistic-icons/lua.svg"
+        "lock": {
+            "iconPath": "./icons/minimalistic-icons/lock.svg"
         },
         "lua.light": {
             "iconPath": "./icons/minimalistic-icons/lua.light.svg"
         },
-        "markdown": {
-            "iconPath": "./icons/minimalistic-icons/markdown.svg"
+        "lua": {
+            "iconPath": "./icons/minimalistic-icons/lua.svg"
         },
         "markdown.light": {
             "iconPath": "./icons/minimalistic-icons/markdown.light.svg"
         },
-        "meson": {
-            "iconPath": "./icons/minimalistic-icons/meson.svg"
+        "markdown": {
+            "iconPath": "./icons/minimalistic-icons/markdown.svg"
         },
         "meson.light": {
             "iconPath": "./icons/minimalistic-icons/meson.light.svg"
         },
-        "msoffice-access": {
-            "iconPath": "./icons/minimalistic-icons/msoffice-access.svg"
+        "meson": {
+            "iconPath": "./icons/minimalistic-icons/meson.svg"
         },
         "msoffice-access.light": {
             "iconPath": "./icons/minimalistic-icons/msoffice-access.light.svg"
         },
-        "msoffice-excel": {
-            "iconPath": "./icons/minimalistic-icons/msoffice-excel.svg"
+        "msoffice-access": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-access.svg"
         },
         "msoffice-excel.light": {
             "iconPath": "./icons/minimalistic-icons/msoffice-excel.light.svg"
         },
-        "msoffice-onenote": {
-            "iconPath": "./icons/minimalistic-icons/msoffice-onenote.svg"
+        "msoffice-excel": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-excel.svg"
         },
         "msoffice-onenote.light": {
             "iconPath": "./icons/minimalistic-icons/msoffice-onenote.light.svg"
         },
-        "msoffice-powerpoint": {
-            "iconPath": "./icons/minimalistic-icons/msoffice-powerpoint.svg"
+        "msoffice-onenote": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-onenote.svg"
         },
         "msoffice-powerpoint.light": {
             "iconPath": "./icons/minimalistic-icons/msoffice-powerpoint.light.svg"
         },
-        "msoffice-word": {
-            "iconPath": "./icons/minimalistic-icons/msoffice-word.svg"
+        "msoffice-powerpoint": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-powerpoint.svg"
         },
         "msoffice-word.light": {
             "iconPath": "./icons/minimalistic-icons/msoffice-word.light.svg"
         },
-        "nim": {
-            "iconPath": "./icons/minimalistic-icons/nim.svg"
+        "msoffice-word": {
+            "iconPath": "./icons/minimalistic-icons/msoffice-word.svg"
         },
         "nim.light": {
             "iconPath": "./icons/minimalistic-icons/nim.light.svg"
         },
-        "nodejs": {
-            "iconPath": "./icons/minimalistic-icons/nodejs.svg"
-        },
-        "nodejs.light": {
-            "iconPath": "./icons/minimalistic-icons/nodejs.light.svg"
-        },
-        "nodejs.folder": {
-            "iconPath": "./icons/minimalistic-icons/nodejs.folder.svg"
+        "nim": {
+            "iconPath": "./icons/minimalistic-icons/nim.svg"
         },
         "nodejs.folder.light": {
             "iconPath": "./icons/minimalistic-icons/nodejs.folder.light.svg"
         },
-        "npm": {
-            "iconPath": "./icons/minimalistic-icons/npm.svg"
+        "nodejs.folder": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.folder.svg"
+        },
+        "nodejs.light": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.light.svg"
+        },
+        "nodejs": {
+            "iconPath": "./icons/minimalistic-icons/nodejs.svg"
         },
         "npm.light": {
             "iconPath": "./icons/minimalistic-icons/npm.light.svg"
         },
-        "nuget": {
-            "iconPath": "./icons/minimalistic-icons/nuget.svg"
-        },
-        "nuget.light": {
-            "iconPath": "./icons/minimalistic-icons/nuget.light.svg"
-        },
-        "nuget.folder": {
-            "iconPath": "./icons/minimalistic-icons/nuget.folder.svg"
-        },
-        "nuget.folder.light": {
-            "iconPath": "./icons/minimalistic-icons/nuget.folder.light.svg"
-        },
-        "nuget-box": {
-            "iconPath": "./icons/minimalistic-icons/nuget-box.svg"
+        "npm": {
+            "iconPath": "./icons/minimalistic-icons/npm.svg"
         },
         "nuget-box.light": {
             "iconPath": "./icons/minimalistic-icons/nuget-box.light.svg"
         },
-        "objective-c": {
-            "iconPath": "./icons/minimalistic-icons/objective-c.svg"
+        "nuget-box": {
+            "iconPath": "./icons/minimalistic-icons/nuget-box.svg"
+        },
+        "nuget.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/nuget.folder.light.svg"
+        },
+        "nuget.folder": {
+            "iconPath": "./icons/minimalistic-icons/nuget.folder.svg"
+        },
+        "nuget.light": {
+            "iconPath": "./icons/minimalistic-icons/nuget.light.svg"
+        },
+        "nuget": {
+            "iconPath": "./icons/minimalistic-icons/nuget.svg"
         },
         "objective-c.light": {
             "iconPath": "./icons/minimalistic-icons/objective-c.light.svg"
         },
-        "ocaml": {
-            "iconPath": "./icons/minimalistic-icons/ocaml.svg"
+        "objective-c": {
+            "iconPath": "./icons/minimalistic-icons/objective-c.svg"
         },
         "ocaml.light": {
             "iconPath": "./icons/minimalistic-icons/ocaml.light.svg"
         },
-        "paket": {
-            "iconPath": "./icons/minimalistic-icons/paket.svg"
-        },
-        "paket.light": {
-            "iconPath": "./icons/minimalistic-icons/paket.light.svg"
-        },
-        "paket.folder": {
-            "iconPath": "./icons/minimalistic-icons/paket.folder.svg"
+        "ocaml": {
+            "iconPath": "./icons/minimalistic-icons/ocaml.svg"
         },
         "paket.folder.light": {
             "iconPath": "./icons/minimalistic-icons/paket.folder.light.svg"
         },
-        "pdf": {
-            "iconPath": "./icons/minimalistic-icons/pdf.svg"
+        "paket.folder": {
+            "iconPath": "./icons/minimalistic-icons/paket.folder.svg"
+        },
+        "paket.light": {
+            "iconPath": "./icons/minimalistic-icons/paket.light.svg"
+        },
+        "paket": {
+            "iconPath": "./icons/minimalistic-icons/paket.svg"
         },
         "pdf.light": {
             "iconPath": "./icons/minimalistic-icons/pdf.light.svg"
         },
-        "php": {
-            "iconPath": "./icons/minimalistic-icons/php.svg"
+        "pdf": {
+            "iconPath": "./icons/minimalistic-icons/pdf.svg"
         },
         "php.light": {
             "iconPath": "./icons/minimalistic-icons/php.light.svg"
         },
-        "powershell": {
-            "iconPath": "./icons/minimalistic-icons/powershell.svg"
+        "php": {
+            "iconPath": "./icons/minimalistic-icons/php.svg"
         },
         "powershell.light": {
             "iconPath": "./icons/minimalistic-icons/powershell.light.svg"
         },
-        "protractor": {
-            "iconPath": "./icons/minimalistic-icons/protractor.svg"
+        "powershell": {
+            "iconPath": "./icons/minimalistic-icons/powershell.svg"
         },
         "protractor.light": {
             "iconPath": "./icons/minimalistic-icons/protractor.light.svg"
         },
-        "pug": {
-            "iconPath": "./icons/minimalistic-icons/pug.svg"
+        "protractor": {
+            "iconPath": "./icons/minimalistic-icons/protractor.svg"
         },
         "pug.light": {
             "iconPath": "./icons/minimalistic-icons/pug.light.svg"
         },
-        "python": {
-            "iconPath": "./icons/minimalistic-icons/python.svg"
-        },
-        "python.light": {
-            "iconPath": "./icons/minimalistic-icons/python.light.svg"
-        },
-        "python.folder": {
-            "iconPath": "./icons/minimalistic-icons/python.folder.svg"
+        "pug": {
+            "iconPath": "./icons/minimalistic-icons/pug.svg"
         },
         "python.folder.light": {
             "iconPath": "./icons/minimalistic-icons/python.folder.light.svg"
         },
-        "r": {
-            "iconPath": "./icons/minimalistic-icons/r.svg"
+        "python.folder": {
+            "iconPath": "./icons/minimalistic-icons/python.folder.svg"
         },
-        "r.light": {
-            "iconPath": "./icons/minimalistic-icons/r.light.svg"
+        "python.light": {
+            "iconPath": "./icons/minimalistic-icons/python.light.svg"
         },
-        "razor": {
-            "iconPath": "./icons/minimalistic-icons/razor.svg"
+        "python": {
+            "iconPath": "./icons/minimalistic-icons/python.svg"
         },
         "razor.light": {
             "iconPath": "./icons/minimalistic-icons/razor.light.svg"
         },
-        "react": {
-            "iconPath": "./icons/minimalistic-icons/react.svg"
+        "razor": {
+            "iconPath": "./icons/minimalistic-icons/razor.svg"
         },
         "react.light": {
             "iconPath": "./icons/minimalistic-icons/react.light.svg"
         },
-        "readme": {
-            "iconPath": "./icons/minimalistic-icons/readme.svg"
+        "react": {
+            "iconPath": "./icons/minimalistic-icons/react.svg"
         },
         "readme.light": {
             "iconPath": "./icons/minimalistic-icons/readme.light.svg"
+        },
+        "readme": {
+            "iconPath": "./icons/minimalistic-icons/readme.svg"
+        },
+        "r.light": {
+            "iconPath": "./icons/minimalistic-icons/r.light.svg"
+        },
+        "r": {
+            "iconPath": "./icons/minimalistic-icons/r.svg"
         }
     },
     "folder": "folder",
@@ -683,7 +728,8 @@
         "bin": "build.folder",
         "bower_components": "bower.folder",
         "build": "build.folder",
-        "node_modules": "nodejs.folder"
+        "node_modules": "nodejs.folder",
+        "out": "build.folder"
     },
     "folderNamesExpanded": {},
     "fileNames": {
@@ -746,12 +792,12 @@
         "bz2": "box",
         "bzip2": "box",
         "cfg": "config",
-        "component.css": "angular",
-        "component.html": "angular",
-        "component.sass": "angular",
-        "component.scss": "angular",
-        "component.spec.ts": "angular",
-        "component.ts": "angular",
+        "component.css": "angular-css",
+        "component.html": "angular-html",
+        "component.sass": "angular-sass",
+        "component.scss": "angular-sass",
+        "component.spec.ts": "angular-spec",
+        "component.ts": "angular-typescript",
         "conf": "config",
         "config": "config",
         "csv": "csv",
@@ -778,14 +824,14 @@
         "jpeg": "image",
         "jpg": "image",
         "lib": "lib",
-        "lrcat": "adobe-lightroom",
         "lock": "lock",
+        "lrcat": "adobe-lightroom",
         "lz": "box",
         "lzma": "box",
         "lzo": "box",
         "mak": "build",
         "mdb": "msoffice-access",
-        "module.ts": "angular",
+        "module.ts": "angular-module",
         "muse": "adobe-muse",
         "ninja": "build",
         "nupkg": "nuget-box",
@@ -809,8 +855,8 @@
         "psd": "adobe-photoshop",
         "psmdcp": "nuget",
         "rar": "box",
-        "service.spec.ts": "angular",
-        "service.ts": "angular",
+        "service.spec.ts": "angular-spec",
+        "service.ts": "angular-typescript",
         "so": "lib",
         "spec.js": "javascript-test",
         "svg": "image",
@@ -838,6 +884,7 @@
         "d": "d",
         "dart": "dart",
         "dockerfile": "docker",
+        "ejs": "javascript-embedded",
         "elixir": "elixir",
         "elm": "elm",
         "erlang": "erlang",
@@ -890,7 +937,8 @@
             "bin": "build.folder.light",
             "bower_components": "bower.folder.light",
             "build": "build.folder.light",
-            "node_modules": "nodejs.folder.light"
+            "node_modules": "nodejs.folder.light",
+            "out": "build.folder.light"
         },
         "folderNamesExpanded": {},
         "fileNames": {
@@ -911,6 +959,8 @@
             "cakefile": "build.light",
             "cmakecache.txt": "cmake.light",
             "cmakelists.txt": "cmake.light",
+            "dub.json": "d-build.light",
+            "dub.sdl": "d-build.light",
             "gruntfile.coffee": "grunt.light",
             "gruntfile.js": "grunt.light",
             "gruntfile.ts": "grunt.light",
@@ -951,12 +1001,12 @@
             "bz2": "box.light",
             "bzip2": "box.light",
             "cfg": "config.light",
-            "component.css": "angular.light",
-            "component.html": "angular.light",
-            "component.sass": "angular.light",
-            "component.scss": "angular.light",
-            "component.spec.ts": "angular.light",
-            "component.ts": "angular.light",
+            "component.css": "angular-css.light",
+            "component.html": "angular-html.light",
+            "component.sass": "angular-sass.light",
+            "component.scss": "angular-sass.light",
+            "component.spec.ts": "angular-spec.light",
+            "component.ts": "angular-typescript.light",
             "conf": "config.light",
             "config": "config.light",
             "csv": "csv.light",
@@ -983,14 +1033,14 @@
             "jpeg": "image.light",
             "jpg": "image.light",
             "lib": "lib.light",
-            "lrcat": "adobe-lightroom.light",
             "lock": "lock.light",
+            "lrcat": "adobe-lightroom.light",
             "lz": "box.light",
             "lzma": "box.light",
             "lzo": "box.light",
             "mak": "build.light",
             "mdb": "msoffice-access.light",
-            "module.ts": "angular.light",
+            "module.ts": "angular-module.light",
             "muse": "adobe-muse.light",
             "ninja": "build.light",
             "nupkg": "nuget-box.light",
@@ -1014,8 +1064,8 @@
             "psd": "adobe-photoshop.light",
             "psmdcp": "nuget.light",
             "rar": "box.light",
-            "service.spec.ts": "angular.light",
-            "service.ts": "angular.light",
+            "service.spec.ts": "angular-spec.light",
+            "service.ts": "angular-typescript.light",
             "so": "lib.light",
             "spec.js": "javascript-test.light",
             "svg": "image.light",
@@ -1043,6 +1093,7 @@
             "d": "d.light",
             "dart": "dart.light",
             "dockerfile": "docker.light",
+            "ejs": "javascript-embedded.light",
             "elixir": "elixir.light",
             "elm": "elm.light",
             "erlang": "erlang.light",

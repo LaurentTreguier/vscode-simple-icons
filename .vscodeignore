@@ -1,3 +1,6 @@
 .vscode/**
 .gitignore
+yarn.lock
 source/**
+generator.*
+icons.json

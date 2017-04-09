@@ -1,14 +1,5 @@
 {
     "iconDefinitions": {
-        "folder": {
-            "iconPath": "./icons/simple-icons/folder.svg"
-        },
-        "folder.expanded": {
-            "iconPath": "./icons/simple-icons/folder.expanded.svg"
-        },
-        "file": {
-            "iconPath": "./icons/simple-icons/file.svg"
-        },
         "adobe-after-effects": {
             "iconPath": "./icons/simple-icons/adobe-after-effects.svg"
         },
@@ -36,9 +27,6 @@
         "adobe-premiere-pro": {
             "iconPath": "./icons/simple-icons/adobe-premiere-pro.svg"
         },
-        "angular": {
-            "iconPath": "./icons/simple-icons/angular.svg"
-        },
         "angular-css": {
             "iconPath": "./icons/simple-icons/angular-css.svg"
         },
@@ -54,6 +42,9 @@
         "angular-spec": {
             "iconPath": "./icons/simple-icons/angular-spec.svg"
         },
+        "angular": {
+            "iconPath": "./icons/simple-icons/angular.svg"
+        },
         "angular-typescript": {
             "iconPath": "./icons/simple-icons/angular-typescript.svg"
         },
@@ -66,11 +57,11 @@
         "appveyor": {
             "iconPath": "./icons/simple-icons/appveyor.svg"
         },
-        "archlinux": {
-            "iconPath": "./icons/simple-icons/archlinux.svg"
-        },
         "archlinux-box": {
             "iconPath": "./icons/simple-icons/archlinux-box.svg"
+        },
+        "archlinux": {
+            "iconPath": "./icons/simple-icons/archlinux.svg"
         },
         "babel": {
             "iconPath": "./icons/simple-icons/babel.svg"
@@ -78,26 +69,26 @@
         "binary": {
             "iconPath": "./icons/simple-icons/binary.svg"
         },
-        "bower": {
-            "iconPath": "./icons/simple-icons/bower.svg"
+        "bower.folder.expanded": {
+            "iconPath": "./icons/simple-icons/bower.folder.expanded.svg"
         },
         "bower.folder": {
             "iconPath": "./icons/simple-icons/bower.folder.svg"
         },
-        "bower.folder.expanded": {
-            "iconPath": "./icons/simple-icons/bower.folder.expanded.svg"
+        "bower": {
+            "iconPath": "./icons/simple-icons/bower.svg"
         },
         "box": {
             "iconPath": "./icons/simple-icons/box.svg"
         },
-        "build": {
-            "iconPath": "./icons/simple-icons/build.svg"
+        "build.folder.expanded": {
+            "iconPath": "./icons/simple-icons/build.folder.expanded.svg"
         },
         "build.folder": {
             "iconPath": "./icons/simple-icons/build.folder.svg"
         },
-        "build.folder.expanded": {
-            "iconPath": "./icons/simple-icons/build.folder.expanded.svg"
+        "build": {
+            "iconPath": "./icons/simple-icons/build.svg"
         },
         "camelia": {
             "iconPath": "./icons/simple-icons/camelia.svg"
@@ -111,17 +102,17 @@
         "coffeescript": {
             "iconPath": "./icons/simple-icons/coffeescript.svg"
         },
-        "config": {
-            "iconPath": "./icons/simple-icons/config.svg"
-        },
         "config.light": {
             "iconPath": "./icons/simple-icons/config.light.svg"
         },
-        "console": {
-            "iconPath": "./icons/simple-icons/console.svg"
+        "config": {
+            "iconPath": "./icons/simple-icons/config.svg"
         },
         "console.light": {
             "iconPath": "./icons/simple-icons/console.light.svg"
+        },
+        "console": {
+            "iconPath": "./icons/simple-icons/console.svg"
         },
         "cpp": {
             "iconPath": "./icons/simple-icons/cpp.svg"
@@ -129,38 +120,35 @@
         "csharp": {
             "iconPath": "./icons/simple-icons/csharp.svg"
         },
-        "css": {
-            "iconPath": "./icons/simple-icons/css.svg"
-        },
         "csscomb": {
             "iconPath": "./icons/simple-icons/csscomb.svg"
+        },
+        "css": {
+            "iconPath": "./icons/simple-icons/css.svg"
         },
         "csv": {
             "iconPath": "./icons/simple-icons/csv.svg"
         },
-        "d": {
-            "iconPath": "./icons/simple-icons/d.svg"
-        },
-        "d.folder": {
-            "iconPath": "./icons/simple-icons/d.folder.svg"
-        },
-        "d.folder.expanded": {
-            "iconPath": "./icons/simple-icons/d.folder.expanded.svg"
-        },
-        "d-build": {
-            "iconPath": "./icons/simple-icons/d-build.svg"
-        },
         "dart": {
             "iconPath": "./icons/simple-icons/dart.svg"
-        },
-        "database": {
-            "iconPath": "./icons/simple-icons/database.svg"
         },
         "database.light": {
             "iconPath": "./icons/simple-icons/database.light.svg"
         },
+        "database": {
+            "iconPath": "./icons/simple-icons/database.svg"
+        },
+        "d-build": {
+            "iconPath": "./icons/simple-icons/d-build.svg"
+        },
         "debian-box": {
             "iconPath": "./icons/simple-icons/debian-box.svg"
+        },
+        "d.folder.expanded": {
+            "iconPath": "./icons/simple-icons/d.folder.expanded.svg"
+        },
+        "d.folder": {
+            "iconPath": "./icons/simple-icons/d.folder.svg"
         },
         "diff": {
             "iconPath": "./icons/simple-icons/diff.svg"
@@ -170,6 +158,9 @@
         },
         "docker": {
             "iconPath": "./icons/simple-icons/docker.svg"
+        },
+        "d": {
+            "iconPath": "./icons/simple-icons/d.svg"
         },
         "editorconfig": {
             "iconPath": "./icons/simple-icons/editorconfig.svg"
@@ -189,20 +180,29 @@
         "favicon": {
             "iconPath": "./icons/simple-icons/favicon.svg"
         },
+        "file": {
+            "iconPath": "./icons/simple-icons/file.svg"
+        },
         "flash": {
             "iconPath": "./icons/simple-icons/flash.svg"
+        },
+        "folder.expanded": {
+            "iconPath": "./icons/simple-icons/folder.expanded.svg"
+        },
+        "folder": {
+            "iconPath": "./icons/simple-icons/folder.svg"
         },
         "fsharp": {
             "iconPath": "./icons/simple-icons/fsharp.svg"
         },
-        "git": {
-            "iconPath": "./icons/simple-icons/git.svg"
+        "git.folder.expanded": {
+            "iconPath": "./icons/simple-icons/git.folder.expanded.svg"
         },
         "git.folder": {
             "iconPath": "./icons/simple-icons/git.folder.svg"
         },
-        "git.folder.expanded": {
-            "iconPath": "./icons/simple-icons/git.folder.expanded.svg"
+        "git": {
+            "iconPath": "./icons/simple-icons/git.svg"
         },
         "gnome": {
             "iconPath": "./icons/simple-icons/gnome.svg"
@@ -225,14 +225,14 @@
         "haskell": {
             "iconPath": "./icons/simple-icons/haskell.svg"
         },
+        "haxe-hxml": {
+            "iconPath": "./icons/simple-icons/haxe-hxml.svg"
+        },
         "haxe": {
             "iconPath": "./icons/simple-icons/haxe.svg"
         },
         "html": {
             "iconPath": "./icons/simple-icons/html.svg"
-        },
-        "haxe-hxml": {
-            "iconPath": "./icons/simple-icons/haxe-hxml.svg"
         },
         "image": {
             "iconPath": "./icons/simple-icons/image.svg"
@@ -240,17 +240,17 @@
         "ionic": {
             "iconPath": "./icons/simple-icons/ionic.svg"
         },
-        "java": {
-            "iconPath": "./icons/simple-icons/java.svg"
+        "javascript-embedded": {
+            "iconPath": "./icons/simple-icons/javascript-embedded.svg"
         },
         "javascript": {
             "iconPath": "./icons/simple-icons/javascript.svg"
         },
-        "javascript-embedded": {
-            "iconPath": "./icons/simple-icons/javascript-embedded.svg"
-        },
         "javascript-test": {
             "iconPath": "./icons/simple-icons/javascript-test.svg"
+        },
+        "java": {
+            "iconPath": "./icons/simple-icons/java.svg"
         },
         "json": {
             "iconPath": "./icons/simple-icons/json.svg"
@@ -266,9 +266,6 @@
         },
         "less": {
             "iconPath": "./icons/simple-icons/less.svg"
-        },
-        "lib": {
-            "iconPath": "./icons/simple-icons/lib.svg"
         },
         "libreoffice-base": {
             "iconPath": "./icons/simple-icons/libreoffice-base.svg"
@@ -287,6 +284,9 @@
         },
         "libreoffice-writer": {
             "iconPath": "./icons/simple-icons/libreoffice-writer.svg"
+        },
+        "lib": {
+            "iconPath": "./icons/simple-icons/lib.svg"
         },
         "licence": {
             "iconPath": "./icons/simple-icons/licence.svg"
@@ -321,38 +321,38 @@
         "msoffice-word": {
             "iconPath": "./icons/simple-icons/msoffice-word.svg"
         },
-        "nim": {
-            "iconPath": "./icons/simple-icons/nim.svg"
+        "nim-config": {
+            "iconPath": "./icons/simple-icons/nim-config.svg"
         },
         "nim.light": {
             "iconPath": "./icons/simple-icons/nim.light.svg"
         },
-        "nim-config": {
-            "iconPath": "./icons/simple-icons/nim-config.svg"
-        },
-        "nodejs": {
-            "iconPath": "./icons/simple-icons/nodejs.svg"
-        },
-        "nodejs.folder": {
-            "iconPath": "./icons/simple-icons/nodejs.folder.svg"
+        "nim": {
+            "iconPath": "./icons/simple-icons/nim.svg"
         },
         "nodejs.folder.expanded": {
             "iconPath": "./icons/simple-icons/nodejs.folder.expanded.svg"
         },
+        "nodejs.folder": {
+            "iconPath": "./icons/simple-icons/nodejs.folder.svg"
+        },
+        "nodejs": {
+            "iconPath": "./icons/simple-icons/nodejs.svg"
+        },
         "npm": {
             "iconPath": "./icons/simple-icons/npm.svg"
         },
-        "nuget": {
-            "iconPath": "./icons/simple-icons/nuget.svg"
-        },
-        "nuget.folder": {
-            "iconPath": "./icons/simple-icons/nuget.folder.svg"
+        "nuget-box": {
+            "iconPath": "./icons/simple-icons/nuget-box.svg"
         },
         "nuget.folder.expanded": {
             "iconPath": "./icons/simple-icons/nuget.folder.expanded.svg"
         },
-        "nuget-box": {
-            "iconPath": "./icons/simple-icons/nuget-box.svg"
+        "nuget.folder": {
+            "iconPath": "./icons/simple-icons/nuget.folder.svg"
+        },
+        "nuget": {
+            "iconPath": "./icons/simple-icons/nuget.svg"
         },
         "objective-c": {
             "iconPath": "./icons/simple-icons/objective-c.svg"
@@ -360,14 +360,14 @@
         "ocaml": {
             "iconPath": "./icons/simple-icons/ocaml.svg"
         },
-        "paket": {
-            "iconPath": "./icons/simple-icons/paket.svg"
+        "paket.folder.expanded": {
+            "iconPath": "./icons/simple-icons/paket.folder.expanded.svg"
         },
         "paket.folder": {
             "iconPath": "./icons/simple-icons/paket.folder.svg"
         },
-        "paket.folder.expanded": {
-            "iconPath": "./icons/simple-icons/paket.folder.expanded.svg"
+        "paket": {
+            "iconPath": "./icons/simple-icons/paket.svg"
         },
         "pdf": {
             "iconPath": "./icons/simple-icons/pdf.svg"
@@ -384,17 +384,14 @@
         "pug": {
             "iconPath": "./icons/simple-icons/pug.svg"
         },
-        "python": {
-            "iconPath": "./icons/simple-icons/python.svg"
+        "python.folder.expanded": {
+            "iconPath": "./icons/simple-icons/python.folder.expanded.svg"
         },
         "python.folder": {
             "iconPath": "./icons/simple-icons/python.folder.svg"
         },
-        "python.folder.expanded": {
-            "iconPath": "./icons/simple-icons/python.folder.expanded.svg"
-        },
-        "r": {
-            "iconPath": "./icons/simple-icons/r.svg"
+        "python": {
+            "iconPath": "./icons/simple-icons/python.svg"
         },
         "razor": {
             "iconPath": "./icons/simple-icons/razor.svg"
@@ -411,8 +408,8 @@
         "rpm-box": {
             "iconPath": "./icons/simple-icons/rpm-box.svg"
         },
-        "ruby": {
-            "iconPath": "./icons/simple-icons/ruby.svg"
+        "r": {
+            "iconPath": "./icons/simple-icons/r.svg"
         },
         "ruby-build": {
             "iconPath": "./icons/simple-icons/ruby-build.svg"
@@ -423,11 +420,14 @@
         "rubygem": {
             "iconPath": "./icons/simple-icons/rubygem.svg"
         },
-        "rust": {
-            "iconPath": "./icons/simple-icons/rust.svg"
+        "ruby": {
+            "iconPath": "./icons/simple-icons/ruby.svg"
         },
         "rust-lib": {
             "iconPath": "./icons/simple-icons/rust-lib.svg"
+        },
+        "rust": {
+            "iconPath": "./icons/simple-icons/rust.svg"
         },
         "sass": {
             "iconPath": "./icons/simple-icons/sass.svg"
@@ -444,11 +444,11 @@
         "sound": {
             "iconPath": "./icons/simple-icons/sound.svg"
         },
-        "source.folder": {
-            "iconPath": "./icons/simple-icons/source.folder.svg"
-        },
         "source.folder.expanded": {
             "iconPath": "./icons/simple-icons/source.folder.expanded.svg"
+        },
+        "source.folder": {
+            "iconPath": "./icons/simple-icons/source.folder.svg"
         },
         "stylus": {
             "iconPath": "./icons/simple-icons/stylus.svg"
@@ -456,17 +456,17 @@
         "swift": {
             "iconPath": "./icons/simple-icons/swift.svg"
         },
-        "terminal": {
-            "iconPath": "./icons/simple-icons/terminal.svg"
-        },
         "terminal.light": {
             "iconPath": "./icons/simple-icons/terminal.light.svg"
         },
-        "test.folder": {
-            "iconPath": "./icons/simple-icons/test.folder.svg"
+        "terminal": {
+            "iconPath": "./icons/simple-icons/terminal.svg"
         },
         "test.folder.expanded": {
             "iconPath": "./icons/simple-icons/test.folder.expanded.svg"
+        },
+        "test.folder": {
+            "iconPath": "./icons/simple-icons/test.folder.svg"
         },
         "text": {
             "iconPath": "./icons/simple-icons/text.svg"
@@ -480,29 +480,29 @@
         "twig": {
             "iconPath": "./icons/simple-icons/twig.svg"
         },
-        "typescript": {
-            "iconPath": "./icons/simple-icons/typescript.svg"
-        },
-        "typescript.folder": {
-            "iconPath": "./icons/simple-icons/typescript.folder.svg"
+        "typescript-config": {
+            "iconPath": "./icons/simple-icons/typescript-config.svg"
         },
         "typescript.folder.expanded": {
             "iconPath": "./icons/simple-icons/typescript.folder.expanded.svg"
         },
-        "typescript-config": {
-            "iconPath": "./icons/simple-icons/typescript-config.svg"
+        "typescript.folder": {
+            "iconPath": "./icons/simple-icons/typescript.folder.svg"
         },
         "typescript-lint": {
             "iconPath": "./icons/simple-icons/typescript-lint.svg"
         },
+        "typescript": {
+            "iconPath": "./icons/simple-icons/typescript.svg"
+        },
         "typescript-test": {
             "iconPath": "./icons/simple-icons/typescript-test.svg"
         },
-        "unity": {
-            "iconPath": "./icons/simple-icons/unity.svg"
-        },
         "unity.light": {
             "iconPath": "./icons/simple-icons/unity.light.svg"
+        },
+        "unity": {
+            "iconPath": "./icons/simple-icons/unity.svg"
         },
         "vibed": {
             "iconPath": "./icons/simple-icons/vibed.svg"
@@ -516,17 +516,17 @@
         "visual-studio": {
             "iconPath": "./icons/simple-icons/visual-studio.svg"
         },
-        "vscode": {
-            "iconPath": "./icons/simple-icons/vscode.svg"
-        },
-        "vscode.folder": {
-            "iconPath": "./icons/simple-icons/vscode.folder.svg"
+        "vscode-box": {
+            "iconPath": "./icons/simple-icons/vscode-box.svg"
         },
         "vscode.folder.expanded": {
             "iconPath": "./icons/simple-icons/vscode.folder.expanded.svg"
         },
-        "vscode-box": {
-            "iconPath": "./icons/simple-icons/vscode-box.svg"
+        "vscode.folder": {
+            "iconPath": "./icons/simple-icons/vscode.folder.svg"
+        },
+        "vscode": {
+            "iconPath": "./icons/simple-icons/vscode.svg"
         },
         "vue": {
             "iconPath": "./icons/simple-icons/vue.svg"
@@ -568,6 +568,7 @@
     "folderNamesExpanded": {
         ".dub": "d.folder.expanded",
         ".git": "git.folder.expanded",
+        ".github": "git.folder.expanded",
         ".nuget": "nuget.folder.expanded",
         ".paket": "paket.folder.expanded",
         ".vscode": "vscode.folder.expanded",
@@ -871,6 +872,7 @@
         "folderNamesExpanded": {
             ".dub": "d.folder.expanded",
             ".git": "git.folder.expanded",
+            ".github": "git.folder.expanded",
             ".nuget": "nuget.folder.expanded",
             ".paket": "paket.folder.expanded",
             ".vscode": "vscode.folder.expanded",
@@ -1122,7 +1124,7 @@
             "perl": "camelia",
             "perl6": "camelia",
             "php": "php",
-            "plqsl": "database",
+            "plqsl": "database.light",
             "powershell": "powershell",
             "python": "python",
             "r": "r",
@@ -1147,8 +1149,7 @@
             "vb": "visual-basic",
             "vue": "vue",
             "xml": "xml",
-            "yaml": "yaml",
-            "plsql": "database.light"
+            "yaml": "yaml"
         }
     }
 }
