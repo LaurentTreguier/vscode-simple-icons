@@ -827,6 +827,90 @@
         },
         "typescript-test": {
             "iconPath": "./icons/minimalistic-icons/typescript-test.svg"
+        },
+        "typescript.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/typescript.folder.light.svg"
+        },
+        "typescript.folder": {
+            "iconPath": "./icons/minimalistic-icons/typescript.folder.svg"
+        },
+        "typescript.light": {
+            "iconPath": "./icons/minimalistic-icons/typescript.light.svg"
+        },
+        "typescript": {
+            "iconPath": "./icons/minimalistic-icons/typescript.svg"
+        },
+        "unity.light": {
+            "iconPath": "./icons/minimalistic-icons/unity.light.svg"
+        },
+        "unity": {
+            "iconPath": "./icons/minimalistic-icons/unity.svg"
+        },
+        "vibed.light": {
+            "iconPath": "./icons/minimalistic-icons/vibed.light.svg"
+        },
+        "vibed": {
+            "iconPath": "./icons/minimalistic-icons/vibed.svg"
+        },
+        "video.light": {
+            "iconPath": "./icons/minimalistic-icons/video.light.svg"
+        },
+        "video": {
+            "iconPath": "./icons/minimalistic-icons/video.svg"
+        },
+        "visual-basic.light": {
+            "iconPath": "./icons/minimalistic-icons/visual-basic.light.svg"
+        },
+        "visual-basic": {
+            "iconPath": "./icons/minimalistic-icons/visual-basic.svg"
+        },
+        "visual-studio.light": {
+            "iconPath": "./icons/minimalistic-icons/visual-studio.light.svg"
+        },
+        "visual-studio": {
+            "iconPath": "./icons/minimalistic-icons/visual-studio.svg"
+        },
+        "vscode-box.light": {
+            "iconPath": "./icons/minimalistic-icons/vscode-box.light.svg"
+        },
+        "vscode-box": {
+            "iconPath": "./icons/minimalistic-icons/vscode-box.svg"
+        },
+        "vscode.folder.light": {
+            "iconPath": "./icons/minimalistic-icons/vscode.folder.light.svg"
+        },
+        "vscode.folder": {
+            "iconPath": "./icons/minimalistic-icons/vscode.folder.svg"
+        },
+        "vue.light": {
+            "iconPath": "./icons/minimalistic-icons/vue.light.svg"
+        },
+        "vue": {
+            "iconPath": "./icons/minimalistic-icons/vue.svg"
+        },
+        "webpack.light": {
+            "iconPath": "./icons/minimalistic-icons/webpack.light.svg"
+        },
+        "webpack": {
+            "iconPath": "./icons/minimalistic-icons/webpack.svg"
+        },
+        "xml.light": {
+            "iconPath": "./icons/minimalistic-icons/xml.light.svg"
+        },
+        "xml": {
+            "iconPath": "./icons/minimalistic-icons/xml.svg"
+        },
+        "yaml.light": {
+            "iconPath": "./icons/minimalistic-icons/yaml.light.svg"
+        },
+        "yaml": {
+            "iconPath": "./icons/minimalistic-icons/yaml.svg"
+        },
+        "yarn.light": {
+            "iconPath": "./icons/minimalistic-icons/yarn.light.svg"
+        },
+        "yarn": {
+            "iconPath": "./icons/minimalistic-icons/yarn.svg"
         }
     },
     "folder": "folder",
@@ -838,6 +922,7 @@
         ".github": "git.folder",
         ".nuget": "nuget.folder",
         ".paket": "paket.folder",
+        ".vscode": "vscode.folder",
         "__pycache__": "python.folder",
         "bin": "build.folder",
         "bower_components": "bower.folder",
@@ -846,7 +931,8 @@
         "out": "build.folder",
         "source": "source.folder",
         "src": "source.folder",
-        "test": "test.folder"
+        "test": "test.folder",
+        "typings": "typescript.folder"
     },
     "folderNamesExpanded": {},
     "fileNames": {
@@ -862,6 +948,7 @@
         ".htaccess": "apache",
         ".npmignore": "npm",
         ".travis.yml": "travis",
+        ".vscodeignore": "visual-studio",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
@@ -910,7 +997,24 @@
         "readme.md": "readme",
         "readme.txt": "readme",
         "tsconfig.json": "config",
-        "tslint.json": "typescript-lint"
+        "tslint.json": "typescript-lint",
+        "webpack.config.babel.js": "webpack",
+        "webpack.config.base.babel.js": "webpack",
+        "webpack.config.coffee": "webpack",
+        "webpack.config.common.babel.js": "webpack",
+        "webpack.config.common.js": "webpack",
+        "webpack.config.dev.babel.js": "webpack",
+        "webpack.config.dev.js": "webpack",
+        "webpack.config.js": "webpack",
+        "webpack.config.prod.babel.js": "webpack",
+        "webpack.config.prod.js": "webpack",
+        "webpack.config.production.babel.js": "webpack",
+        "webpack.config.production.js": "webpack",
+        "webpack.config.staging.babel.js": "webpack",
+        "webpack.config.staging.js": "webpack",
+        "webpack.config.test.js": "webpack",
+        "webpack.config.ts": "webpack",
+        "yarn.lock": "yarn"
     },
     "fileExtensions": {
         "7z": "box",
@@ -919,6 +1023,7 @@
         "aepx": "adobe-after-effects",
         "ai": "adobe-illustrator",
         "as": "flash",
+        "avi": "video",
         "bin": "lib",
         "bmp": "image",
         "bz2": "box",
@@ -945,7 +1050,9 @@
         "dwt": "adobe-dreamweaver",
         "exe": "lib",
         "fla": "adobe-animate",
+        "flv": "video",
         "gif": "image",
+        "glade": "xml",
         "gradle": "gradle",
         "gz": "box",
         "ico": "image",
@@ -964,8 +1071,11 @@
         "mak": "build",
         "mdb": "msoffice-access",
         "mid": "sound",
+        "mkv": "video",
         "module.ts": "angular",
+        "mov": "video",
         "mp3": "sound",
+        "mp4": "video",
         "muse": "adobe-muse",
         "nim.cfg": "config",
         "ninja": "build",
@@ -977,6 +1087,7 @@
         "odp": "libreoffice-impress",
         "ods": "libreoffice-calc",
         "odt": "libreoffice-writer",
+        "ogg": "video",
         "one": "msoffice-onenote",
         "patch": "diff",
         "pdb": "database",
@@ -996,6 +1107,7 @@
         "rlib": "rust-lib",
         "rm": "sound",
         "rpm": "rpm-box",
+        "sln": "visual-studio",
         "so": "lib",
         "spec.js": "javascript-test",
         "spec.ts": "typescript-test",
@@ -1005,9 +1117,11 @@
         "tif": "image",
         "tiff": "image",
         "txt": "text",
+        "vsix": "vscode-box",
         "wav": "sound",
         "webp": "image",
         "wma": "sound",
+        "wmv": "video",
         "xls": "msoffice-excel",
         "xlsx": "msoffice-excel",
         "xz": "box",
@@ -1026,6 +1140,7 @@
         "css": "css",
         "d": "d",
         "dart": "dart",
+        "diet": "vibed",
         "dockerfile": "docker",
         "ejs": "javascript-embedded",
         "elixir": "elixir",
@@ -1070,14 +1185,20 @@
         "scss": "sass",
         "scheme": "scheme",
         "sdl": "sdl",
+        "shaderlab": "unity",
         "shellscript": "terminal",
         "sql": "database",
         "stylus": "stylus",
         "swift": "swift",
         "toml": "toml",
         "twig": "twig",
+        "typescript": "typescript",
         "typescriptreact": "react",
-        "vala": "gnome"
+        "vala": "gnome",
+        "vb": "visual-basic",
+        "vue": "vue",
+        "xml": "xml",
+        "yaml": "yaml"
     },
     "light": {
         "folder": "folder.light",
@@ -1089,6 +1210,7 @@
             ".github": "git.folder.light",
             ".nuget": "nuget.folder.light",
             ".paket": "paket.folder.light",
+            ".vscode": "vscode.folder.light",
             "__pycache__": "python.folder.light",
             "bin": "build.folder.light",
             "bower_components": "bower.folder.light",
@@ -1097,7 +1219,8 @@
             "out": "build.folder.light",
             "source": "source.folder.light",
             "src": "source.folder.light",
-            "test": "test.folder.light"
+            "test": "test.folder.light",
+            "typings": "typescript.folder.light"
         },
         "folderNamesExpanded": {},
         "fileNames": {
@@ -1113,6 +1236,7 @@
             ".htaccess": "apache.light",
             ".npmignore": "npm.light",
             ".travis.yml": "travis.light",
+            ".vscodeignore": "visual-studio.light",
             "angular-cli.json": "angular.light",
             "appveyor.yaml": "appveyor.light",
             "appveyor.yml": "appveyor.light",
@@ -1161,7 +1285,24 @@
             "readme.md": "readme.light",
             "readme.txt": "readme.light",
             "tsconfig.json": "config.light",
-            "tslint.json": "typescript-lint.light"
+            "tslint.json": "typescript-lint.light",
+            "webpack.config.babel.js": "webpack.light",
+            "webpack.config.base.babel.js": "webpack.light",
+            "webpack.config.coffee": "webpack.light",
+            "webpack.config.common.babel.js": "webpack.light",
+            "webpack.config.common.js": "webpack.light",
+            "webpack.config.dev.babel.js": "webpack.light",
+            "webpack.config.dev.js": "webpack.light",
+            "webpack.config.js": "webpack.light",
+            "webpack.config.prod.babel.js": "webpack.light",
+            "webpack.config.prod.js": "webpack.light",
+            "webpack.config.production.babel.js": "webpack.light",
+            "webpack.config.production.js": "webpack.light",
+            "webpack.config.staging.babel.js": "webpack.light",
+            "webpack.config.staging.js": "webpack.light",
+            "webpack.config.test.js": "webpack.light",
+            "webpack.config.ts": "webpack.light",
+            "yarn.lock": "yarn.light"
         },
         "fileExtensions": {
             "7z": "box.light",
@@ -1170,6 +1311,7 @@
             "aepx": "adobe-after-effects.light",
             "ai": "adobe-illustrator.light",
             "as": "flash.light",
+            "avi": "video.light",
             "bin": "lib.light",
             "bmp": "image.light",
             "bz2": "box.light",
@@ -1196,7 +1338,9 @@
             "dwt": "adobe-dreamweaver.light",
             "exe": "lib.light",
             "fla": "adobe-animate.light",
+            "flv": "video.light",
             "gif": "image.light",
+            "glade": "xml.light",
             "gradle": "gradle.light",
             "gz": "box.light",
             "ico": "image.light",
@@ -1215,8 +1359,11 @@
             "mak": "build.light",
             "mdb": "msoffice-access.light",
             "mid": "sound.light",
+            "mkv": "video.light",
             "module.ts": "angular.light",
+            "mov": "video.light",
             "mp3": "sound.light",
+            "mp4": "video.light",
             "muse": "adobe-muse.light",
             "nim.cfg": "config.light",
             "ninja": "build.light",
@@ -1228,6 +1375,7 @@
             "odp": "libreoffice-impress.light",
             "ods": "libreoffice-calc.light",
             "odt": "libreoffice-writer.light",
+            "ogg": "video.light",
             "one": "msoffice-onenote.light",
             "patch": "diff.light",
             "pdb": "database.light",
@@ -1247,6 +1395,7 @@
             "rlib": "rust-lib.light",
             "rm": "sound.light",
             "rpm": "rpm-box.light",
+            "sln": "visual-studio.light",
             "so": "lib.light",
             "spec.js": "javascript-test.light",
             "spec.ts": "typescript-test.light",
@@ -1256,9 +1405,11 @@
             "tif": "image.light",
             "tiff": "image.light",
             "txt": "text.light",
+            "vsix": "vscode-box.light",
             "wav": "sound.light",
             "webp": "image.light",
             "wma": "sound.light",
+            "wmv": "video.light",
             "xls": "msoffice-excel.light",
             "xlsx": "msoffice-excel.light",
             "xz": "box.light",
@@ -1277,6 +1428,7 @@
             "css": "css.light",
             "d": "d.light",
             "dart": "dart.light",
+            "diet": "vibed.light",
             "dockerfile": "docker.light",
             "ejs": "javascript-embedded.light",
             "elixir": "elixir.light",
@@ -1321,14 +1473,20 @@
             "scss": "sass.light",
             "scheme": "scheme.light",
             "sdl": "sdl.light",
+            "shaderlab": "unity.light",
             "shellscript": "terminal.light",
             "sql": "database.light",
             "stylus": "stylus.light",
             "swift": "swift.light",
             "toml": "toml.light",
             "twig": "twig.light",
+            "typescript": "typescript.light",
             "typescriptreact": "react.light",
-            "vala": "gnome.light"
+            "vala": "gnome.light",
+            "vb": "visual-basic.light",
+            "vue": "vue.light",
+            "xml": "xml.light",
+            "yaml": "yaml.light"
         }
     }
 }

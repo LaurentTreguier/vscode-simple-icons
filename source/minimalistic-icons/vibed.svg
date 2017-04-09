@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <circle id="circle" cx="160" cy="160" r="90"/>
+        <mask id="mask-hole">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <circle cx="160" cy="160" r="30" fill="#000"/>
+            <g stroke="#000" stroke-width="20">
+                <use xlink:href="#circle" fill="none"/>
+                <line x1="80" y1="150" x2="160" y2="150"/>
+                <line x1="160" y1="170" x2="240" y2="170"/>
+            </g>
+        </mask>
+        <mask id="mask-arrow">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <polygon points="0,0 160,0 160,160" fill="#000"/>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf">
+        <g mask="url(#mask-hole)">
+            <circle cx="160" cy="160" r="160" mask="url(#mask-arrow)"/>
+            <use xlink:href="#circle"/>
+        </g>
+        <polygon points="20,20 120,20 120,120"/>
+    </g>
+</svg>

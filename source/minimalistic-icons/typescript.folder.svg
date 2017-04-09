@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <defs>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <text x="90" y="220" font-family="Trebuchet MS" font-size="160" font-weight="bold" fill="#000">TS</text>
+        </mask>
+    </defs>
+    <rect x="40" y="60" width="280" height="200" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+</svg>

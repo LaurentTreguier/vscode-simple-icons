@@ -36,7 +36,7 @@
         ".htaccess": "apache",
         ".npmignore": "npm",
         ".travis.yml": "travis",
-        ".vscodeignore": "vscode",
+        ".vscodeignore": "vscode | visual-studio",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
