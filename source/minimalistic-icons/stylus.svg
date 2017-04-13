@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <g fill="none" stroke="#bfbfbf" stroke-width="20" stroke-linecap="round">
-        <path d="M 120,140 C 220,80 30,400 40,280"/>
-        <path d="M 200,180 C 100,240 290,-80 280,40"/>
-    </g>
-</svg>

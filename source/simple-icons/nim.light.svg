@@ -22,7 +22,7 @@
         <polygon points="10,140 0,90 60,120"/>
         <polygon points="310,140 320,90 260,120"/>
     </g>
-    <g fill="#000">
+    <g fill="#000000">
         <use xlink:href="#ellipse-bottom" mask="url(#mask-bottom)"/>
         <polygon points="20,165 40,160 80,220 30,190"/>
         <polygon points="300,165 280,160 240,220 290,190"/>

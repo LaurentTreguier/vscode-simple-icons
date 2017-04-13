@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <g fill="none" stroke="#bfbfbf" stroke-width="40">
-        <polyline points="100,20 20,20 20,300 100,300"/>
-        <polyline points="220,20 300,20 300,300 220,300"/>
-    </g>
-    <text x="70" y="260" font-family="Tahoma" font-size="260" font-weight="bold" fill="#bfbfbf">C</text>
-</svg>

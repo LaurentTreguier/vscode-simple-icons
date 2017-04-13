@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <g fill="#bfbfbf">
-        <polygon points="0,100 100,100 180,20 180,300 100,220 0,220"/>
-        <circle cx="180" cy="160" r="20"/>
-    </g>
-    <path d="M 230,120 Q 270,160 230,200 M 240,40 Q 360,160 240,280" fill="none" stroke="#bfbfbf" stroke-width="30" stroke-linecap="round"/>
-</svg>

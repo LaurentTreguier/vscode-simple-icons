@@ -14,7 +14,7 @@
             <polygon points="320,0 70,0 160,160 320,160"/>
         </clipPath>
     </defs>
-    <g fill="#063">
+    <g fill="#006633">
         <g mask="url(#mask-hexagon)">
             <circle cx="160" cy="160" r="160" fill="#83b716" clip-path="url(#clip-bottom)"/>
             <circle cx="160" cy="160" r="160" clip-path="url(#clip-top)"/>
