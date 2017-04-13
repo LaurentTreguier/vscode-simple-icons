@@ -90,6 +90,12 @@
         "archlinux": {
             "iconPath": "./icons/minimalistic-icons/archlinux.svg"
         },
+        "babel.light": {
+            "iconPath": "./icons/minimalistic-icons/babel.light.svg"
+        },
+        "babel": {
+            "iconPath": "./icons/minimalistic-icons/babel.svg"
+        },
         "binary.light": {
             "iconPath": "./icons/minimalistic-icons/binary.light.svg"
         },
@@ -179,6 +185,12 @@
         },
         "css": {
             "iconPath": "./icons/minimalistic-icons/css.svg"
+        },
+        "csscomb.light": {
+            "iconPath": "./icons/minimalistic-icons/csscomb.light.svg"
+        },
+        "csscomb": {
+            "iconPath": "./icons/minimalistic-icons/csscomb.svg"
         },
         "csv.light": {
             "iconPath": "./icons/minimalistic-icons/csv.light.svg"
@@ -936,7 +948,9 @@
     },
     "folderNamesExpanded": {},
     "fileNames": {
+        ".babelrc": "babel",
         ".bowerrc": "bower",
+        ".csscomb.json": "csscomb",
         ".editorconfig": "editorconfig",
         ".eslintrc": "eslint",
         ".eslintrc.js": "eslint",
@@ -984,6 +998,7 @@
         "license.md": "licence",
         "license.txt": "licence",
         "meson.build": "meson",
+        "nim.cfg": "config",
         "package.json": "nodejs",
         "paket.dependencies": "paket",
         "paket.local": "paket",
@@ -1107,6 +1122,8 @@
         "rlib": "rust-lib",
         "rm": "sound",
         "rpm": "rpm-box",
+        "service.spec.ts": "angular",
+        "service.ts": "angular",
         "sln": "visual-studio",
         "so": "lib",
         "spec.js": "javascript-test",
@@ -1224,7 +1241,9 @@
         },
         "folderNamesExpanded": {},
         "fileNames": {
+            ".babelrc": "babel.light",
             ".bowerrc": "bower.light",
+            ".csscomb.json": "csscomb.light",
             ".editorconfig": "editorconfig.light",
             ".eslintrc": "eslint.light",
             ".eslintrc.js": "eslint.light",
@@ -1272,6 +1291,7 @@
             "license.md": "licence.light",
             "license.txt": "licence.light",
             "meson.build": "meson.light",
+            "nim.cfg": "config.light",
             "package.json": "nodejs.light",
             "paket.dependencies": "paket.light",
             "paket.local": "paket.light",
@@ -1395,6 +1415,8 @@
             "rlib": "rust-lib.light",
             "rm": "sound.light",
             "rpm": "rpm-box.light",
+            "service.spec.ts": "angular.light",
+            "service.ts": "angular.light",
             "sln": "visual-studio.light",
             "so": "lib.light",
             "spec.js": "javascript-test.light",

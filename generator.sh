@@ -1,26 +1,80 @@
 #!/bin/bash
 
-mini_icons_dir='source/minimalistic-icons'
-simple_icons_dir='source/simple-icons'
+mini_name='minimalistic-icons'
+simple_name='simple-icons'
+mini_source_dir="source/$mini_name"
+simple_source_dir="source/$simple_name"
+mini_icons_dir="icons/$mini_name"
+simple_icons_dir="icons/$simple_name"
+mini_gen_dir="gen/$mini_name"
 
-for file in $(ls $mini_icons_dir)
+mkdir -p $mini_gen_dir
+needed_icons=$(node generator.js fill < icons.json | sort | uniq)
+
+for file in $needed_icons
 do
+    if [[ -f $mini_source_dir/$file ]]
+    then
+        file_dir=$mini_source_dir
+        rm -f $mini_gen_dir/$file
+    else if [[ $simple_source_dir/$file -nt $mini_gen_dir/$file ]]
+        then
+            file_dir=$mini_gen_dir
+            echo "Generating minimalistic $file"
+            node generator.js gen < $simple_source_dir/$file > $mini_gen_dir/$file
+        fi
+    fi
+
     light_file=$(echo $file | sed -r 's/svg$/light.svg/')
 
-    if [[ ! $file = *.light.svg ]] && \
-        ([[ ! -f $mini_icons_dir/$light_file ]] \
-            || [[ $mini_icons_dir/$file -nt $mini_icons_dir/$light_file ]])
+    if [[ ! -f $mini_gen_dir/$light_file ]] \
+            || [[ $file_dir/$file -nt $mini_gen_dir/$light_file ]]
     then
-        node generator.js conv < $mini_icons_dir/$file > $mini_icons_dir/$light_file
-        echo "Generating $mini_icons_dir/$light_file"
+        echo "Generating minimalistic $light_file"
+        node generator.js light < $file_dir/$file > $mini_gen_dir/$light_file
     fi
 done
 
-for theme_dir in $mini_icons_dir $simple_icons_dir
+for theme_dir in $mini_source_dir $simple_source_dir
 do
     theme_name=$(basename $theme_dir)
-    theme_icon_dir=$(echo $theme_dir | sed 's/source/icons/')
-    node generator.js json $theme_icon_dir $(LC_ALL=C ls $theme_dir) < icons.json > $theme_name.json
+    theme_icon_dir=icons/$theme_name
+    icon_list=$(ls $theme_dir)
+
+    if [[ $theme_name = $mini_name ]]
+    then
+        icon_list="$icon_list $(ls $mini_gen_dir)"
+    fi
+
+    mkdir -p $theme_icon_dir
     echo "Generating $theme_name.json"
-    node ./node_modules/.bin/svgo -f $theme_dir -o $theme_icon_dir
+    node generator.js json $theme_icon_dir $(echo $icon_list) < icons.json > $theme_name.json
+    node ./node_modules/.bin/svgo -f $theme_dir -o $theme_icon_dir > /dev/null
+    echo "Optimizing icons from $theme_dir"
+
+    if [[ $theme_name = $mini_name ]]
+    then
+        node ./node_modules/.bin/svgo -f $mini_gen_dir -o $theme_icon_dir > /dev/null
+        echo "Optimizing icons from $mini_gen_dir"
+    fi
 done
+
+for file in $(ls $simple_icons_dir)
+do
+    if [[ ! -f $simple_source_dir/$file ]]
+    then
+        echo "Cleaning unused simple icon $file"
+        rm $simple_icons_dir/$file
+    fi
+done
+
+for file in $(ls $mini_gen_dir)
+do
+    if [[ ! $file = *.light.svg ]] && [[ -z $(echo $needed_icons | grep -o $file) ]]
+    then
+        echo "Cleaning unused minimalistic icon $file"
+        rm -f {$mini_gen_dir,$mini_icons_dir}/{$file,$(echo $file | sed -r 's/svg$/light.svg/')}
+    fi
+done
+
+echo 'Done'
