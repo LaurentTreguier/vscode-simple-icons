@@ -240,6 +240,7 @@
         "erlang": "erlang",
         "fsharp": "fsharp",
         "go": "go",
+        "graphql": "graphql",
         "groovy": "groovy",
         "haskell": "haskell",
         "haxe": "haxe",
