@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <polygon points="0,160 40,160 90,240 50,240" fill="#00bfff"/>
+    <polygon points="50,80 90,80 40,160 0,160" fill="#00ffff"/>
+    <polygon points="50,80 90,80 140,160 100,160" fill="#00ff7f"/>
+    <polygon points="150,80 190,80 140,160 100,160" fill="#7fff00"/>
+    <polygon points="150,80 190,80 240,160 200,160" fill="#ffff00"/>
+    <polygon points="200,160 240,160 190,240 150,240" fill="#ffbf00"/>
+    <polygon points="230,80 270,80 320,160 280,160" fill="#ff00bf"/>
+    <polygon points="280,160 320,160 270,240 230,240" fill="#ff003f"/>
+</svg>
