@@ -42,7 +42,7 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "bash ./generator.sh && node ./node_modules/.bin/svgo -f ./source/simple-icons -o ./icons/simple-icons && node ./node_modules/.bin/svgo -f ./source/minimalistic-icons -o ./icons/minimalistic-icons"
+        "vscode:prepublish": "bash ./generator.sh"
     },
     "devDependencies": {
         "svgo": "^0.7.2"

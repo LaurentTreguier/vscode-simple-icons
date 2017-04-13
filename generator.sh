@@ -16,8 +16,11 @@ do
     fi
 done
 
-for theme in $mini_icons_dir $simple_icons_dir
+for theme_dir in $mini_icons_dir $simple_icons_dir
 do
-    node generator.js json $(echo $theme | sed 's/source/icons/') $(LC_ALL=C ls $theme) < icons.json > $(basename $theme).json
-    echo "Generating $theme.json"
+    theme_name=$(basename $theme_dir)
+    theme_icon_dir=$(echo $theme_dir | sed 's/source/icons/')
+    node generator.js json $theme_icon_dir $(LC_ALL=C ls $theme_dir) < icons.json > $theme_name.json
+    echo "Generating $theme_name.json"
+    node ./node_modules/.bin/svgo -f $theme_dir -o $theme_icon_dir
 done
