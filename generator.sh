@@ -49,13 +49,13 @@ do
     mkdir -p $theme_icon_dir
     echo "Generating $theme_name.json"
     node generator.js json $theme_icon_dir $(echo $icon_list) < icons.json > $theme_name.json
-    node ./node_modules/.bin/svgo -f $theme_dir -o $theme_icon_dir > /dev/null
     echo "Optimizing icons from $theme_dir"
+    node ./node_modules/.bin/svgo -f $theme_dir -o $theme_icon_dir > /dev/null
 
     if [[ $theme_name = $mini_name ]]
     then
-        node ./node_modules/.bin/svgo -f $mini_gen_dir -o $theme_icon_dir > /dev/null
         echo "Optimizing icons from $mini_gen_dir"
+        node ./node_modules/.bin/svgo -f $mini_gen_dir -o $theme_icon_dir > /dev/null
     fi
 done
 
