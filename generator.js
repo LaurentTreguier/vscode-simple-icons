@@ -2,7 +2,7 @@
 
 const os = require('os');
 
-const colorRegexp = /#[0-9a-fA-F]{6}/g;
+const colorRegexp = /(#[0-9a-fA-F]{6})|(url\(#gradient.*?\))/g;
 const pipeRegexp = /\s*\|\s*/;
 const operations = {
     fill: content => {
