@@ -4,4 +4,5 @@ yarn.lock
 source/minimalistic-icons/*.light.svg
 gen
 icons/**/*.svg
+*-icons.json
 *.xcf
