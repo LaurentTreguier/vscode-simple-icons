@@ -1,8 +1,20 @@
 # Changelog
 
+## 1.2.0
+
+Added icons :
+- GraphQL files (issue [#19](https://github.com/LaurentTreguier/vscode-simple-icons/issues/19) raised by [guzgarcia](https://github.com/guzgarcia))
+- Handlebars files (issue [#19](https://github.com/LaurentTreguier/vscode-simple-icons/issues/19) raised by [guzgarcia](https://github.com/guzgarcia))
+- Marko files (issue [#19](https://github.com/LaurentTreguier/vscode-simple-icons/issues/19) raised by [guzgarcia](https://github.com/guzgarcia))
+- Nunjucks files (issue [#19](https://github.com/LaurentTreguier/vscode-simple-icons/issues/19) raised by [guzgarcia](https://github.com/guzgarcia))
+
+Other changes :
+- Icon association is now more reliant on file extensions instead of language IDs. This means more icons should be shown even if a language extension is missing.
+- Some minimalistic icons were missing. Thanks to automatic icon generation when no hand-made minimalistic icon exists, this should not be the case anymore.s
+
 ## 1.1.0
 
-- Introducing minimalistic icons : monochrome version of simple icons
+#### Introducing minimalistic icons : monochrome version of simple icons
 
 - Added icons :
 - Babel files (issue [#15](https://github.com/LaurentTreguier/vscode-simple-icons/issues/15) raised by [osawasatoru](https://github.com/osawasatoru))
@@ -21,7 +33,7 @@ Added icons :
 
 # 1.0.0
 
-## All icons are now SVG ! Not a single PNG left 🎉
+#### All icons are now SVG ! Not a single PNG left 🎉
 
 Added icons :
 - Diff files
