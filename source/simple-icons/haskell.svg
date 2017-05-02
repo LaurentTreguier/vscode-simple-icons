@@ -2,19 +2,14 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <defs>
-        <clipPath id="clip-lambda">
-            <rect x="0" y="50" width="320" height="220"/>
-        </clipPath>
-        <clipPath id="clip-equal">
-            <polygon points="140,20 320,20 320,300 320,300"/>
+        <clipPath id="clip">
+            <polygon points="160,40 320,40 320,280"/>
         </clipPath>
     </defs>
-    <g fill="none" stroke-width="50" clip-path="url(#clip-lambda)">
-        <polyline points="10,20 100,160 10,300" stroke="#453a62"/>
-        <polyline points="90,20 270,300 180,160 90,300" stroke="#5e5086"/>
-    </g>
-    <g fill="#8f4e8b" clip-path="url(#clip-equal)">
-        <rect x="160" y="110" width="160" height="40"/>
-        <rect x="160" y="170" width="160" height="40"/>
+    <polygon points="0,40 60,40 140,160 60,280 0,280 80,160" fill="#453a62"/>
+    <polygon points="80,40 140,40 300,280 240,280 190,210 140,280 80,280 160,160" fill="#5e5086"/>
+    <g fill="#8f4e8b" clip-path="url(#clip)">
+        <rect x="160" y="100" width="160" height="40"/>
+        <rect x="160" y="160" width="160" height="40"/>
     </g>
 </svg>
