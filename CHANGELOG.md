@@ -1,6 +1,20 @@
 # Changelog
 
-## 1.2.0
+#### 1.2.1
+
+Added icons :
+- Backup files
+- Solidity files
+
+Updated icons :
+- The git icon is now more precise
+- The haskell icon is now less blurry
+- The markdown icon is now a bit clearer to see
+
+Other changes :
+- .gitmodules files now have the git icon
+
+### 1.2.0
 
 Added icons :
 - GraphQL files (issue [#19](https://github.com/LaurentTreguier/vscode-simple-icons/issues/19) raised by [guzgarcia](https://github.com/guzgarcia))
@@ -12,7 +26,7 @@ Other changes :
 - Icon association is now more reliant on file extensions instead of language IDs. This means more icons should be shown even if a language extension is missing.
 - Some minimalistic icons were missing. Thanks to automatic icon generation when no hand-made minimalistic icon exists, this should not be the case anymore.s
 
-## 1.1.0
+### 1.1.0
 
 #### Introducing minimalistic icons : monochrome version of simple icons
 
@@ -26,14 +40,14 @@ Other changes :
 - Cmakelists.txt files now use the cmake icon
 - .github folders now use the git folder icon
 
-### 1.0.1
+#### 1.0.1
 
 Added icons :
 - Windows registry files (issue [#12](https://github.com/LaurentTreguier/vscode-simple-icons/issues/12) raised by [Kaedin](https://github.com/Kaedin))
 
-# 1.0.0
+## 1.0.0
 
-#### All icons are now SVG ! Not a single PNG left 🎉
+### All icons are now SVG ! Not a single PNG left 🎉
 
 Added icons :
 - Diff files
@@ -43,7 +57,7 @@ Converted to SVG :
 - Editorconfig files
 - Ocaml files
 
-### 0.11.2
+#### 0.11.2
 
 Added icons :
 - Angular SASS files
@@ -54,7 +68,7 @@ Converted to SVG :
 - Gruntfiles
 - Twig templates
 
-### 0.11.1
+#### 0.11.1
 
 Updated icons :
 - Bat scripts now have their own icon
@@ -68,7 +82,7 @@ Updated icons (light theme override) :
 - Shell scripts
 - Shaderlab files
 
-## 0.11.0
+### 0.11.0
 
 Added icons for the following languages :
 - Erb templates
@@ -84,7 +98,7 @@ Converted to SVG :
 - Java files
 - Vala files
 
-### 0.10.1
+#### 0.10.1
 
 Added icons for the following languages :
 - Stylus (issue [#7](https://github.com/LaurentTreguier/vscode-simple-icons/issues/7) raised by [yaphtes](https://github.com/yaphtes))
@@ -96,7 +110,7 @@ Converted to SVG :
 - Apache files
 - Less files
 
-## 0.10.0
+### 0.10.0
 
 Added icons for the following languages :
 - Perl
@@ -114,7 +128,7 @@ Other changes :
 - `.nimble` files now have the Nim icon
 - `.eslintignore` files new have the Eslint icon thanks to [sjml](https://github.com/sjml) ([#6](https://github.com/LaurentTreguier/vscode-simple-icons/pull/6))
 
-## 0.9.0
+### 0.9.0
 
 Added icons for the following languages :
 - Apex
@@ -137,7 +151,7 @@ Converted to SVG :
 - Scheme files
 - Sass files
 
-### 0.8.1
+#### 0.8.1
 
 Updated icons :
 - The TOML icon now shows brackets instead of a 'T'
@@ -154,7 +168,7 @@ Converted to SVG :
 - Test folders
 - Webpack files
 
-## 0.8.0
+### 0.8.0
 
 Added icons :
 - Config files
@@ -173,7 +187,7 @@ Converted to SVG :
 - Pug files
 - Rust files
 
-### 0.7.9
+#### 0.7.9
 
 Updated icons :
 - The licence icon was completely redone
@@ -190,7 +204,7 @@ Converted to SVG :
 - Nim files
 - Nuget files and folders
 
-### 0.7.8
+#### 0.7.8
 
 Updated icons :
 - The Coffeescript icon is not the official logo anymore for the sake of simplicity
@@ -210,7 +224,7 @@ Converted to SVG :
 - Sound files
 - Swift files
 
-### 0.7.7
+#### 0.7.7
 
 Updated icons :
 - The C# icon is now 'C#' instead of '#' in a circle
@@ -227,7 +241,7 @@ Converted to SVG :
 - XML files
 - YAML files
 
-### 0.7.6
+#### 0.7.6
 
 Updated icons :
 - The Go icon now features a blue gopher
@@ -242,7 +256,7 @@ Converted to SVG :
 - SDLang files
 - Visual Basic files
 
-### 0.7.5
+#### 0.7.5
 
 Updated icons :
 - The D icon is now closer to the original D logo
@@ -258,7 +272,7 @@ Converted to SVG :
 - Microsoft Office files
 - OpenDocument files
 
-### 0.7.4
+#### 0.7.4
 
 Updated icons :
 - The Objective-c icon is now looking like '[C]'
@@ -275,7 +289,7 @@ Converted to SVG :
 - Source folders
 - Typescript files and folders
 
-### 0.7.3
+#### 0.7.3
 
 Added icons :
 - .npmignore files
@@ -290,7 +304,7 @@ Converted to SVG :
 Other changes :
 Fix text files not having any icon
 
-### 0.7.2
+#### 0.7.2
 
 Converted to SVG :
 - Build files and folders
@@ -303,7 +317,7 @@ Converted to SVG :
 - Visual Studio solution files
 - VSCode files and folders
 
-### 0.7.1
+#### 0.7.1
 
 Converted to SVG :
 - Standard files and folders
@@ -314,7 +328,7 @@ Other changes :
 Note :
 Other icons should progressively be converted to SVG
 
-## 0.7.0
+### 0.7.0
 
 Added icons :
 - Licence files
@@ -329,7 +343,7 @@ Other changes :
 - `.dmg` files now have the disc icon
 - `.bz2` and `.bzip2` files now have the archive icon
 
-## 0.6.0
+### 0.6.0
 
 Added icons for the following languages :
 - TOML
@@ -344,7 +358,7 @@ Other added icons :
 Other changes :
 - Cakefiles and rakefiles now use the build icon
 
-## 0.5.0
+### 0.5.0
 
 Added icons for the following languages :
 - VueJS
@@ -365,7 +379,7 @@ Updated icons :
 Other changes :
 - `.mak` files now have the build icon
 
-## 0.4.0
+### 0.4.0
 
 Added icons for the following languages :
 - Assembly
@@ -391,7 +405,7 @@ Other changes :
 - `.glade` files now have the XML icon
 - `.ninja` files now have the build icon
 
-## 0.3.0
+### 0.3.0
 
 Added icons for the following languages :
 - Actionscript
@@ -414,7 +428,7 @@ Updated icons :
 - The shell icon is now a bit simpler
 - The archive icon now has a zipper instead of duct tape
 
-## 0.2.0
+### 0.2.0
 
 Added icons :
 - Paket files
@@ -433,7 +447,7 @@ Updated icons :
 Other changes :
 - Moved changelog to CHANGELOG.md
 
-### 0.1.7
+#### 0.1.7
 
 Added icons for the following languages :
 - F#
@@ -445,7 +459,7 @@ Other added icons :
 Other changes :
 - `.ico` extension added to images
 
-### 0.1.6
+#### 0.1.6
 
 Added icons :
 - Archives
@@ -458,7 +472,7 @@ Updated icons :
 Other changes :
 Eslint extensions added thanks to [rhbecker](https://github.com/rhbecker) ([#1](https://github.com/LaurentTreguier/vscode-simple-icons/pull/1))
 
-### 0.1.5
+#### 0.1.5
 
 Added icons for the following languages :
 - Lua
@@ -470,11 +484,11 @@ Other added icons :
 - Eslint files
 - Meson build files
 
-### 0.1.4
+#### 0.1.4
 
 Fixed expanded build folder
 
-### 0.1.3
+#### 0.1.3
 
 Added icons for the following languages :
 - Elm
@@ -492,7 +506,7 @@ Updated icons :
 - Build icon color was changed for something more neutral
 - Margins were removed from the powershell icon
 
-### 0.1.2
+#### 0.1.2
 
 Added icons for the following languages :
 - Elixir
@@ -501,7 +515,7 @@ Added icons for the following languages :
 Other added icons :
 - Gradle
 
-### 0.1.1
+#### 0.1.1
 
 Added icons for the following languages :
 - Diet templates
@@ -514,7 +528,7 @@ Added icons for the following languages :
 Other added icons :
 - Executable scripts
 
-## 0.1.0
+### 0.1.0
 
 Initial release
 

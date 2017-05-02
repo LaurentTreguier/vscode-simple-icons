@@ -40,7 +40,8 @@ This repository already has a `.vscode` direcory that contains the assets to opt
 Simply create a new SVG icon in the `source/*` direcories and add a file association in `icons.json`, and then start a debugging session.
 
 _Note : Prefer language ID's to file extensions when possible, as it can sometimes cover a lot of extensions.
-Powershell, for example, has 5 different file extensions that are all covered when simply using the `powershell` language ID._
+Powershell, for example, has 5 different file extensions that are all covered when simply using the `powershell` language ID.
+Whenever a language only has one possible extension, use both the language ID and the extension. The language ID will be used if for some reason the user decides to associate the language to a file with a different extension._
 
 The `generator.sh` script will automatically generate the `*-icons.json` files as well as minimalistic light icons from the normal versions.
 If the minimalistic icon can simply be a grey version of the simple icon, you don't need to make one.
