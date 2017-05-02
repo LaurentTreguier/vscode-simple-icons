@@ -33,6 +33,7 @@
         ".eslintrc.yml": "eslint",
         ".eslintignore": "eslint",
         ".gitignore": "git",
+        ".gitmodules": "git",
         ".htaccess": "apache",
         ".npmignore": "npm",
         ".travis.yml": "travis",
