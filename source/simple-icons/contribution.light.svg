@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <g fill="none" stroke="#3f3f3f" stroke-width="40">
+        <line x1="60" y1="100" x2="60" y2="220"/>
+        <path d="M 180,60 200,60 Q 260,60 260,120 V 220"/>
+        <g stroke-width="20">
+            <circle cx="60" cy="60" r="50"/>
+            <circle cx="60" cy="260" r="50"/>
+            <circle cx="260" cy="260" r="50"/>
+        </g>
+    </g>
+    <polygon points="120,60 180,120 180,0" fill="#3f3f3f"/>
+</svg>
