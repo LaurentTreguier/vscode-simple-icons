@@ -40,6 +40,7 @@ do
     theme_name=$(basename $theme_dir)
     theme_icon_dir=icons/$theme_name
     icon_list=$(ls $theme_dir)
+    svgo_cmd="node ./node_modules/.bin/svgo --multipass -o $theme_icon_dir"
 
     if [[ $theme_name = $mini_name ]]
     then
@@ -50,12 +51,12 @@ do
     echo "Generating $theme_name.json"
     node generator.js json $theme_icon_dir $(echo $icon_list) < icons.json > $theme_name.json
     echo "Optimizing icons from $theme_dir"
-    node ./node_modules/.bin/svgo -f $theme_dir -o $theme_icon_dir > /dev/null
+    $svgo_cmd -f $theme_dir > /dev/null
 
     if [[ $theme_name = $mini_name ]]
     then
         echo "Optimizing icons from $mini_gen_dir"
-        node ./node_modules/.bin/svgo -f $mini_gen_dir -o $theme_icon_dir > /dev/null
+        $svgo_cmd -f $mini_gen_dir > /dev/null
     fi
 done
 
