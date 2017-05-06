@@ -164,6 +164,7 @@
         "jl": "julia",
         "jpeg": "image",
         "jpg": "image",
+        "js.map": "javascript-map",
         "lib": "lib",
         "lock": "lock",
         "lrcat": "adobe-lightroom",
