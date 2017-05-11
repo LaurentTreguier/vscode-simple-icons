@@ -1,5 +1,16 @@
 # Changelog
 
+#### 1.2.2
+
+Added icons :
+- Contributing files
+- Javascript map files
+
+Other changes :
+- Added a license for the project's code (MIT) and content (CC0)
+- Multipass has been enabled for SVGO, resulting in smaller icons in a lot of cases
+- .yarn-integrity files now have the yarn icon
+
 #### 1.2.1
 
 Added icons :
@@ -24,7 +35,7 @@ Added icons :
 
 Other changes :
 - Icon association is now more reliant on file extensions instead of language IDs. This means more icons should be shown even if a language extension is missing.
-- Some minimalistic icons were missing. Thanks to automatic icon generation when no hand-made minimalistic icon exists, this should not be the case anymore.s
+- Some minimalistic icons were missing. Thanks to automatic icon generation when no hand-made minimalistic icon exists, this should not be the case anymore.
 
 ### 1.1.0
 
