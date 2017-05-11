@@ -38,6 +38,7 @@
         ".npmignore": "npm",
         ".travis.yml": "travis",
         ".vscodeignore": "vscode | visual-studio",
+        ".yarn-integrity": "yarn",
         "angular-cli.json": "angular",
         "appveyor.yaml": "appveyor",
         "appveyor.yml": "appveyor",
