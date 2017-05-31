@@ -227,6 +227,7 @@
         "tar": "box",
         "tif": "image",
         "tiff": "image",
+        "tmLanguage": "xml",
         "toml": "toml",
         "twig": "twig",
         "txt": "text",
