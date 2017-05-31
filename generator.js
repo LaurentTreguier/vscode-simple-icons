@@ -87,5 +87,4 @@ function traverseSections(json, callback) {
     });
 }
 
-process.stdin.on('data', (data) =>
-    process.stdout.write(operations[process.argv[2]](data.toString())));
+process.stdin.on('data', (data) => process.stdout.write(operations[process.argv[2]](data.toString())));
