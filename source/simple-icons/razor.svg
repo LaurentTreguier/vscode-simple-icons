@@ -15,5 +15,5 @@
         <use xlink:href="#polygon" fill="#e44d26"/>
         <use xlink:href="#polygon" fill="#f16529" clip-path="url(#clip-half)"/>
     </g>
-    <text x="55" y="220" font-family="Verdana" font-size="220" font-weight="bold" fill="#fff">@</text>
+    <text x="55" y="220" font-family="Arial" font-size="220" font-weight="bold" fill="#fff">@</text>
 </svg>

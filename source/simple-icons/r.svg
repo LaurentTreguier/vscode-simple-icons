@@ -8,5 +8,5 @@
         </mask>
     </defs>
     <ellipse cx="160" cy="140" rx="160" ry="100" fill="#7f7f7f" mask="url(#mask)"/>
-    <text x="130" y="280" font-family="Verdana" font-size="240" font-weight="bold" fill="#1f5fbf">R</text>
+    <text x="130" y="280" font-family="Arial" font-size="240" font-weight="bold" fill="#1f5fbf">R</text>
 </svg>

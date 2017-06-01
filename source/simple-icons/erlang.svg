@@ -7,5 +7,5 @@
         </clipPath>
     </defs>
     <rect x="0" y="40" width="320" height="240" fill="#8c002f"/>
-    <text x="10" y="300" font-family="Trebuchet MS" font-size="520" font-weight="bold" fill="#fff" clip-path="url(#clip)">e</text>
+    <text x="10" y="300" font-family="Arial" font-size="520" font-weight="bold" fill="#fff" clip-path="url(#clip)">e</text>
 </svg>

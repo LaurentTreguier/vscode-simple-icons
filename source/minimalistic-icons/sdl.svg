@@ -4,7 +4,7 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="95" y="250" font-family="Trebuchet MS" font-size="260" font-weight="bold" fill="#000">S</text>
+            <text x="75" y="250" font-family="Arial" font-size="260" font-weight="bold" fill="#000">S</text>
         </mask>
     </defs>
     <circle cx="160" cy="160" r="160" fill="#bfbfbf" mask="url(#mask)"/>

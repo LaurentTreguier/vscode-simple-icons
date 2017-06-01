@@ -14,7 +14,7 @@
                 <rect x="0" y="190" width="320" height="130" fill="#fff" stroke="none"/>
                 <line x1="160" y1="180" x2="300" y2="190" stroke-width="10"/>
             </g>
-            <text x="50" y="280" font-family="Trebuchet MS" font-size="120" font-weight="bold" fill="#000">rpm</text>
+            <text x="50" y="280" font-family="Arial" font-size="120" font-weight="bold" fill="#000">rpm</text>
         </mask>
     </defs>
     <g fill="#bfbfbf">

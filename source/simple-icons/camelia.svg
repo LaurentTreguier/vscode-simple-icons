@@ -4,11 +4,11 @@
     <g fill="#7f7f7f">
         <g transform="rotate(135 70 110)">
             <ellipse cx="70" cy="110" rx="60" ry="70"/>
-            <text x="35" y="155" font-family="Tahoma" font-size="120" fill="#00f">6</text>
+            <text x="35" y="155" font-family="Arial" font-size="120" fill="#00f">6</text>
         </g>
         <g transform="rotate(45 250 110)">
             <ellipse cx="250" cy="110" rx="60" ry="70"/>
-            <text x="215" y="155" font-family="Tahoma" font-size="120" fill="#00f">6</text>
+            <text x="215" y="155" font-family="Arial" font-size="120" fill="#00f">6</text>
         </g>
         <g transform="rotate(45 90 220)">
             <ellipse cx="90" cy="220" rx="50" ry="60"/>

@@ -5,7 +5,7 @@
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
             <g fill="#000">
-                <text x="10" y="245" font-family="Tahoma" font-size="220" font-weight="bold" transform="scale(1.35, 1)">D</text>
+                <text x="10" y="245" font-family="Arial" font-size="240" font-weight="bold" transform="scale(1.25, 1)">D</text>
                 <circle cx="220" cy="130" r="40"/>
                 <circle cx="270" cy="90" r="15"/>
             </g>

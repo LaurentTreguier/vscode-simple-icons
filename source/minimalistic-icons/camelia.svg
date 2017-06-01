@@ -4,11 +4,11 @@
     <defs>
         <mask id="mask-top-left">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="35" y="155" font-family="Tahoma" font-size="120" fill="#000">6</text>
+            <text x="35" y="155" font-family="Arial" font-size="120" fill="#000">6</text>
         </mask>
         <mask id="mask-top-right">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="215" y="155" font-family="Tahoma" font-size="120" fill="#000">6</text>
+            <text x="215" y="155" font-family="Arial" font-size="120" fill="#000">6</text>
         </mask>
         <mask id="mask-bottom-left">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>

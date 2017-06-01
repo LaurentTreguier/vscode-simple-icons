@@ -8,7 +8,7 @@
         </clipPath>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="55" y="220" font-family="Verdana" font-size="220" font-weight="bold" fill="#000">@</text>
+            <text x="55" y="220" font-family="Arial" font-size="220" font-weight="bold" fill="#000">@</text>
         </mask>
     </defs>
     <polygon points="30,10 290,10 260,280 160,310 60,280" fill="#bfbfbf" stroke="#bfbfbf" stroke-width="20" mask="url(#mask)"/>
