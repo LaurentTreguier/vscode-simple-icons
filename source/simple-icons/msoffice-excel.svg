@@ -10,5 +10,5 @@
         <line x1="210" y1="80" x2="210" y2="220" stroke="#fff"/>
     </g>
     <polygon points="0,40 160,0 160,320 0,280" fill="#1f7244"/>
-    <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="bold" fill="#fff">X</text>
+    <text x="25" y="220" font-family="Arial" font-size="160" font-weight="bold" fill="#fff">X</text>
 </svg>

@@ -9,5 +9,5 @@
         <line x1="160" y1="210" x2="280" y2="210"/>
     </g>
     <polygon points="0,40 160,0 160,320 0,280" fill="#295497"/>
-    <text x="10" y="215" font-family="Trebuchet MS" font-size="160" font-weight="bold" fill="#fff">W</text>
+    <text x="5" y="215" font-family="Arial" font-size="160" font-weight="bold" fill="#fff">W</text>
 </svg>

@@ -10,7 +10,7 @@
         </clipPath>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="bold" fill="#000">A</text>
+            <text x="20" y="220" font-family="Arial" font-size="160" font-weight="bold" fill="#000">A</text>
         </mask>
     </defs>
     <g fill="none" stroke="#bfbfbf" stroke-width="20">

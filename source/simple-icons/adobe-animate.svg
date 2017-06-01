@@ -2,5 +2,5 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <rect x="10" y="10" width="300" height="300" fill="#3f0000" stroke="#ff3f1f" stroke-width="20"/>
-    <text x="50" y="230" font-family="Tahoma" font-size="200" fill="#ff3f1f">An</text>
+    <text x="40" y="230" font-family="Arial" font-size="200" fill="#ff3f1f">An</text>
 </svg>

@@ -10,5 +10,5 @@
         <circle cx="210" cy="130" r="50" mask="url(#mask)"/>
     </g>
     <polyline points="210,80 210,130 260,130" fill="none" stroke="#fff" stroke-width="20"/>
-    <text x="25" y="220" font-family="Tahoma" font-size="160" font-weight="bold" fill="#fff">P</text>
+    <text x="25" y="220" font-family="Arial" font-size="160" font-weight="bold" fill="#fff">P</text>
 </svg>

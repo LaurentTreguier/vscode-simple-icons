@@ -4,7 +4,7 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="10" y="215" font-family="Trebuchet MS" font-size="160" font-weight="bold" fill="#000">W</text>
+            <text x="5" y="215" font-family="Arial" font-size="160" font-weight="bold" fill="#000">W</text>
         </mask>
     </defs>
     <g stroke="#bfbfbf" stroke-width="20">
