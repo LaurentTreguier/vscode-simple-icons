@@ -2,6 +2,10 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <rect x="0" y="0" width="320" height="320" fill="#007acc"/>
-    <text x="45" y="180" font-family="Trebuchet MS" font-size="200" font-weight="bold" fill="#fff">TS</text>
+    <g fill="none" stroke="#fff" stroke-width="20" transform="translate(60 60)">
+        <line x1="0" y1="10" x2="100" y2="10"/>
+        <line x1="50" y1="10" x2="50" y2="120"/>
+        <path d="M 200,10 H 160 Q 130,10 130,30 Q 130,50 160,60 Q 190,70 190,90 Q 190,110 160,110 H 120"/>
+    </g>
     <path d="M 40,290 Q 50,290 60,260 Q 70,230 80,230 Q 90,230 100,260 Q 110,290 120,290 Q 130,290 140,260 Q 150,230 160,230 Q 170,230 180,260 Q 190,290 200,290 Q 210,290 220,260 Q 230,230 240,230 Q 250,230 260,260 Q 270,290 280,290" fill="none" stroke="#f00" stroke-width="20"/>
 </svg>
