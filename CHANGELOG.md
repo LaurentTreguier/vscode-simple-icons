@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.2.4
+
+Other changes :
+- Added minimalistic version of the JSHint icon
+
 #### 1.2.3
 
 Added icons :
