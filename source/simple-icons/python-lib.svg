@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <mask id="mask">
+            <circle cx="160" cy="160" r="80" fill="none" stroke-width="80" stroke="#fff"/>
+            <g fill="#fff">
+                <rect id="rect" x="120" y="0" width="80" height="80"/>
+                <use xlink:href="#rect" transform="rotate(60 160 160)"/>
+                <use xlink:href="#rect" transform="rotate(120 160 160)"/>
+                <use xlink:href="#rect" transform="rotate(180 160 160)"/>
+                <use xlink:href="#rect" transform="rotate(240 160 160)"/>
+                <use xlink:href="#rect" transform="rotate(300 160 160)"/>
+            </g>
+        </mask>
+    </defs>
+    <g transform="rotate(30 160 160)" mask="url(#mask)">
+        <rect x="-80" y="-80" width="240" height="480" fill="#3f7fbf"/>
+        <rect x="160" y="-80" width="240" height="480" fill="#ffdf3f"/>
+    </g>
+</svg>
