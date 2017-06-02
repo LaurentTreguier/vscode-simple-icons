@@ -1,5 +1,17 @@
 # Changelog
 
+#### 1.2.3
+
+Added icons :
+- API Bluprint files
+- JSHint files
+- Python binary files
+
+Other changes :
+- Icons containing text now use fonts that are pre-installed on most operating systems
+- .tmLanguage files now use the XML icon
+- .n, .ndll and .o files now use the lib icon
+
 #### 1.2.2
 
 Added icons :
@@ -8,7 +20,7 @@ Added icons :
 
 Other changes :
 - Added a license for the project's code (MIT) and content (CC0)
-- Multipass has been enabled for SVGO, resulting in smaller icons in a lot of cases
+- Multipass has been enabled for SVGO, resulting in smaller icon sizes in a lot of cases
 - .yarn-integrity files now have the yarn icon
 
 #### 1.2.1
