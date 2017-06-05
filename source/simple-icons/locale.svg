@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <g fill="none" stroke="#7f5fdf" stroke-width="20" stroke-linejoin="round" stroke-linecap="square">
+        <polyline points="10,150 10,50 50,10 70,10 110,50 110,150"/>
+        <line x1="10" y1="90" x2="110" y2="90"/>
+        <line x1="230" y1="130" x2="230" y2="150"/>
+        <polyline points="150,170 150,150 310,150 310,170"/>
+        <polyline points="190,190 270,190 230,230 230,310 190,310"/>
+        <line x1="150" y1="250" x2="310" y2="250"/>
+    </g>
+</svg>
