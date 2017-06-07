@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <polygon id="triangle-0" points="20,20 20,170 95,95"/>
+        <polygon id="triangle-1" points="20,170 95,95 170,170"/>
+        <polygon id="triangle-2" points="20,170 95,245 170,170"/>
+        <polygon id="triangle-3" points="20,170 20,320 95,245"/>
+        <polygon id="triangle-4" points="95,245 170,170 245,245"/>
+        <polygon id="triangle-5" points="95,245 170,320 245,245"/>
+        <polygon id="triangle-6" points="170,320 245,245 320,320"/>
+    </defs>
+    <use xlink:href="#triangle-0" fill="#79201b"/>
+    <use xlink:href="#triangle-1" fill="#a42d26"/>
+    <use xlink:href="#triangle-2" fill="#cc382f"/>
+    <g fill="#f0453f">
+        <use xlink:href="#triangle-3"/>
+        <use xlink:href="#triangle-4"/>
+    </g>
+    <use xlink:href="#triangle-5" fill="#f2625d"/>
+    <use xlink:href="#triangle-6" fill="#f47f7d"/>
+    <g transform="rotate(180 160 160)">
+        <use xlink:href="#triangle-0" fill="#00577b"/>
+        <use xlink:href="#triangle-1" fill="#0079aa"/>
+        <use xlink:href="#triangle-2" fill="#0096d3"/>
+        <g fill="#01b0f0">
+            <use xlink:href="#triangle-3"/>
+            <use xlink:href="#triangle-4"/>
+        </g>
+        <use xlink:href="#triangle-5" fill="#27bcf3"/>
+        <use xlink:href="#triangle-6" fill="#4fc9f5"/>
+    </g>
+</svg>
