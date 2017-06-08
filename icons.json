@@ -88,6 +88,7 @@
         "meson.build": "meson",
         "nim.cfg": "nim-config | config",
         "package.json": "nodejs",
+        "package.pins": "swift",
         "paket.dependencies": "paket",
         "paket.local": "paket",
         "paket.lock": "paket",
