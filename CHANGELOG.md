@@ -1,5 +1,24 @@
 # Changelog
 
+### 1.3.0
+
+Added icons :
+- CSS map files
+- Crystal files
+- Gitlab files
+- Locale files and folders
+- NSIS files
+- Polymer files
+- Vagrant files
+
+Other changes :
+- The D icons no longer use text tags and should now always look exactly as they should
+- PL/SQL files will be taken into account correctly (a typo has been corrected)
+- .appveyor.yaml and .appveyor.yml files now have the Appveyor icon
+- .gitconfig files now have the git icon
+- .test.js and .test.ts files now have the Javascript and Typescript test icons
+- .yarnclean files now have the yarn icon
+
 #### 1.2.4
 
 Other changes :
@@ -24,7 +43,7 @@ Added icons :
 - Javascript map files
 
 Other changes :
-- Added a license for the project's code (MIT) and content (CC0)
+- Added licenses for the project's code (MIT) and content (CC0)
 - Multipass has been enabled for SVGO, resulting in smaller icon sizes in a lot of cases
 - .yarn-integrity files now have the yarn icon
 
