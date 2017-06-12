@@ -8,6 +8,7 @@
         ".github": "git.folder",
         ".nuget": "nuget.folder",
         ".paket": "paket.folder",
+        ".vs": "visual-studio.folder",
         ".vscode": "vscode.folder",
         "__pycache__": "python.folder",
         "bin": "build.folder",
