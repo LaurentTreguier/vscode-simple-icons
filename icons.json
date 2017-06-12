@@ -312,6 +312,7 @@
         "makefile": "build",
         "markdown": "markdown",
         "marko": "marko",
+        "meson": "meson",
         "nim": "nim",
         "nimble": "nim",
         "nsis": "nsis",
