@@ -57,6 +57,8 @@
         "contributing": "contribution",
         "contributing.md": "contribution",
         "contributing.txt": "contribution",
+        "docker-cloud.yml": "docker",
+        "docker-compose.yml": "docker",
         "dub.json": "d-build",
         "dub.sdl": "d-build",
         "favicon.bmp": "favicon",
