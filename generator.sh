@@ -71,7 +71,7 @@ done
 
 for file in $(ls $mini_gen_dir)
 do
-    if [[ ! $file = *.light.svg ]] && [[ -z $(echo $needed_icons | grep -o $file) ]]
+    if [[ ! $file = *.light.svg ]] && [[ ! -f $simple_source_dir/$file ]]
     then
         echo "Cleaning unused minimalistic icon $file"
         rm -f {$mini_gen_dir,$mini_icons_dir}/{$file,$(echo $file | sed -r 's/svg$/light.svg/')}
