@@ -13,6 +13,8 @@
         "bin": "build.folder",
         "bower_components": "bower.folder",
         "build": "build.folder",
+        "g11n": "locale.folder",
+        "i18n": "locale.folder",
         "node_modules": "nodejs.folder",
         "locale": "locale.folder",
         "locales": "locale.folder",
