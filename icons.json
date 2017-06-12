@@ -267,7 +267,7 @@
         "zip": "box"
     },
     "languageIds": {
-        "apex": "apex",
+        "apex": "salesforce-apex",
         "apiblueprint": "api-blueprint",
         "asm": "binary",
         "bat": "console",
@@ -348,6 +348,7 @@
         "typescriptreact": "react",
         "vala": "gnome",
         "vb": "visual-basic",
+        "visualforce": "salesforce-visualforce",
         "vue": "vue",
         "xml": "xml",
         "yaml": "yaml"
