@@ -2,13 +2,13 @@
 <svg 
     xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
     <g fill="none" stroke="#bfbfbf" stroke-width="40">
-        <line x1="60" y1="100" x2="60" y2="220"/>
-        <path d="M 180,60 200,60 Q 260,60 260,120 V 220"/>
-        <g stroke-width="30">
-            <circle cx="60" cy="60" r="45"/>
-            <circle cx="60" cy="260" r="45"/>
-            <circle cx="260" cy="260" r="45"/>
+        <line x1="60" y1="60" x2="60" y2="260"/>
+        <path d="M 160,40 H 180 Q 260,40 260,120 V 220"/>
+        <g stroke-width="20">
+            <circle cx="60" cy="40" r="30"/>
+            <circle cx="60" cy="280" r="30"/>
+            <circle cx="260" cy="240" r="30"/>
         </g>
     </g>
-    <polygon points="120,60 180,120 180,0" fill="#bfbfbf"/>
+    <polygon points="100,40 160,80 160,0" fill="#bfbfbf"/>
 </svg>
