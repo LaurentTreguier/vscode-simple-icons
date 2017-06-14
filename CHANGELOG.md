@@ -1,5 +1,16 @@
 # Changelog
 
+#### 1.3.1
+
+Added icons :
+- Visual Studio folders
+- VisualForce files (issue [#20](https://github.com/LaurentTreguier/vscode-simple-icons/issues/20) raised by [aSooker](https://github.com/aSooker))
+
+Other changes :
+- docker-cloud.yml and docker-compose.yml files now have the Docker icon
+- i18n and g11n folders now have the locale icon
+- A bunch of angular file extensions have been added
+
 ### 1.3.0
 
 Added icons :
