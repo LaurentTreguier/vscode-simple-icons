@@ -9,15 +9,10 @@ const operations = {
         let json = JSON.parse(content);
         let neededIcons = [json.folder, json.folderExpanded, json.file];
 
-        traverseSections(json, (sectionName, section, key) => {
-            if (!section[key].match(pipeRegexp)) {
-                neededIcons.push(section[key]);
-            } else {
-                neededIcons = neededIcons.concat(section[key]
-                    .split(pipeRegexp)
-                    .slice(1));
-            }
-        });
+        traverseSections(json, (sectionName, section, key) =>
+            neededIcons.push(section[key].match(pipeRegexp)
+                ? section[key].split(pipeRegexp).pop()
+                : section[key]));
 
         return neededIcons
             .map((name) => name + '.svg')
