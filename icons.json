@@ -104,6 +104,7 @@
         "paket.references": "paket",
         "paket.template": "paket",
         "pkgbuild": "archlinux",
+        "postcss.config.js": "postcss-config",
         "protractor.conf.js": "protractor",
         "rakefile": "ruby-build",
         "readme": "readme",
