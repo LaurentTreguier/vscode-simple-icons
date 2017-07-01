@@ -1,5 +1,24 @@
 # Changelog
 
+### 1.4.0
+
+Added icons :
+- Circle CI files
+- Codecov files
+- Compiled marko files
+- Firebase files
+- Fusebox files
+- GDScript files
+- Idris files
+- PostCSS files
+
+Other changes :
+- .jshintignore files now have the JSHint icon
+- .jsx and .tsx spec and test files now have the javascript and typescript test icons respectively
+- .log files now have the text icon
+- .scssm files now have the SCSS icon
+- The build icons are now slightly different from the lib icons (they have a different angle)
+
 #### 1.3.1
 
 Added icons :
