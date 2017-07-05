@@ -1,5 +1,14 @@
 # Changelog
 
+#### 1.4.1
+
+Added icons :
+- HAML files (issue [#21](https://github.com/LaurentTreguier/vscode-simple-icons/issues/21) raised by [kurt-bautista](https://github.com/kurt-bautista))
+
+Other changes :
+- A Fusebox minimalistic icon has been added
+- Obective C++ files now have the Objective-c icon
+
 ### 1.4.0
 
 Added icons :
