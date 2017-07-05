@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+    <defs>
+        <polygon id="polygon" points="160,10 10,50 30,230 160,310 290,230 310,50"/>
+        <mask id="mask">
+            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <use xlink:href="#polygon" fill="none" stroke="#000" stroke-width="60"/>
+            <g fill="#000">
+                <polygon points="10,60 30,230 90,260 80,90"/>
+                <polygon points="10,60 160,120 160,155 10,90"/>
+                <polygon points="10,110 140,175 140,205 10,140"/>
+            </g>
+            <path d="M 175,300 V 130 L 200,120 C 260,95 260,155 200,175 L 175,185 M 200,175 C 260,155 260,210 200,235 L 175,250" fill="none" stroke="#000" stroke-width="30"/>
+        </mask>
+    </defs>
+    <use xlink:href="#polygon" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+    <g mask="url(#mask)">
+        <polygon points="160,10 10,60 30,230 160,310 160,120 310,60" fill="#bfbfbf"/>
+        <polygon points="160,120 160,310 290,230 310,60" fill="#bfbfbf"/>
+    </g>
+</svg>
