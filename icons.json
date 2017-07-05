@@ -369,6 +369,7 @@
         "nsis": "nsis",
         "nunjucks": "nunjucks",
         "objective-c": "objective-c",
+        "objective-cpp": "objective-c",
         "ocaml": "ocaml",
         "perl": "camelia",
         "perl6": "camelia",
