@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.4.2
+
+Other changes :
+- More Angular file associations have been added (issue [#22](https://github.com/LaurentTreguier/vscode-simple-icons/issues/22) raised by [maxmarkus](https://github.com/maxmarkus))
+
 #### 1.4.1
 
 Added icons :
