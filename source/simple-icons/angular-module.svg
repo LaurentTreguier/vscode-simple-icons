@@ -8,7 +8,7 @@
     </defs>
     <polygon points="160,0 310,50 290,250 160,320 30,250 10,50" fill="#7fbf00"/>
     <g stroke="#fff" stroke-width="30">
-        <polyline points="40,320 160,50 280,320" fill="none" clip-path="url(#clip)"/>
+        <polyline points="40,320 160,60 280,320" fill="none" clip-path="url(#clip)"/>
         <line x1="100" y1="175" x2="220" y2="175"/>
     </g>
 </svg>
