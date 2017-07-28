@@ -4,8 +4,8 @@
     <defs>
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <polygon points="20,120 160,80 120,230" fill="#000"/>
+            <polygon points="50,100 190,100 120,220" fill="#000"/>
         </mask>
     </defs>
-    <polygon points="5,120 120,0 275,45 315,200 200,320 45,275" transform="matrix(0.94075766,0.24023941,-0.24044836,0.93994015,47.950512,-28.82873)" fill="#222222" mask="url(#mask)"/>
+    <polygon points="160,0 300,80 300,240 160,320 20,240 20,80" fill="#2f2f2f" mask="url(#mask)"/>
 </svg>
