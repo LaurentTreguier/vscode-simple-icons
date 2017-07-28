@@ -22,6 +22,7 @@
         "out": "build.folder",
         "po": "locale.folder",
         "source": "source.folder",
+        "spec": "test.folder",
         "src": "source.folder",
         "test": "test.folder",
         "typings": "typescript.folder"
