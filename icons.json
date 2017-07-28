@@ -24,6 +24,7 @@
         "source": "source.folder",
         "src": "source.folder",
         "test": "test.folder",
+        "spec": "test.folder",
         "typings": "typescript.folder"
     },
     "folderNamesExpanded": {},
@@ -347,6 +348,7 @@
         "dart": "dart",
         "diet": "vibed",
         "dockerfile": "docker",
+        "ecr": "crystal",
         "ejs": "javascript-embedded",
         "elixir": "elixir",
         "elm": "elm",
@@ -408,6 +410,7 @@
         "sdl": "sdl",
         "shaderlab": "unity",
         "shellscript": "terminal",
+        "slang": "crystal",
         "solidity": "solidity",
         "sql": "database",
         "stylus": "stylus",
