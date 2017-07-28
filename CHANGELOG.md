@@ -1,5 +1,14 @@
 # Changelog
 
+#### 1.4.3
+
+Added icons :
+- Crystal ECR and Slang files
+
+Other changes :
+- The Crystal icons' colors have been toned down to be less aggressive on the eyes, and they are not tilted anymore
+- spec folders now have the test icon
+
 #### 1.4.2
 
 Other changes :
@@ -12,7 +21,7 @@ Added icons :
 
 Other changes :
 - A Fusebox minimalistic icon has been added
-- Obective C++ files now have the Objective-c icon
+- Objective-C++ files now have the Objective-C icon
 
 ### 1.4.0
 
@@ -366,7 +375,7 @@ Converted to SVG :
 #### 0.7.4
 
 Updated icons :
-- The Objective-c icon is now looking like '[C]'
+- The Objective-C icon is now looking like '[C]'
 
 Converted to SVG :
 - C/C++ files
@@ -375,7 +384,7 @@ Converted to SVG :
 - Image files
 - Javascript files
 - NodeJS files and folders
-- Objective-c files
+- Objective-C files
 - README files
 - Source folders
 - Typescript files and folders
@@ -639,7 +648,7 @@ Added icons for the following languages :
 - HTML
 - Less
 - Markdown
-- Objective-c
+- Objective-C
 - Javascript
 - Java
 - JSON
