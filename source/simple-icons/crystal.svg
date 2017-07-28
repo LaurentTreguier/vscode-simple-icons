@@ -7,5 +7,5 @@
             <polygon points="20,120 160,80 120,230" fill="#000"/>
         </mask>
     </defs>
-    <polygon points="120,0 275,45 315,200 200,320 45,275 5,120" fill="#dddddd" mask="url(#mask)"/>
+    <polygon points="5,120 120,0 275,45 315,200 200,320 45,275" transform="matrix(0.94075766,0.24023941,-0.24044836,0.93994015,47.950512,-28.82873)" fill="#dddddd" mask="url(#mask)"/>
 </svg>
