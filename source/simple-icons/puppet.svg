@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+    <rect x="180" y="120" width="80" height="80" fill="#ffae1a"/>
+    <g fill="none" stroke="#ffae1a" stroke-width="20">
+    <g stroke-width="30">
+        <rect x="75" y="15" width="70" height="70"/>
+        <rect x="75" y="235" width="70" height="70"/>
+    </g>
+        <line x1="150" y1="90" x2="190" y2="130"/>
+        <line x1="150" y1="230" x2="190" y2="190"/>
+    </g>
+</svg>

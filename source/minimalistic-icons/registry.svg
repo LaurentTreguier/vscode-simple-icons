@@ -3,13 +3,10 @@
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
     <defs>
-        <polygon id="background" points="60,0 120,30 120,90 60,120 0,90 0,30"/>
-        <polygon id="face-top" points="60,0 120,30 60,60 0,30"/>
-        <polygon id="face-left" points="60,60 60,120 0,90 0,30"/>
-        <polygon id="face-right" points="60,60 60,120 120,90 120,30"/>
-        <g id="cube-without-top">
-            <use xlink:href="#face-left"/>
-            <use xlink:href="#face-right"/>
+        <g id="cube">
+            <polygon id="face-top" points="60,0 120,30 60,60 0,30"/>
+            <polygon id="face-left" points="60,60 60,120 0,90 0,30"/>
+            <polygon id="face-right" points="60,60 60,120 120,90 120,30"/>
         </g>
         <g id="cube-without-left">
             <polygon points="0,30 60,0 120,30 120,90 60,120 60,60"/>
@@ -18,9 +15,9 @@
     <g fill="#bfbfbf">
         <use xlink:href="#face-left" x="0" y="150"/>
         <use xlink:href="#cube-without-left" x="160" y="150"/>
-        <use xlink:href="#background" x="80" y="190"/>
+        <use xlink:href="#cube" x="80" y="190"/>
         <use xlink:href="#cube-without-left" x="80" y="30"/>
-        <use xlink:href="#background" x="0" y="70"/>
-        <use xlink:href="#background" x="200" y="10"/>
+        <use xlink:href="#cube" x="0" y="70"/>
+        <use xlink:href="#cube" x="200" y="10"/>
     </g>
 </svg>
