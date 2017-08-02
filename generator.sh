@@ -10,13 +10,39 @@ mini_source_dir="source/$mini_name"
 mini_gen_dir="gen/$mini_name"
 mini_icons_dir="icons/$mini_name"
 
-needed_icons=$(node generator.js fill < icons.json | sort | uniq)
+needed_icons=$(node generator.js fill < icons.json | sort -u)
 
 function get_color() {
     grep -Eo '(rect|polygon)[^#]+fill="#[0-9a-fA-F]{6}"' $1 | grep -Eo '#.{6}'
 }
 
-mkdir -p {$simple_gen_dir,$mini_gen_dir}
+mkdir -p {$simple_gen_dir,$simple_icons_dir,$mini_gen_dir,$mini_icons_dir}
+
+for file in $(ls $simple_icons_dir)
+do
+    if [[ ! -f $simple_source_dir/$file ]] && [[ ! -f $simple_gen_dir/$file ]]
+    then
+        echo "Cleaning up unused simple icon $file"
+        rm -f $simple_icons_dir/$file
+    fi
+done
+
+for file in $(ls $simple_gen_dir)
+do
+    if [[ $file != *.folder.expanded.svg ]] || [[ ! -f $simple_source_dir/${file/.expanded/} ]]
+    then
+        rm -f $simple_gen_dir/$file
+    fi
+done
+
+for file in $( (ls $mini_gen_dir && ls $mini_icons_dir) | sort -u)
+do
+    if [[ ! $file = *.light.svg ]] && [[ -z $(echo $needed_icons | grep -E "\\b$file\\b") ]]
+    then
+        echo "Cleaning up unused minimalistic icon $file"
+        rm -f {$mini_gen_dir,$mini_icons_dir}/{$file,${file/.svg/.light.svg}}
+    fi
+done
 
 for folder in $(ls $simple_source_dir/*.folder.svg)
 do
@@ -46,9 +72,11 @@ do
     then
         file_dir=$mini_source_dir
         rm -f $mini_gen_dir/$file
-    else if [[ $simple_dir/$file -nt $mini_gen_dir/$file ]]
+    else
+        file_dir=$mini_gen_dir
+
+        if [[ $simple_dir/$file -nt $mini_gen_dir/$file ]]
         then
-            file_dir=$mini_gen_dir
             echo "Generating minimalistic $file"
             node generator.js gen < $simple_dir/$file > $mini_gen_dir/$file
         fi
@@ -78,32 +106,6 @@ do
     $svgo_cmd -f $theme_source_dir > /dev/null
     echo "Optimizing icons from $theme_gen_dir"
     $svgo_cmd -f $theme_gen_dir > /dev/null
-done
-
-for file in $(ls $simple_icons_dir)
-do
-    if [[ ! -f $simple_source_dir/$file ]] && [[ ! -f $simple_gen_dir/$file ]]
-    then
-        echo "Cleaning up unused simple icon $file"
-        rm -f $simple_icons_dir/$file
-    fi
-done
-
-for file in $(ls $simple_gen_dir)
-do
-    if [[ $file != *.folder.expanded.svg ]] || [[ ! -f $simple_source_dir/${file/.expanded/} ]]
-    then
-        rm -f $simple_gen_dir/$file
-    fi
-done
-
-for file in $(ls $mini_gen_dir)
-do
-    if [[ ! $file = *.light.svg ]] && [[ ! -f $simple_source_dir/$file ]] && [[ ! -f $simple_gen_dir/$file ]]
-    then
-        echo "Cleaning up unused minimalistic icon $file"
-        rm -f {$mini_gen_dir,$mini_icons_dir}/{$file,${file/.svg/.light.svg}}
-    fi
 done
 
 echo 'Done'
