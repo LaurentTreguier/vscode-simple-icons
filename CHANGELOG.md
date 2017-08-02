@@ -1,5 +1,23 @@
 # Changelog
 
+### 1.5.0
+
+Added icons :
+- .sequalizerc files
+- Bolt files
+- Ensime files
+- Game Maker files
+- GraphQL config files
+- Liquid files
+- MJML files
+- Point cloud library files
+- Puppet files
+- Simple Build Tool (SBT) files
+
+Other changes :
+- .npmrc files now have the NPM icon
+- package-lock.json files now have the NodeJS icon
+
 #### 1.4.3
 
 Added icons :
