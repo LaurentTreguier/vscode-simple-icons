@@ -97,7 +97,7 @@ do
     theme_gen_dir=gen/$theme_name
     theme_icon_dir=icons/$theme_name
     icon_list="$(ls $theme_source_dir) $(ls $theme_gen_dir)"
-    svgo_cmd="node ./node_modules/.bin/svgo --multipass -o $theme_icon_dir"
+    svgo_cmd="./node_modules/.bin/svgo --multipass -o $theme_icon_dir"
 
     mkdir -p $theme_icon_dir
     echo "Writing $theme_name.json"
