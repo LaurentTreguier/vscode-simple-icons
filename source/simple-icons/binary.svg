@@ -5,8 +5,8 @@
         <mask id="mask">
             <rect x="0" y="0" width="320" height="320" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-width="20">
-                <polygon points="90,130 130,130 130,190 90,190"/>
-                <polygon points="190,230 230,230 230,290 190,290"/>
+                <rect x="90" y="130" width="40" height="60"/>
+                <rect x="190" y="230" width="40" height="60"/>
                 <polyline points="180,150 210,150 210,120 210,190 180,190 240,190"/>
                 <polyline points="80,250 110,250 110,220 110,290 80,290 140,290"/>
             </g>
