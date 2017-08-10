@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <g fill="#fff" stroke="#9c3b02" stroke-width="20">
         <polygon points="50,10 150,10 270,130 270,310 50,310"/>
-        <rect x="90" y="150" width="140" height="80"/>
-        <line x1="130" y1="160" x2="130" y2="220"/>
-        <line x1="160" y1="190" x2="200" y2="190"/>
+        <rect width="140" height="80" x="90" y="150"/>
+        <line x1="130" x2="130" y1="160" y2="220"/>
+        <line x1="160" x2="200" y1="190" y2="190"/>
     </g>
-    <polygon points="200,0 280,0 280,80" fill="#9c3b02"/>
+    <polygon fill="#9c3b02" points="200,0 280,0 280,80"/>
 </svg>

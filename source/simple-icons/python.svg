@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="#000">
                 <circle cx="130" cy="30" r="15"/>
                 <circle cx="190" cy="290" r="15"/>
@@ -13,23 +12,23 @@
     <g mask="url(#mask)">
         <g fill="#3f7fbf">
             <ellipse cx="30" cy="160" rx="30" ry="80"/>
-            <rect x="30" y="80" width="130" height="160"/>
+            <rect width="130" height="160" x="30" y="80"/>
         </g>
         <g fill="#ffdf3f">
             <ellipse cx="290" cy="160" rx="30" ry="80"/>
-            <rect x="160" y="80" width="130" height="160"/>
+            <rect width="130" height="160" x="160" y="80"/>
         </g>
         <g fill="#3f7fbf">
             <ellipse cx="160" cy="30" rx="80" ry="30"/>
-            <rect x="80" y="30" width="160" height="30"/>
-            <rect x="160" y="30" width="80" height="130" rx="40" ry="40"/>
-            <rect x="160" y="80" width="40" height="80"/>
+            <rect width="160" height="30" x="80" y="30"/>
+            <rect width="80" height="130" x="160" y="30" rx="40" ry="40"/>
+            <rect width="40" height="80" x="160" y="80"/>
         </g>
         <g fill="#ffdf3f">
             <ellipse cx="160" cy="290" rx="80" ry="30"/>
-            <rect x="80" y="260" width="160" height="30"/>
-            <rect x="80" y="160" width="80" height="130" rx="40" ry="40"/>
-            <rect x="120" y="160" width="40" height="80"/>
+            <rect width="160" height="30" x="80" y="260"/>
+            <rect width="80" height="130" x="80" y="160" rx="40" ry="40"/>
+            <rect width="40" height="80" x="120" y="160"/>
         </g>
     </g>
 </svg>

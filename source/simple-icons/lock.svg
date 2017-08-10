@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="#000">
                 <circle cx="160" cy="210" r="30"/>
                 <polygon points="160,220 130,280 190,280"/>
             </g>
         </mask>
     </defs>
-    <rect x="80" y="20" width="160" height="320" rx="80" ry="80" fill="none" stroke="#7f7f7f" stroke-width="40"/>
+    <rect width="160" height="320" x="80" y="20" fill="none" stroke="#7f7f7f" stroke-width="40" rx="80" ry="80"/>
     <g mask="url(#mask)">
-        <rect x="40" y="140" width="120" height="180" fill="#dfbf3f"/>
-        <rect x="160" y="140" width="120" height="180" fill="#bf9f1f"/>
+        <rect width="120" height="180" x="40" y="140" fill="#dfbf3f"/>
+        <rect width="120" height="180" x="160" y="140" fill="#bf9f1f"/>
     </g>
 </svg>

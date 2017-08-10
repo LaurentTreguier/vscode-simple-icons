@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
             <g fill="#fff">
-                <rect x="0" y="0" width="320" height="320"/>
+                <rect width="320" height="320" x="0" y="0"/>
                 <g stroke="#000" stroke-width="20">
                     <circle cx="130" cy="150" r="60"/>
                     <polygon points="240,130 150,130 150,230 240,230"/>
@@ -14,7 +13,7 @@
         </mask>
     </defs>
     <g fill="#bfbfbf">
-        <polygon points="50,10 150,10 270,130 270,310 50,310" stroke="#bfbfbf" stroke-width="20" mask="url(#mask)"/>
-        <polygon points="200,0 280,0 280,80" stroke="none"/>
+        <polygon stroke="#bfbfbf" stroke-width="20" points="50,10 150,10 270,130 270,310 50,310" mask="url(#mask)"/>
+        <polygon stroke="none" points="200,0 280,0 280,80"/>
     </g>
 </svg>

@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g stroke="#000" stroke-width="20">
-                <line x1="80" y1="90" x2="240" y2="90"/>
-                <line x1="40" y1="150" x2="140" y2="150"/>
-                <line x1="40" y1="190" x2="140" y2="190"/>
-                <line x1="40" y1="190" x2="140" y2="190"/>
-                <line x1="40" y1="230" x2="140" y2="230"/>
+                <line x1="80" x2="240" y1="90" y2="90"/>
+                <line x1="40" x2="140" y1="150" y2="150"/>
+                <line x1="40" x2="140" y1="190" y2="190"/>
+                <line x1="40" x2="140" y1="190" y2="190"/>
+                <line x1="40" x2="140" y1="230" y2="230"/>
             </g>
         </mask>
     </defs>
-    <rect x="0" y="40" width="320" height="240" fill="#7f7f7f" mask="url(#mask)"/>
-    <polygon points="200,200 180,320 240,280 300,320 280,200" fill="#bf3f1f"/>
+    <rect width="320" height="240" x="0" y="40" fill="#7f7f7f" mask="url(#mask)"/>
+    <polygon fill="#bf3f1f" points="200,200 180,320 240,280 300,320 280,200"/>
     <circle cx="240" cy="200" r="60" fill="#af2f1f"/>
 </svg>

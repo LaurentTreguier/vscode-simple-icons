@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <g stroke-width="40" stroke="#dd3a0a">
-        <!--left-->
-        <line x1="60" y1="0" x2="60" y2="140"/>
-        <line x1="60" y1="220" x2="60" y2="320"/>
-        <line x1="20" y1="180" x2="100" y2="180"/>
-        <!--center-->
-        <line x1="160" y1="0" x2="160" y2="40"/>
-        <line x1="160" y1="120" x2="160" y2="320"/>
-        <line x1="120" y1="80" x2="200" y2="80"/>
-        <!--right-->
-        <line x1="260" y1="0" x2="260" y2="180"/>
-        <line x1="260" y1="260" x2="260" y2="320"/>
-        <line x1="220" y1="220" x2="300" y2="220"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <g stroke="#dd3a0a" stroke-width="40">
+<!--left-->
+        <line x1="60" x2="60" y1="0" y2="140"/>
+        <line x1="60" x2="60" y1="220" y2="320"/>
+        <line x1="20" x2="100" y1="180" y2="180"/>
+<!--center-->
+        <line x1="160" x2="160" y1="0" y2="40"/>
+        <line x1="160" x2="160" y1="120" y2="320"/>
+        <line x1="120" x2="200" y1="80" y2="80"/>
+<!--right-->
+        <line x1="260" x2="260" y1="0" y2="180"/>
+        <line x1="260" x2="260" y1="260" y2="320"/>
+        <line x1="220" x2="300" y1="220" y2="220"/>
     </g>
 </svg>

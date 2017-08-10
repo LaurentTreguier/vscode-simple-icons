@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <circle id="circle" cx="160" cy="160" r="90"/>
         <mask id="mask-hole">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <circle cx="160" cy="160" r="30" fill="#000"/>
             <g stroke="#000" stroke-width="20">
-                <use xlink:href="#circle" fill="none"/>
-                <line x1="80" y1="150" x2="160" y2="150"/>
-                <line x1="160" y1="170" x2="240" y2="170"/>
+                <use fill="none" xlink:href="#circle"/>
+                <line x1="80" x2="160" y1="150" y2="150"/>
+                <line x1="160" x2="240" y1="170" y2="170"/>
             </g>
         </mask>
         <mask id="mask-arrow">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <polygon points="0,0 160,0 160,160" fill="#000"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <polygon fill="#000" points="0,0 160,0 160,160"/>
         </mask>
     </defs>
     <g fill="#bfbfbf">

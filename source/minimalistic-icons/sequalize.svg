@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <g id="cube">
             <polygon id="face-top" points="40,40 80,20 40,0 0,20"/>
@@ -13,15 +11,15 @@
         <polygon id="polygon" points="20,80 160,0 300,80 260,100 160,40 60,100"/>
         <polygon id="polygon" points="160,320 20,240 20,80 60,100 60,220 160,280"/>
         <polygon id="polygon" points="300,80 300,240 160,320 160,280 260,220 260,100"/>
-        <use xlink:href="#face-top" x="120" y="60"/>
-        <use xlink:href="#face-left" x="70" y="150"/>
-        <use xlink:href="#face-right" x="170" y="150"/>
-        <use xlink:href="#face-top" x="70" y="90"/>
-        <use xlink:href="#face-left" x="70" y="90"/>
-        <use xlink:href="#face-top" x="170" y="90"/>
-        <use xlink:href="#face-right" x="170" y="90"/>
-        <use xlink:href="#face-left" x="120" y="180"/>
-        <use xlink:href="#face-right" x="120" y="180"/>
-        <use xlink:href="#cube" x="120" y="120"/>
+        <use x="120" y="60" xlink:href="#face-top"/>
+        <use x="70" y="150" xlink:href="#face-left"/>
+        <use x="170" y="150" xlink:href="#face-right"/>
+        <use x="70" y="90" xlink:href="#face-top"/>
+        <use x="70" y="90" xlink:href="#face-left"/>
+        <use x="170" y="90" xlink:href="#face-top"/>
+        <use x="170" y="90" xlink:href="#face-right"/>
+        <use x="120" y="180" xlink:href="#face-left"/>
+        <use x="120" y="180" xlink:href="#face-right"/>
+        <use x="120" y="120" xlink:href="#cube"/>
     </g>
 </svg>

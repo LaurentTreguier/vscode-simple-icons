@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <polygon id="polygon" points="140,10 130,50 190,50 180,10"/>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="#000">
                 <circle cx="90" cy="170" r="30"/>
                 <circle cx="230" cy="170" r="30"/>
             </g>
             <g fill="none" stroke="#000" stroke-width="20">
-                <line x1="160" y1="160" x2="160" y2="190" stroke-linecap="round"/>
+                <line x1="160" x2="160" y1="160" y2="190" stroke-linecap="round"/>
                 <polyline points="0,230 70,230 70,250 130,250 130,230 190,230 190,250 250,250 250,230 320,230"/>
             </g>
         </mask>
     </defs>
     <g fill="#478cbf" mask="url(#mask)">
         <ellipse cx="160" cy="170" rx="140" ry="130"/>
-        <rect x="20" y="120" width="280" height="120"/>
+        <rect width="280" height="120" x="20" y="120"/>
         <ellipse cx="160" cy="240" rx="140" ry="70"/>
-        <use xlink:href="#polygon" transform="rotate(-60 160 180)"/>
-        <use xlink:href="#polygon" transform="rotate(-20 160 180)"/>
-        <use xlink:href="#polygon" transform="rotate(20 160 180)"/>
-        <use xlink:href="#polygon" transform="rotate(60 160 180)"/>
+        <use transform="rotate(-60 160 180)" xlink:href="#polygon"/>
+        <use transform="rotate(-20 160 180)" xlink:href="#polygon"/>
+        <use transform="rotate(20 160 180)" xlink:href="#polygon"/>
+        <use transform="rotate(60 160 180)" xlink:href="#polygon"/>
     </g>
 </svg>

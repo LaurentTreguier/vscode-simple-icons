@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <clipPath id="clip">
             <polygon points="160,40 320,40 320,280"/>
         </clipPath>
     </defs>
-    <polygon points="0,40 60,40 140,160 60,280 0,280 80,160" fill="#453a62"/>
-    <polygon points="80,40 140,40 300,280 240,280 190,210 140,280 80,280 160,160" fill="#5e5086"/>
+    <polygon fill="#453a62" points="0,40 60,40 140,160 60,280 0,280 80,160"/>
+    <polygon fill="#5e5086" points="80,40 140,40 300,280 240,280 190,210 140,280 80,280 160,160"/>
     <g fill="#8f4e8b" clip-path="url(#clip)">
-        <rect x="160" y="100" width="160" height="40"/>
-        <rect x="160" y="160" width="160" height="40"/>
+        <rect width="160" height="40" x="160" y="100"/>
+        <rect width="160" height="40" x="160" y="160"/>
     </g>
 </svg>

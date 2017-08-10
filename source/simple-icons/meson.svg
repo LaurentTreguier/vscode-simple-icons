@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <path d="M 110,270 H 60 Q 20,270 30,220 L 50,120 Q 60,70 90,70 Q 110,70 125,115 Q 140,160 160,160 Q 180,160 195,115 Q 210,70 230,70 Q 260,70 270,120 L 290,220 Q 300,270 260,270 H 210" fill="none" stroke="#389f00" stroke-width="50" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <path fill="none" stroke="#389f00" stroke-linecap="round" stroke-width="50" d="M 110,270 H 60 Q 20,270 30,220 L 50,120 Q 60,70 90,70 Q 110,70 125,115 Q 140,160 160,160 Q 180,160 195,115 Q 210,70 230,70 Q 260,70 270,120 L 290,220 Q 300,270 260,270 H 210"/>
 </svg>

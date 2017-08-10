@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <path id="path" d="M 0,160 Q 0,260 100,260 Q 200,260 270,160 Q 300,160 320,130 Q 295,120 270,130 Q 270,100 250,90 Q 230,120 250,150 Q 240,160 220,160"/>
         <clipPath id="clip">
             <use xlink:href="#path"/>
         </clipPath>
     </defs>
-    <use xlink:href="#path" fill="#24b8eb"/>
+    <use fill="#24b8eb" xlink:href="#path"/>
     <g fill="#008bb8">
-        <rect x="40" y="100" width="40" height="40"/>
-        <rect x="100" y="100" width="40" height="40"/>
-        <rect x="160" y="100" width="40" height="40"/>
-        <rect x="100" y="40" width="40" height="40"/>
+        <rect width="40" height="40" x="40" y="100"/>
+        <rect width="40" height="40" x="100" y="100"/>
+        <rect width="40" height="40" x="160" y="100"/>
+        <rect width="40" height="40" x="100" y="40"/>
     </g>
     <circle cx="90" cy="210" r="10" fill="#000" stroke="#fff" stroke-width="3"/>
-    <polygon points="0,230 80,220 140,280 0,320" fill="#fff" clip-path="url(#clip)"/>
+    <polygon fill="#fff" points="0,230 80,220 140,280 0,320" clip-path="url(#clip)"/>
 </svg>

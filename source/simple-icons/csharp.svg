@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <text x="0" y="220" font-family="Arial" font-size="260" font-weight="bold" fill="#bf3fbf" transform="scale(1 1.25)">C</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <text x="0" y="220" fill="#bf3fbf" font-family="Arial" font-size="260" font-weight="bold" transform="scale(1 1.25)">
+        C
+    </text>
     <g stroke="#bf3fbf" stroke-width="20">
-        <line x1="200" y1="130" x2="320" y2="130"/>
-        <line x1="200" y1="190" x2="320" y2="190"/>
-        <line x1="230" y1="100" x2="230" y2="220"/>
-        <line x1="290" y1="100" x2="290" y2="220"/>
+        <line x1="200" x2="320" y1="130" y2="130"/>
+        <line x1="200" x2="320" y1="190" y2="190"/>
+        <line x1="230" x2="230" y1="100" y2="220"/>
+        <line x1="290" x2="290" y1="100" y2="220"/>
     </g>
 </svg>

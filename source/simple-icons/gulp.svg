@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <polygon points="80,80 240,80 220,240 200,260 200,320 120,320 120,260 100,240" fill="#e84a4a"/>
-    <polyline points="220,20 180,50 160,120" fill="none" stroke="#e84a4a" stroke-width="20"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <polygon fill="#e84a4a" points="80,80 240,80 220,240 200,260 200,320 120,320 120,260 100,240"/>
+    <polyline fill="none" stroke="#e84a4a" stroke-width="20" points="220,20 180,50 160,120"/>
 </svg>

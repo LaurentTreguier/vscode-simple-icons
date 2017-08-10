@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <path d="M 60,180 A 100,100 0 0,1 260,180 Z" fill="none" stroke="#000" stroke-width="40"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <path fill="none" stroke="#000" stroke-width="40" d="M 60,180 A 100,100 0 0,1 260,180 Z"/>
         </mask>
     </defs>
     <circle cx="160" cy="160" r="160" fill="#bfbfbf" mask="url(#mask)"/>

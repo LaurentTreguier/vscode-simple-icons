@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <polygon points="160,0 300,80 300,240 160,320 20,240 20,80" fill="#000" transform="translate(48 48) scale(0.7 0.7)"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <polygon fill="#000" points="160,0 300,80 300,240 160,320 20,240 20,80" transform="translate(48 48) scale(0.7 0.7)"/>
         </mask>
     </defs>
-    <polygon points="0,160 80,20 240,20 320,160 240,300 80,300" fill="#4b32c3" mask="url(#mask)"/>
-    <polygon points="160,0 300,80 300,240 160,320 20,240 20,80" fill="#8080f2" transform="translate(88 88) scale(0.45 0.45)"/>
+    <polygon fill="#4b32c3" points="0,160 80,20 240,20 320,160 240,300 80,300" mask="url(#mask)"/>
+    <polygon fill="#8080f2" points="160,0 300,80 300,240 160,320 20,240 20,80" transform="translate(88 88) scale(0.45 0.45)"/>
 </svg>

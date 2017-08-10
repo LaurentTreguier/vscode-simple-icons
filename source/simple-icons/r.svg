@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <ellipse cx="180" cy="150" rx="120" ry="70" fill="#000"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <ellipse cx="180" cy="150" fill="#000" rx="120" ry="70"/>
         </mask>
     </defs>
-    <ellipse cx="160" cy="140" rx="160" ry="100" fill="#7f7f7f" mask="url(#mask)"/>
-    <text x="130" y="280" font-family="Arial" font-size="240" font-weight="bold" fill="#1f5fbf">R</text>
+    <ellipse cx="160" cy="140" fill="#7f7f7f" mask="url(#mask)" rx="160" ry="100"/>
+    <text x="130" y="280" fill="#1f5fbf" font-family="Arial" font-size="240" font-weight="bold">
+        R
+    </text>
 </svg>

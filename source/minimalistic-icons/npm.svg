@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-width="20">
                 <polyline points="30,200 30,130 70,130 70,200"/>
                 <polyline points="110,220 110,130 170,130 170,170 110,170"/>
@@ -11,5 +10,5 @@
             </g>
         </mask>
     </defs>
-    <polygon points="0,100 320,100 320,220 140,220 140,240 80,240 80,220 0,220" fill="#bfbfbf" mask="url(#mask)"/>
+    <polygon fill="#bfbfbf" points="0,100 320,100 320,220 140,220 140,240 80,240 80,220 0,220" mask="url(#mask)"/>
 </svg>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <polygon id="polygon" points="30,10 290,10 260,280 160,310 60,280"/>
         <clipPath id="clip-half">
-            <rect x="160" y="0" width="160" height="320"/>
+            <rect width="160" height="320" x="160" y="0"/>
         </clipPath>
         <clipPath id="clip-top">
-            <rect x="0" y="62.5" width="320" height="320"/>
+            <rect width="320" height="320" x="0" y="62.5"/>
         </clipPath>
     </defs>
     <g stroke="#e44d26" stroke-width="20">
-        <use xlink:href="#polygon" fill="#e44d26"/>
-        <use xlink:href="#polygon" fill="#f16529" clip-path="url(#clip-half)"/>
+        <use fill="#e44d26" xlink:href="#polygon"/>
+        <use fill="#f16529" clip-path="url(#clip-half)" xlink:href="#polygon"/>
     </g>
-    <text x="55" y="220" font-family="Arial" font-size="220" font-weight="bold" fill="#fff">@</text>
+    <text x="55" y="220" fill="#fff" font-family="Arial" font-size="220" font-weight="bold">
+        @
+    </text>
 </svg>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <rect x="0" y="0" width="320" height="320" fill="#f5da55"/>
-    <text x="130" y="270" font-family="Arial" font-size="320" font-weight="bold" fill="#000" transform="skewX(-25)">6</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <rect width="320" height="320" x="0" y="0" fill="#f5da55"/>
+    <text x="130" y="270" fill="#000" font-family="Arial" font-size="320" font-weight="bold" transform="skewX(-25)">
+        6
+    </text>
 </svg>

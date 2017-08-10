@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <circle id="circle" cx="0" cy="0" r="30"/>
     </defs>
     <g fill="#e535ab">
-        <use xlink:href="#circle" x="160" y="30"/>
-        <use xlink:href="#circle" x="45" y="95"/>
-        <use xlink:href="#circle" x="45" y="225"/>
-        <use xlink:href="#circle" x="160" y="290"/>
-        <use xlink:href="#circle" x="275" y="225"/>
-        <use xlink:href="#circle" x="275" y="95"/>
+        <use x="160" y="30" xlink:href="#circle"/>
+        <use x="45" y="95" xlink:href="#circle"/>
+        <use x="45" y="225" xlink:href="#circle"/>
+        <use x="160" y="290" xlink:href="#circle"/>
+        <use x="275" y="225" xlink:href="#circle"/>
+        <use x="275" y="95" xlink:href="#circle"/>
     </g>
     <g fill="none" stroke="#e535ab" stroke-width="15">
         <polygon points="160,30 45,95 45,225 160,290 275,225 275,95"/>

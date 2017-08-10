@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask-wings">
-            <rect x="-80" y="-80" width="480" height="480" fill="#fff"/>
-            <ellipse cx="40" cy="120" rx="190" ry="145" fill="#000"/>
+            <rect width="480" height="480" x="-80" y="-80" fill="#fff"/>
+            <ellipse cx="40" cy="120" fill="#000" rx="190" ry="145"/>
         </mask>
         <mask id="mask-swift">
             <g fill="#fff">
-                <ellipse cx="120" cy="120" rx="200" ry="140" transform="rotate(45 120 120)" mask="url(#mask-wings)"/>
+                <ellipse cx="120" cy="120" mask="url(#mask-wings)" rx="200" ry="140" transform="rotate(45 120 120)"/>
                 <path d="M 280,220 Q 320,250 320,300 Q 280,255 230,280"/>
                 <path d="M 180,220 Q 100,160 30,60 L 155,155 Q 120,120 70,50 Q 150,120 230,170"/>
             </g>
         </mask>
-        <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
             <stop offset="0%" stop-color="#ff9f1f"/>
             <stop offset="100%" stop-color="#ff3f1f"/>
         </linearGradient>
     </defs>
-    <rect x="0" y="0" width="320" height="320" fill="url(#gradient)" mask="url(#mask-swift)"/>
+    <rect width="320" height="320" x="0" y="0" fill="url(#gradient)" mask="url(#mask-swift)"/>
 </svg>

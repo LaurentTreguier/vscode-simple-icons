@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <g transform="translate(40 60) scale(0.5) translate(120 40)" fill="#000">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <g fill="#000" transform="translate(40 60) scale(0.5) translate(120 40)">
                 <polygon points="30,65 0,80 0,240 30,255"/>
                 <polygon points="30,65 320,280 240,320 0,80"/>
                 <polygon points="30,255 320,40 240,0 0,240"/>
@@ -12,6 +11,6 @@
             </g>
         </mask>
     </defs>
-    <rect x="40" y="60" width="280" height="200" fill="#bfbfbf" mask="url(#mask)"/>
-    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+    <rect width="280" height="200" x="40" y="60" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline fill="none" stroke="#bfbfbf" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
 </svg>

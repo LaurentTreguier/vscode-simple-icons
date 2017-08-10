@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <g fill="#4e8ef7">
         <circle cx="160" cy="160" r="60"/>
         <circle cx="160" cy="20" r="20">
-            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 160 160" to="360 160 160" dur="180s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" attributeType="XML" dur="180s" from="0 160 160" repeatCount="indefinite" to="360 160 160" type="rotate"/>
         </circle>
     </g>
     <circle cx="160" cy="160" r="140" fill="none" stroke="#4e8ef7" stroke-width="10"/>

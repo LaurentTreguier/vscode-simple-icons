@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-width="25">
                 <polyline points="150,100 90,160 150,220"/>
                 <polyline points="210,100 270,160 210,220"/>
             </g>
         </mask>
     </defs>
-    <rect x="40" y="60" width="280" height="200" fill="#bfbfbf" mask="url(#mask)"/>
-    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+    <rect width="280" height="200" x="40" y="60" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline fill="none" stroke="#bfbfbf" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
 </svg>

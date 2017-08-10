@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <g id="half" fill="#70df5d">
         <polygon points="0,60 40,140 60,100 40,60"/>
         <polygon points="150,60 100,60 50,160 100,260 150,260 170,220 130,220 100,160"/>
     </g>
-    <use xlink:href="#half" transform="rotate(180 160 160)"/>
+    <use transform="rotate(180 160 160)" xlink:href="#half"/>
 </svg>

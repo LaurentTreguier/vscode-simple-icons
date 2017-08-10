@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <circle id="circle-outer" cx="160" cy="160" r="160"/>
         <circle id="circle-inner" cx="160" cy="160" r="90"/>
@@ -10,7 +8,7 @@
             <use xlink:href="#path"/>
         </clipPath>
         <mask id="mask-main">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-width="20">
                 <use xlink:href="#circle-inner"/>
                 <use xlink:href="#path"/>
@@ -18,18 +16,18 @@
             </g>
         </mask>
         <mask id="mask-green">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <use xlink:href="#path" fill="#000"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <use fill="#000" xlink:href="#path"/>
         </mask>
     </defs>
     <g mask="url(#mask-main)">
         <g mask="url(#mask-green)">
-            <use xlink:href="#circle-outer" fill="#63b132"/>
-            <use xlink:href="#circle-inner" fill="#91dc47"/>
+            <use fill="#63b132" xlink:href="#circle-outer"/>
+            <use fill="#91dc47" xlink:href="#circle-inner"/>
         </g>
         <g clip-path="url(#clip-blue)">
-            <use xlink:href="#circle-outer" fill="#5881d8"/>
-            <use xlink:href="#circle-inner" fill="#90b4fe"/>
+            <use fill="#5881d8" xlink:href="#circle-outer"/>
+            <use fill="#90b4fe" xlink:href="#circle-inner"/>
         </g>
     </g>
 </svg>

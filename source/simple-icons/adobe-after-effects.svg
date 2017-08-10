@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <rect x="10" y="10" width="300" height="300" fill="#2f004f" stroke="#df9fff" stroke-width="20"/>
-    <text x="40" y="230" font-family="Arial" font-size="200" fill="#df9fff">Ae</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <rect width="300" height="300" x="10" y="10" fill="#2f004f" stroke="#df9fff" stroke-width="20"/>
+    <text x="40" y="230" fill="#df9fff" font-family="Arial" font-size="200">
+        Ae
+    </text>
 </svg>

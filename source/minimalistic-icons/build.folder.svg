@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g transform="translate(40 60) scale(0.5) translate(120 40)">
                 <circle cx="160" cy="160" r="80" fill="none" stroke="#000" stroke-width="80"/>
                 <g fill="#000">
-                    <rect id="rect" x="0" y="120" width="80" height="80"/>
-                    <use xlink:href="#rect" transform="rotate(60 160 160)"/>
-                    <use xlink:href="#rect" transform="rotate(120 160 160)"/>
-                    <use xlink:href="#rect" transform="rotate(180 160 160)"/>
-                    <use xlink:href="#rect" transform="rotate(240 160 160)"/>
-                    <use xlink:href="#rect" transform="rotate(300 160 160)"/>
+                    <rect id="rect" width="80" height="80" x="0" y="120"/>
+                    <use transform="rotate(60 160 160)" xlink:href="#rect"/>
+                    <use transform="rotate(120 160 160)" xlink:href="#rect"/>
+                    <use transform="rotate(180 160 160)" xlink:href="#rect"/>
+                    <use transform="rotate(240 160 160)" xlink:href="#rect"/>
+                    <use transform="rotate(300 160 160)" xlink:href="#rect"/>
                 </g>
             </g>
         </mask>
     </defs>
-    <rect x="40" y="60" width="280" height="200" fill="#bfbfbf" mask="url(#mask)"/>
-    <polyline points="150,70 190,30 310,30 310,70" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+    <rect width="280" height="200" x="40" y="60" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline fill="none" stroke="#bfbfbf" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
 </svg>

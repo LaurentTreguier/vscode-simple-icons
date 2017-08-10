@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <circle id="circle" cx="160" cy="160" r="160"/>
         <clipPath id="clip">
             <use xlink:href="#circle"/>
         </clipPath>
     </defs>
-    <use xlink:href="#circle" fill="#e23237"/>
+    <use fill="#e23237" xlink:href="#circle"/>
     <g fill="#b52e31">
         <polygon points="40,200 235,85 475,325 160,320" clip-path="url(#clip)"/>
-        <path d="M 60,180 A 100,100 0 0,1 260,180 Z" stroke="#fff" stroke-width="40"/>
+        <path stroke="#fff" stroke-width="40" d="M 60,180 A 100,100 0 0,1 260,180 Z"/>
     </g>
 </svg>

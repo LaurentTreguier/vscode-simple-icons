@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <path d="M 45,95 H 80 C 160,95 160,225 80,225 H 45 V 95 Z" fill="none" stroke="#000" stroke-width="30" transform="scale(1.4, 1)"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <path fill="none" stroke="#000" stroke-width="30" d="M 45,95 H 80 C 160,95 160,225 80,225 H 45 V 95 Z" transform="scale(1.4, 1)"/>
             <g fill="#000">
                 <circle cx="220" cy="130" r="40"/>
                 <circle cx="270" cy="90" r="15"/>
             </g>
         </mask>
     </defs>
-    <rect x="0" y="40" width="320" height="240" rx="30" ry="30" fill="#bfbfbf" mask="url(#mask)"/>
+    <rect width="320" height="240" x="0" y="40" fill="#bfbfbf" mask="url(#mask)" rx="30" ry="30"/>
 </svg>

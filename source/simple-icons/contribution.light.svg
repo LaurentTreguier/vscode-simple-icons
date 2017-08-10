@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <g fill="none" stroke="#3f3f3f" stroke-width="40">
-        <line x1="60" y1="60" x2="60" y2="260"/>
+        <line x1="60" x2="60" y1="60" y2="260"/>
         <path d="M 160,40 H 180 Q 260,40 260,120 V 220"/>
         <g stroke-width="20">
             <circle cx="60" cy="40" r="30"/>
@@ -10,5 +9,5 @@
             <circle cx="260" cy="240" r="30"/>
         </g>
     </g>
-    <polygon points="100,40 160,80 160,0" fill="#3f3f3f"/>
+    <polygon fill="#3f3f3f" points="100,40 160,80 160,0"/>
 </svg>

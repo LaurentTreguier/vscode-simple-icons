@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
             <g fill="#fff">
-                <rect x="0" y="0" width="320" height="320"/>
+                <rect width="320" height="320" x="0" y="0"/>
                 <g fill="none" stroke="#000" stroke-width="20">
                     <ellipse cx="160" cy="210" rx="50" ry="20"/>
                     <ellipse cx="160" cy="150" rx="50" ry="20"/>
-                    <line x1="110" y1="150" x2="110" y2="210"/>
-                    <line x1="210" y1="150" x2="210" y2="210"/>
+                    <line x1="110" x2="110" y1="150" y2="210"/>
+                    <line x1="210" x2="210" y1="150" y2="210"/>
                 </g>
-                <rect x="120" y="180" width="80" height="30"/>
+                <rect width="80" height="30" x="120" y="180"/>
             </g>
         </mask>
     </defs>
     <g fill="#bfbfbf">
-        <polygon points="50,10 150,10 270,130 270,310 50,310" stroke="#bfbfbf" stroke-width="20" mask="url(#mask)"/>
+        <polygon stroke="#bfbfbf" stroke-width="20" points="50,10 150,10 270,130 270,310 50,310" mask="url(#mask)"/>
         <polygon points="200,0 280,0 280,80"/>
     </g>
 </svg>

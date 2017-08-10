@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="#000">
                 <ellipse cx="160" cy="245" rx="35" ry="60"/>
                 <path d="M 110,80 Q 130,110 160 130 Q 120,110 100,90"/>
@@ -11,10 +10,10 @@
             </g>
         </mask>
     </defs>
-    <rect x="0" y="60" width="320" height="260" fill="#bf9f5f"/>
-    <polygon points="60,0 260,0 320,60 0,60" fill="#dfbf7f"/>
-    <polygon points="140,0 180,0 200,60 120,60" fill="#7f7f7f"/>
-    <polygon points="150,0 170,0 180,60 140,60" fill="#3f3f3f"/>
-    <polygon points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60" fill="#bfbfbf"/>
-    <path d="M 160,0 Q 100,160 0,320 Q 160,200 320,320 Q 220,160 160,0" fill="#1793d1" mask="url(#mask)" transform="translate(64 94) scale(0.6)"/>
+    <rect width="320" height="260" x="0" y="60" fill="#bf9f5f"/>
+    <polygon fill="#dfbf7f" points="60,0 260,0 320,60 0,60"/>
+    <polygon fill="#7f7f7f" points="140,0 180,0 200,60 120,60"/>
+    <polygon fill="#3f3f3f" points="150,0 170,0 180,60 140,60"/>
+    <polygon fill="#bfbfbf" points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60"/>
+    <path fill="#1793d1" d="M 160,0 Q 100,160 0,320 Q 160,200 320,320 Q 220,160 160,0" mask="url(#mask)" transform="translate(64 94) scale(0.6)"/>
 </svg>

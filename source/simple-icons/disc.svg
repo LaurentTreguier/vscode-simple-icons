@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <clipPath id="clip">
             <circle cx="160" cy="160" r="160"/>
         </clipPath>
         <mask id="mask-hole">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <circle cx="160" cy="160" r="30" fill="#000"/>
         </mask>
         <mask id="mask-reflection">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <circle cx="160" cy="160" r="65" fill="#000"/>
         </mask>
     </defs>
@@ -20,8 +19,8 @@
             <circle cx="160" cy="160" r="60" fill="#dfdfdf" stroke="#7f7f7f" stroke-width="10"/>
         </g>
         <g mask="url(#mask-reflection)">
-            <polygon points="0,60 60,0 260,320 320,260" fill="#fff"/>
-            <polygon points="260,0 320,60 0,260 60,320" fill="#dfffff"/>
+            <polygon fill="#fff" points="0,60 60,0 260,320 320,260"/>
+            <polygon fill="#dfffff" points="260,0 320,60 0,260 60,320"/>
         </g>
     </g>
 </svg>

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g stroke="#000" stroke-width="30" transform="rotate(-45 160 160)">
                 <circle cx="160" cy="160" r="60" fill="none"/>
-                <line x1="20" y1="100" x2="160" y2="100"/>
-                <line x1="20" y1="220" x2="160" y2="220"/>
+                <line x1="20" x2="160" y1="100" y2="100"/>
+                <line x1="20" x2="160" y1="220" y2="220"/>
             </g>
             <circle cx="160" cy="160" r="150" fill="none" stroke="#fff" stroke-width="20"/>
         </mask>

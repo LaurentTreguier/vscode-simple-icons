@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <clipPath id="clip-bottom">
-            <rect x="160" y="240" width="180" height="50"/>
+            <rect width="180" height="50" x="160" y="240"/>
         </clipPath>
         <clipPath id="clip-middle">
-            <rect x="160" y="160" width="180" height="50"/>
+            <rect width="180" height="50" x="160" y="160"/>
         </clipPath>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="20" y="220" font-family="Arial" font-size="160" font-weight="bold" fill="#000">A</text>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <text x="20" y="220" fill="#000" font-family="Arial" font-size="160" font-weight="bold">
+                A
+            </text>
         </mask>
     </defs>
     <g fill="none" stroke="#bfbfbf" stroke-width="20">
-        <ellipse cx="220" cy="240" rx="90" ry="40" clip-path="url(#clip-bottom)"/>
-        <rect x="160" y="80" width="140" height="160" stroke="none"/>
-        <ellipse cx="220" cy="160" rx="90" ry="40" clip-path="url(#clip-middle)"/>
-        <rect x="160" y="80" width="140" height="80" stroke="none"/>
+        <ellipse cx="220" cy="240" clip-path="url(#clip-bottom)" rx="90" ry="40"/>
+        <rect width="140" height="160" x="160" y="80" stroke="none"/>
+        <ellipse cx="220" cy="160" clip-path="url(#clip-middle)" rx="90" ry="40"/>
+        <rect width="140" height="80" x="160" y="80" stroke="none"/>
         <ellipse cx="220" cy="80" rx="90" ry="40"/>
-        <line x1="310" y1="80" x2="310" y2="240"/>
+        <line x1="310" x2="310" y1="80" y2="240"/>
     </g>
-    <polygon points="0,40 160,0 160,320 0,280" fill="#bfbfbf" mask="url(#mask)"/>
+    <polygon fill="#bfbfbf" points="0,40 160,0 160,320 0,280" mask="url(#mask)"/>
 </svg>

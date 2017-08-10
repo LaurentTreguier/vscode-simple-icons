@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="30" y="200" font-family="Arial" font-size="150" font-weight="bold" font-style="italic" fill="#000">php</text>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <text x="30" y="200" fill="#000" font-family="Arial" font-size="150" font-style="italic" font-weight="bold">
+                php
+            </text>
         </mask>
     </defs>
-    <ellipse cx="160" cy="160" rx="160" ry="160" fill="#6c7eb7" mask="url(#mask)"/>
+    <ellipse cx="160" cy="160" fill="#6c7eb7" mask="url(#mask)" rx="160" ry="160"/>
 </svg>

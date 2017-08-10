@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <path d="M 130,40 Q 130,20 140,10 Q 140,20 150,30 Q 150,10 170,0 Q 165,10 175,25 Q 180,15 190,15 Q 185,30 190,40" fill="#462f13"/>
-    <g fill="#fba919" stroke="#462f13" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <path fill="#462f13" d="M 130,40 Q 130,20 140,10 Q 140,20 150,30 Q 150,10 170,0 Q 165,10 175,25 Q 180,15 190,15 Q 185,30 190,40"/>
+    <g fill="#fba919" stroke="#462f13" stroke-linecap="round" stroke-linejoin="round" stroke-width="10">
         <path d="M 120,40 Q 80,0 50,30 Q 70,40 70,60 V 80"/>
         <path d="M 200,40 Q 240,0 270,30 Q 250,40 250,60 V 80"/>
         <ellipse cx="160" cy="80" rx="80" ry="40"/>
@@ -13,7 +12,7 @@
             <path d="M 60,200 Q 70,240 120,240 H 200 Q 250,240 260,200 C 280,240 260,280 200,280 H 120 C 60,280 40,240 60,200"/>
         </g>
         <path d="M 130,190 L 100,260 C 120,330 200,330 220,260 L 190,190"/>
-        <line x1="110" y1="250" x2="210" y2="250"/>
+        <line x1="110" x2="210" y1="250" y2="250"/>
         <g fill="#462f13">
             <polygon points="120,265 140,265 130,275"/>
             <polygon points="200,265 180,265 190,275"/>

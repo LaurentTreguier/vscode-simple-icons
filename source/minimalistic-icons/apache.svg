@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <path id="path-outer" d="M 320,0 Q 100,80 40,180 C -20,280 40,320 120,240 Q 140,220 320,0"/>
         <path id="path-inner" d="M 0,320 Q 80,140 320,0 Q 120,140 0,320"/>
         <mask id="mask-outer">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <use xlink:href="#path-inner" fill="#000"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <use fill="#000" xlink:href="#path-inner"/>
         </mask>
         <mask id="mask-inner">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <use xlink:href="#path-outer" fill="#000"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <use fill="#000" xlink:href="#path-outer"/>
         </mask>
     </defs>
     <g fill="#bfbfbf">
-        <use xlink:href="#path-outer" mask="url(#mask-outer)"/>
-        <use xlink:href="#path-inner" mask="url(#mask-inner)"/>
+        <use mask="url(#mask-outer)" xlink:href="#path-outer"/>
+        <use mask="url(#mask-inner)" xlink:href="#path-inner"/>
     </g>
 </svg>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <circle cx="160" cy="160" r="160" fill="#bf1f1f"/>
-    <g stroke="#fff" stroke-width="40" stroke-linecap="square">
-        <path d="M 100,230 Q 140,230 160,160 Q 180,90 220,90" fill="none"/>
-        <line x1="180" y1="160" x2="200" y2="160"/>
+    <g stroke="#fff" stroke-linecap="square" stroke-width="40">
+        <path fill="none" d="M 100,230 Q 140,230 160,160 Q 180,90 220,90"/>
+        <line x1="180" x2="200" y1="160" y2="160"/>
     </g>
 </svg>

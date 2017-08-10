@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <polygon id="polygon-left" points="70,70 70,230 230,290 275,275"/>
         <polygon id="polygon-right" points="70,70 230,70 290,230 275,275"/>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-width="20">
                 <use xlink:href="#polygon-left"/>
                 <use xlink:href="#polygon-right"/>

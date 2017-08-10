@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
-            <text x="25" y="220" font-family="Arial" font-size="160" font-weight="bold" fill="#000">X</text>
-            <line x1="210" y1="80" x2="210" y2="220" stroke="#000" stroke-width="20"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <text x="25" y="220" fill="#000" font-family="Arial" font-size="160" font-weight="bold">
+                X
+            </text>
+            <line x1="210" x2="210" y1="80" y2="220" stroke="#000" stroke-width="20"/>
         </mask>
     </defs>
     <g mask="url(#mask)">
         <g stroke="#bfbfbf" stroke-width="20">
-            <polyline points="160,50 310,50 310,270 160,270" fill="none"/>
-            <line x1="160" y1="90" x2="280" y2="90"/>
-            <line x1="160" y1="130" x2="280" y2="130"/>
-            <line x1="160" y1="170" x2="280" y2="170"/>
-            <line x1="160" y1="210" x2="280" y2="210"/>
+            <polyline fill="none" points="160,50 310,50 310,270 160,270"/>
+            <line x1="160" x2="280" y1="90" y2="90"/>
+            <line x1="160" x2="280" y1="130" y2="130"/>
+            <line x1="160" x2="280" y1="170" y2="170"/>
+            <line x1="160" x2="280" y1="210" y2="210"/>
         </g>
-        <polygon points="0,40 160,0 160,320 0,280" fill="#bfbfbf"/>
+        <polygon fill="#bfbfbf" points="0,40 160,0 160,320 0,280"/>
     </g>
 </svg>

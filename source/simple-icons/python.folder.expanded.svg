@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
         <mask id="mask">
-            <polygon points="50,70 150,70 190,30 310,30 310,250 50,250" fill="none" stroke="#fff" stroke-width="20"/>
-            <polygon points="0,160 270,160 310,260 40,260" fill="#fff"/>
+            <polygon fill="none" stroke="#fff" stroke-width="20" points="50,70 150,70 190,30 310,30 310,250 50,250"/>
+            <polygon fill="#fff" points="0,160 270,160 310,260 40,260"/>
         </mask>
     </defs>
     <g mask="url(#mask)">
         <g transform="rotate(30 160 160)">
-            <rect x="-80" y="-80" width="240" height="480" fill="#3f7fbf"/>
-            <rect x="160" y="-80" width="240" height="480" fill="#ffdf3f"/>
+            <rect width="240" height="480" x="-80" y="-80" fill="#3f7fbf"/>
+            <rect width="240" height="480" x="160" y="-80" fill="#ffdf3f"/>
         </g>
     </g>
 </svg>

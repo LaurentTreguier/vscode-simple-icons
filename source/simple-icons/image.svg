@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <rect x="0" y="40" width="320" height="240" fill="#3f9fff"/>
-    <polygon points="0,280 0,260 80,180 120,220 240,100 320,180 320,280" fill="#3fff00"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <rect width="320" height="240" x="0" y="40" fill="#3f9fff"/>
+    <polygon fill="#3fff00" points="0,280 0,260 80,180 120,220 240,100 320,180 320,280"/>
     <circle cx="100" cy="120" r="40" fill="#ffff00"/>
 </svg>

@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <g id="part">
-            <polygon points="64,40 96,100 128,40" fill="#66aeed"/>
-            <polygon points="32,100 64,40 96,100" fill="#54a4eb"/>
-            <polygon points="32,100 64,160 96,100" fill="#429be9"/>
-            <polygon points="0,160 32,100 64,160" fill="#2b8fe7"/>
-            <polygon points="0,160 32,220 64,160" fill="#1e88e5"/>
-            <polygon points="32,220 64,160 96,220" fill="#2055a8"/>
-            <polygon points="32,220 64,280 96,220" fill="#0d47a1"/>
-            <polygon points="64,280 96,220 128,280" fill="#f52757"/>
-            <polygon points="96,220 128,280 160,220" fill="#f75279"/>
-            <polygon points="96,220 128,160 160,220" fill="#f8688a"/>
+            <polygon fill="#66aeed" points="64,40 96,100 128,40"/>
+            <polygon fill="#54a4eb" points="32,100 64,40 96,100"/>
+            <polygon fill="#429be9" points="32,100 64,160 96,100"/>
+            <polygon fill="#2b8fe7" points="0,160 32,100 64,160"/>
+            <polygon fill="#1e88e5" points="0,160 32,220 64,160"/>
+            <polygon fill="#2055a8" points="32,220 64,160 96,220"/>
+            <polygon fill="#0d47a1" points="32,220 64,280 96,220"/>
+            <polygon fill="#f52757" points="64,280 96,220 128,280"/>
+            <polygon fill="#f75279" points="96,220 128,280 160,220"/>
+            <polygon fill="#f8688a" points="96,220 128,160 160,220"/>
         </g>
     </defs>
     <use xlink:href="#part"/>
-    <use xlink:href="#part" transform="rotate(180 160 160)"/>
-    <polygon points="128,160 160,220 192,160" fill="#f87292"/>
-    <polygon points="128,160 160,100 192,160" fill="#f97d9a"/>
+    <use transform="rotate(180 160 160)" xlink:href="#part"/>
+    <polygon fill="#f87292" points="128,160 160,220 192,160"/>
+    <polygon fill="#f97d9a" points="128,160 160,100 192,160"/>
 </svg>

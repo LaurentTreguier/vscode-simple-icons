@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <rect x="0" y="40" width="320" height="240" fill="#bfbfbf"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <rect width="320" height="240" x="0" y="40" fill="#bfbfbf"/>
     <g fill="#000">
-        <rect x="20" y="100" width="280" height="160"/>
-        <rect x="280" y="60" width="20" height="20"/>
-        <rect x="240" y="60" width="20" height="20"/>
-        <rect x="200" y="60" width="20" height="20"/>
+        <rect width="280" height="160" x="20" y="100"/>
+        <rect width="20" height="20" x="280" y="60"/>
+        <rect width="20" height="20" x="240" y="60"/>
+        <rect width="20" height="20" x="200" y="60"/>
     </g>
     <g fill="none" stroke="#bfbfbf" stroke-width="20">
         <polyline points="130,150 110,130 70,130 50,150 50,210 70,230 110,230 130,210"/>
-        <line x1="210" y1="120" x2="270" y2="240"/>
+        <line x1="210" x2="270" y1="120" y2="240"/>
     </g>
     <g fill="#bfbfbf">
-        <rect x="160" y="140" width="20" height="20"/>
-        <rect x="160" y="200" width="20" height="20"/>
+        <rect width="20" height="20" x="160" y="140"/>
+        <rect width="20" height="20" x="160" y="200"/>
     </g>
 </svg>

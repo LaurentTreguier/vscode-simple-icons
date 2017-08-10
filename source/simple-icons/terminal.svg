@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <rect x="0" y="40" width="320" height="240" fill="#bfbfbf"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <rect width="320" height="240" x="0" y="40" fill="#bfbfbf"/>
     <g fill="#000">
-        <rect x="20" y="100" width="280" height="160"/>
-        <rect x="20" y="60" width="20" height="20"/>
-        <rect x="60" y="60" width="20" height="20"/>
-        <rect x="100" y="60" width="20" height="20"/>
+        <rect width="280" height="160" x="20" y="100"/>
+        <rect width="20" height="20" x="20" y="60"/>
+        <rect width="20" height="20" x="60" y="60"/>
+        <rect width="20" height="20" x="100" y="60"/>
     </g>
     <g fill="none" stroke="#bfbfbf" stroke-width="20">
         <polyline points="140,130 50,130 50,170 130,190 130,230 40,230"/>
-        <line x1="90" y1="100" x2="90" y2="260"/>
-        <line x1="180" y1="230" x2="280" y2="230"/>
+        <line x1="90" x2="90" y1="100" y2="260"/>
+        <line x1="180" x2="280" y1="230" y2="230"/>
     </g>
 </svg>

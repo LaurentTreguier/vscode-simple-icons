@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <rect x="0" y="60" width="320" height="260" fill="#bf9f5f"/>
-    <polygon points="60,0 260,0 320,60 0,60" fill="#dfbf7f"/>
-    <polygon points="140,0 180,0 200,60 120,60" fill="#7f7f7f"/>
-    <polygon points="150,0 170,0 180,60 140,60" fill="#3f3f3f"/>
-    <polygon points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60" fill="#bfbfbf"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <rect width="320" height="260" x="0" y="60" fill="#bf9f5f"/>
+    <polygon fill="#dfbf7f" points="60,0 260,0 320,60 0,60"/>
+    <polygon fill="#7f7f7f" points="140,0 180,0 200,60 120,60"/>
+    <polygon fill="#3f3f3f" points="150,0 170,0 180,60 140,60"/>
+    <polygon fill="#bfbfbf" points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60"/>
     <g fill="#0271bc" transform="translate(64 94) scale(0.6)">
         <polygon points="30,65 0,80 0,240 30,255"/>
         <polygon points="30,65 320,280 240,320 0,80"/>

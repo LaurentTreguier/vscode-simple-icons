@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
-    <g stroke="#f75d3c" stroke-width="80" stroke-linecap="round">
-        <line x1="40" y1="40" x2="160" y2="40"/>
-        <line x1="160" y1="160" x2="280" y2="160"/>
-        <line x1="40" y1="280" x2="160" y2="280"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <g stroke="#f75d3c" stroke-linecap="round" stroke-width="80">
+        <line x1="40" x2="160" y1="40" y2="40"/>
+        <line x1="160" x2="280" y1="160" y2="160"/>
+        <line x1="40" x2="160" y1="280" y2="280"/>
     </g>
     <g fill="#f75d3c">
         <circle cx="280" cy="40" r="40"/>

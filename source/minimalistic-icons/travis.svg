@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <clipPath id="clip">
-            <rect x="0" y="0" width="320" height="100"/>
+            <rect width="320" height="100" x="0" y="0"/>
         </clipPath>
         <mask id="mask-headgear">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g stroke="#000" stroke-width="20">
-                <line x1="120" y1="40" x2="200" y2="40"/>
-                <line x1="160" y1="40" x2="160" y2="120"/>
+                <line x1="120" x2="200" y1="40" y2="40"/>
+                <line x1="160" x2="160" y1="40" y2="120"/>
             </g>
         </mask>
         <mask id="mask-eyes">
-            <rect x="0" y="0" width="320" height="320" fill="#fff"/>
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="#000">
                 <circle cx="112" cy="180" r="3"/>
                 <circle cx="208" cy="180" r="3"/>
@@ -22,9 +20,9 @@
         </mask>
     </defs>
     <g stroke="#bfbfbf" stroke-width="10">
-        <ellipse cx="160" cy="160" rx="120" ry="155" fill="none"/>
+        <ellipse cx="160" cy="160" fill="none" rx="120" ry="155"/>
         <g fill="#bfbfbf" mask="url(#mask-headgear)">
-            <ellipse cx="160" cy="160" rx="130" ry="155" clip-path="url(#clip)"/>
+            <ellipse cx="160" cy="160" clip-path="url(#clip)" rx="130" ry="155"/>
             <path d="M 20,100 Q 160,60 300,100 Q 310,130 290,160 Q 160,120 30,160 Q 10,130 20,100 Z"/>
         </g>
     </g>
@@ -32,11 +30,11 @@
         <circle cx="110" cy="185" r="15"/>
         <circle cx="210" cy="185" r="15"/>
     </g>
-    <path d="M 40,160 Q 160,120 280,160 L 270,210 L 250,230 L 180,220 L 170,180 H 150 L 140,220 L 70,230 L 50,210 Z" fill="none" stroke="#bfbfbf" stroke-width="20"/>
+    <path fill="none" stroke="#bfbfbf" stroke-width="20" d="M 40,160 Q 160,120 280,160 L 270,210 L 250,230 L 180,220 L 170,180 H 150 L 140,220 L 70,230 L 50,210 Z"/>
     <g fill="#bfbfbf" stroke="none">
         <path d="M 100,120 Q 60,140 20,180 Q 70,150 140,130"/>
         <path d="M 160,130 Q 130,130 100,160 Q 150,135 200,130"/>
         <path d="M 210,120 Q 205,145 180,160 Q 240,150 260,120"/>
     </g>
-    <polygon points="120,240 160,245 200,240 220,260 260,260 280,250 260,290 200,300 160,280 120,300 60,290 40,250 60,260 100,260" fill="#bfbfbf"/>
+    <polygon fill="#bfbfbf" points="120,240 160,245 200,240 220,260 260,260 280,250 260,290 200,300 160,280 120,300 60,290 40,250 60,260 100,260"/>
 </svg>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <g id="cube">
-            <polygon points="60,0 120,30 120,90 60,120 0,90 0,30" fill="#007fbf"/>
-            <polygon points="60,60 60,120 0,90 0,30" fill="#5fdfff"/>
-            <polygon points="60,60 60,120 120,90 120,30" fill="#005f9f"/>
+            <polygon fill="#007fbf" points="60,0 120,30 120,90 60,120 0,90 0,30"/>
+            <polygon fill="#5fdfff" points="60,60 60,120 0,90 0,30"/>
+            <polygon fill="#005f9f" points="60,60 60,120 120,90 120,30"/>
         </g>
     </defs>
-    <use xlink:href="#cube" x="80" y="110"/>
-    <use xlink:href="#cube" x="0" y="150"/>
-    <use xlink:href="#cube" x="160" y="150"/>
-    <use xlink:href="#cube" x="80" y="190"/>
-    <use xlink:href="#cube" x="80" y="30"/>
-    <use xlink:href="#cube" x="0" y="70"/>
-    <use xlink:href="#cube" x="200" y="10"/>
+    <use x="80" y="110" xlink:href="#cube"/>
+    <use x="0" y="150" xlink:href="#cube"/>
+    <use x="160" y="150" xlink:href="#cube"/>
+    <use x="80" y="190" xlink:href="#cube"/>
+    <use x="80" y="30" xlink:href="#cube"/>
+    <use x="0" y="70" xlink:href="#cube"/>
+    <use x="200" y="10" xlink:href="#cube"/>
 </svg>

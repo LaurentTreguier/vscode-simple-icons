@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg 
-    xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <g stroke="#d14424" stroke-width="20">
-        <polyline points="160,50 310,50 310,270 160,270" fill="#fff"/>
-        <line x1="160" y1="210" x2="280" y2="210"/>
+        <polyline fill="#fff" points="160,50 310,50 310,270 160,270"/>
+        <line x1="160" x2="280" y1="210" y2="210"/>
     </g>
     <g fill="#d14424">
         <polygon points="0,40 160,0 160,320 0,280"/>
         <circle cx="210" cy="130" r="50" mask="url(#mask)"/>
     </g>
-    <polyline points="210,80 210,130 260,130" fill="none" stroke="#fff" stroke-width="20"/>
-    <text x="25" y="220" font-family="Arial" font-size="160" font-weight="bold" fill="#fff">P</text>
+    <polyline fill="none" stroke="#fff" stroke-width="20" points="210,80 210,130 260,130"/>
+    <text x="25" y="220" fill="#fff" font-family="Arial" font-size="160" font-weight="bold">
+        P
+    </text>
 </svg>
