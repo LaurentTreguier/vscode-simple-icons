@@ -14,7 +14,8 @@
     </defs>
     <rect x="0" y="40" width="320" height="240" fill="#bfbfbf" mask="url(#mask)"/>
     <g fill="none" stroke="#bfbfbf" stroke-width="20">
-        <polyline points="80,120 140,180 80,240"/>
-        <line x1="180" y1="230" x2="240" y2="230"/>
+        <polyline points="140,130 50,130 50,170 130,190 130,230 40,230"/>
+        <line x1="90" y1="100" x2="90" y2="260"/>
+        <line x1="180" y1="230" x2="280" y2="230"/>
     </g>
 </svg>
