@@ -1,5 +1,7 @@
 #!/bin/bash
 
+hash_sum=sha256sum
+
 simple_name='simple-icons'
 simple_source_dir="source/$simple_name"
 simple_gen_dir="gen/$simple_name"
@@ -20,19 +22,14 @@ function validate_sums() {
     if [[ -f $1 ]] && [[ -f $2 ]]
     then
         sum="$(tail -1 $2 | grep -Eo '\w+' | head -1)"
-        if [[ "$(sha256sum $1 | grep -Eo '\w+' | head -1)" = "$sum" ]]
-        then
-            return 0
-        else
-            return 1
-        fi
+        [[ "$($hash_sum $1 | grep -Eo '\w+' | head -1)" = "$sum" ]]
     else
-        return 1
+        false
     fi
 }
 
 function comment_sum() {
-    echo "<!-- $(sha256sum $1) -->"
+    echo "<!-- $($hash_sum $1) -->"
 }
 
 mkdir -p {$simple_gen_dir,$simple_icons_dir,$mini_gen_dir,$mini_icons_dir}
@@ -74,9 +71,8 @@ for folder in $(ls $simple_source_dir/*.folder.svg)
 do
     expanded_folder=${folder/.svg/.expanded.svg}
     gen_folder=$simple_gen_dir/$(basename $expanded_folder)
-    validate_sums $folder $gen_folder
 
-    if [[ $? -ne 0 ]] && [[ ! -f $expanded_folder ]]
+    if ! validate_sums $folder $gen_folder && [[ ! -f $expanded_folder ]]
     then
         echo "Generating simple $(basename $expanded_folder)"
         old_color=$(get_color $simple_source_dir/folder.expanded.svg)
@@ -102,9 +98,8 @@ do
         rm -f $mini_gen_dir/$file
     else
         file_dir=$mini_gen_dir
-        validate_sums $simple_dir/$file $mini_gen_dir/$file
 
-        if [[ $? -ne 0 ]]
+        if ! validate_sums $simple_dir/$file $mini_gen_dir/$file
         then
             echo "Generating minimalistic $file"
             node generator.js gen < $simple_dir/$file > $mini_gen_dir/$file
@@ -113,9 +108,8 @@ do
     fi
 
     light_file=${file/.svg/.light.svg}
-    validate_sums $file_dir/$file $mini_gen_dir/$light_file
 
-    if [[ $? -ne 0 ]]
+    if ! validate_sums $file_dir/$file $mini_gen_dir/$light_file
     then
         echo "Generating minimalistic $light_file"
         node generator.js light < $file_dir/$file > $mini_gen_dir/$light_file
