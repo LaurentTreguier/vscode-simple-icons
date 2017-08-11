@@ -9,7 +9,7 @@
     "tasks": [
         {
             "isBuildCommand": true,
-            "taskName": "optimize",
+            "taskName": "build",
             "args": [
                 "run",
                 "vscode:prepublish"

@@ -11,7 +11,7 @@
                 "--extensionDevelopmentPath=${workspaceRoot}"
             ],
             "stopOnEntry": false,
-            "preLaunchTask": "optimize"
+            "preLaunchTask": "build"
         },
         {
             "name": "Launch Tests",
@@ -23,7 +23,7 @@
                 "--extensionTestsPath=${workspaceRoot}/test"
             ],
             "stopOnEntry": false,
-            "preLaunchTask": "optimize"
+            "preLaunchTask": "build"
         }
     ]
 }
