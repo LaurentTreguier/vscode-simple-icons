@@ -1,19 +1,16 @@
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
-    "version": "0.1.0",
-    "command": "npm",
-    "isShellCommand": true,
-    "showOutput": "always",
-    "suppressTaskName": true,
+    "version": "2.0.0",
     "tasks": [
         {
-            "isBuildCommand": true,
             "taskName": "build",
-            "args": [
-                "run",
-                "vscode:prepublish"
-            ]
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "type": "shell",
+            "command": "npm run vscode:prepublish"
         }
     ]
 }
