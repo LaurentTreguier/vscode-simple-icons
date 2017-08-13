@@ -25,8 +25,10 @@
         "po": "locale.folder",
         "source": "source.folder",
         "spec": "test.folder",
+        "specs": "test.folder",
         "src": "source.folder",
         "test": "test.folder",
+        "tests": "test.folder",
         "typings": "typescript.folder"
     },
     "folderNamesExpanded": {},
