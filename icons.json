@@ -31,7 +31,9 @@
         "tests": "test.folder",
         "typings": "typescript.folder"
     },
-    "folderNamesExpanded": {},
+    "folderNamesExpanded": {
+        "tests": "test.folder",
+    },
     "fileNames": {
         ".angular-cli.json": "angular",
         ".appveyor.yaml": "appveyor",
