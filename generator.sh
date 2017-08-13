@@ -127,7 +127,7 @@ do
 
     mkdir -p $theme_icon_dir
     echo "Writing $theme_name.json"
-    node generator.js json $theme_icon_dir $icon_list < icons.json > $theme_name.json
+    node generator.js json $theme_icon_dir $(echo $icon_list | sort -u) < icons.json > $theme_name.json
     echo "Optimizing icons from $theme_source_dir"
     $svgo_cmd -f $theme_source_dir > /dev/null
     echo "Optimizing icons from $theme_gen_dir"

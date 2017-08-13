@@ -1,4 +1,6 @@
 {
+    "rootFolder": "folder.root",
+    "rootFolderExpanded": "folder.root.expanded",
     "folder": "folder",
     "folderExpanded": "folder.expanded",
     "file": "file",
@@ -9,7 +11,7 @@
         ".nuget": "nuget.folder",
         ".paket": "paket.folder",
         ".vs": "visual-studio.folder",
-        ".vscode": "vscode.folder",
+        ".vscode": "vscode.folder | visual-studio.folder",
         "__pycache__": "python.folder",
         "bin": "build.folder",
         "bower_components": "bower.folder",

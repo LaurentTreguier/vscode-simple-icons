@@ -7,7 +7,7 @@ const pipeRegexp = /\s*\|\s*/;
 const operations = {
     fill: content => {
         let json = JSON.parse(content);
-        let neededIcons = [json.folder, json.folderExpanded, json.file];
+        let neededIcons = [json.rootFolder, json.rootFolderExpanded, json.folder, json.folderExpanded, json.file];
 
         traverseSections(json, (sectionName, section, key) =>
             neededIcons.push(section[key].match(pipeRegexp)
@@ -52,13 +52,21 @@ const operations = {
         let light = JSON.parse(JSON.stringify(result));
         delete light.iconDefinitions;
 
-        ['folder', 'folderExpanded', 'file'].forEach((sectionName) => {
-            let fileBaseName = sectionName.replace(/[A-Z]/, (letter) => '.' + letter.toLowerCase());
+        let baseIcons = {
+            rootFolder: 'folder.root',
+            rootFolderExpanded: 'folder.root.expanded',
+            folder: 'folder',
+            folderExpanded: 'folder.expanded',
+            file: 'file'
+        };
+
+        for (let sectionName in baseIcons) {
+            let fileBaseName = baseIcons[sectionName];
 
             if (fileNames.indexOf(fileBaseName + '.light.svg') !== -1) {
                 light[sectionName] = light[sectionName] + '.light';
             }
-        });
+        }
 
         traverseSections(light, (sectionName, section, key) => {
             if (fileNames.indexOf(section[key] + '.light.svg') !== -1) {
