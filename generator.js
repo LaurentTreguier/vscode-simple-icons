@@ -41,17 +41,19 @@ const operations = {
             }
         });
 
+        let folderNamesExpanded = {};
+
         for (let folder in result.folderNames) {
             let expandedName = result.folderNames[folder] + '.expanded';
 
             if (fileNames.indexOf(expandedName + '.svg') !== -1) {
-                result.folderNamesExpanded[folder] = expandedName;
+                folderNamesExpanded[folder] = result.folderNamesExpanded[folder] || expandedName;
             }
         }
 
-        let light = JSON.parse(JSON.stringify(result));
-        delete light.iconDefinitions;
+        result.folderNamesExpanded = folderNamesExpanded;
 
+        let light = JSON.parse(JSON.stringify(result));
         let baseIcons = {
             rootFolder: 'folder.root',
             rootFolderExpanded: 'folder.root.expanded',
@@ -60,10 +62,10 @@ const operations = {
             file: 'file'
         };
 
-        for (let sectionName in baseIcons) {
-            let fileBaseName = baseIcons[sectionName];
+        delete light.iconDefinitions;
 
-            if (fileNames.indexOf(fileBaseName + '.light.svg') !== -1) {
+        for (let sectionName in baseIcons) {
+            if (fileNames.indexOf(baseIcons[sectionName] + '.light.svg') !== -1) {
                 light[sectionName] = light[sectionName] + '.light';
             }
         }
