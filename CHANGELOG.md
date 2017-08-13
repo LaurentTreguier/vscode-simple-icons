@@ -1,5 +1,16 @@
 # Changelog
 
+#### 1.5.1
+
+Added icons :
+- Workspace root folders (issue [#24](https://github.com/LaurentTreguier/vscode-simple-icons/issues/24) raised by [faustinoaq](https://github.com/faustinoaq))
+
+Other changes :
+- The extension can now normally be built on Windows using WSL (Ubuntu bash for Windows)
+- The extension now automatically beautifies all source SVG's using SVGO upon building
+- tests and specs folders now have the test fodler icon (issue [#25](https://github.com/LaurentTreguier/vscode-simple-icons/issues/25) raised by [danilofeijo](https://github.com/danilofeijo))
+- The terminal icon now shows a '$' sign instead of a '>' sign
+
 ### 1.5.0
 
 Added icons :
