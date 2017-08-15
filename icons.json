@@ -351,6 +351,7 @@
     "languageIds": {
         "apex": "salesforce-apex",
         "apiblueprint": "api-blueprint",
+        "arm": "binary",
         "asm": "binary",
         "bat": "console",
         "bolt": "bolt",
@@ -375,6 +376,7 @@
         "erlang": "erlang",
         "feature": "cucumber",
         "fsharp": "fsharp",
+        "gas": "binary",
         "gdscript": "godot",
         "gherkin": "cucumber",
         "gml-gm81": "gamemaker",
@@ -410,6 +412,7 @@
         "markdown": "markdown",
         "marko": "marko",
         "meson": "meson",
+        "mips": "binary",
         "mjml": "mjml",
         "nim": "nim",
         "nimble": "nim",
