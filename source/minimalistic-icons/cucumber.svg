@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
+    <defs>
+        <path id="seed" d="M 160,100 C 100,30 220,30 160,100"/>
+        <mask id="mask">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <g fill="#000" transform="rotate(22.5 160 140)">
+                <use xlink:href="#seed"/>
+                <use transform="rotate(-45 160 140)" xlink:href="#seed"/>
+                <use transform="rotate(-90 160 140)" xlink:href="#seed"/>
+                <use transform="rotate(-135 160 140)" xlink:href="#seed"/>
+                <use transform="rotate(-180 160 140)" xlink:href="#seed"/>
+                <use transform="rotate(-225 160 140)" xlink:href="#seed"/>
+                <use transform="rotate(-270 160 140)" xlink:href="#seed"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#bfbfbf" mask="url(#mask)">
+        <circle cx="160" cy="140" r="140"/>
+        <path d="M 140,140 H 300 Q 300,280 140,320"/>
+    </g>
+</svg>
