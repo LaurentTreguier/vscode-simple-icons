@@ -10,7 +10,11 @@
                 "isDefault": true
             },
             "type": "shell",
-            "command": "npm run vscode:prepublish"
+            "command": "npm",
+            "args": [
+                "run",
+                "vscode:prepublish"
+            ]
         }
     ]
 }
