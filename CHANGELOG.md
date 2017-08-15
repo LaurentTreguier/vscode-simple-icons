@@ -1,5 +1,14 @@
 # Changelog
 
+#### 1.5.2
+
+Added icons :
+- Cucumber files
+- Doxygen files
+
+Other changes :
+- More language ID's are associated with the binary icon
+
 #### 1.5.1
 
 Added icons :
