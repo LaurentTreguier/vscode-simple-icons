@@ -4,7 +4,7 @@
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <polygon fill="#000" points="140,0 180,0 200,60 120,60"/>
-            <g transform="translate(64 94) scale(0.6)">
+            <g transform="translate(50 80) scale(0.6875)">
                 <path fill="#000" d="M 160,0 Q 100,160 0,320 Q 160,200 320,320 Q 220,160 160,0"/>
                 <g fill="#fff">
                     <ellipse cx="160" cy="245" rx="35" ry="60"/>

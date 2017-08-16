@@ -5,5 +5,5 @@
     <polygon fill="#7f7f7f" points="140,0 180,0 200,60 120,60"/>
     <polygon fill="#3f3f3f" points="150,0 170,0 180,60 140,60"/>
     <polygon fill="#bfbfbf" points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60"/>
-    <path fill="none" stroke="#d70751" stroke-linecap="round" stroke-width="15" d="M 160,300 Q 80,280 80,180 Q 80,100 160,100 Q 240,100 240,160 Q 240,220 180,220 Q 140,220 140,180 Q 140,140 170,140"/>
+    <path fill="none" stroke="#d70751" stroke-linecap="round" stroke-width="20" d="M 160,290 Q 80,270 80,180 A 80,90 0 0,1 160,90 A 80,70 0 0,1 240,160 A 60,60 0 0,1 180,220 A 40,40 0 0,1 140,180 A 35,35 0 0,1 190,150"/>
 </svg>

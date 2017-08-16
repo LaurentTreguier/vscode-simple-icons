@@ -5,7 +5,7 @@
     <polygon fill="#7f7f7f" points="140,0 180,0 200,60 120,60"/>
     <polygon fill="#3f3f3f" points="150,0 170,0 180,60 140,60"/>
     <polygon fill="#bfbfbf" points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60"/>
-    <g fill="#0271bc" transform="translate(64 94) scale(0.6)">
+    <g fill="#0271bc" transform="translate(50 80) scale(0.6875)">
         <polygon points="30,65 0,80 0,240 30,255"/>
         <polygon points="30,65 320,280 240,320 0,80"/>
         <polygon points="30,255 320,40 240,0 0,240"/>

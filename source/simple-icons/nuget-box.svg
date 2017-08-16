@@ -5,7 +5,7 @@
     <polygon fill="#7f7f7f" points="140,0 180,0 200,60 120,60"/>
     <polygon fill="#3f3f3f" points="150,0 170,0 180,60 140,60"/>
     <polygon fill="#bfbfbf" points="160,0 170,0 172,10 148,10 146,25 174,25 177,40 143,40 140,60 160,60"/>
-    <g transform="translate(64 94) scale(0.6)">
+    <g transform="translate(50 80) scale(0.6875)">
         <g fill="#1188d6">
             <circle cx="30" cy="30" r="30"/>
             <rect width="260" height="260" x="60" y="60" rx="80" ry="80"/>
