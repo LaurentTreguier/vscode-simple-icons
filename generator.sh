@@ -45,7 +45,7 @@ done
 
 for file in $(ls $simple_gen_dir)
 do
-    if [[ $file != *.folder.expanded.svg ]] || [[ ! -f $simple_source_dir/${file/.expanded/} ]] || [[ -f $simple_source_dir/$file ]]
+    if [[ ! -f $simple_source_dir/${file/.expanded/} ]] || [[ -f $simple_source_dir/$file ]]
     then
         echo "Cleaning up unused simple icon $file"
         rm -f $simple_gen_dir/$file
@@ -67,7 +67,7 @@ do
     ./node_modules/.bin/svgo --config=.svgo.yml --multipass -f $theme_source_dir > /dev/null
 done
 
-for folder in $(ls $simple_source_dir/*.folder.svg)
+for folder in $(ls $simple_source_dir/folder-*.svg)
 do
     expanded_folder=${folder/.svg/.expanded.svg}
     gen_folder=$simple_gen_dir/$(basename $expanded_folder)

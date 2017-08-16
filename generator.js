@@ -55,8 +55,8 @@ const operations = {
 
         let light = JSON.parse(JSON.stringify(result));
         let baseIcons = {
-            rootFolder: 'folder.root',
-            rootFolderExpanded: 'folder.root.expanded',
+            rootFolder: 'folder-root',
+            rootFolderExpanded: 'folder-root.expanded',
             folder: 'folder',
             folderExpanded: 'folder.expanded',
             file: 'file'
