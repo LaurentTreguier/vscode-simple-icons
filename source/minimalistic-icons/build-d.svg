@@ -3,11 +3,7 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <g fill="#000" transform="translate(64 64) scale(0.6)">
-                <path fill="none" stroke="#000" stroke-width="30" d="M 45,95 H 80 C 160,95 160,225 80,225 H 45 V 95 Z" transform="scale(1.4, 1)"/>
-                <circle cx="220" cy="130" r="40"/>
-                <circle cx="270" cy="90" r="15"/>
-            </g>
+            <path fill="none" stroke="#000" stroke-width="30" d="M 45,95 H 80 C 160,95 160,225 80,225 H 45 V 95 Z" transform="translate(70 40) scale(0.75) scale(1.4, 1)"/>
         </mask>
     </defs>
     <g fill="#bfbfbf" mask="url(#mask)">

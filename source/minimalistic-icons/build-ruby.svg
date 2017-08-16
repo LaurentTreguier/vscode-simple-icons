@@ -3,7 +3,7 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <polygon fill="#000" points="0,120 80,40 240,40 320,120 160,300" transform="translate(64 64) scale(0.6)"/>
+            <polygon fill="#000" points="0,120 80,40 240,40 320,120 160,300" transform="translate(80 80) scale(0.5)"/>
         </mask>
     </defs>
     <g fill="#bfbfbf" mask="url(#mask)">

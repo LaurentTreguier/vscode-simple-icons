@@ -9,5 +9,5 @@
         <use transform="rotate(240 160 160)" xlink:href="#rect"/>
         <use transform="rotate(300 160 160)" xlink:href="#rect"/>
     </g>
-    <polygon fill="#fff" points="0,120 80,40 240,40 320,120 160,300" transform="translate(64 64) scale(0.6)"/>
+    <polygon fill="#fff" points="0,120 80,40 240,40 320,120 160,300" transform="translate(80 80) scale(0.5)"/>
 </svg>

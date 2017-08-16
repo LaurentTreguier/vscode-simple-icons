@@ -3,7 +3,7 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <g fill="#000" transform="translate(64 64) scale(0.6)">
+            <g fill="#000" transform="translate(80 80) scale(0.5)">
                 <path d="M 140,0 C 240,70 240,110 190,160 Q 120,230 150,310 L 180,320 Q 140,250 200,180 C 260,110 260,70 140,0"/>
                 <path d="M 70,120 Q 120,130 140,180 Q 140,110 70,120"/>
                 <path d="M 90,80 Q 150,90 160,140 Q 170,70 90,80"/>
