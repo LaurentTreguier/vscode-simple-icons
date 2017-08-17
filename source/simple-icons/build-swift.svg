@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask-wings">
+            <rect width="480" height="480" x="-80" y="-80" fill="#fff"/>
+            <ellipse cx="40" cy="120" fill="#000" rx="190" ry="145"/>
+        </mask>
+        <mask id="mask-swift">
+            <g fill="#fff">
+                <ellipse cx="120" cy="120" mask="url(#mask-wings)" rx="200" ry="140" transform="rotate(45 120 120)"/>
+                <path d="M 280,220 Q 320,250 320,300 Q 280,255 230,280"/>
+                <path d="M 180,220 Q 100,160 30,60 L 155,155 Q 120,120 70,50 Q 150,120 230,170"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#df1f1f">
+        <circle cx="160" cy="160" r="120"/>
+        <rect id="rect" width="80" height="80" x="0" y="120"/>
+        <use transform="rotate(60 160 160)" xlink:href="#rect"/>
+        <use transform="rotate(120 160 160)" xlink:href="#rect"/>
+        <use transform="rotate(180 160 160)" xlink:href="#rect"/>
+        <use transform="rotate(240 160 160)" xlink:href="#rect"/>
+        <use transform="rotate(300 160 160)" xlink:href="#rect"/>
+    </g>
+    <rect width="320" height="320" x="0" y="0" fill="#ffffff" mask="url(#mask-swift)" transform="translate(80 80) scale(0.5)"/>
+</svg>
