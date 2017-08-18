@@ -10,4 +10,18 @@
         <polygon points="0,0 0,160 160,160"/>
         <polygon points="320,160 160,160 320,320"/>
     </g>
+    <g stroke="#3fff3f" stroke-width="20">
+        <line x1="-40" x2="0" y1="-40" y2="0">
+            <animateTransform attributeName="transform" attributeType="XML" dur="1s" from="160 160" repeatCount="1" to="0 0" type="translate"/>
+        </line>
+        <line x1="360" x2="320" y1="-40" y2="0">
+            <animateTransform attributeName="transform" attributeType="XML" dur="1s" from="-160 160" repeatCount="1" to="0 0" type="translate"/>
+        </line>
+        <line x1="360" x2="320" y1="360" y2="320">
+            <animateTransform attributeName="transform" attributeType="XML" dur="1s" from="-160 -160" repeatCount="1" to="0 0" type="translate"/>
+        </line>
+        <line x1="-40" x2="0" y1="360" y2="320">
+            <animateTransform attributeName="transform" attributeType="XML" dur="1s" from="160 -160" repeatCount="1" to="0 0" type="translate"/>
+        </line>
+    </g>
 </svg>

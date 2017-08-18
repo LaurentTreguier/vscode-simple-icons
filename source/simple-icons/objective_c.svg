@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <clipPath id="clip">
+            <polygon points="0,0 320,0 320,80 160,160 320,240 320,320 0,320"/>
+        </clipPath>
+    </defs>
     <g fill="none" stroke="#3f9fff" stroke-width="40">
         <polyline points="100,20 20,20 20,300 100,300"/>
         <polyline points="220,20 300,20 300,300 220,300"/>
+        <ellipse cx="165" cy="160" clip-path="url(#clip)" rx="75" ry="80"/>
     </g>
-    <text x="60" y="260" fill="#3f9fff" font-family="Arial" font-size="280" font-weight="bold">
-        C
-    </text>
 </svg>

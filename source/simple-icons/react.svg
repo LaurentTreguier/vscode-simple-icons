@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
-        <ellipse id="ellipse" cx="160" cy="160" rx="150" ry="60"/>
+        <ellipse id="ellipse" cx="160" cy="160" rx="152.5" ry="60"/>
     </defs>
     <circle cx="160" cy="160" r="25" fill="#00d8ff"/>
     <g fill="none" stroke="#00d8ff" stroke-width="15">
