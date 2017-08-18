@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <circle cx="160" cy="160" r="160" fill="#4185db"/>
-    <text x="75" y="250" fill="#fff" font-family="Arial" font-size="260" font-weight="bold">
-        S
-    </text>
+    <path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="40" d="M 100,240 H 180 Q 220,240 220,200 C 220,140 100,180 100,120 Q 100,80 140,80 H 220"/>
 </svg>

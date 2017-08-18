@@ -3,9 +3,7 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <text x="75" y="250" fill="#000" font-family="Arial" font-size="260" font-weight="bold">
-                S
-            </text>
+            <path fill="none" stroke="#000" stroke-linecap="round" stroke-width="40" d="M 100,240 H 180 Q 220,240 220,200 C 220,140 100,180 100,120 Q 100,80 140,80 H 220"/>
         </mask>
     </defs>
     <circle cx="160" cy="160" r="160" fill="#bfbfbf" mask="url(#mask)"/>
