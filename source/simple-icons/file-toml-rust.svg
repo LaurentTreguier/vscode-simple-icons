@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <g fill="none" stroke="#000" stroke-linecap="square" stroke-width="20">
+                <polyline points="130,150 90,150 90,270 130,270"/>
+                <polyline points="190,150 230,150 230,270 190,270"/>
+            </g>
+        </mask>
+    </defs>
+    <g fill="#7f4f3f">
+        <polygon points="180,0 280,100 240,100 180,40"/>
+        <rect width="140" height="100" x="40" y="0"/>
+        <rect width="240" height="220" x="40" y="100" mask="url(#mask)"/>
+    </g>
+</svg>
