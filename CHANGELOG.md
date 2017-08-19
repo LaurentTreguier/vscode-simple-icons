@@ -1,5 +1,18 @@
 # Changelog
 
+### 1.5.3
+
+Added icons :
+- Cargo.lock files
+- Package.pins files
+- Package.swift files
+
+Other changes :
+- Fixed Objective-C files not having any icon
+- Cargo.toml file now have the rust color
+- The map-css icon now has the light version it was always supposed to have
+- The special package icons now have a slightly bigger logo
+
 #### 1.5.2
 
 Added icons :
@@ -168,7 +181,7 @@ Other changes :
 
 #### Introducing minimalistic icons : monochrome version of simple icons
 
-- Added icons :
+Added icons :
 - Babel files (issue [#15](https://github.com/LaurentTreguier/vscode-simple-icons/issues/15) raised by [osawasatoru](https://github.com/osawasatoru))
 - Csscomb files (issue [#15](https://github.com/LaurentTreguier/vscode-simple-icons/issues/15) raised by [osawasatoru](https://github.com/osawasatoru))
 - Ejs files (issue [#16](https://github.com/LaurentTreguier/vscode-simple-icons/issues/16) raised by [mikevaleriano](https://github.com/mikevaleriano))
@@ -440,7 +453,7 @@ Converted to SVG :
 - Travis files
 
 Other changes :
-Fix text files not having any icon
+- Fixed text files not having any icon
 
 #### 0.7.2
 
@@ -624,7 +637,8 @@ Other added icons :
 
 #### 0.1.4
 
-Fixed expanded build folder
+Other changes :
+- Fixed expanded build folder
 
 #### 0.1.3
 
