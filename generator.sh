@@ -49,15 +49,14 @@ do
     ./node_modules/.bin/svgo --config=.svgo.yml --multipass -f $theme_source_dir > /dev/null
 done
 
-icon_sums=
-
-for file in $(list_simple_icons)
+for file in $(ls $simple_gen_dir)
 do
-    sum=$(cat $file | sed -r 's/"(#[0-9a-f]{6}|none)"//g' | sed -r 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1)
-    icon_sums="$icon_sums $sum@$(basename $file)"
+    if [[ ! -f $simple_source_dir/${file/.expanded/} ]] || [[ -f $simple_source_dir/$file ]]
+    then
+        echo "Cleaning up unused file $simple_gen_dir/$file"
+        rm -f $simple_gen_dir/$file
+    fi
 done
-
-icon_redirects=$(echo $icon_sums | node generator.js redirect)
 
 for file in $(ls $simple_icons_dir)
 do
@@ -68,14 +67,31 @@ do
     fi
 done
 
-for file in $(ls $simple_gen_dir)
+for folder in $(ls $simple_source_dir/folder-*.svg | grep -v '.expanded.svg')
 do
-    if [[ ! -f $simple_source_dir/${file/.expanded/} ]] || [[ -f $simple_source_dir/$file ]]
+    expanded_folder=${folder/.svg/.expanded.svg}
+    gen_folder=$simple_gen_dir/$(basename $expanded_folder)
+
+    if ! validate_sums $folder $gen_folder && [[ ! -f $expanded_folder ]]
     then
-        echo "Cleaning up unused file $simple_gen_dir/$file"
-        rm -f $simple_gen_dir/$file
+        echo "Generating simple $(basename ${expanded_folder/.svg/})"
+        old_color=$(get_folder_color $simple_source_dir/folder.expanded.svg)
+        new_color=$(get_folder_color $folder)
+        cp $simple_source_dir/folder.expanded.svg $gen_folder
+        sed -ri "s/$old_color/$new_color/g" $gen_folder
+        comment_sum $folder >> $gen_folder
     fi
 done
+
+icon_sums=
+
+for file in $(list_simple_icons)
+do
+    sum=$(cat $file | sed -r 's/"(#[0-9a-f]{6}|none)"//g' | sed -r 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1)
+    icon_sums="$icon_sums $sum@$(basename $file)"
+done
+
+icon_redirects=$(echo $icon_sums | node generator.js redirect)
 
 for mini_dir in $mini_gen_dir $mini_icons_dir
 do
@@ -98,22 +114,6 @@ do
             done
         fi
     done
-done
-
-for folder in $(ls $simple_source_dir/folder-*.svg | grep -v '.expanded.svg')
-do
-    expanded_folder=${folder/.svg/.expanded.svg}
-    gen_folder=$simple_gen_dir/$(basename $expanded_folder)
-
-    if ! validate_sums $folder $gen_folder && [[ ! -f $expanded_folder ]]
-    then
-        echo "Generating simple $(basename ${expanded_folder/.svg/})"
-        old_color=$(get_folder_color $simple_source_dir/folder.expanded.svg)
-        new_color=$(get_folder_color $folder)
-        cp $simple_source_dir/folder.expanded.svg $gen_folder
-        sed -ri "s/$old_color/$new_color/g" $gen_folder
-        comment_sum $folder >> $gen_folder
-    fi
 done
 
 for file in $(list_simple_icons)
