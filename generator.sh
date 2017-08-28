@@ -168,6 +168,8 @@ do
     if [[ $theme_name = $mini_name ]]
     then
         redirects=$icon_redirects
+    else
+        redirects=
     fi
 
     mkdir -p $theme_icon_dir
