@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <g fill="#000" transform="translate(40 60) scale(0.5) translate(120 40)">
+<!--center-->
+                <rect width="240" height="240" x="40" y="40"/>
+<!--top left-->
+                <polygon points="0,0 40,160 160,40"/>
+                <polygon points="0,0 0,80 40,160"/>
+                <polygon points="0,0 80,0 160,40"/>
+<!--top right-->
+                <polygon points="320,0 160,40 280,160"/>
+                <polygon points="320,0 240,0 160,40"/>
+                <polygon points="320,0 320,80 280,160"/>
+<!--bottom left-->
+                <polygon points="0,320 160,280 40,160"/>
+                <polygon points="0,320 80,320 160,280"/>
+                <polygon points="0,320 0,240 40,160"/>
+<!--bottom right-->
+                <polygon points="320,320 280,160 160,280"/>
+                <polygon points="320,320 320,240 280,160"/>
+                <polygon points="320,320 240,320 160,280"/>
+            </g>
+        </mask>
+    </defs>
+    <rect width="280" height="200" x="40" y="60" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline fill="none" stroke="#bfbfbf" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
+</svg>
