@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <clipPath id="clip">
+            <polygon points="20,0 320,0 320,320 180,320"/>
+        </clipPath>
+    </defs>
+    <path fill="none" stroke="#7fbfdf" stroke-width="30" d="M 20,15 H 200 A 80,80 0 0,1 200,185 H 20 H 180 L 250,325" clip-path="url(#clip)"/>
+</svg>
