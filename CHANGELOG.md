@@ -1,6 +1,23 @@
 # Changelog
 
-### 1.5.3
+### 1.6.0
+
+Added icons :
+- .haxelib folders
+- .rspec files
+- Ansible files
+- C# project files
+- codeclimate.yml files
+- Flow files
+- Haxedevelop project files
+- RAML files
+- Terraform files
+
+Other changes :
+- Cakefiles now have a special build icon
+- haxelib.json files now haxe the main Haxe color
+
+#### 1.5.3
 
 Added icons :
 - Cargo.lock files
@@ -9,7 +26,7 @@ Added icons :
 
 Other changes :
 - Fixed Objective-C files not having any icon
-- Cargo.toml file now have the rust color
+- Cargo.toml files now have the Rust color
 - The map-css icon now has the light version it was always supposed to have
 - The special package icons now have a slightly bigger logo
 
