@@ -164,6 +164,7 @@
         "accdb": "msoffice-access",
         "aepx": "adobe-after_effects",
         "ai": "adobe-illustrator",
+        "ansible": "ansible",
         "as": "flash",
         "avi": "video",
         "back": "trash",
@@ -192,6 +193,7 @@
         "controller.spec.ts": "angular-spec",
         "controller.ts": "angular-typescript",
         "cr": "crystal",
+        "csproj": "file-xml-csharp",
         "css.map": "map-css",
         "csv": "file-csv",
         "d": "d",
@@ -358,6 +360,7 @@
         "zip": "package"
     },
     "languageIds": {
+        "ansible": "ansible",
         "apex": "salesforce",
         "apiblueprint": "api_blueprint",
         "arm": "file-binary",
