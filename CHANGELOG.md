@@ -1,5 +1,13 @@
 # Changelog
 
+#### 1.6.1
+
+Added icons :
+- package-lock.json files
+
+Other changes :
+- The README.md files now displays an auto-generated list of all the icons
+
 ### 1.6.0
 
 Added icons :
@@ -15,7 +23,7 @@ Added icons :
 
 Other changes :
 - Cakefiles now have a special build icon
-- haxelib.json files now haxe the main Haxe color
+- haxelib.json files now have the main Haxe color
 
 #### 1.5.3
 
