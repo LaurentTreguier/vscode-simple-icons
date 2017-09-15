@@ -181,7 +181,7 @@ do
     $svgo_cmd -f $theme_gen_dir > /dev/null
 done
 
-for file in $(list_simple_icons)
+for file in $(ls $simple_source_dir/*)
 do
     markdown_list="$markdown_list$(basename $file)|<img width=\"16\" height=\"16\" src=\"$file\">@"
 done
