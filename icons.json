@@ -122,7 +122,7 @@
         "package.json": "nodejs",
         "package.pins": "file-swift",
         "package.swift": "build-swift",
-        "package-lock.json": "nodejs",
+        "package-lock.json": "nodejs-lock",
         "paket.dependencies": "paket",
         "paket.local": "paket",
         "paket.lock": "paket",

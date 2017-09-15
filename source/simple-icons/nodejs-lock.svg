@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <g fill="#000">
+                <circle cx="160" cy="130" r="40"/>
+                <polygon points="160,130 120,240 200,240"/>
+            </g>
+        </mask>
+    </defs>
+    <polygon fill="#7fbf00" points="160,0 300,80 300,240 160,320 20,240 20,80" mask="url(#mask)"/>
+</svg>
