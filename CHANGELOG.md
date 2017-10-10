@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.6.2
+
+Other changes :
+- The VSCode related icons now use he new orange icon (it's sad, I really like the old blue one more)
+
 #### 1.6.1
 
 Added icons :
