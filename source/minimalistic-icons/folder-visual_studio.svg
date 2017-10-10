@@ -4,6 +4,7 @@
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="#000" transform="translate(40 60) scale(0.5) translate(120 40)">
+                <polygon points="30,65 0,80 0,240 30,255"/>
                 <polygon points="30,65 320,280 240,320 0,80"/>
                 <polygon points="30,255 320,40 240,0 0,240"/>
                 <polygon points="240,0 320,40 320,280 240,320"/>

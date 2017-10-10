@@ -6,7 +6,6 @@
             <g fill="#000">
                 <polygon points="140,0 180,0 200,60 120,60"/>
                 <g transform="translate(50 80) scale(0.6875)">
-                    <polygon points="30,65 0,80 0,240 30,255"/>
                     <polygon points="30,65 320,280 240,320 0,80"/>
                     <polygon points="30,255 320,40 240,0 0,240"/>
                     <polygon points="240,0 320,40 320,280 240,320"/>
