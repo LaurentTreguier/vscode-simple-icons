@@ -45,7 +45,7 @@
         "vscode:prepublish": "bash ./generator.sh"
     },
     "devDependencies": {
-        "svgo": "^0.7.2",
-        "vsce": "^1.30.0"
+        "svgo": "^1.0.3",
+        "vsce": "^1.32.0"
     }
 }
