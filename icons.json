@@ -4,6 +4,7 @@
     "folder": "folder",
     "folderExpanded": "folder.expanded",
     "file": "file",
+    "hidesExplorerArrows":true,
     "folderNames": {
         ".dub": "folder-d",
         ".git": "folder-git",

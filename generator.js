@@ -81,7 +81,8 @@ const operations = {
             'rootFolderExpanded',
             'folder',
             'folderExpanded',
-            'file'
+            'file',
+            'hidesExplorerArrows'
         ];
 
         delete light.iconDefinitions;
