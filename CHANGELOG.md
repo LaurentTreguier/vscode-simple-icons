@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.7.0
+
+Other changes :
+- Folders don't have rotating triangles anymore thanks to [tmueller](https://github.com/tmueller) ([#28](https://github.com/LaurentTreguier/vscode-simple-icons/pull/28))
+
 #### 1.6.3
 
 Other changes :
