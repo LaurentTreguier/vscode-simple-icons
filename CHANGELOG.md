@@ -1,5 +1,12 @@
 # Changelog
 
+#### 1.7.1
+
+Added icons :
+- Git commit/rebase message files (issue [#29](https://github.com/LaurentTreguier/vscode-simple-icons/issues/29) raised by [faustinoaq](https://github.com/faustinoaq))
+- HLSL files (issue [#29](https://github.com/LaurentTreguier/vscode-simple-icons/issues/29) raised by [faustinoaq](https://github.com/faustinoaq))
+- XSL files (issue [#29](https://github.com/LaurentTreguier/vscode-simple-icons/issues/29) raised by [faustinoaq](https://github.com/faustinoaq))
+
 ### 1.7.0
 
 Other changes :
