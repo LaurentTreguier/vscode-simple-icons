@@ -63,6 +63,7 @@ cucumber.svg|<img width="16" height="16" src="source/simple-icons/cucumber.svg">
 dart.svg|<img width="16" height="16" src="source/simple-icons/dart.svg">
 database.light.svg|<img width="16" height="16" src="source/simple-icons/database.light.svg">
 database.svg|<img width="16" height="16" src="source/simple-icons/database.svg">
+directx.svg|<img width="16" height="16" src="source/simple-icons/directx.svg">
 disc.svg|<img width="16" height="16" src="source/simple-icons/disc.svg">
 docker.svg|<img width="16" height="16" src="source/simple-icons/docker.svg">
 d.svg|<img width="16" height="16" src="source/simple-icons/d.svg">
@@ -77,6 +78,7 @@ file-binary.svg|<img width="16" height="16" src="source/simple-icons/file-binary
 file-csv.svg|<img width="16" height="16" src="source/simple-icons/file-csv.svg">
 file-diff.svg|<img width="16" height="16" src="source/simple-icons/file-diff.svg">
 file-doxygen.svg|<img width="16" height="16" src="source/simple-icons/file-doxygen.svg">
+file-git.svg|<img width="16" height="16" src="source/simple-icons/file-git.svg">
 file-json-haxe.svg|<img width="16" height="16" src="source/simple-icons/file-json-haxe.svg">
 file-json.svg|<img width="16" height="16" src="source/simple-icons/file-json.svg">
 file-pdf.svg|<img width="16" height="16" src="source/simple-icons/file-pdf.svg">
@@ -86,6 +88,7 @@ file-text.svg|<img width="16" height="16" src="source/simple-icons/file-text.svg
 file-toml-rust.svg|<img width="16" height="16" src="source/simple-icons/file-toml-rust.svg">
 file-toml.svg|<img width="16" height="16" src="source/simple-icons/file-toml.svg">
 file-xml-csharp.svg|<img width="16" height="16" src="source/simple-icons/file-xml-csharp.svg">
+file-xml-css.svg|<img width="16" height="16" src="source/simple-icons/file-xml-css.svg">
 file-xml.svg|<img width="16" height="16" src="source/simple-icons/file-xml.svg">
 file-yaml.svg|<img width="16" height="16" src="source/simple-icons/file-yaml.svg">
 firebase.svg|<img width="16" height="16" src="source/simple-icons/firebase.svg">

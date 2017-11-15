@@ -396,6 +396,8 @@
         "gas": "file-binary",
         "gdscript": "godot",
         "gherkin": "cucumber",
+        "git-commit": "file-git",
+        "git-rebase": "file-git",
         "gml-gm81": "gamemaker",
         "gml-gms": "gamemaker",
         "gml-gms2": "gamemaker2",
@@ -408,6 +410,7 @@
         "handlebars": "handlebars",
         "haskell": "haskell",
         "haxe": "haxe",
+        "hlsl": "directx",
         "html": "html",
         "hxml": "haxe-chevrons",
         "ini": "config",
@@ -477,6 +480,7 @@
         "visualforce": "salesforce-chevrons",
         "vue": "vue",
         "xml": "file-xml",
+        "xsl": "file-xml-css",
         "yaml": "file-yaml"
     }
 }
