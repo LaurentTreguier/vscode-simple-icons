@@ -3,15 +3,12 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <polygon fill="#000" points="180,40 180,100 240,100"/>
             <g fill="none" stroke="#000" stroke-width="20">
                 <path d="M 140,150 Q 110,150 110,170 V 190 Q 110,210 80,210 Q 110,210 110,230 V 250 Q 110,270 140,270"/>
                 <path d="M 180,150 Q 210,150 210,170 V 190 Q 210,210 240,210 Q 210,210 210,230 V 250 Q 210,270 180,270"/>
             </g>
         </mask>
     </defs>
-    <g fill="#ffbf3f">
-        <polygon points="180,0 280,100 240,100 180,40"/>
-        <rect width="140" height="100" x="40" y="0"/>
-        <rect width="240" height="220" x="40" y="100" mask="url(#mask)"/>
-    </g>
+    <polygon fill="#ffbf3f" points="40,0 40,320 280,320 280,100 180,0" mask="url(#mask)"/>
 </svg>

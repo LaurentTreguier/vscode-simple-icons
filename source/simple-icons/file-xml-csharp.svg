@@ -3,15 +3,12 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <polygon fill="#000" points="180,40 180,100 240,100"/>
             <g fill="none" stroke="#000" stroke-width="25">
                 <polyline points="140,150 80,210 140,270"/>
                 <polyline points="180,150 240,210 180,270"/>
             </g>
         </mask>
     </defs>
-    <g fill="#bf3fbf">
-        <polygon points="180,0 280,100 240,100 180,40"/>
-        <rect width="140" height="100" x="40" y="0"/>
-        <rect width="240" height="220" x="40" y="100" mask="url(#mask)"/>
-    </g>
+    <polygon fill="#bf3fbf" points="40,0 40,320 280,320 280,100 180,0" mask="url(#mask)"/>
 </svg>

@@ -3,7 +3,10 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <rect width="320" height="320" x="0" y="0" fill="#000" mask="url(#mask-swift)" transform="translate(70 120) scale(0.5625)"/>
+            <g fill="#000">
+                <polygon points="180,40 180,100 240,100"/>
+                <rect width="320" height="320" x="0" y="0" mask="url(#mask-swift)" transform="translate(70 120) scale(0.5625)"/>
+            </g>
         </mask>
         <mask id="mask-wings">
             <rect width="480" height="480" x="-80" y="-80" fill="#fff"/>
@@ -17,9 +20,5 @@
             </g>
         </mask>
     </defs>
-    <g fill="#f05239">
-        <polygon points="180,0 280,100 240,100 180,40"/>
-        <rect width="140" height="100" x="40" y="0"/>
-        <rect width="240" height="220" x="40" y="100" mask="url(#mask)"/>
-    </g>
+    <polygon fill="#f05239" points="40,0 40,320 280,320 280,100 180,0" mask="url(#mask)"/>
 </svg>
