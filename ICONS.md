@@ -60,6 +60,7 @@ csharp.svg|<img width="16" height="16" src="source/simple-icons/csharp.svg">
 csscomb.svg|<img width="16" height="16" src="source/simple-icons/csscomb.svg">
 css.svg|<img width="16" height="16" src="source/simple-icons/css.svg">
 cucumber.svg|<img width="16" height="16" src="source/simple-icons/cucumber.svg">
+cuda.svg|<img width="16" height="16" src="source/simple-icons/cuda.svg">
 dart.svg|<img width="16" height="16" src="source/simple-icons/dart.svg">
 database.light.svg|<img width="16" height="16" src="source/simple-icons/database.light.svg">
 database.svg|<img width="16" height="16" src="source/simple-icons/database.svg">

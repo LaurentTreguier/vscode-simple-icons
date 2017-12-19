@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
+    <defs>
+        <path id="path" d="M 160,160 L 180,140 Q 120,90 60,150 Q 120,265 240,140 Q 140,25 0,140 Q 90,315 290,190 L 260,170 Q 110,285 30,145 Q 130,60 210,140 Q 130,230 80,150 Q 130,110 160,160"/>
+        <clipPath id="clip">
+            <rect width="120" height="320" x="0" y="0"/>
+        </clipPath>
+        <mask id="mask">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <use fill="#000" href="#path"/>
+        </mask>
+    </defs>
+    <g fill="#64c156">
+        <use clip-path="url(#clip)" href="#path"/>
+        <rect width="200" height="200" x="120" y="60" mask="url(#mask)"/>
+    </g>
+</svg>
