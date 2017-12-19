@@ -46,6 +46,6 @@
     },
     "devDependencies": {
         "svgo": "^1.0.3",
-        "vsce": "^1.33.2"
+        "vsce": "^1.35.0"
     }
 }
