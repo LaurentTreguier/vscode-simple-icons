@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.7.2
+
+Added icons :
+- Cuda files (issue [#31](https://github.com/LaurentTreguier/vscode-simple-icons/issues/31) raised by [yaphtes](https://github.com/yaphtes))
+
 #### 1.7.1
 
 Added icons :
