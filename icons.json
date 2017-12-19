@@ -422,6 +422,7 @@
         "javascript": "javascript",
         "javascriptreact": "react",
         "json": "file-json",
+        "jsonc": "file-json",
         "julia": "julia",
         "kotlin": "kotlin",
         "less": "less",
