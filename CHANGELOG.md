@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.8.0
+
+Other changes :
+- Folders can have rotating triangles/arrows again (issue [#32](https://github.com/LaurentTreguier/vscode-simple-icons/issues/32) raised by [Guema](https://github.com/Guema))
+
 #### 1.7.2
 
 Added icons :
