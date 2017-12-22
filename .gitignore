@@ -1,7 +1,6 @@
-.vscode/.browse.*
 node_modules
+out
 yarn.lock
-source/minimalistic-icons/*.light.svg
 gen
 icons/**/*.svg
 *-icons.json

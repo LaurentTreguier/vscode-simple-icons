@@ -41,6 +41,8 @@ function comment_sum() {
     echo "<!-- $($hash_sum $1) -->"
 }
 
+npm run compile
+
 mkdir -p {$simple_gen_dir,$simple_icons_dir,$mini_gen_dir,$mini_icons_dir}
 
 for theme_source_dir in $mini_source_dir $simple_source_dir
