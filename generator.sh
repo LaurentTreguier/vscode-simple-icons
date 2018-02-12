@@ -80,7 +80,10 @@ do
         old_color=$(get_folder_color $simple_source_dir/folder.expanded.svg)
         new_color=$(get_folder_color $folder)
         cp $simple_source_dir/folder.expanded.svg $gen_folder
-        sed -ri "s/$old_color/$new_color/g" $gen_folder
+        case "$OSTYPE" in
+            darwin*)  sed -Ei '' "s/$old_color/$new_color/g" $gen_folder ;; 
+            *)        sed -ri "s/$old_color/$new_color/g" $gen_folder ;;
+        esac
         comment_sum $folder >> $gen_folder
     fi
 done
@@ -89,7 +92,10 @@ icon_sums=
 
 for file in $(list_simple_icons)
 do
-    sum=$(cat $file | sed -r 's/"(#[0-9a-f]{6}|none)"//g' | sed -r 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1)
+    case "$OSTYPE" in
+        darwin*)  sum=$(cat $file | sed -E 's/"(#[0-9a-f]{6}|none)"//g' | sed -E 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1) ;; 
+        *)        sum=$(cat $file | sed -r 's/"(#[0-9a-f]{6}|none)"//g' | sed -r 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1) ;;
+    esac
     icon_sums="$icon_sums $sum@$(basename $file)"
 done
 
