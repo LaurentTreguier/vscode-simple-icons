@@ -212,6 +212,7 @@ python.svg|<img width="16" height="16" src="source/simple-icons/python.svg">
 raml.svg|<img width="16" height="16" src="source/simple-icons/raml.svg">
 razor.svg|<img width="16" height="16" src="source/simple-icons/razor.svg">
 react.svg|<img width="16" height="16" src="source/simple-icons/react.svg">
+reason.svg|<img width="16" height="16" src="source/simple-icons/reason.svg">
 registry.svg|<img width="16" height="16" src="source/simple-icons/registry.svg">
 rspec.svg|<img width="16" height="16" src="source/simple-icons/rspec.svg">
 r.svg|<img width="16" height="16" src="source/simple-icons/r.svg">
