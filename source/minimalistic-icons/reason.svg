@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask">
+            <rect width="320" height="320" fill="#fff"/>
+            <g fill="none" stroke="#000" stroke-linecap="square" stroke-width="20">
+                <path d="M 110,270 V 170 H 140 A 30,30 0 0,1 140,230 H 110"/>
+                <line x1="145" x2="175" y1="230" y2="290" stroke-linecap="butt"/>
+                <polyline points="270,170 210,170 210,270 270,270"/>
+                <line x1="210" x2="270" y1="230" y2="230"/>
+                <line x1="0" x2="320" y1="290" y2="290" stroke="#fff"/>
+            </g>
+        </mask>
+    </defs>
+    <rect width="320" height="320" fill="#bfbfbf" mask="url(#mask)"/>
+</svg>
