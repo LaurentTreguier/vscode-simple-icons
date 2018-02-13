@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.8.1
+
+Added icons :
+- Reason files (PR [#32](https://github.com/LaurentTreguier/vscode-simple-icons/pull/33) opened by [alexfedoseev](https://github.com/alexfedoseev))
+
 ### 1.8.0
 
 Other changes :
@@ -678,7 +683,7 @@ Updated icons :
 - The Eslint icon now actually matches the logo
 
 Other changes :
-Eslint extensions added thanks to [rhbecker](https://github.com/rhbecker) ([#1](https://github.com/LaurentTreguier/vscode-simple-icons/pull/1))
+- Eslint extensions added thanks to [rhbecker](https://github.com/rhbecker) ([#1](https://github.com/LaurentTreguier/vscode-simple-icons/pull/1))
 
 #### 0.1.5
 
