@@ -1,5 +1,10 @@
 #!/bin/bash
 
+case "$OSTYPE" in
+    darwin*)    sed_regex_option='-E' ;;
+    *)          sed_regex_option='-r' ;;
+esac
+
 hash_sum=sha256sum
 
 simple_name='simple-icons'
@@ -80,7 +85,7 @@ do
         old_color=$(get_folder_color $simple_source_dir/folder.expanded.svg)
         new_color=$(get_folder_color $folder)
         cp $simple_source_dir/folder.expanded.svg $gen_folder
-        sed -ri "s/$old_color/$new_color/g" $gen_folder
+        sed $sed_regex_option -i "s/$old_color/$new_color/g" $gen_folder
         comment_sum $folder >> $gen_folder
     fi
 done
@@ -89,7 +94,7 @@ icon_sums=
 
 for file in $(list_simple_icons)
 do
-    sum=$(cat $file | sed -r 's/"(#[0-9a-f]{6}|none)"//g' | sed -r 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1)
+    sum=$(cat $file | sed $sed_regex_option 's/"(#[0-9a-f]{6}|none)"//g' | sed 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1)
     icon_sums="$icon_sums $sum@$(basename $file)"
 done
 
