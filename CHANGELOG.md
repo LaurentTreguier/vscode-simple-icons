@@ -1,9 +1,14 @@
 # Changelog
 
+#### 1.8.2
+
+Added icons :
+- Blade PHP files (issue [#34](https://github.com/LaurentTreguier/vscode-simple-icons/issues/34) raised by [jonathanjd](https://github.com/jonathanjd))
+
 #### 1.8.1
 
 Added icons :
-- Reason files (PR [#32](https://github.com/LaurentTreguier/vscode-simple-icons/pull/33) opened by [alexfedoseev](https://github.com/alexfedoseev))
+- Reason files (PR [#33](https://github.com/LaurentTreguier/vscode-simple-icons/pull/33) opened by [alexfedoseev](https://github.com/alexfedoseev))
 
 ### 1.8.0
 
