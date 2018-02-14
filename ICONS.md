@@ -24,6 +24,7 @@ api_blueprint.svg|<img width="16" height="16" src="source/simple-icons/api_bluep
 appveyor.svg|<img width="16" height="16" src="source/simple-icons/appveyor.svg">
 archlinux.svg|<img width="16" height="16" src="source/simple-icons/archlinux.svg">
 babel.svg|<img width="16" height="16" src="source/simple-icons/babel.svg">
+blade.svg|<img width="16" height="16" src="source/simple-icons/blade.svg">
 bolt.svg|<img width="16" height="16" src="source/simple-icons/bolt.svg">
 bower.svg|<img width="16" height="16" src="source/simple-icons/bower.svg">
 build-coffeescript.svg|<img width="16" height="16" src="source/simple-icons/build-coffeescript.svg">
