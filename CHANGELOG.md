@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.8.3
+
+Added icons :
+- Jekyll files (issue [#36](https://github.com/LaurentTreguier/vscode-simple-icons/issues/36) raised by [hacknug](https://github.com/hacknug))
+
 #### 1.8.2
 
 Added icons :

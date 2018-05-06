@@ -67,10 +67,10 @@
     },
     "devDependencies": {
         "@types/bluebird": "^3.5.20",
-        "svgo": "^1.0.4",
-        "typescript": "^2.7.1",
-        "vsce": "^1.36.2",
-        "vscode": "^1.1.10"
+        "svgo": "^1.0.5",
+        "typescript": "^2.8.3",
+        "vsce": "^1.40.0",
+        "vscode": "^1.1.17"
     },
     "dependencies": {
         "bluebird": "^3.5.1"
