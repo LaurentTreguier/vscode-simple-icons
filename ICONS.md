@@ -146,6 +146,8 @@ javascript-lint.svg|<img width="16" height="16" src="source/simple-icons/javascr
 javascript.svg|<img width="16" height="16" src="source/simple-icons/javascript.svg">
 javascript-test.svg|<img width="16" height="16" src="source/simple-icons/javascript-test.svg">
 java.svg|<img width="16" height="16" src="source/simple-icons/java.svg">
+jekyll.light.svg|<img width="16" height="16" src="source/simple-icons/jekyll.light.svg">
+jekyll.svg|<img width="16" height="16" src="source/simple-icons/jekyll.svg">
 julia.svg|<img width="16" height="16" src="source/simple-icons/julia.svg">
 karma.svg|<img width="16" height="16" src="source/simple-icons/karma.svg">
 kotlin.svg|<img width="16" height="16" src="source/simple-icons/kotlin.svg">
