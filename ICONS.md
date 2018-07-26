@@ -43,6 +43,7 @@ codeclimate.svg|<img width="16" height="16" src="source/simple-icons/codeclimate
 codecov.svg|<img width="16" height="16" src="source/simple-icons/codecov.svg">
 coffeescript.svg|<img width="16" height="16" src="source/simple-icons/coffeescript.svg">
 config-graphql.svg|<img width="16" height="16" src="source/simple-icons/config-graphql.svg">
+config-javascript.svg|<img width="16" height="16" src="source/simple-icons/config-javascript.svg">
 config.light.svg|<img width="16" height="16" src="source/simple-icons/config.light.svg">
 config-nim.svg|<img width="16" height="16" src="source/simple-icons/config-nim.svg">
 config-postcss.svg|<img width="16" height="16" src="source/simple-icons/config-postcss.svg">
@@ -207,6 +208,7 @@ php.svg|<img width="16" height="16" src="source/simple-icons/php.svg">
 point_cloud_library.svg|<img width="16" height="16" src="source/simple-icons/point_cloud_library.svg">
 polymer.svg|<img width="16" height="16" src="source/simple-icons/polymer.svg">
 postcss.svg|<img width="16" height="16" src="source/simple-icons/postcss.svg">
+posthtml.svg|<img width="16" height="16" src="source/simple-icons/posthtml.svg">
 powershell.svg|<img width="16" height="16" src="source/simple-icons/powershell.svg">
 protractor.svg|<img width="16" height="16" src="source/simple-icons/protractor.svg">
 pug.svg|<img width="16" height="16" src="source/simple-icons/pug.svg">

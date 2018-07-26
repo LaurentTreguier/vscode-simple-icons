@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask-back">
+            <path fill="#fff" d="M 160,120 Q 130,120 100,100 Q 85,90 70,90 A 70,70 0 0,0 0,160 A 70,70 0 0,0 70,230 Q 85,230 100,220 Q 130,200 160,200 Q 190,200 220,220 Q 235,230 250,230 A 70,70 0 0,0 320,160 A 70,70 0 0,0 250,90 Q 235,90 220,100 Q 190,120 160,120"/>
+        </mask>
+        <mask id="mask-front">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <path fill="none" stroke="#000" stroke-width="50" d="M 10,80 C -60,180 30,240 100,200 L 220,120 C 290,80 380,140 310,240"/>
+        </mask>
+    </defs>
+    <g mask="url(#mask-back)">
+        <rect width="320" height="320" x="0" y="0" fill="#bfbfbf" mask="url(#mask-front)"/>
+        <path fill="none" stroke="#bfbfbf" stroke-width="20" d="M 10,80 C -60,180 30,240 100,200 L 220,120 C 290,80 380,140 310,240"/>
+    </g>
+</svg>
