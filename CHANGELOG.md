@@ -1,5 +1,13 @@
 # Changelog
 
+#### 1.8.4
+
+Added icons :
+- Posthtml files (issue [#36](https://github.com/LaurentTreguier/vscode-simple-icons/issues/38) raised by [hacknug](https://github.com/hacknug))
+
+Other changes :
+- `.dpp` and `d++` files now have the d icon
+
 #### 1.8.3
 
 Added icons :
@@ -209,8 +217,8 @@ Added icons :
 
 Other changes :
 - Icons containing text now use fonts that are pre-installed on most operating systems
-- .tmLanguage files now use the XML icon
-- .n, .ndll and .o files now use the lib icon
+- `.tmLanguage` files now have the XML icon
+- `.n`, `.ndll` and `.o` files now have the lib icon
 
 #### 1.2.2
 
@@ -260,8 +268,8 @@ Added icons :
 - Favicon files (issue [#17](https://github.com/LaurentTreguier/vscode-simple-icons/issues/17) raised by [yaphtes](https://github.com/yaphtes))
 
 Other changes :
-- Cmakelists.txt files now use the cmake icon
-- .github folders now use the git folder icon
+- Cmakelists.txt files now have the cmake icon
+- .github folders now have the git folder icon
 
 #### 1.0.1
 
@@ -349,7 +357,7 @@ Updated icons :
 
 Other changes :
 - `.nimble` files now have the Nim icon
-- `.eslintignore` files new have the Eslint icon thanks to [sjml](https://github.com/sjml) ([#6](https://github.com/LaurentTreguier/vscode-simple-icons/pull/6))
+- `.eslintignore` files now have the Eslint icon thanks to [sjml](https://github.com/sjml) ([#6](https://github.com/LaurentTreguier/vscode-simple-icons/pull/6))
 
 ### 0.9.0
 
@@ -579,7 +587,7 @@ Other added icons :
 - Webpack files
 
 Other changes :
-- Cakefiles and rakefiles now use the build icon
+- Cakefiles and rakefiles now have the build icon
 
 ### 0.5.0
 
