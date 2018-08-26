@@ -66,13 +66,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "@types/bluebird": "^3.5.23",
         "svgo": "^1.0.5",
-        "typescript": "^2.9.2",
-        "vsce": "^1.44.0",
-        "vscode": "^1.1.18"
+        "typescript": "^3.0.1",
+        "vsce": "^1.46.0",
+        "vscode": "^1.1.21"
     },
-    "dependencies": {
-        "bluebird": "^3.5.1"
-    }
+    "dependencies": {}
 }
