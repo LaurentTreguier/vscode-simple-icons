@@ -13,26 +13,34 @@ function toggleArrows(context: vscode.ExtensionContext) {
     const jsonFiles = ['simple', 'minimalistic']
         .map(name => context.asAbsolutePath(name + '-icons.json'));
 
-    jsonFiles.forEach(file =>
+    Promise.all(jsonFiles.map(file =>
         new Promise(resolve => fs.readFile(file, (err, data) => resolve(data)))
             .then(data => JSON.parse(data.toString()))
             .then(json => {
                 let conf = !!vscode.workspace.getConfiguration('simpleIcons').get('hideArrows', false);
 
                 if (json.hidesExplorerArrows === conf) {
-                    throw new Error('No changes to be made');
+                    return null;
                 }
 
                 json.hidesExplorerArrows = conf;
                 return JSON.stringify(json, null, 4);
             })
-            .then(jsonString => new Promise(resolve => fs.writeFile(file, jsonString, resolve)))
-            .then(() => vscode.window.showInformationMessage('The window must be reloaded for changes to take effet', 'Reload'))
-            .then(choice => {
-                if (choice === 'Reload') {
-                    vscode.commands.executeCommand('workbench.action.reloadWindow');
+            .then(jsonString => {
+                if (jsonString) {
+                    new Promise(resolve => fs.writeFile(file, jsonString, resolve))
                 }
-            })
-            .catch(err => ({}))
-    )
+
+                return !!jsonString;
+            })))
+        .then((results) => {
+            if (results.indexOf(true) !== -1) {
+                return vscode.window.showInformationMessage('The window must be reloaded for changes to take effet', 'Reload');
+            }
+        })
+        .then(choice => {
+            if (choice) {
+                vscode.commands.executeCommand('workbench.action.reloadWindow');
+            }
+        });
 }
