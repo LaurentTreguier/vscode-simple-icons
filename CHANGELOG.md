@@ -1,9 +1,14 @@
 # Changelog
 
+#### 1.8.5
+
+Other changes :
+- Racket files now use the scheme icon (issue [#40](https://github.com/LaurentTreguier/vscode-simple-icons/issues/40) raised by [midnio](https://github.com/midnio))
+
 #### 1.8.4
 
 Added icons :
-- Posthtml files (issue [#36](https://github.com/LaurentTreguier/vscode-simple-icons/issues/38) raised by [hacknug](https://github.com/hacknug))
+- Posthtml files (issue [#38](https://github.com/LaurentTreguier/vscode-simple-icons/issues/38) raised by [hacknug](https://github.com/hacknug))
 
 Other changes :
 - `.dpp` and `d++` files now have the d icon
