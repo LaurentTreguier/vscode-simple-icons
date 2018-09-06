@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.8.6
+
+Other changes :
+- `.env` files now use the config icon (issue [#41](https://github.com/LaurentTreguier/vscode-simple-icons/issues/41) raised by [yaphtes](https://github.com/yaphtes))
+
 #### 1.8.5
 
 Other changes :
