@@ -232,6 +232,7 @@
         "ejs": "javascript-chevrons",
         "elm": "elm",
         "ensime": "ensime",
+        "env": "config",
         "exe": "lib",
         "feature": "cucumber",
         "fla": "adobe-animate",
