@@ -386,7 +386,7 @@
         "bat": "console",
         "blade": "blade",
         "bolt": "bolt",
-        "c": "cpp",
+        "c": "c",
         "cabal": "haskell",
         "clojure": "clojure",
         "cmake": "cmake",

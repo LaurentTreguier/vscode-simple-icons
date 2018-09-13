@@ -61,6 +61,7 @@ crystal.svg|<img width="16" height="16" src="source/simple-icons/crystal.svg">
 csharp.svg|<img width="16" height="16" src="source/simple-icons/csharp.svg">
 csscomb.svg|<img width="16" height="16" src="source/simple-icons/csscomb.svg">
 css.svg|<img width="16" height="16" src="source/simple-icons/css.svg">
+c.svg|<img width="16" height="16" src="source/simple-icons/c.svg">
 cucumber.svg|<img width="16" height="16" src="source/simple-icons/cucumber.svg">
 cuda.svg|<img width="16" height="16" src="source/simple-icons/cuda.svg">
 dart.svg|<img width="16" height="16" src="source/simple-icons/dart.svg">
