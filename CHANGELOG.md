@@ -1,5 +1,14 @@
 # Changelog
 
+#### 1.8.7
+
+Added icons :
+- C files (issue [#42](https://github.com/LaurentTreguier/vscode-simple-icons/issues/42) raised by [GrizzlyHills](https://github.com/GrizzlyHills))
+
+Other changes :
+- The C# icon is now green like the Visual Studio one
+- The C++ icon is now bolder
+
 #### 1.8.6
 
 Other changes :
