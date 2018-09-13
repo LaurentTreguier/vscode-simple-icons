@@ -5,11 +5,11 @@
             <polygon points="0,0 220,0 220,80 60,160 220,240 220,320 0,320"/>
         </clipPath>
     </defs>
-    <g fill="none" stroke="#bf3fbf" stroke-width="20">
+    <g fill="none" stroke="#3f9f3f" stroke-width="20">
         <line x1="200" x2="320" y1="130" y2="130"/>
         <line x1="200" x2="320" y1="190" y2="190"/>
         <line x1="230" x2="230" y1="100" y2="220"/>
         <line x1="290" x2="290" y1="100" y2="220"/>
-        <ellipse cx="100" cy="160" stroke-width="40" clip-path="url(#clip)" rx="80" ry="100"/>
+        <ellipse cx="110" cy="160" stroke-width="40" clip-path="url(#clip)" rx="90" ry="100"/>
     </g>
 </svg>
