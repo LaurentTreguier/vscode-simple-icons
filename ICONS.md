@@ -23,6 +23,7 @@ apache.svg|<img width="16" height="16" src="source/simple-icons/apache.svg">
 api_blueprint.svg|<img width="16" height="16" src="source/simple-icons/api_blueprint.svg">
 appveyor.svg|<img width="16" height="16" src="source/simple-icons/appveyor.svg">
 archlinux.svg|<img width="16" height="16" src="source/simple-icons/archlinux.svg">
+azure_pipelines.svg|<img width="16" height="16" src="source/simple-icons/azure_pipelines.svg">
 babel.svg|<img width="16" height="16" src="source/simple-icons/babel.svg">
 blade.svg|<img width="16" height="16" src="source/simple-icons/blade.svg">
 bolt.svg|<img width="16" height="16" src="source/simple-icons/bolt.svg">
@@ -30,6 +31,7 @@ bower.svg|<img width="16" height="16" src="source/simple-icons/bower.svg">
 build-coffeescript.svg|<img width="16" height="16" src="source/simple-icons/build-coffeescript.svg">
 build-d.svg|<img width="16" height="16" src="source/simple-icons/build-d.svg">
 build-idris.svg|<img width="16" height="16" src="source/simple-icons/build-idris.svg">
+build-nodejs.svg|<img width="16" height="16" src="source/simple-icons/build-nodejs.svg">
 build-ruby.svg|<img width="16" height="16" src="source/simple-icons/build-ruby.svg">
 build.svg|<img width="16" height="16" src="source/simple-icons/build.svg">
 build-swift.svg|<img width="16" height="16" src="source/simple-icons/build-swift.svg">
@@ -100,6 +102,7 @@ flash.svg|<img width="16" height="16" src="source/simple-icons/flash.svg">
 flow.svg|<img width="16" height="16" src="source/simple-icons/flow.svg">
 folder-bower.svg|<img width="16" height="16" src="source/simple-icons/folder-bower.svg">
 folder-build.svg|<img width="16" height="16" src="source/simple-icons/folder-build.svg">
+folder-ci.svg|<img width="16" height="16" src="source/simple-icons/folder-ci.svg">
 folder-d.svg|<img width="16" height="16" src="source/simple-icons/folder-d.svg">
 folder.expanded.svg|<img width="16" height="16" src="source/simple-icons/folder.expanded.svg">
 folder-git.svg|<img width="16" height="16" src="source/simple-icons/folder-git.svg">
