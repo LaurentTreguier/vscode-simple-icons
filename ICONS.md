@@ -24,6 +24,7 @@ api_blueprint.svg|<img width="16" height="16" src="source/simple-icons/api_bluep
 appveyor.svg|<img width="16" height="16" src="source/simple-icons/appveyor.svg">
 archlinux.svg|<img width="16" height="16" src="source/simple-icons/archlinux.svg">
 azure_pipelines.svg|<img width="16" height="16" src="source/simple-icons/azure_pipelines.svg">
+azure.svg|<img width="16" height="16" src="source/simple-icons/azure.svg">
 babel.svg|<img width="16" height="16" src="source/simple-icons/babel.svg">
 blade.svg|<img width="16" height="16" src="source/simple-icons/blade.svg">
 bolt.svg|<img width="16" height="16" src="source/simple-icons/bolt.svg">
@@ -261,5 +262,6 @@ visual_basic.svg|<img width="16" height="16" src="source/simple-icons/visual_bas
 visual_studio.svg|<img width="16" height="16" src="source/simple-icons/visual_studio.svg">
 vscode.svg|<img width="16" height="16" src="source/simple-icons/vscode.svg">
 vue.svg|<img width="16" height="16" src="source/simple-icons/vue.svg">
+webassembly.svg|<img width="16" height="16" src="source/simple-icons/webassembly.svg">
 webpack.svg|<img width="16" height="16" src="source/simple-icons/webpack.svg">
 yarn.svg|<img width="16" height="16" src="source/simple-icons/yarn.svg">
