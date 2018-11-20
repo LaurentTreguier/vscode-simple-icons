@@ -12,7 +12,7 @@
             <rect width="240" height="480" x="160" y="-80" fill="#ffdf3f"/>
         </g>
     </g>
-    <g fill="#fff" transform="translate(40 60) scale(0.5) translate(120 40)">
+    <g fill="#ffffff" transform="translate(40 60) scale(0.5) translate(120 40)">
         <ellipse cx="30" cy="160" rx="30" ry="80"/>
         <rect width="130" height="160" x="30" y="80"/>
         <ellipse cx="290" cy="160" rx="30" ry="80"/>

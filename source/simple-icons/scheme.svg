@@ -7,7 +7,7 @@
     </defs>
     <g clip-path="url(#clip)">
         <rect width="320" height="320" x="0" y="0" fill="#0000bf"/>
-        <g stroke="#fff" stroke-width="40">
+        <g stroke="#ffffff" stroke-width="40">
             <path id="path" fill="#bf0000" d="M -20,-320 L 380,640 L -480,480 V -480"/>
             <line x1="60" x2="160" y1="320" y2="120"/>
         </g>

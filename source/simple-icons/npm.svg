@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <polygon fill="#cb3837" points="0,100 320,100 320,220 140,220 140,240 80,240 80,220 0,220"/>
-    <g fill="none" stroke="#fff" stroke-width="20">
+    <g fill="none" stroke="#ffffff" stroke-width="20">
         <polyline points="30,200 30,130 70,130 70,200"/>
         <polyline points="110,220 110,130 170,130 170,170 110,170"/>
         <polyline points="210,200 210,130 250,130 250,200 250,130 290,130 290,200"/>

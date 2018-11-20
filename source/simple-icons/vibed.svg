@@ -14,7 +14,7 @@
             <polygon fill="#000" points="0,0 160,0 160,160"/>
         </mask>
     </defs>
-    <g fill="#000" mask="url(#mask-hole)">
+    <g fill="#000000" mask="url(#mask-hole)">
         <circle cx="160" cy="160" r="160" mask="url(#mask-arrow)"/>
         <use fill="#ffe4a4" xlink:href="#circle"/>
         <use fill="#d58f23" clip-path="url(#clip)" xlink:href="#circle"/>

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-case "$OSTYPE" in
+case "$(uname | tr '[:upper:]' '[:lower:]')" in
     darwin*)    sed_regex_option='-E' ;;
     *)          sed_regex_option='-r' ;;
 esac
@@ -29,14 +29,14 @@ function list_simple_icons() {
 }
 
 function get_folder_color() {
-    grep -Eo '(rect|polygon)[^#]+fill="#[0-9a-f]{6}"' $1 | grep -Eo '#.{6}'
+    grep -Eo '(rect|polygon)[^#]+fill="#[0-9a-f]{6}"' $1 | head -n 1 | grep -Eo '#.{6}'
 }
 
 function validate_sums() {
     if [[ -f $1 ]] && [[ -f $2 ]]
     then
-        sum="$(tail -1 $2 | grep -Eo '\w+' | head -1)"
-        [[ "$($hash_sum $1 | grep -Eo '\w+' | head -1)" = "$sum" ]]
+        sum="$(tail -1 $2 | grep -Eo '\w+' | head -n 1)"
+        [[ "$($hash_sum $1 | grep -Eo '\w+' | head -n 1)" = "$sum" ]]
     else
         false
     fi
@@ -94,7 +94,7 @@ icon_sums=
 
 for file in $(list_simple_icons)
 do
-    sum=$(cat $file | sed $sed_regex_option 's/"(#[0-9a-f]{6}|none)"//g' | sed 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -1)
+    sum=$(cat $file | sed $sed_regex_option 's/"(#[0-9a-f]{6}|none)"//g' | sed 's/<!\-\-.*\-\->//g' | tr -d '[:space:]' | $hash_sum | grep -Eo '\w+' | head -n 1)
     icon_sums="$icon_sums $sum@$(basename $file)"
 done
 
@@ -106,7 +106,7 @@ do
     do
         file=${file/.light/}
 
-        if [[ ! -z $(echo $icon_redirects | grep -E "(^| )${file/.svg/}(.light)?.svg@") ]] \
+        if [[ -n $(echo $icon_redirects | grep -E "(^| )${file/.svg/}(.light)?.svg@") ]] \
             || ( [[ ! -f $simple_source_dir/$file ]] && [[ ! -f $simple_gen_dir/$file ]] )
         then
             file=${file/.svg/}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
-    <g fill="#fff" stroke="#a33539" stroke-width="20">
+    <g fill="#ffffff" stroke="#a33539" stroke-width="20">
         <ellipse cx="220" cy="240" rx="90" ry="40"/>
         <rect width="140" height="160" x="160" y="80" stroke="none"/>
         <ellipse cx="220" cy="160" rx="90" ry="40"/>
@@ -9,7 +9,7 @@
         <line x1="310" x2="310" y1="80" y2="240"/>
     </g>
     <polygon fill="#a33539" points="0,40 160,0 160,320 0,280"/>
-    <text x="20" y="220" fill="#fff" font-family="Arial" font-size="160" font-weight="bold">
+    <text x="20" y="220" fill="#ffffff" font-family="Arial" font-size="160" font-weight="bold">
         A
     </text>
 </svg>

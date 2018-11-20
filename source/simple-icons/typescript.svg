@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <rect width="320" height="320" x="0" y="0" fill="#007acc"/>
-    <g fill="none" stroke="#fff" stroke-width="20" transform="translate(80 160)">
+    <g fill="none" stroke="#ffffff" stroke-width="20" transform="translate(80 160)">
         <line x1="0" x2="100" y1="10" y2="10"/>
         <line x1="50" x2="50" y1="10" y2="120"/>
         <path d="M 200,10 H 160 Q 130,10 130,30 Q 130,50 160,60 Q 190,70 190,90 Q 190,110 160,110 H 120"/>

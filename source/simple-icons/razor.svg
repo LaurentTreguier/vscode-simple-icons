@@ -13,7 +13,7 @@
         <use fill="#e44d26" xlink:href="#polygon"/>
         <use fill="#f16529" clip-path="url(#clip-half)" xlink:href="#polygon"/>
     </g>
-    <text x="55" y="220" fill="#fff" font-family="Arial" font-size="220" font-weight="bold">
+    <text x="55" y="220" fill="#ffffff" font-family="Arial" font-size="220" font-weight="bold">
         @
     </text>
 </svg>

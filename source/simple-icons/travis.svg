@@ -23,11 +23,11 @@
         <line x1="120" x2="200" y1="40" y2="40"/>
         <line x1="160" x2="160" y1="40" y2="120"/>
     </g>
-    <g fill="#000">
+    <g fill="#000000">
         <circle cx="110" cy="185" r="15"/>
         <circle cx="210" cy="185" r="15"/>
     </g>
-    <g fill="#fff">
+    <g fill="#ffffff">
         <circle cx="112" cy="180" r="3"/>
         <circle cx="208" cy="180" r="3"/>
     </g>

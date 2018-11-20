@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
-    <g fill="#fff" stroke="#7f377a" stroke-width="20">
+    <g fill="#ffffff" stroke="#7f377a" stroke-width="20">
         <polyline points="160,50 270,50 270,70 310,70 310,130 270,130 270,270 160,270"/>
         <rect width="40" height="60" x="270" y="130"/>
         <rect width="40" height="60" x="270" y="190"/>
@@ -12,7 +12,7 @@
         <rect width="80" height="20" x="160" y="160"/>
         <rect width="80" height="20" x="160" y="200"/>
     </g>
-    <text x="20" y="220" fill="#fff" font-family="Arial" font-size="160" font-weight="bold">
+    <text x="20" y="220" fill="#ffffff" font-family="Arial" font-size="160" font-weight="bold">
         N
     </text>
 </svg>

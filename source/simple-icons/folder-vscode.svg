@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <rect width="280" height="200" x="40" y="60" fill="#007acc"/>
     <polyline fill="none" stroke="#007acc" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
-    <g fill="#fff" transform="translate(40 60) scale(0.5) translate(120 40)">
+    <g fill="#ffffff" transform="translate(40 60) scale(0.5) translate(120 40)">
         <polygon points="30,65 320,280 240,320 0,80"/>
         <polygon points="30,255 320,40 240,0 0,240"/>
         <polygon points="240,0 320,40 320,280 240,320"/>

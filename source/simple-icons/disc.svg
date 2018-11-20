@@ -19,7 +19,7 @@
             <circle cx="160" cy="160" r="60" fill="#dfdfdf" stroke="#7f7f7f" stroke-width="10"/>
         </g>
         <g mask="url(#mask-reflection)">
-            <polygon fill="#fff" points="0,60 60,0 260,320 320,260"/>
+            <polygon fill="#ffffff" points="0,60 60,0 260,320 320,260"/>
             <polygon fill="#dfffff" points="260,0 320,60 0,260 60,320"/>
         </g>
     </g>

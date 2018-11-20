@@ -9,5 +9,5 @@
         <use transform="rotate(240 160 160)" xlink:href="#rect"/>
         <use transform="rotate(300 160 160)" xlink:href="#rect"/>
     </g>
-    <path fill="none" stroke="#fff" stroke-width="30" d="M 45,95 H 80 C 160,95 160,225 80,225 H 45 V 95 Z" transform="translate(70 40) scale(0.75) scale(1.4, 1)"/>
+    <path fill="none" stroke="#ffffff" stroke-width="30" d="M 45,95 H 80 C 160,95 160,225 80,225 H 45 V 95 Z" transform="translate(70 40) scale(0.75) scale(1.4, 1)"/>
 </svg>

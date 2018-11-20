@@ -13,6 +13,6 @@
         <rect width="40" height="40" x="160" y="100"/>
         <rect width="40" height="40" x="100" y="40"/>
     </g>
-    <circle cx="90" cy="210" r="10" fill="#000" stroke="#fff" stroke-width="3"/>
-    <polygon fill="#fff" points="0,230 80,220 140,280 0,320" clip-path="url(#clip)"/>
+    <circle cx="90" cy="210" r="10" fill="#000000" stroke="#ffffff" stroke-width="3"/>
+    <polygon fill="#ffffff" points="0,230 80,220 140,280 0,320" clip-path="url(#clip)"/>
 </svg>

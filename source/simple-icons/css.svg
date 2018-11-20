@@ -14,7 +14,7 @@
         <use fill="#1473b7" xlink:href="#polygon"/>
         <use fill="#34a9dc" clip-path="url(#clip-half)" xlink:href="#polygon"/>
     </g>
-    <g stroke="#fff" stroke-width="35">
+    <g stroke="#ffffff" stroke-width="35">
         <polyline fill="none" points="237.5,0 229.5,80 90.5,80 97.5,150 222.5,150 215,225 160,240 105,225 101.5,190" clip-path="url(#clip-top)"/>
         <line x1="238" x2="86" y1="80" y2="150"/>
     </g>

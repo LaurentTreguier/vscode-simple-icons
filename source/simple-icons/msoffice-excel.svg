@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <g stroke="#1f7244" stroke-width="20">
-        <polyline fill="#fff" points="160,50 310,50 310,270 160,270"/>
+        <polyline fill="#ffffff" points="160,50 310,50 310,270 160,270"/>
         <line x1="160" x2="280" y1="90" y2="90"/>
         <line x1="160" x2="280" y1="130" y2="130"/>
         <line x1="160" x2="280" y1="170" y2="170"/>
         <line x1="160" x2="280" y1="210" y2="210"/>
-        <line x1="210" x2="210" y1="80" y2="220" stroke="#fff"/>
+        <line x1="210" x2="210" y1="80" y2="220" stroke="#ffffff"/>
     </g>
     <polygon fill="#1f7244" points="0,40 160,0 160,320 0,280"/>
-    <text x="25" y="220" fill="#fff" font-family="Arial" font-size="160" font-weight="bold">
+    <text x="25" y="220" fill="#ffffff" font-family="Arial" font-size="160" font-weight="bold">
         X
     </text>
 </svg>

@@ -13,15 +13,15 @@
         <polygon points="90,78 0,130 50,190"/>
         <polygon points="230,78 320,130 270,190"/>
     </g>
-    <g fill="#000">
+    <g fill="#000000">
         <circle cx="95" cy="145" r="20"/>
         <circle cx="225" cy="145" r="20"/>
     </g>
-    <g fill="#fff">
+    <g fill="#ffffff">
         <circle cx="105" cy="140" r="5"/>
         <circle cx="215" cy="140" r="5"/>
     </g>
-    <g stroke="#000" stroke-width="10">
+    <g stroke="#000000" stroke-width="10">
         <path fill="none" d="M 130,220 Q 160,160 190,220"/>
         <line x1="160" x2="160" y1="160" y2="190"/>
     </g>

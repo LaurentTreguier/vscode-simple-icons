@@ -2,5 +2,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <rect width="280" height="200" x="40" y="60" fill="#e7bf55"/>
     <polyline fill="none" stroke="#e7bf55" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
-    <polygon fill="#fff" points="160,0 320,80 320,240 160,320 0,240 0,80" transform="translate(40 60) scale(0.5) translate(120 40)"/>
+    <polygon fill="#ffffff" points="160,0 320,80 320,240 160,320 0,240 0,80" transform="translate(40 60) scale(0.5) translate(120 40)"/>
 </svg>

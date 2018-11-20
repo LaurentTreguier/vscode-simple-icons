@@ -18,5 +18,5 @@
         <path fill="#cecece" d="M 180,80 Q 160,100 180,120 L 205,110 203,100 Q 220,100 240,110 220,80 180,80 Z"/>
     </g>
     <circle cx="120" cy="90" r="20" fill="#543729" stroke="#ffcc2f" stroke-width="10"/>
-    <ellipse cx="120" cy="85" fill="#fff" rx="8" ry="6"/>
+    <ellipse cx="120" cy="85" fill="#ffffff" rx="8" ry="6"/>
 </svg>

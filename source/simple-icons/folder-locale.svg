@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <rect width="280" height="200" x="40" y="60" fill="#7f5fdf"/>
     <polyline fill="none" stroke="#7f5fdf" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
-    <g fill="none" stroke="#fff" stroke-linecap="square" stroke-linejoin="round" stroke-width="20" transform="translate(120 80)">
+    <g fill="none" stroke="#ffffff" stroke-linecap="square" stroke-linejoin="round" stroke-width="20" transform="translate(120 80)">
         <polyline points="10,150 10,50 50,10 70,10 110,50 110,150"/>
         <line x1="10" x2="110" y1="90" y2="90"/>
     </g>

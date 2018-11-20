@@ -9,6 +9,6 @@
         <use transform="rotate(240 160 160)" xlink:href="#rect"/>
         <use transform="rotate(300 160 160)" xlink:href="#rect"/>
     </g>
-    <ellipse cx="160" cy="160" fill="#fff" rx="60" ry="80"/>
+    <ellipse cx="160" cy="160" fill="#ffffff" rx="60" ry="80"/>
     <line x1="160" x2="160" y1="80" y2="240" stroke="#3f4f7f" stroke-width="20"/>
 </svg>
