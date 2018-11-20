@@ -1,5 +1,20 @@
 # Changelog
 
+### 1.9.0
+
+Added icons:
+- `.node` files
+- `ci` folder files
+- Azure cli files
+- Azure pipelines files
+- WebAssembly files
+
+Updated icons :
+- Dart files
+
+Other changes:
+- `.angular.json` files now use the angular icon
+
 #### 1.8.7
 
 Added icons :
@@ -25,7 +40,7 @@ Added icons :
 - Posthtml files (issue [#38](https://github.com/LaurentTreguier/vscode-simple-icons/issues/38) raised by [hacknug](https://github.com/hacknug))
 
 Other changes :
-- `.dpp` and `d++` files now have the d icon
+- `.dpp` and `.d++` files now have the d icon
 
 #### 1.8.3
 
@@ -77,19 +92,19 @@ Other changes :
 #### 1.6.1
 
 Added icons :
-- package-lock.json files
+- `package-lock.json` files
 
 Other changes :
-- The README.md files now displays an auto-generated list of all the icons
+- `README.md` files now displays an auto-generated list of all the icons
 
 ### 1.6.0
 
 Added icons :
-- .haxelib folders
-- .rspec files
+- `.haxelib` folders
+- `.rspec` files
+- `codeclimate.yml` files
 - Ansible files
 - C# project files
-- codeclimate.yml files
 - Flow files
 - Haxedevelop project files
 - RAML files
@@ -97,18 +112,18 @@ Added icons :
 
 Other changes :
 - Cakefiles now have a special build icon
-- haxelib.json files now have the main Haxe color
+- `haxelib.json` files now have the main Haxe color
 
 #### 1.5.3
 
 Added icons :
-- Cargo.lock files
-- Package.pins files
-- Package.swift files
+- `Cargo.lock` files
+- `Package.pins` files
+- `Package.swift` files
 
 Other changes :
 - Fixed Objective-C files not having any icon
-- Cargo.toml files now have the Rust color
+- `Cargo.toml` files now have the Rust color
 - The map-css icon now has the light version it was always supposed to have
 - The special package icons now have a slightly bigger logo
 
@@ -135,7 +150,7 @@ Other changes :
 ### 1.5.0
 
 Added icons :
-- .sequalizerc files
+- `.sequalizerc` files
 - Bolt files
 - Ensime files
 - Game Maker files
@@ -147,8 +162,8 @@ Added icons :
 - Simple Build Tool (SBT) files
 
 Other changes :
-- .npmrc files now have the NPM icon
-- package-lock.json files now have the NodeJS icon
+- `.npmrc` files now have the NPM icon
+- `package-lock.json` files now have the NodeJS icon
 
 #### 1.4.3
 
@@ -157,7 +172,7 @@ Added icons :
 
 Other changes :
 - The Crystal icons' colors have been toned down to be less aggressive on the eyes, and they are not tilted anymore
-- spec folders now have the test icon
+- `spec` folders now have the test icon
 
 #### 1.4.2
 
@@ -186,10 +201,10 @@ Added icons :
 - PostCSS files
 
 Other changes :
-- .jshintignore files now have the JSHint icon
-- .jsx and .tsx spec and test files now have the javascript and typescript test icons respectively
-- .log files now have the text icon
-- .scssm files now have the SCSS icon
+- `.jshintignore` files now have the JSHint icon
+- `.jsx` and `.tsx` spec and test files now have the javascript and typescript test icons respectively
+- `.log` files now have the text icon
+- `.scssm` files now have the SCSS icon
 - The build icons are now slightly different from the lib icons (they have a different angle)
 
 #### 1.3.1
@@ -199,8 +214,8 @@ Added icons :
 - VisualForce files (issue [#20](https://github.com/LaurentTreguier/vscode-simple-icons/issues/20) raised by [aSooker](https://github.com/aSooker))
 
 Other changes :
-- docker-cloud.yml and docker-compose.yml files now have the Docker icon
-- i18n and g11n folders now have the locale icon
+- `docker-cloud.yml` and `docker-compose.yml` files now have the Docker icon
+- `i18n` and `g11n` folders now have the locale icon
 - A bunch of angular file extensions have been added
 
 ### 1.3.0
@@ -215,12 +230,12 @@ Added icons :
 - Vagrant files
 
 Other changes :
-- The D icons no longer use text tags and should now always look exactly as they should
+- The D icons no longer use text tags and should now always look exactly as they are supposed to
 - PL/SQL files will be taken into account correctly (a typo has been corrected)
-- .appveyor.yaml and .appveyor.yml files now have the Appveyor icon
-- .gitconfig files now have the git icon
-- .test.js and .test.ts files now have the Javascript and Typescript test icons
-- .yarnclean files now have the yarn icon
+- `.appveyor.yaml` and `.appveyor.yml` files now have the Appveyor icon
+- `.gitconfig` files now have the git icon
+- `.test.js` and `.test.ts` files now have the Javascript and Typescript test icons
+- `.yarnclean` files now have the yarn icon
 
 #### 1.2.4
 
@@ -248,7 +263,7 @@ Added icons :
 Other changes :
 - Added licenses for the project's code (MIT) and content (CC0)
 - Multipass has been enabled for SVGO, resulting in smaller icon sizes in a lot of cases
-- .yarn-integrity files now have the yarn icon
+- `.yarn-integrity` files now have the yarn icon
 
 #### 1.2.1
 
@@ -262,7 +277,7 @@ Updated icons :
 - The markdown icon is now a bit clearer to see
 
 Other changes :
-- .gitmodules files now have the git icon
+- `.gitmodules` files now have the git icon
 
 ### 1.2.0
 
@@ -287,8 +302,8 @@ Added icons :
 - Favicon files (issue [#17](https://github.com/LaurentTreguier/vscode-simple-icons/issues/17) raised by [yaphtes](https://github.com/yaphtes))
 
 Other changes :
-- Cmakelists.txt files now have the cmake icon
-- .github folders now have the git folder icon
+- `Cmakelists.txt` files now have the cmake icon
+- `.github` folders now have the git folder icon
 
 #### 1.0.1
 
@@ -542,7 +557,7 @@ Converted to SVG :
 #### 0.7.3
 
 Added icons :
-- .npmignore files
+- `.npmignore` files
 
 Converted to SVG :
 - Assembly files
@@ -635,7 +650,7 @@ Added icons for the following languages :
 - Assembly
 
 Other added icons :
-- \_\_pycache__ folders
+- `__pycache__` folders
 - Appveyor files
 - Gemfile files
 - Ionic project files

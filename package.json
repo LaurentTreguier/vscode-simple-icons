@@ -66,9 +66,9 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "svgo": "^1.0.5",
-        "typescript": "^3.0.3",
-        "vsce": "^1.48.0",
+        "svgo": "^1.1.1",
+        "typescript": "^3.1.6",
+        "vsce": "^1.53.0",
         "vscode": "^1.1.21"
     },
     "dependencies": {}
