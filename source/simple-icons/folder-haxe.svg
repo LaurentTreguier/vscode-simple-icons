@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
-    <rect width="280" height="200" x="40" y="60" fill="#f05133"/>
-    <polyline fill="none" stroke="#f05133" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
+    <rect width="280" height="200" x="40" y="60" fill="#f68712"/>
+    <polyline fill="none" stroke="#f68712" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
     <g fill="#ffffff" transform="translate(40 60) scale(0.5) translate(120 40)">
 <!--center-->
         <rect width="240" height="240" x="40" y="40"/>
