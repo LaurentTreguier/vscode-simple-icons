@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
-    <polygon fill="#00a8e1" points="230,70 320,140 320,260 275,275"/>
-    <polygon fill="#22d3c5" points="70,230 140,320 260,320 275,275"/>
-    <g fill="#0075c9">
+    <polygon fill="#40c4ff" points="70,230 140,320 260,320 275,275"/>
+    <g fill="#01579b">
         <polygon points="70,70 70,230 50,220 0,170"/>
-        <polygon points="70,70 230,70 290,230 275,275"/>
+        <polygon points="70,70 230,70 320,140 320,260 275,275"/>
     </g>
-    <g fill="#00c4b3">
+    <g fill="#29b6f6">
         <polygon points="70,70 230,70 220,50 170,0"/>
         <polygon points="70,70 70,230 230,290 275,275"/>
     </g>
