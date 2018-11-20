@@ -36,6 +36,7 @@
     },
     "folderNamesExpanded": {},
     "fileNames": {
+        ".angular.json": "angular",
         ".angular-cli.json": "angular",
         ".appveyor.yaml": "appveyor",
         ".appveyor.yml": "appveyor",
