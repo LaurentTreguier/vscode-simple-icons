@@ -188,7 +188,7 @@ do
     $svgo_cmd -f $theme_gen_dir > /dev/null
 done
 
-for file in $(ls $simple_source_dir/*)
+for file in $(ls $simple_source_dir/* | LC_ALL=C sort)
 do
     markdown_list="$markdown_list$(basename $file)|<img width=\"16\" height=\"16\" src=\"$file\">@"
 done
