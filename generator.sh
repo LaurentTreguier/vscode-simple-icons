@@ -193,6 +193,8 @@ do
     markdown_list="$markdown_list$(basename $file)|<img width=\"16\" height=\"16\" src=\"$file\">@"
 done
 
-sed "s,@@ICONS@@,$(echo $markdown_list | sed 's/@/\\n/g'),g" < ICONS-template.md > ICONS.md
+echo "Icon file name|Icon" > ICONS.md
+echo "---|---" >> ICONS.md
+echo -n $markdown_list | sed 's/@/\n/g' >> ICONS.md
 
 echo 'Done'
