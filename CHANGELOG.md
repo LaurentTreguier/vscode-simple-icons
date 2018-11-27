@@ -1,5 +1,11 @@
 # Changelog
 
+
+#### 1.9.1
+
+Other changes:
+- Updated dependencies
+
 ### 1.9.0
 
 Added icons:
