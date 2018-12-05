@@ -370,6 +370,7 @@
         "tiff": "image",
         "tmLanguage": "file-xml",
         "toml": "file-toml",
+        "tsv": "file-csv",
         "twig": "twig",
         "txt": "file-text",
         "vagrantfile": "vagrant",
