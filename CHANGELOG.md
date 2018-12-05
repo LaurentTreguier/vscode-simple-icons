@@ -1,5 +1,9 @@
 # Changelog
 
+#### 1.9.2
+
+Other changes:
+- `.tsv` files now use the CSV icon (pull request [#43](https://github.com/LaurentTreguier/vscode-simple-icons/issues/43) raised by [sjml](https://github.com/sjml))
 
 #### 1.9.1
 
@@ -61,7 +65,7 @@ Added icons :
 #### 1.8.1
 
 Added icons :
-- Reason files (PR [#33](https://github.com/LaurentTreguier/vscode-simple-icons/pull/33) opened by [alexfedoseev](https://github.com/alexfedoseev))
+- Reason files (pull request [#33](https://github.com/LaurentTreguier/vscode-simple-icons/pull/33) opened by [alexfedoseev](https://github.com/alexfedoseev))
 
 ### 1.8.0
 
