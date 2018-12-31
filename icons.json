@@ -53,6 +53,7 @@
         ".eslintignore": "eslint",
         ".firebaserc": "firebase",
         ".flowconfig": "flow",
+        ".gitattributes": "git",
         ".gitconfig": "git",
         ".gitignore": "git",
         ".gitlab-ci.yml": "gitlab",
