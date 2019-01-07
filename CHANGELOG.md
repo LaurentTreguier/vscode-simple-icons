@@ -1,5 +1,12 @@
 # Changelog
 
+#### 1.9.3
+
+Other changes:
+- `.cshtml` files now use the razor icon
+- `.gitattributes` files now use the git icon
+- The Visual Studio icons' color has been corrected
+
 #### 1.9.2
 
 Other changes:
@@ -14,7 +21,7 @@ Other changes:
 
 Added icons:
 - `.node` files
-- `ci` folder files
+- `ci` folders
 - Azure cli files
 - Azure pipelines files
 - WebAssembly files

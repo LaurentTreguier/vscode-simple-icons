@@ -1,6 +1,6 @@
 {
     "name": "vscode-simple-icons",
-    "displayName": "Simple icon theme",
+    "displayName": "Simple icons",
     "description": "An icon theme that tries to be simple",
     "version": "1.9.2",
     "publisher": "LaurentTreguier",
@@ -59,17 +59,17 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "bash ./generator.sh",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+        "vscode:prepublish": "bash generator.sh",
+        "compile": "tsc -p .",
+        "watch": "tsc -watch -p .",
+        "postinstall": "node node_modules/vscode/bin/install",
+        "test": "npm run compile && node node_modules/vscode/bin/test"
     },
     "devDependencies": {
         "svgo": "^1.1.1",
-        "typescript": "^3.2.1",
-        "vsce": "^1.53.2",
-        "vscode": "^1.1.25"
+        "typescript": "^3.2.2",
+        "vsce": "^1.54.0",
+        "vscode": "^1.1.26"
     },
     "dependencies": {}
 }
