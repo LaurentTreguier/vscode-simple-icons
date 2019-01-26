@@ -52,7 +52,7 @@
                         "type": "boolean",
                         "default": true,
                         "description": "Whether arrows are shown next to folders",
-                        "scope": "window"
+                        "scope": "application"
                     },
                     "simpleIcons.standardFolderColor": {
                         "type": [
@@ -61,7 +61,7 @@
                         ],
                         "default": null,
                         "description": "Standard folders color (null = default color)",
-                        "scope": "window"
+                        "scope": "application"
                     }
                 }
             }
