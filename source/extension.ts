@@ -44,13 +44,13 @@ async function toggleArrows(context: vscode.ExtensionContext): Promise<boolean> 
 }
 
 async function changeFolderColor(context: vscode.ExtensionContext): Promise<boolean> {
-    let color = vscode.workspace.getConfiguration('simpleIcons').get<string>('standardFolderColor', null);
-    const oldColor = context.globalState.get<string>('standardFolderColor');
+    let color = vscode.workspace.getConfiguration('simpleIcons').get<string>('simple.folder.color', null);
+    const oldColor = context.globalState.get<string>('simple.folder.color');
 
     if (!color) {
         if (oldColor) {
             color = oldColor;
-            await context.globalState.update('standardFolderColor', undefined);
+            await context.globalState.update('simple.folder.color', undefined);
         } else {
             return false;
         }
@@ -74,7 +74,7 @@ async function changeFolderColor(context: vscode.ExtensionContext): Promise<bool
             somethingChanged = true;
 
             if (color !== oldColor) {
-                await context.globalState.update('standardFolderColor', originalColor);
+                await context.globalState.update('simple.folder.color', originalColor);
             }
 
             return content.replace(colorRegex, color);

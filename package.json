@@ -54,7 +54,7 @@
                         "description": "Whether arrows are shown next to folders",
                         "scope": "application"
                     },
-                    "simpleIcons.standardFolderColor": {
+                    "simpleIcons.simple.folder.color": {
                         "type": [
                             "string",
                             "null"
