@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.10.0
+
+Other changes:
+- The standard folder can be manually set to use a custom color (issue [#35](https://github.com/LaurentTreguier/vscode-simple-icons/issues/35) raised by [drewswaycool](https://github.com/drewswaycool) and [jcklpe](https://github.com/jcklpe))
+
 #### 1.9.3
 
 Other changes:
