@@ -364,7 +364,7 @@
         "spec.jsx": "javascript-test",
         "spec.ts": "typescript-test",
         "spec.tsx": "typescript-test",
-        "svg": "image",
+        "svg": "svg",
         "swf": "flash",
         "tar": "package",
         "test.js": "javascript-test",
