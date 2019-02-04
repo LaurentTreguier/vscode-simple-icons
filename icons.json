@@ -73,6 +73,7 @@
         ".sequalizerc": "sequalize",
         ".stylelintignore": "stylelint",
         ".stylelintrc": "stylelint",
+        ".stylelintrc.js": "stylelint",
         ".travis.yml": "travis",
         ".vscodeignore": "vscode",
         ".yarn-integrity": "yarn",
