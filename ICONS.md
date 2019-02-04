@@ -244,6 +244,7 @@ stylelint.light.svg|<img width="16" height="16" src="source/simple-icons/styleli
 stylelint.svg|<img width="16" height="16" src="source/simple-icons/stylelint.svg">
 stylus.svg|<img width="16" height="16" src="source/simple-icons/stylus.svg">
 swift.svg|<img width="16" height="16" src="source/simple-icons/swift.svg">
+tailwind.svg|<img width="16" height="16" src="source/simple-icons/tailwind.svg">
 terminal.light.svg|<img width="16" height="16" src="source/simple-icons/terminal.light.svg">
 terminal.svg|<img width="16" height="16" src="source/simple-icons/terminal.svg">
 terraform.svg|<img width="16" height="16" src="source/simple-icons/terraform.svg">

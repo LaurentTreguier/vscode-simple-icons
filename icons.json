@@ -149,6 +149,8 @@
         "readme.md": "info",
         "readme.txt": "info",
         "stylelint.config.js": "stylelint",
+        "tailwind.js": "tailwind",
+        "tailwind.ts": "tailwind",
         "tsconfig.app.json": "config-typescript",
         "tsconfig.e2e.json": "config-typescript",
         "tsconfig.json": "config-typescript",
