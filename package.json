@@ -76,8 +76,8 @@
     },
     "devDependencies": {
         "svgo": "^1.1.1",
-        "typescript": "^3.2.4",
-        "vsce": "^1.54.0",
+        "typescript": "^3.3.1",
+        "vsce": "^1.55.0",
         "vscode": "^1.1.28"
     },
     "dependencies": {}

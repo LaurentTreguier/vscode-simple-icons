@@ -1,5 +1,18 @@
 # Changelog
 
+### 1.11.0
+
+Added icons:
+- CSS folders
+- Font folders
+- HTML folders
+- Javascript folders
+- SVG files
+- Tailwind files
+
+Other changes:
+- `.stylelintrc.js` files now use the Stylelint icon
+
 ### 1.10.0
 
 Other changes:
@@ -221,6 +234,7 @@ Added icons :
 - GDScript files
 - Idris files
 - PostCSS files
+- Stylelint files
 
 Other changes :
 - `.jshintignore` files now have the JSHint icon
