@@ -36,6 +36,8 @@
         "src": "folder-source",
         "test": "folder-test",
         "tests": "folder-test",
+        "ts": "folder-typescript",
+        "typescript": "folder-typescript",
         "typings": "folder-typescript"
     },
     "folderNamesExpanded": {},
