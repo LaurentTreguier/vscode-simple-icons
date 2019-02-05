@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
+    <rect width="280" height="200" x="40" y="60" fill="#e44d26"/>
+    <polyline fill="none" stroke="#e44d26" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
+    <g stroke="#ffffff" stroke-width="20">
+        <polyline fill="none" points="220,110 130,110 130,150 210,150 210,210 130,210 130,180"/>
+    </g>
+</svg>

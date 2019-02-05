@@ -104,9 +104,12 @@ flow.svg|<img width="16" height="16" src="source/simple-icons/flow.svg">
 folder-bower.svg|<img width="16" height="16" src="source/simple-icons/folder-bower.svg">
 folder-build.svg|<img width="16" height="16" src="source/simple-icons/folder-build.svg">
 folder-ci.svg|<img width="16" height="16" src="source/simple-icons/folder-ci.svg">
+folder-css.svg|<img width="16" height="16" src="source/simple-icons/folder-css.svg">
 folder-d.svg|<img width="16" height="16" src="source/simple-icons/folder-d.svg">
 folder-git.svg|<img width="16" height="16" src="source/simple-icons/folder-git.svg">
 folder-haxe.svg|<img width="16" height="16" src="source/simple-icons/folder-haxe.svg">
+folder-html.svg|<img width="16" height="16" src="source/simple-icons/folder-html.svg">
+folder-javascript.svg|<img width="16" height="16" src="source/simple-icons/folder-javascript.svg">
 folder-locale.svg|<img width="16" height="16" src="source/simple-icons/folder-locale.svg">
 folder-nodejs.svg|<img width="16" height="16" src="source/simple-icons/folder-nodejs.svg">
 folder-nuget.svg|<img width="16" height="16" src="source/simple-icons/folder-nuget.svg">

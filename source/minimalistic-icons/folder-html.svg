@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <defs>
+        <mask id="mask">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <g stroke="#000" stroke-width="20">
+                <polyline fill="none" points="220,110 130,110 130,150 210,150 210,210 130,210 130,180"/>
+            </g>
+        </mask>
+    </defs>
+    <rect width="280" height="200" x="40" y="60" fill="#bfbfbf" mask="url(#mask)"/>
+    <polyline fill="none" stroke="#bfbfbf" stroke-width="20" points="150,70 190,30 310,30 310,70"/>
+</svg>
