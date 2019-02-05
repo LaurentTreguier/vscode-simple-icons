@@ -121,6 +121,8 @@ folder-visual_studio.svg|<img width="16" height="16" src="source/simple-icons/fo
 folder-vscode.svg|<img width="16" height="16" src="source/simple-icons/folder-vscode.svg">
 folder.expanded.svg|<img width="16" height="16" src="source/simple-icons/folder.expanded.svg">
 folder.svg|<img width="16" height="16" src="source/simple-icons/folder.svg">
+font.light.svg|<img width="16" height="16" src="source/simple-icons/font.light.svg">
+font.svg|<img width="16" height="16" src="source/simple-icons/font.svg">
 fsharp.svg|<img width="16" height="16" src="source/simple-icons/fsharp.svg">
 fusebox.svg|<img width="16" height="16" src="source/simple-icons/fusebox.svg">
 gamemaker.svg|<img width="16" height="16" src="source/simple-icons/gamemaker.svg">
