@@ -26,6 +26,7 @@
         "javascript": "folder-javascript",
         "js": "folder-javascript",
         "node_modules": "folder-nodejs",
+        "languages": "folder-locale",
         "locale": "folder-locale",
         "locales": "folder-locale",
         "out": "folder-build",
