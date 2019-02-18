@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
-    <g fill="#f6d2a1">
-        <rect width="40" height="20" x="40" y="160" rx="5" ry="5"/>
-        <rect width="40" height="20" x="240" y="160" rx="5" ry="5"/>
-        <rect width="40" height="20" x="80" y="290" rx="5" ry="5" transform="rotate(-45 100 300)"/>
-        <rect width="40" height="20" x="200" y="290" rx="5" ry="5" transform="rotate(45 220 300)"/>
-    </g>
-    <g fill="#73cddc">
-        <circle cx="70" cy="40" r="20"/>
-        <circle cx="250" cy="40" r="20"/>
-        <g fill="#000000">
-            <circle cx="70" cy="40" r="8"/>
-            <circle cx="250" cy="40" r="8"/>
+    <g fill="none" stroke="#00acd7" stroke-width="30">
+        <g stroke-width="20">
+            <line x1="0" x2="40" y1="110" y2="110"/>
+            <line x1="0" x2="40" y1="150" y2="150"/>
+            <line x1="0" x2="40" y1="190" y2="190"/>
         </g>
-        <rect width="200" height="320" x="60" y="0" rx="100" ry="80"/>
-    </g>
-    <g fill="#ffffff">
-        <circle cx="120" cy="50" r="30"/>
-        <circle cx="200" cy="50" r="30"/>
-        <rect width="8" height="20" x="152" y="100"/>
-        <rect width="8" height="20" x="160" y="100"/>
-    </g>
-    <ellipse cx="160" cy="100" fill="#f6d2a1" rx="20" ry="10"/>
-    <g fill="#000000">
-        <circle cx="100" cy="50" r="10"/>
-        <circle cx="180" cy="50" r="10"/>
-        <ellipse cx="160" cy="90" rx="12" ry="8"/>
+        <polyline points="165,120 165,105 155,95 85,95 75,105 75,215 85,225 155,225 165,215 165,165 120,165"/>
+        <polygon points="215,105 215,215 225,225 295,225 305,215 305,105 295,95 225,95"/>
     </g>
 </svg>
