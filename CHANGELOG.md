@@ -1,11 +1,18 @@
 # Changelog
 
+#### 1.11.1
+
+Updated icons :
+- Go files (issue [#49](https://github.com/LaurentTreguier/vscode-simple-icons/issues/49) raised by [sjml](https://github.com/sjml)
+- Image folders
+
 ### 1.11.0
 
 Added icons:
 - CSS folders
 - Font folders
 - HTML folders
+- Image folders
 - Javascript folders
 - SVG files
 - Tailwind files
