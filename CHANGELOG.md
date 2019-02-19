@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.11.2
+
+Other changes :
+- Minimalistic Go files have been updated as well
+
 #### 1.11.1
 
 Updated icons :
@@ -17,29 +22,29 @@ Added icons:
 - SVG files
 - Tailwind files
 
-Other changes:
+Other changes :
 - `.stylelintrc.js` files now use the Stylelint icon
 
 ### 1.10.0
 
-Other changes:
+Other changes :
 - The standard folder can be manually set to use a custom color (issue [#35](https://github.com/LaurentTreguier/vscode-simple-icons/issues/35) raised by [drewswaycool](https://github.com/drewswaycool) and [jcklpe](https://github.com/jcklpe))
 
 #### 1.9.3
 
-Other changes:
+Other changes :
 - `.cshtml` files now use the razor icon
 - `.gitattributes` files now use the git icon
 - The Visual Studio icons' color has been corrected
 
 #### 1.9.2
 
-Other changes:
+Other changes :
 - `.tsv` files now use the CSV icon (pull request [#43](https://github.com/LaurentTreguier/vscode-simple-icons/issues/43) raised by [sjml](https://github.com/sjml))
 
 #### 1.9.1
 
-Other changes:
+Other changes :
 - Updated dependencies
 
 ### 1.9.0
@@ -54,7 +59,7 @@ Added icons:
 Updated icons :
 - Dart files
 
-Other changes:
+Other changes :
 - `.angular.json` files now use the angular icon
 
 #### 1.8.7
