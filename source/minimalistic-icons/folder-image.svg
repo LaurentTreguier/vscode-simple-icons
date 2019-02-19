@@ -3,9 +3,9 @@
     <defs>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <g fill="#000" transform="translate(40 60) scale(0.5) translate(120 40)">
-                <polygon points="0,280 0,260 80,180 120,220 240,100 320,180 320,280"/>
-                <circle cx="100" cy="120" r="40"/>
+            <g fill="#000">
+                <polygon points="60,240 300,240 300,200 230,130 160,200 130,170"/>
+                <circle cx="110" cy="120" r="25"/>
             </g>
         </mask>
     </defs>
