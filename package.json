@@ -2,7 +2,7 @@
     "name": "vscode-simple-icons",
     "displayName": "Simple icons",
     "description": "An icon theme that tries to be simple",
-    "version": "1.11.0",
+    "version": "1.11.1",
     "publisher": "LaurentTreguier",
     "license": "MIT",
     "bugs": {
