@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.11.4
+
+Updated icons :
+- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM)
+
 #### 1.11.3
 
 Added icons :
