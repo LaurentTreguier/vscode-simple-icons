@@ -5,16 +5,12 @@
     "tasks": [
         {
             "label": "build",
+            "type": "npm",
+            "script": "vscode:prepublish",
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "type": "shell",
-            "command": "npm",
-            "args": [
-                "run",
-                "vscode:prepublish"
-            ]
+            }
         }
     ]
 }
