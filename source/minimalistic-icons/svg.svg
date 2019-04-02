@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
-        <g id="branch" fill="#000">
-            <circle cx="160" cy="50" r="40" stroke="#fff" stroke-width="20"/>
-            <circle cx="160" cy="270" r="40" stroke="#fff" stroke-width="20"/>
-            <rect width="30" height="240" x="145" y="50"/>
+        <g id="branch" fill="#bfbfbf">
+            <circle cx="160" cy="40" r="40"/>
+            <circle cx="160" cy="280" r="40"/>
+            <rect width="40" height="260" x="140" y="40"/>
         </g>
-        <mask id="mask">
-            <circle cx="160" cy="160" r="110" fill="#fff"/>
-            <use transform="rotate(0 160 160)" xlink:href="#branch"/>
-            <use transform="rotate(45 160 160)" xlink:href="#branch"/>
-            <use transform="rotate(90 160 160)" xlink:href="#branch"/>
-            <use transform="rotate(135 160 160)" xlink:href="#branch"/>
-        </mask>
     </defs>
-    <rect width="320" height="320" x="0" y="0" fill="#bfbfbf" mask="url(#mask)"/>
+    <use transform="rotate(0 160 160)" xlink:href="#branch"/>
+    <use transform="rotate(45 160 160)" xlink:href="#branch"/>
+    <use transform="rotate(90 160 160)" xlink:href="#branch"/>
+    <use transform="rotate(135 160 160)" xlink:href="#branch"/>
 </svg>

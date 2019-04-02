@@ -2,12 +2,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
         <g id="branch" fill="#ffb524">
-            <circle cx="160" cy="50" r="40" stroke="#000000" stroke-width="20"/>
-            <circle cx="160" cy="270" r="40" stroke="#000000" stroke-width="20"/>
-            <rect width="30" height="240" x="145" y="50"/>
+            <circle cx="160" cy="40" r="40"/>
+            <circle cx="160" cy="280" r="40"/>
+            <rect width="30" height="260" x="145" y="40"/>
         </g>
     </defs>
-    <circle cx="160" cy="160" r="110" fill="#000000"/>
     <use transform="rotate(0 160 160)" xlink:href="#branch"/>
     <use transform="rotate(45 160 160)" xlink:href="#branch"/>
     <use transform="rotate(90 160 160)" xlink:href="#branch"/>
