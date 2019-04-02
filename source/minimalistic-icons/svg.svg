@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
-        <rect id="branch-background" width="60" height="120" x="130" y="60" fill="#000000"/>
-        <g id="branch" fill="#000000">
-            <circle cx="160" cy="60" r="30"/>
-            <rect width="20" height="120" x="150" y="60"/>
+        <g id="branch" fill="#000">
+            <circle cx="160" cy="50" r="40" stroke="#fff" stroke-width="20"/>
+            <circle cx="160" cy="270" r="40" stroke="#fff" stroke-width="20"/>
+            <rect width="30" height="240" x="145" y="50"/>
         </g>
-        <mask id="mask-branches">
-            <rect width="320" height="320" fill="#fff"/>
-            <use transform="rotate(-90 160 160)" xlink:href="#branch"/>
-            <use transform="rotate(-45 160 160)" xlink:href="#branch"/>
+        <mask id="mask">
+            <circle cx="160" cy="160" r="110" fill="#fff"/>
             <use transform="rotate(0 160 160)" xlink:href="#branch"/>
             <use transform="rotate(45 160 160)" xlink:href="#branch"/>
             <use transform="rotate(90 160 160)" xlink:href="#branch"/>
-        </mask>
-        <mask id="mask-text">
-            <rect width="320" height="320" fill="#fff"/>
-            <g fill="none" stroke="#000" stroke-linejoin="round" stroke-width="20">
-                <polyline points="100,190 50,190 50,230 90,230 90,270 40,270"/>
-                <polyline points="130,180 130,250 150,270 170,250 170,180"/>
-                <polyline points="280,190 230,190 210,210 210,250 230,270 270,270 270,230 240,230"/>
-            </g>
+            <use transform="rotate(135 160 160)" xlink:href="#branch"/>
         </mask>
     </defs>
-    <g mask="url(#mask-text)">
-        <rect width="320" height="320" fill="#bfbfbf" mask="url(#mask-branches)" rx="20" ry="20"/>
-        <rect width="280" height="140" x="20" y="160" fill="#bfbfbf" rx="20" ry="20"/>
-    </g>
+    <rect width="320" height="320" x="0" y="0" fill="#bfbfbf" mask="url(#mask)"/>
 </svg>
