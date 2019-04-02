@@ -74,6 +74,7 @@ database.svg|<img width="16" height="16" src="source/simple-icons/database.svg">
 directx.svg|<img width="16" height="16" src="source/simple-icons/directx.svg">
 disc.svg|<img width="16" height="16" src="source/simple-icons/disc.svg">
 docker.svg|<img width="16" height="16" src="source/simple-icons/docker.svg">
+dotnet.svg|<img width="16" height="16" src="source/simple-icons/dotnet.svg">
 editorconfig.svg|<img width="16" height="16" src="source/simple-icons/editorconfig.svg">
 elixir.svg|<img width="16" height="16" src="source/simple-icons/elixir.svg">
 elm.svg|<img width="16" height="16" src="source/simple-icons/elm.svg">
@@ -95,6 +96,7 @@ file-toml-rust.svg|<img width="16" height="16" src="source/simple-icons/file-tom
 file-toml.svg|<img width="16" height="16" src="source/simple-icons/file-toml.svg">
 file-xml-csharp.svg|<img width="16" height="16" src="source/simple-icons/file-xml-csharp.svg">
 file-xml-css.svg|<img width="16" height="16" src="source/simple-icons/file-xml-css.svg">
+file-xml-gnome.svg|<img width="16" height="16" src="source/simple-icons/file-xml-gnome.svg">
 file-xml.svg|<img width="16" height="16" src="source/simple-icons/file-xml.svg">
 file-yaml.svg|<img width="16" height="16" src="source/simple-icons/file-yaml.svg">
 file.svg|<img width="16" height="16" src="source/simple-icons/file.svg">
@@ -240,6 +242,7 @@ rust.svg|<img width="16" height="16" src="source/simple-icons/rust.svg">
 salesforce-chevrons.svg|<img width="16" height="16" src="source/simple-icons/salesforce-chevrons.svg">
 salesforce.svg|<img width="16" height="16" src="source/simple-icons/salesforce.svg">
 sass.svg|<img width="16" height="16" src="source/simple-icons/sass.svg">
+save.svg|<img width="16" height="16" src="source/simple-icons/save.svg">
 scala.svg|<img width="16" height="16" src="source/simple-icons/scala.svg">
 scheme.svg|<img width="16" height="16" src="source/simple-icons/scheme.svg">
 sequalize.svg|<img width="16" height="16" src="source/simple-icons/sequalize.svg">
