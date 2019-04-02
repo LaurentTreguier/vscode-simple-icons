@@ -1,5 +1,15 @@
 # Changelog
 
+#### 1.11.3
+
+Added icons :
+- Save files
+
+Updated icons :
+- `.csproj` files
+- `.glade` files
+- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM)
+
 #### 1.11.2
 
 Other changes :
@@ -13,7 +23,7 @@ Updated icons :
 
 ### 1.11.0
 
-Added icons:
+Added icons :
 - CSS folders
 - Font folders
 - HTML folders
@@ -49,7 +59,7 @@ Other changes :
 
 ### 1.9.0
 
-Added icons:
+Added icons :
 - `.node` files
 - `ci` folders
 - Azure cli files
