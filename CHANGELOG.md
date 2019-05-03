@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.11.6
+
+Other changes :
+- Fix missing icons
+
 #### 1.11.5
 
 Other changes :
