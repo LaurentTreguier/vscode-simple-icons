@@ -1,5 +1,11 @@
 # Changelog
 
+#### 1.11.5
+
+Other changes :
+- Specified extension kind (pull request [#52](https://github.com/LaurentTreguier/vscode-simple-icons/issues/52) raised by [mjbvz](https://github.com/mjbvz)
+- Updated dependencies
+
 #### 1.11.4
 
 Updated icons :
