@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.11.7
+
+Added icons :
+- Svelte files (issue [#53](https://github.com/LaurentTreguier/vscode-simple-icons/issues/53) raised by [loilo](https://github.com/loilo)
+
 #### 1.11.6
 
 Other changes :
