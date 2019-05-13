@@ -253,6 +253,7 @@ sound.svg|<img width="16" height="16" src="source/simple-icons/sound.svg">
 stylelint.light.svg|<img width="16" height="16" src="source/simple-icons/stylelint.light.svg">
 stylelint.svg|<img width="16" height="16" src="source/simple-icons/stylelint.svg">
 stylus.svg|<img width="16" height="16" src="source/simple-icons/stylus.svg">
+svelte.svg|<img width="16" height="16" src="source/simple-icons/svelte.svg">
 svg.svg|<img width="16" height="16" src="source/simple-icons/svg.svg">
 swift.svg|<img width="16" height="16" src="source/simple-icons/swift.svg">
 tailwind.svg|<img width="16" height="16" src="source/simple-icons/tailwind.svg">

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
+    <defs>
+        <g id="part" mask="url(#mask-part)">
+            <g fill="#fff">
+                <rect width="70" height="90" x="160" y="30"/>
+                <rect width="70" height="90" x="160" y="120"/>
+                <circle cx="230" cy="120" r="90"/>
+            </g>
+            <g fill="#000">
+                <rect width="70" height="60" x="160" y="60"/>
+                <rect width="70" height="60" x="160" y="120"/>
+                <circle cx="230" cy="120" r="60"/>
+            </g>
+            <line x1="160" x2="230" y1="120" y2="120" stroke="#fff" stroke-linecap="round" stroke-width="40"/>
+        </g>
+        <mask id="mask-part">
+            <rect width="135" height="180" x="185" y="30" fill="#fff"/>
+        </mask>
+        <mask id="mask">
+            <g transform="rotate(-30 160 160)">
+                <use transform="rotate(0 160 160)" xlink:href="#part"/>
+                <use transform="rotate(180 160 160)" xlink:href="#part"/>
+                <use transform="translate(50 -80) rotate(180 160 160)" xlink:href="#part"/>
+                <use transform="translate(-50 80)" xlink:href="#part"/>
+            </g>
+        </mask>
+    </defs>
+    <rect width="320" height="320" x="0" y="0" fill="#bfbfbf" mask="url(#mask)"/>
+</svg>
