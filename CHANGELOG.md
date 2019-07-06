@@ -1,9 +1,14 @@
 # Changelog
 
+#### 1.11.8
+
+Other changes :
+- Updated dependencies
+
 #### 1.11.7
 
 Added icons :
-- Svelte files (issue [#53](https://github.com/LaurentTreguier/vscode-simple-icons/issues/53) raised by [loilo](https://github.com/loilo)
+- Svelte files (issue [#53](https://github.com/LaurentTreguier/vscode-simple-icons/issues/53) raised by [loilo](https://github.com/loilo))
 
 #### 1.11.6
 
@@ -13,13 +18,13 @@ Other changes :
 #### 1.11.5
 
 Other changes :
-- Specified extension kind (pull request [#52](https://github.com/LaurentTreguier/vscode-simple-icons/issues/52) raised by [mjbvz](https://github.com/mjbvz)
+- Specified extension kind (pull request [#52](https://github.com/LaurentTreguier/vscode-simple-icons/issues/52) raised by [mjbvz](https://github.com/mjbvz))
 - Updated dependencies
 
 #### 1.11.4
 
 Updated icons :
-- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM)
+- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM))
 
 #### 1.11.3
 
@@ -29,7 +34,7 @@ Added icons :
 Updated icons :
 - `.csproj` files
 - `.glade` files
-- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM)
+- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM))
 
 #### 1.11.2
 
@@ -39,7 +44,7 @@ Other changes :
 #### 1.11.1
 
 Updated icons :
-- Go files (issue [#49](https://github.com/LaurentTreguier/vscode-simple-icons/issues/49) raised by [sjml](https://github.com/sjml)
+- Go files (issue [#49](https://github.com/LaurentTreguier/vscode-simple-icons/issues/49) raised by [sjml](https://github.com/sjml))
 - Image folders
 
 ### 1.11.0

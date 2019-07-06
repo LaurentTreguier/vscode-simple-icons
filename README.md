@@ -8,7 +8,7 @@ Since version 1.1.0, a monochrome version of the theme is also available. This i
 
 Since version 1.8.0, the extension can be configured to show or hide rotating triangles/arrows near folders : just change `simpleIcons.hideArrows` to `true` or `false`.
 
-Since version 1.10.0, the standard folder color can be configured with the `simpleIcons.standardFolderColor` setting.
+Since version 1.10.0, the standard folder color can be configured with the `simpleIcons.simple.folder.color` setting with a hex color code (e.g. `#bf9f7f`).
 
 A preview of simple icons can be found in [ICONS.md](ICONS.md).
 
