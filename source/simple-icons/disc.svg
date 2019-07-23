@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
-        <clipPath id="clip">
-            <circle cx="160" cy="160" r="160"/>
-        </clipPath>
         <mask id="mask-hole">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <circle cx="160" cy="160" r="30" fill="#000"/>
@@ -12,6 +9,9 @@
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <circle cx="160" cy="160" r="65" fill="#000"/>
         </mask>
+        <clipPath id="clip">
+            <circle cx="160" cy="160" r="160"/>
+        </clipPath>
     </defs>
     <g clip-path="url(#clip)">
         <g mask="url(#mask-hole)">

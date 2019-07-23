@@ -3,10 +3,6 @@
     <defs>
         <circle id="circle-outer" cx="160" cy="160" r="160"/>
         <circle id="circle-inner" cx="160" cy="160" r="90"/>
-        <path id="path" d="M 0,100 Q 80,0 160,160 Q 240,320 320,220 L 480,220 V -480 H -480 V 100"/>
-        <clipPath id="clip-blue">
-            <use xlink:href="#path"/>
-        </clipPath>
         <mask id="mask-main">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-width="20">
@@ -19,6 +15,10 @@
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <use fill="#000" xlink:href="#path"/>
         </mask>
+        <clipPath id="clip-blue">
+            <use xlink:href="#path"/>
+        </clipPath>
+        <path id="path" d="M 0,100 Q 80,0 160,160 Q 240,320 320,220 L 480,220 V -480 H -480 V 100"/>
     </defs>
     <g mask="url(#mask-main)">
         <g mask="url(#mask-green)">

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
     <defs>
-        <mask id="mask-hexagon">
-            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
-            <polygon fill="#000" points="100,60 220,60 280,160 220,260 100,260 40,160"/>
-            <polyline fill="none" stroke="#000" stroke-width="50" points="70,0 160,160 320,160"/>
-        </mask>
         <clipPath id="clip-bottom">
             <polygon points="0,0 70,0 160,160 320,160 320,320 0,320"/>
         </clipPath>
         <clipPath id="clip-top">
             <polygon points="320,0 70,0 160,160 320,160"/>
         </clipPath>
+        <mask id="mask-hexagon">
+            <rect width="320" height="320" x="0" y="0" fill="#fff"/>
+            <polygon fill="#000" points="100,60 220,60 280,160 220,260 100,260 40,160"/>
+            <polyline fill="none" stroke="#000" stroke-width="50" points="70,0 160,160 320,160"/>
+        </mask>
     </defs>
     <g fill="#006633">
         <g mask="url(#mask-hexagon)">

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
-        <g id="headgear">
-            <ellipse cx="160" cy="160" clip-path="url(#clip)" rx="130" ry="155"/>
-            <path d="M 20,100 Q 160,60 300,100 Q 310,130 290,160 Q 160,120 30,160 Q 10,130 20,100 Z"/>
-        </g>
-        <path id="glasses" d="M 40,160 Q 160,120 280,160 L 270,210 L 250,230 L 180,220 L 170,180 H 150 L 140,220 L 70,230 L 50,210 Z"/>
         <clipPath id="clip">
             <rect width="320" height="100" x="0" y="0"/>
         </clipPath>
+        <path id="glasses" d="M 40,160 Q 160,120 280,160 L 270,210 L 250,230 L 180,220 L 170,180 H 150 L 140,220 L 70,230 L 50,210 Z"/>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <use fill="#000" xlink:href="#headgear"/>
             <use fill="#fff" stroke="#fff" stroke-width="20" xlink:href="#glasses"/>
         </mask>
+        <g id="headgear">
+            <ellipse cx="160" cy="160" clip-path="url(#clip)" rx="130" ry="155"/>
+            <path d="M 20,100 Q 160,60 300,100 Q 310,130 290,160 Q 160,120 30,160 Q 10,130 20,100 Z"/>
+        </g>
     </defs>
     <g stroke="#2d3136" stroke-width="10">
         <ellipse cx="160" cy="160" fill="#e6cbac" rx="120" ry="155"/>

@@ -8,5 +8,5 @@
             </text>
         </mask>
     </defs>
-    <ellipse cx="160" cy="160" fill="#6c7eb7" mask="url(#mask)" rx="160" ry="160"/>
+    <circle cx="160" cy="160" r="160" fill="#6c7eb7" mask="url(#mask)"/>
 </svg>

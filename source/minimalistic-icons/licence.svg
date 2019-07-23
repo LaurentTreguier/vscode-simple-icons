@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
-        <g id="ribbon">
-            <polygon points="200,200 180,320 240,280 300,320 280,200"/>
-            <circle cx="240" cy="200" r="60"/>
-        </g>
         <clipPath id="clip">
             <rect width="320" height="40" x="0" y="280"/>
         </clipPath>
@@ -19,6 +15,10 @@
                 <line x1="40" x2="140" y1="230" y2="230"/>
             </g>
         </mask>
+        <g id="ribbon">
+            <polygon points="200,200 180,320 240,280 300,320 280,200"/>
+            <circle cx="240" cy="200" r="60"/>
+        </g>
     </defs>
     <g fill="#bfbfbf">
         <rect width="320" height="240" x="0" y="40" mask="url(#mask)"/>

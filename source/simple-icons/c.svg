@@ -5,5 +5,5 @@
             <polygon points="0,0 320,0 320,80 160,160 320,240 320,320 0,320"/>
         </clipPath>
     </defs>
-    <ellipse cx="160" cy="160" fill="none" stroke="#5f5fdf" stroke-width="60" clip-path="url(#clip)" rx="130" ry="130"/>
+    <circle cx="160" cy="160" r="130" fill="none" stroke="#5f5fdf" stroke-width="60" clip-path="url(#clip)"/>
 </svg>

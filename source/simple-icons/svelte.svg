@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
+        <mask id="mask">
+            <rect width="135" height="180" x="185" y="30" fill="#fff"/>
+        </mask>
         <g id="part" mask="url(#mask)">
             <g fill="#ff3e00">
                 <rect width="70" height="90" x="160" y="30"/>
@@ -14,9 +17,6 @@
             </g>
             <line x1="160" x2="230" y1="120" y2="120" stroke="#ff3e00" stroke-linecap="round" stroke-width="40"/>
         </g>
-        <mask id="mask">
-            <rect width="135" height="180" x="185" y="30" fill="#fff"/>
-        </mask>
     </defs>
     <g transform="rotate(-30 160 160)">
         <use transform="rotate(0 160 160)" xlink:href="#part"/>

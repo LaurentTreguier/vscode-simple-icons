@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="320" version="1.1">
     <defs>
-        <polyline id="polygon" points="20,20 20,320 170,170 95,95 20,170 170,320 245,245 95,245 20,170 170,170 320,320 170,320"/>
         <polygon id="triangle-0" points="20,20 20,170 95,95"/>
         <polygon id="triangle-1" points="20,170 95,95 170,170"/>
         <polygon id="triangle-2" points="20,170 95,245 170,170"/>
@@ -9,6 +8,7 @@
         <polygon id="triangle-4" points="95,245 170,170 245,245"/>
         <polygon id="triangle-5" points="95,245 170,320 245,245"/>
         <polygon id="triangle-6" points="170,320 245,245 320,320"/>
+        <polyline id="polygon" points="20,20 20,320 170,170 95,95 20,170 170,320 245,245 95,245 20,170 170,170 320,320 170,320"/>
         <mask id="mask">
             <rect width="320" height="320" x="0" y="0" fill="#fff"/>
             <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="20">

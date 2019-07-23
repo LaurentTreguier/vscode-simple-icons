@@ -6,18 +6,18 @@
             <stop offset="50%" stop-color="#bfff7f"/>
             <stop offset="100%" stop-color="#7fdf5f"/>
         </radialGradient>
-        <g id="part" fill="#fff">
-            <rect width="80" height="40" x="0" y="20"/>
-            <rect width="80" height="40" x="40" y="60"/>
-            <rect width="80" height="40" x="80" y="100"/>
-            <rect width="80" height="40" x="120" y="140"/>
-        </g>
         <mask id="mask">
             <use xlink:href="#part"/>
             <use transform="translate(320 0) scale(-1 1)" xlink:href="#part"/>
             <use transform="translate(320 320) scale(-1 -1)" xlink:href="#part"/>
             <use transform="translate(0 320) scale(1 -1)" xlink:href="#part"/>
         </mask>
+        <g id="part" fill="#fff">
+            <rect width="80" height="40" x="0" y="20"/>
+            <rect width="80" height="40" x="40" y="60"/>
+            <rect width="80" height="40" x="80" y="100"/>
+            <rect width="80" height="40" x="120" y="140"/>
+        </g>
     </defs>
     <rect width="320" height="320" x="0" y="0" fill="url(#gradient)" mask="url(#mask)"/>
 </svg>
