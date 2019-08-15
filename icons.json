@@ -311,6 +311,7 @@
         "mp4": "video",
         "muse": "adobe-muse",
         "n": "lib",
+        "ndjson": "file-json",
         "ndll": "lib",
         "nim.cfg": "config-nim",
         "ninja": "build",
