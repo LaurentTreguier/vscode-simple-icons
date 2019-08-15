@@ -492,6 +492,7 @@
         "meson": "meson",
         "mips": "file-binary",
         "mjml": "mjml",
+        "ndjson": "file-json",
         "nim": "nim",
         "nimble": "nim",
         "nsis": "nsis",
