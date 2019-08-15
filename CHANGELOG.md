@@ -1,5 +1,11 @@
 # Changelog
 
+#### 1.11.10
+
+Other changes :
+- `.ndjson` files now use the JSON icon (pull request [#57](https://github.com/LaurentTreguier/vscode-simple-icons/issues/57) opened by [loilo](https://github.com/loilo))
+- Updated dependencies
+
 #### 1.11.9
 
 Other changes :
@@ -23,13 +29,13 @@ Other changes :
 #### 1.11.5
 
 Other changes :
-- Specified extension kind (pull request [#52](https://github.com/LaurentTreguier/vscode-simple-icons/issues/52) raised by [mjbvz](https://github.com/mjbvz))
+- Specified extension kind (pull request [#52](https://github.com/LaurentTreguier/vscode-simple-icons/issues/52) opened by [mjbvz](https://github.com/mjbvz))
 - Updated dependencies
 
 #### 1.11.4
 
 Updated icons :
-- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM))
+- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) opened by [HazemAM](https://github.com/HazemAM))
 
 #### 1.11.3
 
@@ -39,7 +45,7 @@ Added icons :
 Updated icons :
 - `.csproj` files
 - `.glade` files
-- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) raised by [HazemAM](https://github.com/HazemAM))
+- SVG files (pull request [#50](https://github.com/LaurentTreguier/vscode-simple-icons/issues/50) opened by [HazemAM](https://github.com/HazemAM))
 
 #### 1.11.2
 
@@ -81,7 +87,7 @@ Other changes :
 #### 1.9.2
 
 Other changes :
-- `.tsv` files now use the CSV icon (pull request [#43](https://github.com/LaurentTreguier/vscode-simple-icons/issues/43) raised by [sjml](https://github.com/sjml))
+- `.tsv` files now use the CSV icon (pull request [#43](https://github.com/LaurentTreguier/vscode-simple-icons/issues/43) opened by [sjml](https://github.com/sjml))
 
 #### 1.9.1
 
