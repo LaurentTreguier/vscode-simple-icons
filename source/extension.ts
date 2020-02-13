@@ -13,7 +13,11 @@ export async function deactivate() {
 }
 
 async function probeConfiguration(context: vscode.ExtensionContext): Promise<void> {
-    const somethingChanged = await toggleArrows(context) || await changeFolderColor(context);
+    const somethingChanged = [
+        await toggleArrows(context),
+        await changeIconColor('folder', context),
+        await changeIconColor('file', context)
+    ].indexOf(true) !== -1;
 
     if (somethingChanged) {
         await vscode.window.showInformationMessage('The window must be reloaded for changes to take effet', 'Reload')
@@ -43,27 +47,29 @@ async function toggleArrows(context: vscode.ExtensionContext): Promise<boolean> 
     return somethingChanged;
 }
 
-async function changeFolderColor(context: vscode.ExtensionContext): Promise<boolean> {
-    let color = vscode.workspace.getConfiguration('simpleIcons').get<string>('simple.folder.color', null);
-    const oldColor = context.globalState.get<string>('simple.folder.color');
+async function changeIconColor(name: string, context: vscode.ExtensionContext): Promise<boolean> {
+    const configurationPoint = `simple.${name}.color`;
+    let color = vscode.workspace.getConfiguration('simpleIcons').get<string>(configurationPoint, null);
+    const oldColor = context.globalState.get<string>(configurationPoint);
 
     if (!color) {
         if (oldColor) {
             color = oldColor;
-            await context.globalState.update('simple.folder.color', undefined);
+            await context.globalState.update(configurationPoint, undefined);
         } else {
             return false;
         }
     } else if (!color.match(colorRegex)) {
-        await vscode.window.showWarningMessage('Folder color not in hex format, color not changed');
+        await vscode.window.showWarningMessage(`Icon color for '${name}' not in hex format, color not changed`);
         return false;
     }
 
-    const folders = ['folder', 'folder.expanded'].map(p => path.join('icons', 'simple-icons', p) + '.svg');
+    const names = name == 'folder' ? [name, name + '.expanded'] : [name];
+    const filePaths = names.map(p => path.join('icons', 'simple-icons', p) + '.svg');
     let somethingChanged = false;
 
-    for (const folderPath of folders) {
-        await changeFile(context, folderPath, async content => {
+    for (const filePath of filePaths) {
+        await changeFile(context, filePath, async content => {
             const contentMatches = content.match(colorRegex);
             const originalColor = contentMatches[0];
 
@@ -74,7 +80,7 @@ async function changeFolderColor(context: vscode.ExtensionContext): Promise<bool
             somethingChanged = true;
 
             if (color !== oldColor) {
-                await context.globalState.update('simple.folder.color', originalColor);
+                await context.globalState.update(configurationPoint, originalColor);
             }
 
             return content.replace(colorRegex, color);

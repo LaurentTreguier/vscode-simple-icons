@@ -63,6 +63,15 @@
                         "default": null,
                         "description": "Standard folders color (null = default color)",
                         "scope": "application"
+                    },
+                    "simpleIcons.simple.file.color": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "default": null,
+                        "description": "Standard files color (null = default color)",
+                        "scope": "application"
                     }
                 }
             }
