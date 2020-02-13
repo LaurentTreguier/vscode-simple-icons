@@ -10,6 +10,8 @@ Since version 1.8.0, the extension can be configured to show or hide rotating tr
 
 Since version 1.10.0, the standard folder color can be configured with the `simpleIcons.simple.folder.color` setting with a hex color code (e.g. `#bf9f7f`).
 
+Since version 1.12.0, the standard file color can be configured with the `simpleIcons.simple.file.color` setting with a hex color code (e.g. `#bf9f7f`).
+
 A preview of simple icons can be found in [ICONS.md](ICONS.md).
 
 ## Contributing

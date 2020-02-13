@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.12.0
+
+Other changes :
+- The standard file can be manually set to use a custom color (issue [#35](https://github.com/LaurentTreguier/vscode-simple-icons/issues/58) raised by [DNonov](https://github.com/DNonov))
+- Updated dependencies
+
 #### 1.11.11
 
 Other changes :
