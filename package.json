@@ -27,7 +27,7 @@
         "icons"
     ],
     "icon": "images/logo.png",
-    "extensionKind": "ui",
+    "extensionKind": ["ui"],
     "activationEvents": [
         "*"
     ],
