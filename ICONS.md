@@ -75,6 +75,7 @@ directx.svg|<img width="16" height="16" src="source/simple-icons/directx.svg">
 disc.svg|<img width="16" height="16" src="source/simple-icons/disc.svg">
 docker.svg|<img width="16" height="16" src="source/simple-icons/docker.svg">
 dotnet.svg|<img width="16" height="16" src="source/simple-icons/dotnet.svg">
+dune-build.svg|<img width="16" height="16" src="source/simple-icons/dune-build.svg">
 editorconfig.svg|<img width="16" height="16" src="source/simple-icons/editorconfig.svg">
 elixir.svg|<img width="16" height="16" src="source/simple-icons/elixir.svg">
 elm.svg|<img width="16" height="16" src="source/simple-icons/elm.svg">

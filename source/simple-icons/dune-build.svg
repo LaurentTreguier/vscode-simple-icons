@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <polygon fill="#b0a687" points="0,100 220,13 320,48 320,320 0,320"/>
+    <path fill="#8a421e" d="M 320,43 c 0,0 -88,-42 -100,-30 c -18,16 90,42 62,72 c -26,26 -100,50 -138,100 c -18,28 -40,74 -50,85 c -10,10 -30,42 -95,40 L 0,320 L 320,320 Z"/>
+</svg>

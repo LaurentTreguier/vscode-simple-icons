@@ -111,6 +111,8 @@
         "docker-compose.yml": "docker",
         "dub.json": "build-d",
         "dub.sdl": "build-d",
+        "dune": "dune-build",
+        "dune-project": "dune-build",
         "favicon.bmp": "favicon",
         "favicon.gif": "favicon",
         "favicon.ico": "favicon",
