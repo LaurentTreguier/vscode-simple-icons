@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.13.0
+
+Added icons :
+- Dune files (pull request [#59](https://github.com/LaurentTreguier/vscode-simple-icons/issues/59) opened by [mihnea-s](https://github.com/mihnea-s))
+
 ### 1.12.0
 
 Other changes :
