@@ -113,6 +113,7 @@
         "dub.sdl": "build-d",
         "dune": "dune-build",
         "dune-project": "dune-build",
+        "dune-workspace": "dune-build",
         "favicon.bmp": "favicon",
         "favicon.gif": "favicon",
         "favicon.ico": "favicon",
