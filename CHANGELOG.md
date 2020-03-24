@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.13.2
+
+Other changes :
+- Updated dependencies
+
 #### 1.13.1
 
 Other changes :
