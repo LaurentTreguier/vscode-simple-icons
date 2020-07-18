@@ -195,6 +195,6 @@ done
 
 echo "Icon file name|Icon" > ICONS.md
 echo "---|---" >> ICONS.md
-echo -n $markdown_list | sed 's/@/\n/g' >> ICONS.md
+echo -n $markdown_list | tr @ '\n' >> ICONS.md
 
 echo 'Done'
