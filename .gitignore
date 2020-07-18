@@ -3,6 +3,7 @@ out
 yarn.lock
 gen
 icons/**/*.svg
+*.vsix
 *-icons.json
 *.xcf
 TODO*
