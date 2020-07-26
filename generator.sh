@@ -85,7 +85,7 @@ do
         old_color=$(get_folder_color $simple_source_dir/folder.expanded.svg)
         new_color=$(get_folder_color $folder)
         cp $simple_source_dir/folder.expanded.svg $gen_folder
-        sed $sed_regex_option -i "s/$old_color/$new_color/g" $gen_folder
+        sed $sed_regex_option -i '' "s/$old_color/$new_color/g" $gen_folder
         comment_sum $folder >> $gen_folder
     fi
 done
