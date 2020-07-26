@@ -1,5 +1,16 @@
 # Changelog
 
+#### 1.13.5
+
+Other changes:
+- The extension can be properly built on macOS
+- Updated dependencies
+
+#### 1.13.4
+
+Other changes :
+- The extension is now available on https://open-vsx.org
+
 #### 1.13.3
 
 Other changes :
