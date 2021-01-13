@@ -274,6 +274,7 @@ vibed.svg|<img width="16" height="16" src="source/simple-icons/vibed.svg">
 video.svg|<img width="16" height="16" src="source/simple-icons/video.svg">
 visual_basic.svg|<img width="16" height="16" src="source/simple-icons/visual_basic.svg">
 visual_studio.svg|<img width="16" height="16" src="source/simple-icons/visual_studio.svg">
+vlang.svg|<img width="16" height="16" src="source/simple-icons/vlang.svg">
 vscode.svg|<img width="16" height="16" src="source/simple-icons/vscode.svg">
 vue.svg|<img width="16" height="16" src="source/simple-icons/vue.svg">
 webassembly.svg|<img width="16" height="16" src="source/simple-icons/webassembly.svg">
