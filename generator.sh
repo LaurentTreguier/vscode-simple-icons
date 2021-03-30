@@ -53,7 +53,7 @@ mkdir -p {$simple_gen_dir,$simple_icons_dir,$mini_gen_dir,$mini_icons_dir}
 for theme_source_dir in $mini_source_dir $simple_source_dir
 do
     echo "Beautifying icons from $theme_source_dir"
-    ./node_modules/.bin/svgo --config=.svgo.yml --multipass -f $theme_source_dir > /dev/null
+    ./node_modules/.bin/svgo --config=.svgo.js --multipass -f $theme_source_dir > /dev/null
 done
 
 for file in $(ls $simple_gen_dir)
