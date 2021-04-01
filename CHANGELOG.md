@@ -1,5 +1,10 @@
 # Changelog
 
+### 1.14.0
+
+Added icons :
+- Vlang files (pull request [#65](https://github.com/LaurentTreguier/vscode-simple-icons/issues/65) opened by [jhgalino](https://github.com/jhgalino))
+
 #### 1.13.5
 
 Other changes:
