@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320">
+    <polygon fill="#536b8a" points="320,0 220,10 110,320 210,320"/>
+    <polygon fill="#5d87bf" points="0,0 100,10 210,320 110,320"/>
+</svg>

@@ -269,6 +269,7 @@ typescript-test.svg|<img width="16" height="16" src="source/simple-icons/typescr
 typescript.svg|<img width="16" height="16" src="source/simple-icons/typescript.svg">
 unity.light.svg|<img width="16" height="16" src="source/simple-icons/unity.light.svg">
 unity.svg|<img width="16" height="16" src="source/simple-icons/unity.svg">
+v.svg|<img width="16" height="16" src="source/simple-icons/v.svg">
 vagrant.svg|<img width="16" height="16" src="source/simple-icons/vagrant.svg">
 vibed.svg|<img width="16" height="16" src="source/simple-icons/vibed.svg">
 video.svg|<img width="16" height="16" src="source/simple-icons/video.svg">
