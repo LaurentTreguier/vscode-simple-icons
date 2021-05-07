@@ -1,5 +1,12 @@
 # Changelog
 
+
+#### 1.14.1
+
+Other changes:
+- The extension kind is fixed (issue [#69](https://github.com/LaurentTreguier/vscode-simple-icons/issues/68) opened by [bamurtaugh](https://github.com/bamurtaugh))
+- Updated dependencies
+
 ### 1.14.0
 
 Added icons :
