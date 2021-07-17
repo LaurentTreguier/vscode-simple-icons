@@ -28,7 +28,8 @@
     ],
     "icon": "images/logo.png",
     "extensionKind": [
-        "ui"
+        "ui",
+        "workspace"
     ],
     "activationEvents": [
         "*"
