@@ -1,10 +1,15 @@
 # Changelog
 
 
+### 1.15.0
+
+Added icons :
+- MDX files (issue [#69](https://github.com/LaurentTreguier/vscode-simple-icons/issues/69) opened by [ljtechdotca](https://github.com/ljtechdotca))
+
 #### 1.14.1
 
 Other changes:
-- The extension kind is fixed (issue [#69](https://github.com/LaurentTreguier/vscode-simple-icons/issues/68) opened by [bamurtaugh](https://github.com/bamurtaugh))
+- The extension kind is fixed (issue [#68](https://github.com/LaurentTreguier/vscode-simple-icons/issues/68) opened by [bamurtaugh](https://github.com/bamurtaugh))
 - Updated dependencies
 
 ### 1.14.0
