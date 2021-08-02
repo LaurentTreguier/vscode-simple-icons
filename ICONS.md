@@ -195,6 +195,8 @@ markdown.light.svg|<img width="16" height="16" src="source/simple-icons/markdown
 markdown.svg|<img width="16" height="16" src="source/simple-icons/markdown.svg">
 marko-javascript.svg|<img width="16" height="16" src="source/simple-icons/marko-javascript.svg">
 marko.svg|<img width="16" height="16" src="source/simple-icons/marko.svg">
+mdx.light.svg|<img width="16" height="16" src="source/simple-icons/mdx.light.svg">
+mdx.svg|<img width="16" height="16" src="source/simple-icons/mdx.svg">
 meson.svg|<img width="16" height="16" src="source/simple-icons/meson.svg">
 mjml.svg|<img width="16" height="16" src="source/simple-icons/mjml.svg">
 msoffice-access.svg|<img width="16" height="16" src="source/simple-icons/msoffice-access.svg">

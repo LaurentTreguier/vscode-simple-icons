@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" version="1.1">
+    <g stroke-width="30">
+        <g stroke="#dfdfdf">
+            <polyline fill="none" points="10,170 70,230 130,170"/>
+            <line x1="70" x2="70" y1="230" y2="80"/>
+        </g>
+        <g stroke="#F9AC00">
+            <line x1="170" x2="310" y1="90" y2="230"/>
+            <line x1="170" x2="310" y1="230" y2="90"/>
+        </g>
+    </g>
+</svg>
