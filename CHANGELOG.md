@@ -1,6 +1,14 @@
 # Changelog
 
 
+### 1.16.0
+
+Added icons :
+- Astro files (pull request [#70](https://github.com/LaurentTreguier/vscode-simple-icons/pull/70) opened by [loilo](https://github.com/loilo))
+
+Other changes:
+- Updated dependencies
+
 ### 1.15.0
 
 Added icons :
