@@ -23,6 +23,8 @@ apache.svg|<img width="16" height="16" src="source/simple-icons/apache.svg">
 api_blueprint.svg|<img width="16" height="16" src="source/simple-icons/api_blueprint.svg">
 appveyor.svg|<img width="16" height="16" src="source/simple-icons/appveyor.svg">
 archlinux.svg|<img width="16" height="16" src="source/simple-icons/archlinux.svg">
+astro.light.svg|<img width="16" height="16" src="source/simple-icons/astro.light.svg">
+astro.svg|<img width="16" height="16" src="source/simple-icons/astro.svg">
 azure.svg|<img width="16" height="16" src="source/simple-icons/azure.svg">
 azure_pipelines.svg|<img width="16" height="16" src="source/simple-icons/azure_pipelines.svg">
 babel.svg|<img width="16" height="16" src="source/simple-icons/babel.svg">
