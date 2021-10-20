@@ -169,6 +169,7 @@ jekyll.svg|<img width="16" height="16" src="source/simple-icons/jekyll.svg">
 julia.svg|<img width="16" height="16" src="source/simple-icons/julia.svg">
 karma.svg|<img width="16" height="16" src="source/simple-icons/karma.svg">
 kotlin.svg|<img width="16" height="16" src="source/simple-icons/kotlin.svg">
+latte.svg|<img width="16" height="16" src="source/simple-icons/latte.svg">
 less.svg|<img width="16" height="16" src="source/simple-icons/less.svg">
 lib-idris.svg|<img width="16" height="16" src="source/simple-icons/lib-idris.svg">
 lib-locale.svg|<img width="16" height="16" src="source/simple-icons/lib-locale.svg">
